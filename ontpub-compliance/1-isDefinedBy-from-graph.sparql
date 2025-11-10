@@ -1,0 +1,33 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+DELETE {
+  GRAPH ?g {
+   ?term rdfs:isDefinedBy ?isDefinedBy .
+  }
+}
+INSERT {
+  GRAPH ?g {
+   ?term rdfs:isDefinedBy ?g .
+  }
+} WHERE {
+  {
+    SELECT DISTINCT ?g ?term ?isDefinedBy WHERE {
+      VALUES ?g {
+        <http://www.w3.org/ns/adms>
+      }
+      VALUES ?type { rdfs:Class rdf:Property owl:ObjectProperty }
+      GRAPH ?g {
+        ?term a ?type .
+        OPTIONAL { ?term rdfs:isDefinedBy ?isDefinedBy . }
+        # filter out terms that were added by the spatial indexer
+        FILTER (?isDefinedBy != <http://www.opengis.net/spec/geosparql/1.0>)
+        FILTER (?isDefinedBy != <http://www.opengis.net/ont/geosparql>)
+      }
+    }
+  }
+  FILTER (?isDefinedBy != ?g)
+  FILTER NOT EXISTS { ?term rdfs:isDefinedBy ?g . }
+}

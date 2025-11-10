@@ -1,0 +1,35 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sdo: <https://schema.org/>
+
+INSERT {
+  GRAPH ?g {
+    ?term skos:definition ?comment .
+  }
+} WHERE {
+  {
+    SELECT DISTINCT ?g ?term ?comment WHERE {
+      VALUES ?g {
+        <http://www.w3.org/ns/adms>
+      }
+      VALUES ?type { rdfs:Class rdf:Property owl:ObjectProperty }
+      GRAPH ?g {
+        ?term a ?type ;
+               rdfs:isDefinedBy ?isDefinedBy .
+         # filter out terms that were added by the spatial indexer
+         FILTER (?isDefinedBy != <http://www.opengis.net/spec/geosparql/1.0>)
+         FILTER (?isDefinedBy != <http://www.opengis.net/ont/geosparql>)
+
+         OPTIONAL { ?term rdfs:comment ?comment . }
+
+         OPTIONAL { ?term skos:definition ?skosDefinition . }
+         OPTIONAL { ?term sdo:description ?sdoDescription . }
+         FILTER NOT EXISTS { ?term skos:definition ?skosDefinition . }
+         FILTER NOT EXISTS { ?term sdo:description ?sdoDescription . }
+      }
+    }
+  }
+}

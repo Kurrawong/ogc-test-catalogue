@@ -107,6 +107,13 @@ kurra db upload ../config/prez-endpoints.ttl http://localhost:3030/ogc-test-cata
 task prez-rs
 ```
 
+## Improving OntPub compliance
+
+To properly work with the custom Prez endpoint definitions for ontologies, we recommend that ontologies conform to the [OntPub Profile](https://agldwg.github.io/ontpub-profile/specification.html). Specifically, Prez needs all classes and properties defined in an ontology to have a `rdfs:isDefinedBy` property linking back to the ontology resource itself, as well as a `skos:prefLabel` or `sdo:name` for proper display in prez-ui.
+
+However, certain example ontologies in this catalogue such as ADMS do not conform to this profile out of the box. To mitigate this, you can simply run the `./ontpub-compliance.sh` script, which will add the necessary properties.
+
+To improve other added ontologies, new SPARQL queries may be added to the `ontpub-compliance` directory, and the script will automatically pick them up. When adding new INSERT queries, make sure that they check for existence of the inserted triples, in order to not insert duplicate data when executing this script multiple times.
 
 ## Understanding the prez custom endpoint configuration
 
