@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+
+<https://books.google.com/books?vid=ISBN0521262968> schema:name "Natural Language and Universal Grammar: Volume 1: Essays in Linguistic Theory" .
+<https://books.google.com/books?vid=ISBN1842464221> schema:name "The Kew Plant Glossary: An Illustrated Dictionary of Plant Terms" .
+<https://books.google.com/books?vid=ISBN9780128126288> schema:name "Plant Systematics" .
+<https://books.google.com/books?vid=ISBN9780323148658> schema:name "Ecology of Soil Seed Banks" .
+<https://books.google.com/books?vid=ISBN9780643063792> schema:name "Biochemical Models of Leaf Photosynthesis" .
+<https://books.google.com/books?vid=ISBN9780801475184> schema:name "Manual of Leaf Architecture" .
+<https://books.google.com/books?vid=ISBN9781405149990> schema:name "Water Use Efficiency in Plant Biology" .

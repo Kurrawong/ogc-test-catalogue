@@ -1,0 +1,31 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  fuseki-up:
+    cmd: docker compose up -d fuseki
+
+  fuseki-rs:
+    cmd: docker compose restart fuseki
+
+  fuseki-down:
+    cmd: docker compose kill fuseki
+
+  prez-up:
+    cmd: docker compose up -d prez
+
+  prez-rs:
+    cmd: docker compose restart prez
+
+  prez-down:
+    cmd: docker compose kill prez
+
+  up:
+    cmd: docker compose up -d
+
+  rs:
+    cmd: docker compose restart prez fuseki
+
+  down:
+    cmd: docker compose down

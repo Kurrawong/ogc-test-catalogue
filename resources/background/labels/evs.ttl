@@ -1,0 +1,54 @@
+PREFIX schema: <https://schema.org/>
+
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C104788> schema:name "Position" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C112332> schema:name "Material Pore Size" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C114082> schema:name "Chlorophyta" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C119321> schema:name "Anaerobic Bacteria" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C13445> schema:name "Gene Feature" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C14329> schema:name "Microorganism" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C15222> schema:name "Diet" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C16342> schema:name "Biomarker" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C16410> schema:name "Centrifugation" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C17248> schema:name "Genetic Variation" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C1751> schema:name "Pollutant" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C18814> schema:name "Global Change" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C19142> schema:name "Population Biology" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25180> schema:name "Indicator" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25208> schema:name "Weight" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25244> schema:name "Area" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25245> schema:name "Surface" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25274> schema:name "Actual" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25285> schema:name "Diameter" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25326> schema:name "Whole" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25336> schema:name "Pattern" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25390> schema:name "Index" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25429> schema:name "Availability" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25443> schema:name "Capacity" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25496> schema:name "End" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C25554> schema:name "Level" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C28359> schema:name "Heterogeneity" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C38024> schema:name "Specified" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41167> schema:name "Organizational Unit" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C41546> schema:name "Resistance Process" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C44476> schema:name "Content" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C45306> schema:name "Substance" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C48919> schema:name "Percentile" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C48920> schema:name "Quantile" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C49287> schema:name "Effective" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C53322> schema:name "Standard Deviation" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C53414> schema:name "Composition" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C53452> schema:name "Restriction" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C54154> schema:name "Probability" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C54647> schema:name "Annual" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C61372> schema:name "Management" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C61427> schema:name "Saturation" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62103> schema:name "Device" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62230> schema:name "Potential" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62254> schema:name "Direct" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62690> schema:name "Species Group" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C62695> schema:name "Food" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C63848> schema:name "Organic" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C64657> schema:name "Dilute" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C68594> schema:name "Timespan" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C70827> schema:name "Recovery" .
+<https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C72076> schema:name "Flux" .

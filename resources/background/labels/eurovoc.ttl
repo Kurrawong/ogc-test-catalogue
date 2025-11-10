@@ -1,0 +1,285 @@
+PREFIX schema: <https://schema.org/>
+
+<http://eurovoc.europa.eu/1042>
+    schema:name "fluorine" ;
+.
+
+<http://eurovoc.europa.eu/1148>
+    schema:name "geography" ;
+.
+
+<http://eurovoc.europa.eu/1151>
+    schema:name "geology" ;
+.
+
+<http://eurovoc.europa.eu/1169>
+    schema:name "ice" ;
+.
+
+<http://eurovoc.europa.eu/1204>
+    schema:name "algae" ;
+.
+
+<http://eurovoc.europa.eu/1221>
+    schema:name "habitat" ;
+.
+
+<http://eurovoc.europa.eu/1245>
+    schema:name "history" ;
+.
+
+<http://eurovoc.europa.eu/1278>
+    schema:name "hydrology" ;
+.
+
+<http://eurovoc.europa.eu/1736>
+    schema:name "magnesium" ;
+.
+
+<http://eurovoc.europa.eu/1779>
+    schema:name "manganese" ;
+.
+
+<http://eurovoc.europa.eu/1892>
+    schema:name "meteorology" ;
+.
+
+<http://eurovoc.europa.eu/1991>
+    schema:name "mortality" ;
+.
+
+<http://eurovoc.europa.eu/2056>
+    schema:name "nickel" ;
+.
+
+<http://eurovoc.europa.eu/2114>
+    schema:name "oceanography" ;
+.
+
+<http://eurovoc.europa.eu/2214>
+    schema:name "oxygen" ;
+.
+
+<http://eurovoc.europa.eu/2215>
+    schema:name "ozone" ;
+.
+
+<http://eurovoc.europa.eu/2372>
+    schema:name "phosphorus" ;
+.
+
+<http://eurovoc.europa.eu/2395>
+    schema:name "plankton" ;
+.
+
+<http://eurovoc.europa.eu/2428>
+    schema:name "lead" ;
+.
+
+<http://eurovoc.europa.eu/2435>
+    schema:name "fish" ;
+.
+
+<http://eurovoc.europa.eu/2524>
+    schema:name "pollution" ;
+.
+
+<http://eurovoc.europa.eu/2568>
+    schema:name "potassium" ;
+.
+
+<http://eurovoc.europa.eu/2680>
+    schema:name "irrigation" ;
+.
+
+<http://eurovoc.europa.eu/2707>
+    schema:name "production" ;
+.
+
+<http://eurovoc.europa.eu/2724>
+    schema:name "productivity" ;
+.
+
+<http://eurovoc.europa.eu/2902>
+    schema:name "ratio" ;
+.
+
+<http://eurovoc.europa.eu/2907>
+    schema:name "census" ;
+.
+
+<http://eurovoc.europa.eu/2943>
+    schema:name "recruitment" ;
+.
+
+<http://eurovoc.europa.eu/3122>
+    schema:name "composition" ;
+.
+
+<http://eurovoc.europa.eu/3157>
+    schema:name "defoliation" ;
+.
+
+<http://eurovoc.europa.eu/3158>
+    schema:name "erosion" ;
+.
+
+<http://eurovoc.europa.eu/316>
+    schema:name "copper" ;
+.
+
+<http://eurovoc.europa.eu/3318>
+    schema:name "population dynamics" ;
+.
+
+<http://eurovoc.europa.eu/3760>
+    schema:name "phosphate" ;
+.
+
+<http://eurovoc.europa.eu/3834>
+    schema:name "antimony" ;
+.
+
+<http://eurovoc.europa.eu/3836>
+    schema:name "cadmium" ;
+.
+
+<http://eurovoc.europa.eu/385>
+    schema:name "demography" ;
+.
+
+<http://eurovoc.europa.eu/3967>
+    schema:name "atmosphere" ;
+.
+
+<http://eurovoc.europa.eu/416>
+    schema:name "desertification" ;
+.
+
+<http://eurovoc.europa.eu/4165>
+    schema:name "acid rain" ;
+.
+
+<http://eurovoc.europa.eu/4352>
+    schema:name "silviculture" ;
+.
+
+<http://eurovoc.europa.eu/4426>
+    schema:name "remote sensing" ;
+.
+
+<http://eurovoc.europa.eu/4545>
+    schema:name "nitrogen" ;
+.
+
+<http://eurovoc.europa.eu/4630>
+    schema:name "land use" ;
+.
+
+<http://eurovoc.europa.eu/4783>
+    schema:name "zinc" ;
+.
+
+<http://eurovoc.europa.eu/4921>
+    schema:name "biology" ;
+.
+
+<http://eurovoc.europa.eu/4930>
+    schema:name "biomass" ;
+.
+
+<http://eurovoc.europa.eu/4940>
+    schema:name "biosphere" ;
+.
+
+<http://eurovoc.europa.eu/5050>
+    schema:name "budget" ;
+.
+
+<http://eurovoc.europa.eu/510>
+    schema:name "drainage" ;
+.
+
+<http://eurovoc.europa.eu/5244>
+    schema:name "charcoal" ;
+.
+
+<http://eurovoc.europa.eu/5261>
+    schema:name "carbon" ;
+.
+
+<http://eurovoc.europa.eu/5288>
+    schema:name "sodium" ;
+.
+
+<http://eurovoc.europa.eu/5304>
+    schema:name "calcium" ;
+.
+
+<http://eurovoc.europa.eu/5346>
+    schema:name "cellulose" ;
+.
+
+<http://eurovoc.europa.eu/5463>
+    schema:name "biodiversity" ;
+.
+
+<http://eurovoc.europa.eu/5482>
+    schema:name "climate change" ;
+.
+
+<http://eurovoc.europa.eu/5651>
+    schema:name "genetics" ;
+.
+
+<http://eurovoc.europa.eu/5966>
+    schema:name "chemistry" ;
+.
+
+<http://eurovoc.europa.eu/597>
+    schema:name "water" ;
+.
+
+<http://eurovoc.europa.eu/5971>
+    schema:name "chlorine" ;
+.
+
+<http://eurovoc.europa.eu/5988>
+    schema:name "chromium" ;
+.
+
+<http://eurovoc.europa.eu/602>
+    schema:name "freshwater" ;
+.
+
+<http://eurovoc.europa.eu/609>
+    schema:name "groundwater" ;
+.
+
+<http://eurovoc.europa.eu/6267>
+    schema:name "simulation" ;
+.
+
+<http://eurovoc.europa.eu/632>
+    schema:name "ecology" ;
+.
+
+<http://eurovoc.europa.eu/6384>
+    schema:name "climatology" ;
+.
+
+<http://eurovoc.europa.eu/6386>
+    schema:name "soil chemistry" ;
+.
+
+<http://eurovoc.europa.eu/6390>
+    schema:name "geomorphology" ;
+.
+
+<http://eurovoc.europa.eu/75>
+    schema:name "competition" ;
+.
+
+<http://eurovoc.europa.eu/981>
+    schema:name "iron" ;
+.

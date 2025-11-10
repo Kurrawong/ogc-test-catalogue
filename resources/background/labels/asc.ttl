@@ -1,0 +1,8 @@
+PREFIX schema: <https://schema.org/>
+
+<http://anzsoil.org/def/au/asc/Classifier-code> schema:name "classifier code" .
+<http://anzsoil.org/def/au/asc/Depth-code> schema:name "depth code" .
+<http://anzsoil.org/def/au/asc/Gravel-code> schema:name "gravel code" .
+<http://anzsoil.org/def/au/asc/Order-code> schema:name "order code" .
+<http://anzsoil.org/def/au/asc/Texture-code> schema:name "texture code" .
+<http://anzsoil.org/def/au/asc/Thickness-code> schema:name "thickness code" .

@@ -1,0 +1,33 @@
+PREFIX schema: <https://schema.org/>
+
+<http://purl.bioontology.org/ontology/MESH/D000068098> schema:name "Seed Bank" .
+<http://purl.bioontology.org/ontology/MESH/D000071421> schema:name "Life History Traits" .
+<http://purl.bioontology.org/ontology/MESH/D001467> schema:name "Hordeum" .
+<http://purl.bioontology.org/ontology/MESH/D001947> schema:name "Breeding" .
+<http://purl.bioontology.org/ontology/MESH/D002980> schema:name "Climate" .
+<http://purl.bioontology.org/ontology/MESH/D005740> schema:name "Gases" .
+<http://purl.bioontology.org/ontology/MESH/D006790> schema:name "Host-Parasite Interactions" .
+<http://purl.bioontology.org/ontology/MESH/D006859> schema:name "Hydrogen" .
+<http://purl.bioontology.org/ontology/MESH/D008962> schema:name "Models, Theoretical" .
+<http://purl.bioontology.org/ontology/MESH/D009032> schema:name "Mosquito Control" .
+<http://purl.bioontology.org/ontology/MESH/D009587> schema:name "Nitrogen Isotopes" .
+<http://purl.bioontology.org/ontology/MESH/D010103> schema:name "Oxygen Isotopes" .
+<http://purl.bioontology.org/ontology/MESH/D012273> schema:name "Ribulose-Bisphosphate Carboxylase" .
+<http://purl.bioontology.org/ontology/MESH/D012399> schema:name "Rotation" .
+<http://purl.bioontology.org/ontology/MESH/D012641> schema:name "Selection, Genetic" .
+<http://purl.bioontology.org/ontology/MESH/D013025> schema:name "Glycine max" .
+<http://purl.bioontology.org/ontology/MESH/D013718> schema:name "Tensile Strength" .
+<http://purl.bioontology.org/ontology/MESH/D013995> schema:name "Time" .
+<http://purl.bioontology.org/ontology/MESH/D015331> schema:name "Cohort Studies" .
+<http://purl.bioontology.org/ontology/MESH/D018481> schema:name "Convection" .
+<http://purl.bioontology.org/ontology/MESH/D018895> schema:name "Microsatellite Repeats" .
+<http://purl.bioontology.org/ontology/MESH/D019245> schema:name "Compressive Strength" .
+<http://purl.bioontology.org/ontology/MESH/D020304> schema:name "Raptors" .
+<http://purl.bioontology.org/ontology/MESH/D033342> schema:name "Copepoda" .
+<http://purl.bioontology.org/ontology/MESH/D052918> schema:name "Environmental Restoration and Remediation" .
+<http://purl.bioontology.org/ontology/MESH/D054750> schema:name "Ecotoxicology" .
+<http://purl.bioontology.org/ontology/MESH/D057075> schema:name "Enzyme Assays" .
+<http://purl.bioontology.org/ontology/MESH/D058865> schema:name "Introduced Species" .
+<http://purl.bioontology.org/ontology/MESH/D059000> schema:name "El Nino-Southern Oscillation" .
+<http://purl.bioontology.org/ontology/MESH/D061005> schema:name "Ponds" .
+<http://purl.bioontology.org/ontology/MESH/D011156> schema:name "population density" .

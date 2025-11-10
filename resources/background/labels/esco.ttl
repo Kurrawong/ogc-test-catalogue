@@ -1,0 +1,27 @@
+PREFIX schema: <https://schema.org/>
+
+<http://purl.dataone.org/odo/ECSO_00000018> schema:name "Heterotrophic Respiration Carbon Flux" .
+<http://purl.dataone.org/odo/ECSO_00000021> schema:name "Net Primary Production Carbon Flux" .
+<http://purl.dataone.org/odo/ECSO_00000037> schema:name "Annual Net Primary Productivity Flux" .
+<http://purl.dataone.org/odo/ECSO_00000310> schema:name "Community" .
+<http://purl.dataone.org/odo/ECSO_00000326> schema:name "Bicarbonate" .
+<http://purl.dataone.org/odo/ECSO_00000549> schema:name "Tree Diameter at Breast Height" .
+<http://purl.dataone.org/odo/ECSO_00000572> schema:name "particulate organic carbon" .
+<http://purl.dataone.org/odo/ECSO_00000619> schema:name "mass fraction" .
+<http://purl.dataone.org/odo/ECSO_00000669> schema:name "d13C" .
+<http://purl.dataone.org/odo/ECSO_00001127> schema:name "Carbon Percentage" .
+<http://purl.dataone.org/odo/ECSO_00001142> schema:name "Carbon Stable Isotope Ratio" .
+<http://purl.dataone.org/odo/ECSO_00001160> schema:name "Count Density" .
+<http://purl.dataone.org/odo/ECSO_00001164> schema:name "Water Salinity" .
+<http://purl.dataone.org/odo/ECSO_00001203> schema:name "Water Depth" .
+<http://purl.dataone.org/odo/ECSO_00001229> schema:name "Ground Temperature" .
+<http://purl.dataone.org/odo/ECSO_00001231> schema:name "Lake Temperature" .
+<http://purl.dataone.org/odo/ECSO_00001234> schema:name "Water Velocity" .
+<http://purl.dataone.org/odo/ECSO_00001671> schema:name "d18O in water" .
+<http://purl.dataone.org/odo/ECSO_00001677> schema:name "d18O" .
+<http://purl.dataone.org/odo/ECSO_00001704> schema:name "soil water content" .
+<http://purl.dataone.org/odo/ECSO_00001737> schema:name "stable nitrogen isotope ratio" .
+<http://purl.dataone.org/odo/ECSO_00001738> schema:name "d15N" .
+<http://purl.dataone.org/odo/ECSO_00001740> schema:name "stable oxygen isotope ratio" .
+<http://purl.dataone.org/odo/ECSO_00002703> schema:name "soil texture" .
+<http://purl.dataone.org/odo/ECSO_00002723> schema:name "solar zenith angle" .

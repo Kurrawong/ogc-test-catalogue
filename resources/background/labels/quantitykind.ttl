@@ -1,0 +1,1941 @@
+PREFIX schema: <https://schema.org/>
+
+<http://qudt.org/vocab/quantitykind/AbsoluteActivity> schema:name "Absolute Activity" .
+
+<http://qudt.org/vocab/quantitykind/AbsoluteHumidity> schema:name "Absolute Humidity" .
+
+<http://qudt.org/vocab/quantitykind/AbsorbedDose> schema:name "Absorbed Dose" .
+
+<http://qudt.org/vocab/quantitykind/AbsorbedDoseRate> schema:name "Absorbed Dose Rate" .
+
+<http://qudt.org/vocab/quantitykind/Absorptance> schema:name "Absorptance" .
+
+<http://qudt.org/vocab/quantitykind/Acceleration> schema:name "acceleration" .
+
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> schema:name "Acceleration Of Gravity" .
+
+<http://qudt.org/vocab/quantitykind/AcceptorDensity> schema:name "Acceptor Density" .
+
+<http://qudt.org/vocab/quantitykind/AcceptorIonizationEnergy> schema:name "Acceptor Ionization Energy" .
+
+<http://qudt.org/vocab/quantitykind/Acidity> schema:name "Acidity" .
+
+<http://qudt.org/vocab/quantitykind/AcousticImpedance> schema:name "Acoustic Impediance" .
+
+<http://qudt.org/vocab/quantitykind/Action> schema:name "Action" .
+
+<http://qudt.org/vocab/quantitykind/ActionTime> schema:name "Action Time" .
+
+<http://qudt.org/vocab/quantitykind/ActiveEnergy> schema:name "Active Energy" .
+
+<http://qudt.org/vocab/quantitykind/ActivePower> schema:name "Active Power" .
+
+<http://qudt.org/vocab/quantitykind/Activity> schema:name "Activity" .
+
+<http://qudt.org/vocab/quantitykind/ActivityCoefficient> schema:name "Activity Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/ActivityConcentration> schema:name "Activity Concentration" .
+
+<http://qudt.org/vocab/quantitykind/ActivityThresholds> schema:name "Activity Thresholds" .
+
+<http://qudt.org/vocab/quantitykind/Adaptation> schema:name "Adaptation" .
+
+<http://qudt.org/vocab/quantitykind/Admittance> schema:name "Admittance" .
+
+<http://qudt.org/vocab/quantitykind/AlphaDisintegrationEnergy> schema:name "Alpha Disintegration Energy" .
+
+<http://qudt.org/vocab/quantitykind/Altitude> schema:name "Altitude" .
+
+<http://qudt.org/vocab/quantitykind/AmbientPressure> schema:name "Ambient Pressure" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfCloudCover> schema:name "Amount of cloud cover" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstance> schema:name "amount of substance" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstanceConcentration> schema:name "Amount of Substance of Concentration" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstanceFraction> schema:name "Fractional Amount of Substance" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstanceIonConcentration> schema:name "Ion Concentration" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstancePerMass> schema:name "Amount of Substance per Mass" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstancePerMassPressure> schema:name "Molar Mass variation due to Pressure" .
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstancePerVolume> schema:name "Amount of Substance per Volume" .
+
+<http://qudt.org/vocab/quantitykind/Angle> schema:name "Angle" .
+
+<http://qudt.org/vocab/quantitykind/AngleOfAttack> schema:name "Angle Of Attack" .
+
+<http://qudt.org/vocab/quantitykind/AngleOfOpticalRotation> schema:name "Angle of Optical Rotation" .
+
+<http://qudt.org/vocab/quantitykind/AngularAcceleration> schema:name "angular acceleration" .
+
+<http://qudt.org/vocab/quantitykind/AngularCrossSection> schema:name "Angular Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/AngularDistance> schema:name "Angular Distance" .
+
+<http://qudt.org/vocab/quantitykind/AngularFrequency> schema:name "angular frequency" .
+
+<http://qudt.org/vocab/quantitykind/AngularImpulse> schema:name "angular impulse" .
+
+<http://qudt.org/vocab/quantitykind/AngularMomentum> schema:name "Angular Momentum" .
+
+<http://qudt.org/vocab/quantitykind/AngularMomentumPerAngle> schema:name "Angular Momentum per Angle" .
+
+<http://qudt.org/vocab/quantitykind/AngularReciprocalLatticeVector> schema:name "Angular Reciprocal Lattice Vector" .
+
+<http://qudt.org/vocab/quantitykind/AngularVelocity> schema:name "angular velocity" .
+
+<http://qudt.org/vocab/quantitykind/AngularWavenumber> schema:name "angular wavenumber" .
+
+<http://qudt.org/vocab/quantitykind/ApogeeRadius> schema:name "Apogee Radius" .
+
+<http://qudt.org/vocab/quantitykind/ApparentPower> schema:name "apparent power" .
+
+<http://qudt.org/vocab/quantitykind/Area> schema:name "area" .
+
+<http://qudt.org/vocab/quantitykind/AreaAngle> schema:name "Area Angle" .
+
+<http://qudt.org/vocab/quantitykind/AreaPerLength> schema:name "area per length" .
+
+<http://qudt.org/vocab/quantitykind/AreaPerPower> schema:name "area per heating load" .
+
+<http://qudt.org/vocab/quantitykind/AreaPerTime> schema:name "Area per Time" .
+
+<http://qudt.org/vocab/quantitykind/AreaRatio> schema:name "Area Ratio" .
+
+<http://qudt.org/vocab/quantitykind/AreaTemperature> schema:name "Area Temperature" .
+
+<http://qudt.org/vocab/quantitykind/AreaThermalExpansion> schema:name "Area Thermal Expansion" .
+
+<http://qudt.org/vocab/quantitykind/AreaTime> schema:name "Area Time" .
+
+<http://qudt.org/vocab/quantitykind/AreaTimeTemperature> schema:name "Area Time Temperature" .
+
+<http://qudt.org/vocab/quantitykind/AreicHeatFlowRate> schema:name "Aeric Heat Flow Rate" .
+
+<http://qudt.org/vocab/quantitykind/Asset> schema:name "Asset" .
+
+<http://qudt.org/vocab/quantitykind/AtmosphericHydroxylationRate> schema:name "Atmospheric Hydroxylation Rate" .
+
+<http://qudt.org/vocab/quantitykind/AtmosphericPressure> schema:name "Atmospheric Pressure" .
+
+<http://qudt.org/vocab/quantitykind/AtomScatteringFactor> schema:name "Atom Scattering Factor" .
+
+<http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> schema:name "Atomic Attenuation Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/AtomicCharge> schema:name "Atomic Charge" .
+
+<http://qudt.org/vocab/quantitykind/AtomicMass> schema:name "Atomic Mass" .
+
+<http://qudt.org/vocab/quantitykind/AtomicNumber> schema:name "Atomic Number" .
+
+<http://qudt.org/vocab/quantitykind/AttenuationCoefficient> schema:name "Attenuation Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/AuditoryThresholds> schema:name "Auditory Thresholds" .
+
+<http://qudt.org/vocab/quantitykind/AuxillaryMagneticField> schema:name "Auxillary Magnetic Field" .
+
+<http://qudt.org/vocab/quantitykind/AverageEnergyLossPerElementaryChargeProduced> schema:name "Average Energy Loss per Elementary Charge Produced" .
+
+<http://qudt.org/vocab/quantitykind/AverageHeadEndPressure> schema:name "Average Head End Pressure" .
+
+<http://qudt.org/vocab/quantitykind/AverageLogarithmicEnergyDecrement> schema:name "Average Logarithmic Energy Decrement" .
+
+<http://qudt.org/vocab/quantitykind/AverageSpecificImpulse> schema:name "Average Specific Impulse" .
+
+<http://qudt.org/vocab/quantitykind/AverageVacuumThrust> schema:name "Average Vacuum Thrust" .
+
+<http://qudt.org/vocab/quantitykind/Azimuth> schema:name "Azimuth" .
+
+<http://qudt.org/vocab/quantitykind/Basicity> schema:name "Basicity" .
+
+<http://qudt.org/vocab/quantitykind/BendingMomentOfForce> schema:name "Bending Moment of Force" .
+
+<http://qudt.org/vocab/quantitykind/BetaDisintegrationEnergy> schema:name "Beta Disintegration Energy" .
+
+<http://qudt.org/vocab/quantitykind/BevelGearPitchAngle> schema:name "Bevel Gear Pitch Angle" .
+
+<http://qudt.org/vocab/quantitykind/BindingFraction> schema:name "Binding Fraction" .
+
+<http://qudt.org/vocab/quantitykind/BioconcentrationFactor> schema:name "Bioconcentration Factor" .
+
+<http://qudt.org/vocab/quantitykind/BiodegredationHalfLife> schema:name "Biodegredation Half Life" .
+
+<http://qudt.org/vocab/quantitykind/BiogeochemicalRate> schema:name "Biogeochemical Rate" .
+
+<http://qudt.org/vocab/quantitykind/BloodGlucoseLevel> schema:name "Blood Glucose Level" .
+
+<http://qudt.org/vocab/quantitykind/BloodGlucoseLevel_Mass> schema:name "Blood Glucose Level by Mass" .
+
+<http://qudt.org/vocab/quantitykind/BodyMassIndex> schema:name "Body Mass Index" .
+
+<http://qudt.org/vocab/quantitykind/BoilingPoint> schema:name "Boiling Point Temperature" .
+
+<http://qudt.org/vocab/quantitykind/BraggAngle> schema:name "Bragg Angle" .
+
+<http://qudt.org/vocab/quantitykind/Breadth> schema:name "breadth" .
+
+<http://qudt.org/vocab/quantitykind/BucklingFactor> schema:name "Buckling Factor" .
+
+<http://qudt.org/vocab/quantitykind/BulkModulus> schema:name "Bulk Modulus" .
+
+<http://qudt.org/vocab/quantitykind/BurgersVector> schema:name "Burgers Vector" .
+
+<http://qudt.org/vocab/quantitykind/BurnRate> schema:name "Burn Rate" .
+
+<http://qudt.org/vocab/quantitykind/BurnTime> schema:name "Burn Time" .
+
+<http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_X> schema:name "Center of Gravity in the X axis" .
+
+<http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_Y> schema:name "Center of Gravity in the Y axis" .
+
+<http://qudt.org/vocab/quantitykind/CENTER-OF-GRAVITY_Z> schema:name "Center of Gravity in the Z axis" .
+
+<http://qudt.org/vocab/quantitykind/CENTER-OF-MASS> schema:name "Center of Mass (CoM)" .
+
+<http://qudt.org/vocab/quantitykind/CONTRACT-END-ITEM-SPECIFICATION-MASS> schema:name "Contract End Item (CEI) Specification Mass." .
+
+<http://qudt.org/vocab/quantitykind/CONTROL-MASS> schema:name "Control Mass." .
+
+<http://qudt.org/vocab/quantitykind/CanonicalPartitionFunction> schema:name "Canonical Partition Function" .
+
+<http://qudt.org/vocab/quantitykind/Capacitance> schema:name "Capacitance" .
+
+<http://qudt.org/vocab/quantitykind/Capacity> schema:name "Capacity" .
+
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> schema:name "Carrier LifetIme" .
+
+<http://qudt.org/vocab/quantitykind/CartesianArea> schema:name "Cartesian Area" .
+
+<http://qudt.org/vocab/quantitykind/CartesianCoordinates> schema:name "Cartesian coordinates" .
+
+<http://qudt.org/vocab/quantitykind/CartesianVolume> schema:name "volume" .
+
+<http://qudt.org/vocab/quantitykind/CatalyticActivity> schema:name "Catalytic Activity" .
+
+<http://qudt.org/vocab/quantitykind/CatalyticActivityConcentration> schema:name "Catalytic Activity Concentration" .
+
+<http://qudt.org/vocab/quantitykind/CelsiusTemperature> schema:name "Celsius temperature" .
+
+<http://qudt.org/vocab/quantitykind/CenterOfGravity_X> schema:name "Center of Gravity in the X axis" .
+
+<http://qudt.org/vocab/quantitykind/CenterOfGravity_Y> schema:name "Center of Gravity in the Y axis" .
+
+<http://qudt.org/vocab/quantitykind/CenterOfGravity_Z> schema:name "Center of Gravity in the Z axis" .
+
+<http://qudt.org/vocab/quantitykind/CharacteristicAcousticImpedance> schema:name "Characteristic Acoustic Impedance" .
+
+<http://qudt.org/vocab/quantitykind/CharacteristicVelocity> schema:name "Characteristic Velocity" .
+
+<http://qudt.org/vocab/quantitykind/ChargeNumber> schema:name "Charge Number" .
+
+<http://qudt.org/vocab/quantitykind/ChemicalAffinity> schema:name "Chemical Affinity" .
+
+<http://qudt.org/vocab/quantitykind/ChemicalConsumptionPerMass> schema:name "Chemical Consumption per Mass" .
+
+<http://qudt.org/vocab/quantitykind/ChemicalPotential> schema:name "chemical potential" .
+
+<http://qudt.org/vocab/quantitykind/Chromaticity> schema:name "Chromaticity" .
+
+<http://qudt.org/vocab/quantitykind/Circulation> schema:name "Circulation" .
+
+<http://qudt.org/vocab/quantitykind/ClosestApproachRadius> schema:name "Closest Approach Radius" .
+
+<http://qudt.org/vocab/quantitykind/CoefficientOfHeatTransfer> schema:name "Coefficient of heat transfer" .
+
+<http://qudt.org/vocab/quantitykind/CoefficientOfPerformance> schema:name "CoefficientOfPerformance" .
+
+<http://qudt.org/vocab/quantitykind/Coercivity> schema:name "Coercivity" .
+
+<http://qudt.org/vocab/quantitykind/CoherenceLength> schema:name "Coherence Length" .
+
+<http://qudt.org/vocab/quantitykind/ColdReceptorThreshold> schema:name "Cold Receptor Threshold" .
+
+<http://qudt.org/vocab/quantitykind/CombinedNonEvaporativeHeatTransferCoefficient> schema:name "Combined Non Evaporative Heat Transfer Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/CombustionChamberTemperature> schema:name "Combustion Chamber Temperature" .
+
+<http://qudt.org/vocab/quantitykind/ComplexPower> schema:name "Complex Power" .
+
+<http://qudt.org/vocab/quantitykind/CompoundPlaneAngle> schema:name "Compound Plane Angle" .
+
+<http://qudt.org/vocab/quantitykind/Compressibility> schema:name "Compressibility" .
+
+<http://qudt.org/vocab/quantitykind/CompressibilityFactor> schema:name "Compressibility Factor" .
+
+<http://qudt.org/vocab/quantitykind/Concentration> schema:name "Concentration" .
+
+<http://qudt.org/vocab/quantitykind/Conductance> schema:name "Conductance" .
+
+<http://qudt.org/vocab/quantitykind/ConductionSpeed> schema:name "Conduction Speed" .
+
+<http://qudt.org/vocab/quantitykind/ConductiveHeatTransferRate> schema:name "Conductive Heat Transfer Rate" .
+
+<http://qudt.org/vocab/quantitykind/Conductivity> schema:name "Conductivity" .
+
+<http://qudt.org/vocab/quantitykind/ConductivityVariance_NEON> schema:name "Conductivity Variance, NEON" .
+
+<http://qudt.org/vocab/quantitykind/Constringence> schema:name "Constringence" .
+
+<http://qudt.org/vocab/quantitykind/ConvectiveHeatTransfer> schema:name "Convective Heat Transfer" .
+
+<http://qudt.org/vocab/quantitykind/CorrelatedColorTemperature> schema:name "Correlated Colour Temperature" .
+
+<http://qudt.org/vocab/quantitykind/CostPerArea> schema:name "cost per area" .
+
+<http://qudt.org/vocab/quantitykind/CostPerEnergy> schema:name "energy cost" .
+
+<http://qudt.org/vocab/quantitykind/CostPerMass> schema:name "cost per mass" .
+
+<http://qudt.org/vocab/quantitykind/CostPerPower> schema:name "cost per power" .
+
+<http://qudt.org/vocab/quantitykind/Count> schema:name "Count" .
+
+<http://qudt.org/vocab/quantitykind/CountRate> schema:name "CountRate" .
+
+<http://qudt.org/vocab/quantitykind/CouplingFactor> schema:name "coupling factor" .
+
+<http://qudt.org/vocab/quantitykind/CrossSection> schema:name "Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/CrossSectionalArea> schema:name "Cross-sectional Area" .
+
+<http://qudt.org/vocab/quantitykind/CubicExpansionCoefficient> schema:name "cubic expansion coefficient" .
+
+<http://qudt.org/vocab/quantitykind/CurieTemperature> schema:name "Curie temperature" .
+
+<http://qudt.org/vocab/quantitykind/Currency> schema:name "Currency" .
+
+<http://qudt.org/vocab/quantitykind/CurrencyPerFlight> schema:name "Currency Per Flight" .
+
+<http://qudt.org/vocab/quantitykind/CurrentLinkage> schema:name "Current Linkage" .
+
+<http://qudt.org/vocab/quantitykind/Curvature> schema:name "Curvature" .
+
+<http://qudt.org/vocab/quantitykind/CurvatureFromRadius> schema:name "Curvature" .
+
+<http://qudt.org/vocab/quantitykind/CyclotronAngularFrequency> schema:name "Larmor Angular Frequency" .
+
+<http://qudt.org/vocab/quantitykind/DELTA-V> schema:name "Delta-V" .
+
+<http://qudt.org/vocab/quantitykind/DRY-MASS> schema:name "Dry Mass" .
+
+<http://qudt.org/vocab/quantitykind/DataRate> schema:name "Data Rate" .
+
+<http://qudt.org/vocab/quantitykind/Debye-WallerFactor> schema:name "Debye-Waller Factor" .
+
+<http://qudt.org/vocab/quantitykind/DebyeAngularFrequency> schema:name "Debye Angular Frequency" .
+
+<http://qudt.org/vocab/quantitykind/DebyeAngularWavenumber> schema:name "Debye Angular Wavenumber" .
+
+<http://qudt.org/vocab/quantitykind/DebyeTemperature> schema:name "Debye Temperature" .
+
+<http://qudt.org/vocab/quantitykind/DecayConstant> schema:name "Decay Constant" .
+
+<http://qudt.org/vocab/quantitykind/DegreeOfDissociation> schema:name "Degree of Dissociation" .
+
+<http://qudt.org/vocab/quantitykind/Density> schema:name "Density" .
+
+<http://qudt.org/vocab/quantitykind/DensityInCombustionChamber> schema:name "Density In Combustion Chamber" .
+
+<http://qudt.org/vocab/quantitykind/DensityOfStates> schema:name "Density of states" .
+
+<http://qudt.org/vocab/quantitykind/DensityOfTheExhaustGases> schema:name "Density Of The Exhaust Gases" .
+
+<http://qudt.org/vocab/quantitykind/Depth> schema:name "Depth" .
+
+<http://qudt.org/vocab/quantitykind/DewPointTemperature> schema:name "Dew Point Temperature" .
+
+<http://qudt.org/vocab/quantitykind/Diameter> schema:name "diameter" .
+
+<http://qudt.org/vocab/quantitykind/DiastolicBloodPressure> schema:name "Diastolic Blood Pressure" .
+
+<http://qudt.org/vocab/quantitykind/DiffusionArea> schema:name "Diffusion Area" .
+
+<http://qudt.org/vocab/quantitykind/DiffusionCoefficient> schema:name "diffusion coefficient" .
+
+<http://qudt.org/vocab/quantitykind/DiffusionCoefficientForFluenceRate> schema:name "Diffusion Coefficient for Fluence Rate" .
+
+<http://qudt.org/vocab/quantitykind/DiffusionLength> schema:name "Diffusion Length" .
+
+<http://qudt.org/vocab/quantitykind/Dimensionless> schema:name "Dimensionless" .
+
+<http://qudt.org/vocab/quantitykind/DimensionlessRatio> schema:name "Dimensionless Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Displacement> schema:name "Displacement" .
+
+<http://qudt.org/vocab/quantitykind/DisplacementCurrent> schema:name "Displacement Current" .
+
+<http://qudt.org/vocab/quantitykind/DisplacementCurrentDensity> schema:name "Displacement Current Density" .
+
+<http://qudt.org/vocab/quantitykind/DisplacementVectorOfIon> schema:name "Displacement Vector of Ion" .
+
+<http://qudt.org/vocab/quantitykind/Dissipance> schema:name "Dissipance" .
+
+<http://qudt.org/vocab/quantitykind/Distance> schema:name "distance" .
+
+<http://qudt.org/vocab/quantitykind/DistanceTraveledDuringBurn> schema:name "Distance Traveled During a Burn" .
+
+<http://qudt.org/vocab/quantitykind/DonorDensity> schema:name "Donor Density" .
+
+<http://qudt.org/vocab/quantitykind/DonorIonizationEnergy> schema:name "Donor Ionization Energy" .
+
+<http://qudt.org/vocab/quantitykind/DoseEquivalent> schema:name "Dose Equivalent" .
+
+<http://qudt.org/vocab/quantitykind/DoseEquivalentQualityFactor> schema:name "Dose Equivalent Quality Factor" .
+
+<http://qudt.org/vocab/quantitykind/DragCoefficient> schema:name "Drag Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/DragForce> schema:name "Drag Force" .
+
+<http://qudt.org/vocab/quantitykind/DryBulbTemperature> schema:name "Dry Bulb Temperature" .
+
+<http://qudt.org/vocab/quantitykind/DryVolume> schema:name "Dry Volume" .
+
+<http://qudt.org/vocab/quantitykind/DutyCycle> schema:name "Duty Cycle" .
+
+<http://qudt.org/vocab/quantitykind/Duv> schema:name "Delta u,v" .
+
+<http://qudt.org/vocab/quantitykind/DynamicFriction> schema:name "Dynamic Friction" .
+
+<http://qudt.org/vocab/quantitykind/DynamicFrictionCoefficient> schema:name "Dynamic Friction Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/DynamicPressure> schema:name "Dynamic Pressure" .
+
+<http://qudt.org/vocab/quantitykind/DynamicViscosity> schema:name "dynamic viscosity" .
+
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> schema:name "Earth Closest Approach Vehicle Velocity" .
+
+<http://qudt.org/vocab/quantitykind/EccentricityOfOrbit> schema:name "Eccentricity Of Orbit" .
+
+<http://qudt.org/vocab/quantitykind/EffectiveExhaustVelocity> schema:name "Effective Exhaustvelocity" .
+
+<http://qudt.org/vocab/quantitykind/EffectiveMass> schema:name "Effective Mass" .
+
+<http://qudt.org/vocab/quantitykind/EffectiveMultiplicationFactor> schema:name "Effective Multiplication Factor" .
+
+<http://qudt.org/vocab/quantitykind/Efficiency> schema:name "efficiency" .
+
+<http://qudt.org/vocab/quantitykind/EinsteinTransitionProbability> schema:name "Einstein Transition Probability" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCharge> schema:name "electric charge" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargeDensity> schema:name "Electric Charge Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargeLineDensity> schema:name "Electric Charge Line Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargeLinearDensity> schema:name "Electric Charge Linear Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargePerAmountOfSubstance> schema:name "Electric charge per amount of substance" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargePerArea> schema:name "Electric charge per area" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargePerMass> schema:name "Electric Charge Per Mass" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargeSurfaceDensity> schema:name "Electric Charge Surface Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricChargeVolumeDensity> schema:name "Electric Charge Volume Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricConductivity> schema:name "electric conductivity" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrent> schema:name "electric current" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentDensity> schema:name "electric current density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentPerAngle> schema:name "Electric Current per Angle" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentPerEnergy> schema:name "Electric Current per Energy" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentPerLength> schema:name "Electric Current per Length" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentPerTemperature> schema:name "Electric Current per Temperature" .
+
+<http://qudt.org/vocab/quantitykind/ElectricCurrentPhasor> schema:name "Electric Current Phasor" .
+
+<http://qudt.org/vocab/quantitykind/ElectricDipoleMoment> schema:name "electric dipole moment" .
+
+<http://qudt.org/vocab/quantitykind/ElectricDipoleMoment_CubicPerEnergy_Squared> schema:name "Cubic Electric Dipole Moment per Square Energy" .
+
+<http://qudt.org/vocab/quantitykind/ElectricDipoleMoment_QuarticPerEnergy_Cubic> schema:name "Quartic Electric Dipole Moment per Cubic Energy" .
+
+<http://qudt.org/vocab/quantitykind/ElectricDisplacement> schema:name "Electric Displacement" .
+
+<http://qudt.org/vocab/quantitykind/ElectricDisplacementField> schema:name "Electric Displacement Field" .
+
+<http://qudt.org/vocab/quantitykind/ElectricField> schema:name "Electric Field" .
+
+<http://qudt.org/vocab/quantitykind/ElectricFieldStrength> schema:name "electric field strength" .
+
+<http://qudt.org/vocab/quantitykind/ElectricFlux> schema:name "Electric Flux" .
+
+<http://qudt.org/vocab/quantitykind/ElectricFluxDensity> schema:name "electric flux density" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPolarizability> schema:name "electric polarizability" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPolarization> schema:name "electric polarization" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPotential> schema:name "electric potential" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPotentialDifference> schema:name "electric potential difference" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPower> schema:name "electric power" .
+
+<http://qudt.org/vocab/quantitykind/ElectricPropulsionPropellantMass> schema:name "Electric Propulsion Propellant Mass" .
+
+<http://qudt.org/vocab/quantitykind/ElectricQuadrupoleMoment> schema:name "electric quadrupole moment" .
+
+<http://qudt.org/vocab/quantitykind/ElectricSusceptibility> schema:name "electric susceptibility" .
+
+<http://qudt.org/vocab/quantitykind/ElectricalPowerToMassRatio> schema:name "Electrical Power To Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ElectrolyticConductivity> schema:name "Electrolytic Conductivity" .
+
+<http://qudt.org/vocab/quantitykind/ElectromagneticEnergyDensity> schema:name "Electromagnetic Energy Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectromagneticPermeability> schema:name "Permeability" .
+
+<http://qudt.org/vocab/quantitykind/ElectromagneticPermeabilityRatio> schema:name "Electromagnetic Permeability Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ElectromagneticWavePhaseSpeed> schema:name "Electromagnetic Wave Phase Speed" .
+
+<http://qudt.org/vocab/quantitykind/ElectromotiveForce> schema:name "electromotive force" .
+
+<http://qudt.org/vocab/quantitykind/ElectronAffinity> schema:name "Electron Affinity" .
+
+<http://qudt.org/vocab/quantitykind/ElectronDensity> schema:name "Electron Density" .
+
+<http://qudt.org/vocab/quantitykind/ElectronMeanFreePath> schema:name "Electron Mean Free Path" .
+
+<http://qudt.org/vocab/quantitykind/ElectronRadius> schema:name "Electron Radius" .
+
+<http://qudt.org/vocab/quantitykind/ElevationRelativeToNAP> schema:name "Elevation relative to NAP" .
+
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> schema:name "Elliptical Orbit Apogee Velocity" .
+
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> schema:name "Elliptical Orbit Perigee Velocity" .
+
+<http://qudt.org/vocab/quantitykind/Emissivity> schema:name "Emissivity" .
+
+<http://qudt.org/vocab/quantitykind/Energy> schema:name "energy" .
+
+<http://qudt.org/vocab/quantitykind/EnergyDensity> schema:name "Energy Density" .
+
+<http://qudt.org/vocab/quantitykind/EnergyDensityOfStates> schema:name "Energy Density of States" .
+
+<http://qudt.org/vocab/quantitykind/EnergyExpenditure> schema:name "Energy Expenditure" .
+
+<http://qudt.org/vocab/quantitykind/EnergyFluence> schema:name "Energy Fluence" .
+
+<http://qudt.org/vocab/quantitykind/EnergyFluenceRate> schema:name "Energy Fluence Rate" .
+
+<http://qudt.org/vocab/quantitykind/EnergyImparted> schema:name "Energy Imparted" .
+
+<http://qudt.org/vocab/quantitykind/EnergyInternal> schema:name "internal energy" .
+
+<http://qudt.org/vocab/quantitykind/EnergyKinetic> schema:name "kinetic energy" .
+
+<http://qudt.org/vocab/quantitykind/EnergyLevel> schema:name "Energy Level" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerArea> schema:name "Energy per Area" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerAreaElectricCharge> schema:name "Energy Per Area Electric Charge" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerElectricCharge> schema:name "Energy per electric charge" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerMagneticFluxDensity_Squared> schema:name "Energy Per Square Magnetic Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerMassAmountOfSubstance> schema:name "Energy and work per mass amount of substance" .
+
+<http://qudt.org/vocab/quantitykind/EnergyPerTemperature> schema:name "Energy per temperature" .
+
+<http://qudt.org/vocab/quantitykind/Energy_Squared> schema:name "Square Energy" .
+
+<http://qudt.org/vocab/quantitykind/Enthalpy> schema:name "enthalpy" .
+
+<http://qudt.org/vocab/quantitykind/Entropy> schema:name "entropy" .
+
+<http://qudt.org/vocab/quantitykind/EquilibriumConstant> schema:name "Equilibrium Constant" .
+
+<http://qudt.org/vocab/quantitykind/EquilibriumConstantOnConcentrationBasis> schema:name "Equilibrium Constant on Concentration Basis" .
+
+<http://qudt.org/vocab/quantitykind/EquilibriumConstantOnPressureBasis> schema:name "Equilibrium Constant on Pressure Basis" .
+
+<http://qudt.org/vocab/quantitykind/EquilibriumPositionVectorOfIon> schema:name "Equilibrium Position Vector of Ion" .
+
+<http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> schema:name "Equivalent absorption area" .
+
+<http://qudt.org/vocab/quantitykind/EquivalentConcentration> schema:name "Equivalent Concentration" .
+
+<http://qudt.org/vocab/quantitykind/EquivalentDensity> schema:name "Equivalent Density" .
+
+<http://qudt.org/vocab/quantitykind/Equivalent_Molar> schema:name "Molar Equivalent" .
+
+<http://qudt.org/vocab/quantitykind/EvaporativeHeatTransfer> schema:name "Evaporative Heat Transfer" .
+
+<http://qudt.org/vocab/quantitykind/EvaporativeHeatTransferCoefficient> schema:name "Combined Non Evaporative Heat Transfer Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/ExchangeIntegral> schema:name "Exchange Integral" .
+
+<http://qudt.org/vocab/quantitykind/ExhaustGasMeanMolecularWeight> schema:name "Exhaust Gas Mean Molecular Weight" .
+
+<http://qudt.org/vocab/quantitykind/ExhaustGasesSpecificHeat> schema:name "Exhaust Gases Specific Heat" .
+
+<http://qudt.org/vocab/quantitykind/ExhaustStreamPower> schema:name "Exhaust Stream Power" .
+
+<http://qudt.org/vocab/quantitykind/ExitPlaneCrossSectionalArea> schema:name "Exit Plane Cross-sectional Area" .
+
+<http://qudt.org/vocab/quantitykind/ExitPlanePressure> schema:name "Exit Plane Pressure" .
+
+<http://qudt.org/vocab/quantitykind/ExitPlaneTemperature> schema:name "Exit Plane Temperature" .
+
+<http://qudt.org/vocab/quantitykind/ExpansionRatio> schema:name "Expansion Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Exposure> schema:name "Exposure" .
+
+<http://qudt.org/vocab/quantitykind/ExposureRate> schema:name "Exposure Rate" .
+
+<http://qudt.org/vocab/quantitykind/ExtentOfReaction> schema:name "Extent of Reaction" .
+
+<http://qudt.org/vocab/quantitykind/FLIGHT-PERFORMANCE-RESERVE-PROPELLANT-MASS> schema:name "Flight Performance Reserve Propellant Mass" .
+
+<http://qudt.org/vocab/quantitykind/FUEL-BIAS> schema:name "Fuel Bias" .
+
+<http://qudt.org/vocab/quantitykind/FastFissionFactor> schema:name "Fast Fission Factor" .
+
+<http://qudt.org/vocab/quantitykind/FermiAngularWavenumber> schema:name "Fermi Angular Wavenumber" .
+
+<http://qudt.org/vocab/quantitykind/FermiEnergy> schema:name "Fermi Energy" .
+
+<http://qudt.org/vocab/quantitykind/FermiTemperature> schema:name "Fermi Temperature" .
+
+<http://qudt.org/vocab/quantitykind/FinalOrCurrentVehicleMass> schema:name "Final Or Current Vehicle Mass" .
+
+<http://qudt.org/vocab/quantitykind/FirstMomentOfArea> schema:name "First Moment of Area" .
+
+<http://qudt.org/vocab/quantitykind/FirstStageMassRatio> schema:name "First Stage Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/FishBiotransformationHalfLife> schema:name "Fish Biotransformation Half Life" .
+
+<http://qudt.org/vocab/quantitykind/FissionCoreRadiusToHeightRatio> schema:name "Fission Core Radius To Height Ratio" .
+
+<http://qudt.org/vocab/quantitykind/FissionFuelUtilizationFactor> schema:name "Fission Fuel Utilization Factor" .
+
+<http://qudt.org/vocab/quantitykind/FissionMultiplicationFactor> schema:name "Fission Multiplication Factor" .
+
+<http://qudt.org/vocab/quantitykind/FlashPoint> schema:name "Flash Point Temperature" .
+
+<http://qudt.org/vocab/quantitykind/FlightPathAngle> schema:name "Flight Path Angle" .
+
+<http://qudt.org/vocab/quantitykind/Flux> schema:name "Flux" .
+
+<http://qudt.org/vocab/quantitykind/Force> schema:name "force" .
+
+<http://qudt.org/vocab/quantitykind/ForceMagnitude> schema:name "Force Magnitude" .
+
+<http://qudt.org/vocab/quantitykind/ForcePerAngle> schema:name "Force per Angle" .
+
+<http://qudt.org/vocab/quantitykind/ForcePerArea> schema:name "Force Per Area" .
+
+<http://qudt.org/vocab/quantitykind/ForcePerAreaTime> schema:name "Force Per Area Time" .
+
+<http://qudt.org/vocab/quantitykind/ForcePerElectricCharge> schema:name "Force per Electric Charge" .
+
+<http://qudt.org/vocab/quantitykind/ForcePerLength> schema:name "Force per Length" .
+
+<http://qudt.org/vocab/quantitykind/Frequency> schema:name "frequency" .
+
+<http://qudt.org/vocab/quantitykind/Friction> schema:name "Friction" .
+
+<http://qudt.org/vocab/quantitykind/FrictionCoefficient> schema:name "Friction Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/Fugacity> schema:name "fugacity" .
+
+<http://qudt.org/vocab/quantitykind/FundamentalLatticeVector> schema:name "Fundamental Lattice vector" .
+
+<http://qudt.org/vocab/quantitykind/FundamentalReciprocalLatticeVector> schema:name "Fundamental Reciprocal Lattice Vector" .
+
+<http://qudt.org/vocab/quantitykind/GFactorOfNucleus> schema:name "g-Factor of Nucleus" .
+
+<http://qudt.org/vocab/quantitykind/GROSS-LIFT-OFF-WEIGHT> schema:name "Gross Lift-Off Weight" .
+
+<http://qudt.org/vocab/quantitykind/Gain> schema:name "Gain" .
+
+<http://qudt.org/vocab/quantitykind/GapEnergy> schema:name "Gap Energy" .
+
+<http://qudt.org/vocab/quantitykind/GaugePressure> schema:name "Gauge Pressure" .
+
+<http://qudt.org/vocab/quantitykind/GeneFamilyAbundance> schema:name "Gene Family Abundance" .
+
+<http://qudt.org/vocab/quantitykind/GeneralizedCoordinate> schema:name "Generalized Coordinate" .
+
+<http://qudt.org/vocab/quantitykind/GeneralizedForce> schema:name "Generalized Force" .
+
+<http://qudt.org/vocab/quantitykind/GeneralizedMomentum> schema:name "Generalized Force" .
+
+<http://qudt.org/vocab/quantitykind/GeneralizedVelocity> schema:name "Generalized Velocity" .
+
+<http://qudt.org/vocab/quantitykind/GibbsEnergy> schema:name "Gibbs energy" .
+
+<http://qudt.org/vocab/quantitykind/GrandCanonicalPartitionFunction> schema:name "Grand Canonical Partition Function" .
+
+<http://qudt.org/vocab/quantitykind/GravitationalAttraction> schema:name "Gravitational Attraction" .
+
+<http://qudt.org/vocab/quantitykind/Gravity_API> schema:name "API Gravity" .
+
+<http://qudt.org/vocab/quantitykind/GroupSpeedOfSound> schema:name "Group Speed of Sound" .
+
+<http://qudt.org/vocab/quantitykind/GrowingDegreeDay_Cereal> schema:name "Growing Degree Days (Cereals)" .
+
+<http://qudt.org/vocab/quantitykind/GruneisenParameter> schema:name "Gruneisen Parameter" .
+
+<http://qudt.org/vocab/quantitykind/GustatoryThreshold> schema:name "Gustatory Threshold" .
+
+<http://qudt.org/vocab/quantitykind/GyromagneticRatio> schema:name "Gyromagnetic Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Half-Life> schema:name "half-life" .
+
+<http://qudt.org/vocab/quantitykind/Half-ValueThickness> schema:name "Half-Value Thickness" .
+
+<http://qudt.org/vocab/quantitykind/HallCoefficient> schema:name "Hall Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/HamiltonFunction> schema:name "Hamilton Function" .
+
+<http://qudt.org/vocab/quantitykind/HeadEndPressure> schema:name "Head End Pressure" .
+
+<http://qudt.org/vocab/quantitykind/HeartRate> schema:name "Heart Rate" .
+
+<http://qudt.org/vocab/quantitykind/Heat> schema:name "heat" .
+
+<http://qudt.org/vocab/quantitykind/HeatCapacity> schema:name "heat capacity" .
+
+<http://qudt.org/vocab/quantitykind/HeatCapacityRatio> schema:name "Heat Capacity Ratio" .
+
+<http://qudt.org/vocab/quantitykind/HeatFlowRate> schema:name "Heat Flow Rate" .
+
+<http://qudt.org/vocab/quantitykind/HeatFlowRatePerArea> schema:name "Heat Flow Rate per Unit Area" .
+
+<http://qudt.org/vocab/quantitykind/HeatFluxDensity> schema:name "Heat Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/HeatingValue> schema:name "Calorific Value" .
+
+<http://qudt.org/vocab/quantitykind/Height> schema:name "height" .
+
+<http://qudt.org/vocab/quantitykind/HelmholtzEnergy> schema:name "Helmholtz energy" .
+
+<http://qudt.org/vocab/quantitykind/HenrysLawVolatilityConstant> schema:name "Henry's Law Volatility Constant" .
+
+<http://qudt.org/vocab/quantitykind/HoleDensity> schema:name "Hole Density" .
+
+<http://qudt.org/vocab/quantitykind/HorizontalVelocity> schema:name "Horizontal Velocity" .
+
+<http://qudt.org/vocab/quantitykind/HydraulicPermeability> schema:name "Hydraulic Permeability" .
+
+<http://qudt.org/vocab/quantitykind/HyperfineStructureQuantumNumber> schema:name "Hyperfine Structure Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/INERT-MASS> schema:name "Inert Mass" .
+
+<http://qudt.org/vocab/quantitykind/IgnitionIntervalTime> schema:name "Ignition interval time" .
+
+<http://qudt.org/vocab/quantitykind/Illuminance> schema:name "illuminance" .
+
+<http://qudt.org/vocab/quantitykind/Impedance> schema:name "Impedance" .
+
+<http://qudt.org/vocab/quantitykind/Incidence> schema:name "Incidence" .
+
+<http://qudt.org/vocab/quantitykind/IncidenceProportion> schema:name "Incidence Proportion" .
+
+<http://qudt.org/vocab/quantitykind/IncidenceRate> schema:name "Incidence Rate" .
+
+<http://qudt.org/vocab/quantitykind/Inductance> schema:name "inductance" .
+
+<http://qudt.org/vocab/quantitykind/InfiniteMultiplicationFactor> schema:name "Infinite Multiplication Factor" .
+
+<http://qudt.org/vocab/quantitykind/InformationEntropy> schema:name "Information Entropy" .
+
+<http://qudt.org/vocab/quantitykind/InformationFlowRate> schema:name "Information flow rate" .
+
+<http://qudt.org/vocab/quantitykind/InitialExpansionRatio> schema:name "Initial Expansion Ratio" .
+
+<http://qudt.org/vocab/quantitykind/InitialNozzleThroatDiameter> schema:name "Initial Nozzle Throat Diameter" .
+
+<http://qudt.org/vocab/quantitykind/InitialVehicleMass> schema:name "Initial Vehicle Mass" .
+
+<http://qudt.org/vocab/quantitykind/InitialVelocity> schema:name "Initial Velocity" .
+
+<http://qudt.org/vocab/quantitykind/InstantaneousPower> schema:name "Instantaneous Power" .
+
+<http://qudt.org/vocab/quantitykind/InternalConversionFactor> schema:name "InternalConversionFactor" .
+
+<http://qudt.org/vocab/quantitykind/InternalEnergy> schema:name "Internal Energy" .
+
+<http://qudt.org/vocab/quantitykind/IntinsicCarrierDensity> schema:name "Intinsic Carrier Density" .
+
+<http://qudt.org/vocab/quantitykind/InverseAmountOfSubstance> schema:name "Inverse amount of substance" .
+
+<http://qudt.org/vocab/quantitykind/InverseEnergy> schema:name "Inverse Energy" .
+
+<http://qudt.org/vocab/quantitykind/InverseEnergy_Squared> schema:name "Inverse Square Energy" .
+
+<http://qudt.org/vocab/quantitykind/InverseLength> schema:name "Inverse Length" .
+
+<http://qudt.org/vocab/quantitykind/InverseLengthTemperature> schema:name "Inverse Length Temperature" .
+
+<http://qudt.org/vocab/quantitykind/InverseMagneticFlux> schema:name "Inverse Magnetic Flux" .
+
+<http://qudt.org/vocab/quantitykind/InverseMass_Squared> schema:name "Inverse Square Mass" .
+
+<http://qudt.org/vocab/quantitykind/InversePermittivity> schema:name "Inverse Permittivity" .
+
+<http://qudt.org/vocab/quantitykind/InversePressure> schema:name "Inverse Pressure" .
+
+<http://qudt.org/vocab/quantitykind/InverseTemperature> schema:name "Inverse Temperature" .
+
+<http://qudt.org/vocab/quantitykind/InverseTime> schema:name "Inverse Time" .
+
+<http://qudt.org/vocab/quantitykind/InverseTimeTemperature> schema:name "Inverse Time Temperature" .
+
+<http://qudt.org/vocab/quantitykind/InverseTime_Squared> schema:name "Inverse Square Time" .
+
+<http://qudt.org/vocab/quantitykind/InverseVolume> schema:name "Inverse Volume" .
+
+<http://qudt.org/vocab/quantitykind/IonConcentration> schema:name "Ion Concentration" .
+
+<http://qudt.org/vocab/quantitykind/IonCurrent> schema:name "Ion Current" .
+
+<http://qudt.org/vocab/quantitykind/IonDensity> schema:name "Ion Density" .
+
+<http://qudt.org/vocab/quantitykind/IonTransportNumber> schema:name "Ion Transport Number" .
+
+<http://qudt.org/vocab/quantitykind/IonicCharge> schema:name "Ionic Charge" .
+
+<http://qudt.org/vocab/quantitykind/IonicStrength> schema:name "Ionic Strength" .
+
+<http://qudt.org/vocab/quantitykind/IonizationEnergy> schema:name "Ionization Energy" .
+
+<http://qudt.org/vocab/quantitykind/Irradiance> schema:name "irradiance" .
+
+<http://qudt.org/vocab/quantitykind/IsentropicCompressibility> schema:name "Isentropic Compressibility" .
+
+<http://qudt.org/vocab/quantitykind/IsentropicExponent> schema:name "isentropic exponent" .
+
+<http://qudt.org/vocab/quantitykind/IsothermalCompressibility> schema:name "isothermal compressibility" .
+
+<http://qudt.org/vocab/quantitykind/IsothermalMoistureCapacity> schema:name "Isothermal Moisture Capacity" .
+
+<http://qudt.org/vocab/quantitykind/Kerma> schema:name "Kerma" .
+
+<http://qudt.org/vocab/quantitykind/KermaRate> schema:name "Kerma Rate" .
+
+<http://qudt.org/vocab/quantitykind/KinematicViscosity> schema:name "kinematic viscosity" .
+
+<http://qudt.org/vocab/quantitykind/KineticEnergy> schema:name "Kinetic Energy" .
+
+<http://qudt.org/vocab/quantitykind/LagrangeFunction> schema:name "Lagrange Function" .
+
+<http://qudt.org/vocab/quantitykind/Landau-GinzburgNumber> schema:name "Landau-Ginzburg Number" .
+
+<http://qudt.org/vocab/quantitykind/LandeGFactor> schema:name "Lande g-Factor" .
+
+<http://qudt.org/vocab/quantitykind/LarmorAngularFrequency> schema:name "Larmor Angular Frequency" .
+
+<http://qudt.org/vocab/quantitykind/LatticePlaneSpacing> schema:name "Lattice Plane Spacing" .
+
+<http://qudt.org/vocab/quantitykind/LatticeVector> schema:name "Lattice Vector" .
+
+<http://qudt.org/vocab/quantitykind/LeakageFactor> schema:name "Leakage Factor" .
+
+<http://qudt.org/vocab/quantitykind/Length> schema:name "length" .
+
+<http://qudt.org/vocab/quantitykind/LengthByForce> schema:name "Length Force" .
+
+<http://qudt.org/vocab/quantitykind/LengthEnergy> schema:name "Length Energy" .
+
+<http://qudt.org/vocab/quantitykind/LengthMass> schema:name "Length Mass" .
+
+<http://qudt.org/vocab/quantitykind/LengthMolarEnergy> schema:name "Length Molar Energy" .
+
+<http://qudt.org/vocab/quantitykind/LengthPerElectricCurrent> schema:name "Length per Electric Current" .
+
+<http://qudt.org/vocab/quantitykind/LengthRatio> schema:name "Length Ratio" .
+
+<http://qudt.org/vocab/quantitykind/LengthTemperature> schema:name "Length Temperature" .
+
+<http://qudt.org/vocab/quantitykind/LengthTemperatureTime> schema:name "Length Temperature Time" .
+
+<http://qudt.org/vocab/quantitykind/Lethargy> schema:name "Lethargy" .
+
+<http://qudt.org/vocab/quantitykind/LevelWidth> schema:name "Level Width" .
+
+<http://qudt.org/vocab/quantitykind/LiftCoefficient> schema:name "Lift Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LiftForce> schema:name "Lift Force" .
+
+<http://qudt.org/vocab/quantitykind/LinearAbsorptionCoefficient> schema:name "Linear Absorption Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LinearAcceleration> schema:name "Linear Acceleration" .
+
+<http://qudt.org/vocab/quantitykind/LinearAttenuationCoefficient> schema:name "Linear Attenuation Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LinearCompressibility> schema:name "Linear Compressibility" .
+
+<http://qudt.org/vocab/quantitykind/LinearDensity> schema:name "Linear Density" .
+
+<http://qudt.org/vocab/quantitykind/LinearElectricCurrent> schema:name "Linear Electric Current" .
+
+<http://qudt.org/vocab/quantitykind/LinearElectricCurrentDensity> schema:name "Linear Electric Current Density" .
+
+<http://qudt.org/vocab/quantitykind/LinearEnergyTransfer> schema:name "Linear Energy Transfer" .
+
+<http://qudt.org/vocab/quantitykind/LinearExpansionCoefficient> schema:name "linear expansion coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LinearForce> schema:name "Linear Force" .
+
+<http://qudt.org/vocab/quantitykind/LinearIonization> schema:name "Linear Ionization" .
+
+<http://qudt.org/vocab/quantitykind/LinearMomentum> schema:name "Linear Momentum" .
+
+<http://qudt.org/vocab/quantitykind/LinearStiffness> schema:name "Linear Force" .
+
+<http://qudt.org/vocab/quantitykind/LinearStrain> schema:name "Linear Strain" .
+
+<http://qudt.org/vocab/quantitykind/LinearThermalExpansion> schema:name "Linear Thermal Expansion" .
+
+<http://qudt.org/vocab/quantitykind/LinearVelocity> schema:name "Linear Velocity" .
+
+<http://qudt.org/vocab/quantitykind/LinkedFlux> schema:name "Linked Flux" .
+
+<http://qudt.org/vocab/quantitykind/LiquidVolume> schema:name "Liquid Volume" .
+
+<http://qudt.org/vocab/quantitykind/LogOctanolAirPartitionCoefficient> schema:name "Octanol Air Partition Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LogOctanolWaterPartitionCoefficient> schema:name "Logarithm of Octanol Water Partition Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LogarithmicFrequencyInterval> schema:name "logarithmic frequency interval" .
+
+<http://qudt.org/vocab/quantitykind/LondonPenetrationDepth> schema:name "London Penetration Depth" .
+
+<http://qudt.org/vocab/quantitykind/Long-RangeOrderParameter> schema:name "Long-Range Order Parameter" .
+
+<http://qudt.org/vocab/quantitykind/LorenzCoefficient> schema:name "Lorenz Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/LossAngle> schema:name "Loss Angle" .
+
+<http://qudt.org/vocab/quantitykind/LossFactor> schema:name "Loss Factor" .
+
+<http://qudt.org/vocab/quantitykind/LowerCriticalMagneticFluxDensity> schema:name "Lower Critical Magnetic Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/Luminance> schema:name "Luminance" .
+
+<http://qudt.org/vocab/quantitykind/LuminousEfficacy> schema:name "Luminous Efficacy" .
+
+<http://qudt.org/vocab/quantitykind/LuminousEmittance> schema:name "Luminous Emmitance" .
+
+<http://qudt.org/vocab/quantitykind/LuminousEnergy> schema:name "Luminous Energy" .
+
+<http://qudt.org/vocab/quantitykind/LuminousExposure> schema:name "Luminous Exposure" .
+
+<http://qudt.org/vocab/quantitykind/LuminousFlux> schema:name "luminous flux" .
+
+<http://qudt.org/vocab/quantitykind/LuminousFluxPerArea> schema:name "Luminous Flux per Area" .
+
+<http://qudt.org/vocab/quantitykind/LuminousFluxRatio> schema:name "Luminous Flux Ratio" .
+
+<http://qudt.org/vocab/quantitykind/LuminousIntensity> schema:name "luminous intensity" .
+
+<http://qudt.org/vocab/quantitykind/LuminousIntensityDistribution> schema:name "Ion Concentration" .
+
+<http://qudt.org/vocab/quantitykind/MASS-DELIVERED> schema:name "Mass Delivered" .
+
+<http://qudt.org/vocab/quantitykind/MASS-GROWTH-ALLOWANCE> schema:name "Mass Growth Allowance" .
+
+<http://qudt.org/vocab/quantitykind/MASS-MARGIN> schema:name "Mass Margin" .
+
+<http://qudt.org/vocab/quantitykind/MASS-PROPERTY-UNCERTAINTY> schema:name "Mass Property Uncertainty" .
+
+<http://qudt.org/vocab/quantitykind/MOMENT-OF-INERTIA_Y> schema:name "Moment of Inertia in the Y axis" .
+
+<http://qudt.org/vocab/quantitykind/MOMENT-OF-INERTIA_Z> schema:name "Moment of Inertia in the Z axis" .
+
+<http://qudt.org/vocab/quantitykind/MachNumber> schema:name "Mach number" .
+
+<http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> schema:name "Macroscopic Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> schema:name "Macroscopic Total Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/MadelungConstant> schema:name "Madelung constant" .
+
+<http://qudt.org/vocab/quantitykind/MagneticAreaMoment> schema:name "Magnetic Area Moment" .
+
+<http://qudt.org/vocab/quantitykind/MagneticDipoleMoment> schema:name "Magnetic Dipole Moment" .
+
+<http://qudt.org/vocab/quantitykind/MagneticField> schema:name "Magnetic Field" .
+
+<http://qudt.org/vocab/quantitykind/MagneticFieldStrength_H> schema:name "magnetic field strength" .
+
+<http://qudt.org/vocab/quantitykind/MagneticFlux> schema:name "magnetic flux" .
+
+<http://qudt.org/vocab/quantitykind/MagneticFluxDensity> schema:name "magnetic flux density" .
+
+<http://qudt.org/vocab/quantitykind/MagneticFluxPerLength> schema:name "Magnetic flux per length" .
+
+<http://qudt.org/vocab/quantitykind/MagneticMoment> schema:name "magnetic moment" .
+
+<http://qudt.org/vocab/quantitykind/MagneticPolarization> schema:name "Magnetic Polarization" .
+
+<http://qudt.org/vocab/quantitykind/MagneticQuantumNumber> schema:name "Magnetic Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/MagneticReluctivity> schema:name "Magnetic Reluctivity" .
+
+<http://qudt.org/vocab/quantitykind/MagneticSusceptability> schema:name "Magnetic Susceptability" .
+
+<http://qudt.org/vocab/quantitykind/MagneticTension> schema:name "Magnetic Tension" .
+
+<http://qudt.org/vocab/quantitykind/MagneticVectorPotential> schema:name "magnetic vector potential" .
+
+<http://qudt.org/vocab/quantitykind/Magnetization> schema:name "magnetization" .
+
+<http://qudt.org/vocab/quantitykind/MagnetizationField> schema:name "Magnetization Field" .
+
+<http://qudt.org/vocab/quantitykind/MagnetomotiveForce> schema:name "Magnetomotive Force" .
+
+<http://qudt.org/vocab/quantitykind/Mass> schema:name "mass" .
+
+<http://qudt.org/vocab/quantitykind/MassAbsorptionCoefficient> schema:name "Mass Absorption Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/MassAmountOfSubstance> schema:name "Mass Amount of Substance" .
+
+<http://qudt.org/vocab/quantitykind/MassAmountOfSubstanceTemperature> schema:name "Mass Amount of Substance Temperature" .
+
+<http://qudt.org/vocab/quantitykind/MassAttenuationCoefficient> schema:name "Mass Attenuation Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/MassConcentration> schema:name "Mass Concentration" .
+
+<http://qudt.org/vocab/quantitykind/MassConcentrationOfWater> schema:name "Mass Concentration of Water" .
+
+<http://qudt.org/vocab/quantitykind/MassConcentrationOfWaterVapour> schema:name "Mass Concentration of Water Vapour" .
+
+<http://qudt.org/vocab/quantitykind/MassConcentrationRateOfChange> schema:name "Mass Concentration Rate Of Change" .
+
+<http://qudt.org/vocab/quantitykind/MassDefect> schema:name "Mass Defect" .
+
+<http://qudt.org/vocab/quantitykind/MassDensity> schema:name "mass density" .
+
+<http://qudt.org/vocab/quantitykind/MassEnergyTransferCoefficient> schema:name "Mass Energy Transfer Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/MassExcess> schema:name "Mass Excess" .
+
+<http://qudt.org/vocab/quantitykind/MassFlowRate> schema:name "Mass Flow Rate" .
+
+<http://qudt.org/vocab/quantitykind/MassFraction> schema:name "Mass Fraction" .
+
+<http://qudt.org/vocab/quantitykind/MassFractionOfDryMatter> schema:name "Mass Fraction of Dry Matter" .
+
+<http://qudt.org/vocab/quantitykind/MassFractionOfWater> schema:name "Mass Fraction of Water" .
+
+<http://qudt.org/vocab/quantitykind/MassNumber> schema:name "Mass Number" .
+
+<http://qudt.org/vocab/quantitykind/MassOfElectricalPowerSupply> schema:name "Mass Of Electrical Power Supply" .
+
+<http://qudt.org/vocab/quantitykind/MassOfSolidBooster> schema:name "Mass Of Solid Booster" .
+
+<http://qudt.org/vocab/quantitykind/MassOfTheEarth> schema:name "Mass Of The Earth" .
+
+<http://qudt.org/vocab/quantitykind/MassPerArea> schema:name "Mass per Area" .
+
+<http://qudt.org/vocab/quantitykind/MassPerAreaTime> schema:name "Mass per Area Time" .
+
+<http://qudt.org/vocab/quantitykind/MassPerElectricCharge> schema:name "Mass per Electric Charge" .
+
+<http://qudt.org/vocab/quantitykind/MassPerEnergy> schema:name "Mass per Energy" .
+
+<http://qudt.org/vocab/quantitykind/MassPerLength> schema:name "Mass per Length" .
+
+<http://qudt.org/vocab/quantitykind/MassPerTime> schema:name "Mass per Time" .
+
+<http://qudt.org/vocab/quantitykind/MassRatio> schema:name "Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/MassRatioOfWaterToDryMatter> schema:name "Mass Concentration of Water To Dry Matter" .
+
+<http://qudt.org/vocab/quantitykind/MassRatioOfWaterVapourToDryGas> schema:name "Mass Ratio of Water Vapour to Dry Gas" .
+
+<http://qudt.org/vocab/quantitykind/MassSpecificBiogeochemicalRate> schema:name "Mass Specific Biogeochemical Rate" .
+
+<http://qudt.org/vocab/quantitykind/MassTemperature> schema:name "Mass Temperature" .
+
+<http://qudt.org/vocab/quantitykind/MassicActivity> schema:name "Massic Activity" .
+
+<http://qudt.org/vocab/quantitykind/MassieuFunction> schema:name "Massieu Function" .
+
+<http://qudt.org/vocab/quantitykind/MaxExpectedOperatingThrust> schema:name "Maximum Expected Operating Thrust" .
+
+<http://qudt.org/vocab/quantitykind/MaxOperatingThrust> schema:name "Max Operating Thrust" .
+
+<http://qudt.org/vocab/quantitykind/MaxSeaLevelThrust> schema:name "Max Sea Level Thrust" .
+
+<http://qudt.org/vocab/quantitykind/MaximumBeta-ParticleEnergy> schema:name "Maximum Beta-Particle Energy" .
+
+<http://qudt.org/vocab/quantitykind/MaximumExpectedOperatingPressure> schema:name "Maximum Expected Operating Pressure" .
+
+<http://qudt.org/vocab/quantitykind/MaximumOperatingPressure> schema:name "Maximum Operating Pressure" .
+
+<http://qudt.org/vocab/quantitykind/MeanEnergyImparted> schema:name "Mean Energy Imparted" .
+
+<http://qudt.org/vocab/quantitykind/MeanFreePath> schema:name "Mean Free Path" .
+
+<http://qudt.org/vocab/quantitykind/MeanLifetime> schema:name "Mean Lifetime" .
+
+<http://qudt.org/vocab/quantitykind/MeanLinearRange> schema:name "Mean Linear Range" .
+
+<http://qudt.org/vocab/quantitykind/MeanMassRange> schema:name "Mean Mass Range" .
+
+<http://qudt.org/vocab/quantitykind/MechanicalEnergy> schema:name "Mechanical Energy" .
+
+<http://qudt.org/vocab/quantitykind/MechanicalImpedance> schema:name "Mechanical Impedance" .
+
+<http://qudt.org/vocab/quantitykind/MechanicalMobility> schema:name "Mechanical Mobility" .
+
+<http://qudt.org/vocab/quantitykind/MechanicalSurfaceImpedance> schema:name "Mechanical surface impedance" .
+
+<http://qudt.org/vocab/quantitykind/MeltingPoint> schema:name "Melting Point Temperature" .
+
+<http://qudt.org/vocab/quantitykind/MicroCanonicalPartitionFunction> schema:name "Micro Canonical Partition Function" .
+
+<http://qudt.org/vocab/quantitykind/MicrobialFormation> schema:name "Microbial Formation" .
+
+<http://qudt.org/vocab/quantitykind/MigrationArea> schema:name "Migration Area" .
+
+<http://qudt.org/vocab/quantitykind/MigrationLength> schema:name "Migration Length" .
+
+<http://qudt.org/vocab/quantitykind/Mobility> schema:name "mobility" .
+
+<http://qudt.org/vocab/quantitykind/MobilityRatio> schema:name "Mobility Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfAdmittance> schema:name "Modulus Of Admittance" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfElasticity> schema:name "Modulus of Elasticity" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfImpedance> schema:name "Modulus Of Impedance" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfLinearSubgradeReaction> schema:name "Modulus of Linear Subgrade Reaction" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfRotationalSubgradeReaction> schema:name "Modulus of Rotational Subgrade Reaction" .
+
+<http://qudt.org/vocab/quantitykind/ModulusOfSubgradeReaction> schema:name "Modulus of Subgrade Reaction" .
+
+<http://qudt.org/vocab/quantitykind/MoistureDiffusivity> schema:name "Moisture Diffusivity" .
+
+<http://qudt.org/vocab/quantitykind/MolalityOfSolute> schema:name "Molality of Solute" .
+
+<http://qudt.org/vocab/quantitykind/MolarAbsorptionCoefficient> schema:name "Molar Absorption Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/MolarAngularMomentum> schema:name "Molar Angular Momentum" .
+
+<http://qudt.org/vocab/quantitykind/MolarAttenuationCoefficient> schema:name "Molar Attenuation Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/MolarConductivity> schema:name "Molar Conductivity" .
+
+<http://qudt.org/vocab/quantitykind/MolarEnergy> schema:name "Molar Energy" .
+
+<http://qudt.org/vocab/quantitykind/MolarEntropy> schema:name "Molar Entropy" .
+
+<http://qudt.org/vocab/quantitykind/MolarFlowRate> schema:name "Molar Flow Rate" .
+
+<http://qudt.org/vocab/quantitykind/MolarFluxDensity> schema:name "Molar Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/MolarFluxDensityVariance_NEON> schema:name "Molar Flux Density Variance, NEON" .
+
+<http://qudt.org/vocab/quantitykind/MolarHeatCapacity> schema:name "Molar Heat Capacity" .
+
+<http://qudt.org/vocab/quantitykind/MolarMass> schema:name "molar mass" .
+
+<http://qudt.org/vocab/quantitykind/MolarOpticalRotatoryPower> schema:name "Molar Optical Rotatory Power" .
+
+<http://qudt.org/vocab/quantitykind/MolarRefractivity> schema:name "Molar Refractivity" .
+
+<http://qudt.org/vocab/quantitykind/MolarVolume> schema:name "molar volume" .
+
+<http://qudt.org/vocab/quantitykind/MoleFraction> schema:name "Mole Fraction" .
+
+<http://qudt.org/vocab/quantitykind/MolecularConcentration> schema:name "Molecular Concentration" .
+
+<http://qudt.org/vocab/quantitykind/MolecularMass> schema:name "Molecular Mass" .
+
+<http://qudt.org/vocab/quantitykind/MolecularViscosity> schema:name "Molecular Viscosity" .
+
+<http://qudt.org/vocab/quantitykind/MomentOfForce> schema:name "Moment of Force" .
+
+<http://qudt.org/vocab/quantitykind/MomentOfInertia> schema:name "moment of inertia" .
+
+<http://qudt.org/vocab/quantitykind/Momentum> schema:name "momentum" .
+
+<http://qudt.org/vocab/quantitykind/MomentumPerAngle> schema:name "Momentum per Angle" .
+
+<http://qudt.org/vocab/quantitykind/MorbidityRate> schema:name "Morbidity Rate" .
+
+<http://qudt.org/vocab/quantitykind/MortalityRate> schema:name "Mortality Rate" .
+
+<http://qudt.org/vocab/quantitykind/MultiplicationFactor> schema:name "Multiplication Factor" .
+
+<http://qudt.org/vocab/quantitykind/MutualInductance> schema:name "Mutual Inductance" .
+
+<http://qudt.org/vocab/quantitykind/NOMINAL-ASCENT-PROPELLANT-MASS> schema:name "Nominal Ascent Propellant Mass" .
+
+<http://qudt.org/vocab/quantitykind/NapierianAbsorbance> schema:name "Napierian Absorbance" .
+
+<http://qudt.org/vocab/quantitykind/NeelTemperature> schema:name "Neel Temperature" .
+
+<http://qudt.org/vocab/quantitykind/NeutronDiffusionCoefficient> schema:name "diffusion coefficient" .
+
+<http://qudt.org/vocab/quantitykind/NeutronDiffusionLength> schema:name "Neutron Diffusion Length" .
+
+<http://qudt.org/vocab/quantitykind/NeutronNumber> schema:name "neutron number" .
+
+<http://qudt.org/vocab/quantitykind/NeutronYieldPerAbsorption> schema:name "Neutron Yield per Absorption" .
+
+<http://qudt.org/vocab/quantitykind/NeutronYieldPerFission> schema:name "Neutron Yield per Fission" .
+
+<http://qudt.org/vocab/quantitykind/Non-LeakageProbability> schema:name "Non-Leakage Probability" .
+
+<http://qudt.org/vocab/quantitykind/NonActivePower> schema:name "Non-active Power" .
+
+<http://qudt.org/vocab/quantitykind/NonNegativeLength> schema:name "Positive Length" .
+
+<http://qudt.org/vocab/quantitykind/NormalStress> schema:name "Normal Stress" .
+
+<http://qudt.org/vocab/quantitykind/NormalizedDimensionlessRatio> schema:name "Positive Dimensionless Ratio" .
+
+<http://qudt.org/vocab/quantitykind/NozzleThroatCrossSectionalArea> schema:name "Nozzle Throat Cross-sectional Area" .
+
+<http://qudt.org/vocab/quantitykind/NozzleThroatDiameter> schema:name "Nozzle Throat Diameter" .
+
+<http://qudt.org/vocab/quantitykind/NozzleThroatPressure> schema:name "Nozzle Throat Pressure" .
+
+<http://qudt.org/vocab/quantitykind/NozzleWallsThrustReaction> schema:name "Nozzle Walls Thrust Reaction" .
+
+<http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> schema:name "Nuclear Quadrupole Moment" .
+
+<http://qudt.org/vocab/quantitykind/NuclearRadius> schema:name "Nuclear Radius" .
+
+<http://qudt.org/vocab/quantitykind/NuclearSpinQuantumNumber> schema:name "Spin Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/NucleonNumber> schema:name "nucleon number" .
+
+<http://qudt.org/vocab/quantitykind/NumberDensity> schema:name "Number Density" .
+
+<http://qudt.org/vocab/quantitykind/NumberOfParticles> schema:name "Number of Particles" .
+
+<http://qudt.org/vocab/quantitykind/OlfactoryThreshold> schema:name "Olfactory Threshold" .
+
+<http://qudt.org/vocab/quantitykind/OpeningRatio> schema:name "Opening Ratio" .
+
+<http://qudt.org/vocab/quantitykind/OrbitalAngularMomentumPerMass> schema:name "Orbital Angular Momentum per Mass" .
+
+<http://qudt.org/vocab/quantitykind/OrbitalAngularMomentumQuantumNumber> schema:name "Orbital Angular Momentum Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/OrbitalRadialDistance> schema:name "Orbital Radial Distance" .
+
+<http://qudt.org/vocab/quantitykind/OrderOfReflection> schema:name "Order of Reflection" .
+
+<http://qudt.org/vocab/quantitykind/OsmoticCoefficient> schema:name "Osmotic Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/OsmoticConcentration> schema:name "Osmotic Concentration" .
+
+<http://qudt.org/vocab/quantitykind/OsmoticPressure> schema:name "osmotic pressure" .
+
+<http://qudt.org/vocab/quantitykind/OverRangeDistance> schema:name "Over-range distance" .
+
+<http://qudt.org/vocab/quantitykind/PREDICTED-MASS> schema:name "Predicted Mass" .
+
+<http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA> schema:name "Product of Inertia" .
+
+<http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_X> schema:name "Product of Inertia in the X axis" .
+
+<http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_Y> schema:name "Product of Inertia in the Y axis" .
+
+<http://qudt.org/vocab/quantitykind/PRODUCT-OF-INERTIA_Z> schema:name "Product of Inertia in the Z axis" .
+
+<http://qudt.org/vocab/quantitykind/PackingFraction> schema:name "Packing Fraction" .
+
+<http://qudt.org/vocab/quantitykind/PartialPressure> schema:name "Partial Pressure" .
+
+<http://qudt.org/vocab/quantitykind/ParticleCurrent> schema:name "Particle Current" .
+
+<http://qudt.org/vocab/quantitykind/ParticleFluence> schema:name "Particle Fluence" .
+
+<http://qudt.org/vocab/quantitykind/ParticleFluenceRate> schema:name "Particle Fluence Rate" .
+
+<http://qudt.org/vocab/quantitykind/ParticleNumberDensity> schema:name "Particle Number Density" .
+
+<http://qudt.org/vocab/quantitykind/ParticlePositionVector> schema:name "Particle Position Vector" .
+
+<http://qudt.org/vocab/quantitykind/ParticleSourceDensity> schema:name "Particle Source Density" .
+
+<http://qudt.org/vocab/quantitykind/PathLength> schema:name "Path Length" .
+
+<http://qudt.org/vocab/quantitykind/PayloadMass> schema:name "Payload Mass" .
+
+<http://qudt.org/vocab/quantitykind/PayloadRatio> schema:name "Payload Ratio" .
+
+<http://qudt.org/vocab/quantitykind/PeltierCoefficient> schema:name "Peltier Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/Period> schema:name "Period" .
+
+<http://qudt.org/vocab/quantitykind/Permeability> schema:name "Permeability" .
+
+<http://qudt.org/vocab/quantitykind/PermeabilityRatio> schema:name "Permeability Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Permeance> schema:name "Permeance" .
+
+<http://qudt.org/vocab/quantitykind/Permittivity> schema:name "Permittivity" .
+
+<http://qudt.org/vocab/quantitykind/PermittivityRatio> schema:name "Permittivity Ratio" .
+
+<http://qudt.org/vocab/quantitykind/PhaseCoefficient> schema:name "Phase coefficient" .
+
+<http://qudt.org/vocab/quantitykind/PhaseDifference> schema:name "phase difference" .
+
+<http://qudt.org/vocab/quantitykind/PhaseSpeedOfSound> schema:name "Phase speed of sound" .
+
+<http://qudt.org/vocab/quantitykind/PhononMeanFreePath> schema:name "Phonon Mean Free Path" .
+
+<http://qudt.org/vocab/quantitykind/PhotoThresholdOfAwarenessFunction> schema:name "Photo Threshold of Awareness Function" .
+
+<http://qudt.org/vocab/quantitykind/PhotonIntensity> schema:name "Photon Intensity" .
+
+<http://qudt.org/vocab/quantitykind/PhotonRadiance> schema:name "Photon Radiance" .
+
+<http://qudt.org/vocab/quantitykind/PhotosyntheticPhotonFlux> schema:name "Photosynthetic Photon Flux" .
+
+<http://qudt.org/vocab/quantitykind/PhotosyntheticPhotonFluxDensity> schema:name "Photosynthetic Photon Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/PlanarForce> schema:name "Planar Force" .
+
+<http://qudt.org/vocab/quantitykind/PlanckFunction> schema:name "Planck Function" .
+
+<http://qudt.org/vocab/quantitykind/PlaneAngle> schema:name "plane angle" .
+
+<http://qudt.org/vocab/quantitykind/PoissonRatio> schema:name "Poisson Ratio" .
+
+<http://qudt.org/vocab/quantitykind/PolarMomentOfInertia> schema:name "Polar moment of inertia" .
+
+<http://qudt.org/vocab/quantitykind/Polarizability> schema:name "polarisability" .
+
+<http://qudt.org/vocab/quantitykind/PolarizationField> schema:name "Polarization Field" .
+
+<http://qudt.org/vocab/quantitykind/Population> schema:name "Population" .
+
+<http://qudt.org/vocab/quantitykind/PositionVector> schema:name "Position Vector" .
+
+<http://qudt.org/vocab/quantitykind/PositiveDimensionlessRatio> schema:name "Positive Dimensionless Ratio" .
+
+<http://qudt.org/vocab/quantitykind/PositiveLength> schema:name "Positive Length" .
+
+<http://qudt.org/vocab/quantitykind/PositivePlaneAngle> schema:name "Positive Plane Angle" .
+
+<http://qudt.org/vocab/quantitykind/PotentialEnergy> schema:name "potential energy" .
+
+<http://qudt.org/vocab/quantitykind/Power> schema:name "power" .
+
+<http://qudt.org/vocab/quantitykind/PowerArea> schema:name "Power Area" .
+
+<http://qudt.org/vocab/quantitykind/PowerAreaPerSolidAngle> schema:name "Power Area per Solid Angle" .
+
+<http://qudt.org/vocab/quantitykind/PowerFactor> schema:name "power factor" .
+
+<http://qudt.org/vocab/quantitykind/PowerPerArea> schema:name "Power Per Area" .
+
+<http://qudt.org/vocab/quantitykind/PowerPerAreaAngle> schema:name "Power per Area Angle" .
+
+<http://qudt.org/vocab/quantitykind/PowerPerAreaQuarticTemperature> schema:name "Power per area quartic temperature" .
+
+<http://qudt.org/vocab/quantitykind/PowerPerElectricCharge> schema:name "Power Per Electric Charge" .
+
+<http://qudt.org/vocab/quantitykind/PoyntingVector> schema:name "Poynting vector" .
+
+<http://qudt.org/vocab/quantitykind/Pressure> schema:name "pressure" .
+
+<http://qudt.org/vocab/quantitykind/PressureBurningRateConstant> schema:name "Pressure Burning Rate Constant" .
+
+<http://qudt.org/vocab/quantitykind/PressureBurningRateIndex> schema:name "Pressure Burning Rate Index" .
+
+<http://qudt.org/vocab/quantitykind/PressureCoefficient> schema:name "Pressure Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/PressureLossPerLength> schema:name "Pressure Loss per Length" .
+
+<http://qudt.org/vocab/quantitykind/PressureRatio> schema:name "Pressure Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Prevalence> schema:name "Prevalence" .
+
+<http://qudt.org/vocab/quantitykind/PrincipalQuantumNumber> schema:name "Principal Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/PropagationCoefficient> schema:name "Propagation coefficient" .
+
+<http://qudt.org/vocab/quantitykind/PropellantBurnRate> schema:name "Propellant Burn Rate" .
+
+<http://qudt.org/vocab/quantitykind/PropellantMass> schema:name "Propellant Mass" .
+
+<http://qudt.org/vocab/quantitykind/PropellantMeanBulkTemperature> schema:name "Propellant Mean Bulk Temperature" .
+
+<http://qudt.org/vocab/quantitykind/PropellantTemperature> schema:name "Propellant Temperature" .
+
+<http://qudt.org/vocab/quantitykind/QualityFactor> schema:name "Quality Factor" .
+
+<http://qudt.org/vocab/quantitykind/QuantumNumber> schema:name "Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/RESERVE-MASS> schema:name "Reserve Mass" .
+
+<http://qudt.org/vocab/quantitykind/RF-Power> schema:name "RF-Power Level" .
+
+<http://qudt.org/vocab/quantitykind/RadialDistance> schema:name "Radial Distance" .
+
+<http://qudt.org/vocab/quantitykind/Radiance> schema:name "Radiance" .
+
+<http://qudt.org/vocab/quantitykind/RadianceFactor> schema:name "Radiance Factor" .
+
+<http://qudt.org/vocab/quantitykind/RadiantEmmitance> schema:name "Radiant Emmitance" .
+
+<http://qudt.org/vocab/quantitykind/RadiantEnergy> schema:name "radiant energy" .
+
+<http://qudt.org/vocab/quantitykind/RadiantEnergyDensity> schema:name "Radiant Energy Density" .
+
+<http://qudt.org/vocab/quantitykind/RadiantExposure> schema:name "Radiant Exposure" .
+
+<http://qudt.org/vocab/quantitykind/RadiantFluence> schema:name "Radiant Fluence" .
+
+<http://qudt.org/vocab/quantitykind/RadiantFluenceRate> schema:name "Radiant Fluence Rate" .
+
+<http://qudt.org/vocab/quantitykind/RadiantFlux> schema:name "radiant flux" .
+
+<http://qudt.org/vocab/quantitykind/RadiantIntensity> schema:name "Radiant Intensity" .
+
+<http://qudt.org/vocab/quantitykind/RadiativeHeatTransfer> schema:name "Radiative Heat Transfer" .
+
+<http://qudt.org/vocab/quantitykind/Radiosity> schema:name "Radiosity" .
+
+<http://qudt.org/vocab/quantitykind/Radius> schema:name "Radius" .
+
+<http://qudt.org/vocab/quantitykind/RadiusOfCurvature> schema:name "Radius of Curvature" .
+
+<http://qudt.org/vocab/quantitykind/RatioOfSpecificHeatCapacities> schema:name "Ratio of Specific Heat Capacities" .
+
+<http://qudt.org/vocab/quantitykind/Reactance> schema:name "Reactance" .
+
+<http://qudt.org/vocab/quantitykind/ReactionEnergy> schema:name "Reaction Energy" .
+
+<http://qudt.org/vocab/quantitykind/ReactivePower> schema:name "reactive power" .
+
+<http://qudt.org/vocab/quantitykind/Reactivity> schema:name "Reactivity" .
+
+<http://qudt.org/vocab/quantitykind/ReactorTimeConstant> schema:name "Reactor Time Constant" .
+
+<http://qudt.org/vocab/quantitykind/RecombinationCoefficient> schema:name "Recombination Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/Reflectance> schema:name "Reflectance" .
+
+<http://qudt.org/vocab/quantitykind/ReflectanceFactor> schema:name "Reflectance Factor" .
+
+<http://qudt.org/vocab/quantitykind/Reflectivity> schema:name "Reflectivity" .
+
+<http://qudt.org/vocab/quantitykind/RefractiveIndex> schema:name "refractive index" .
+
+<http://qudt.org/vocab/quantitykind/RelativeAtomicMass> schema:name "Relative Atomic Mass" .
+
+<http://qudt.org/vocab/quantitykind/RelativeHumidity> schema:name "Relative Humidity" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMassConcentrationOfVapour> schema:name "Relative Mass Concentration of Vapour" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMassDefect> schema:name "Relative Mass Defect" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMassDensity> schema:name "Relative Mass Density" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMassExcess> schema:name "Relative Mass Excess" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMassRatioOfVapour> schema:name "Relative Mass Ratio of Vapour" .
+
+<http://qudt.org/vocab/quantitykind/RelativeMolecularMass> schema:name "Relative Molecular Mass" .
+
+<http://qudt.org/vocab/quantitykind/RelativePartialPressure> schema:name "Relative Partial Pressure" .
+
+<http://qudt.org/vocab/quantitykind/RelativePressureCoefficient> schema:name "Relative Pressure Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/RelaxationTIme> schema:name "Relaxation TIme" .
+
+<http://qudt.org/vocab/quantitykind/Reluctance> schema:name "Reluctance" .
+
+<http://qudt.org/vocab/quantitykind/ResidualResistivity> schema:name "Residual Resistivity" .
+
+<http://qudt.org/vocab/quantitykind/Resistance> schema:name "Resistance" .
+
+<http://qudt.org/vocab/quantitykind/ResistanceRatio> schema:name "Resistance Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Resistivity> schema:name "Resistivity" .
+
+<http://qudt.org/vocab/quantitykind/ResonanceEnergy> schema:name "Resonance Energy" .
+
+<http://qudt.org/vocab/quantitykind/ResonanceEscapeProbability> schema:name "Resonance Escape Probability" .
+
+<http://qudt.org/vocab/quantitykind/ResonanceEscapeProbabilityForFission> schema:name "Resonance Escape Probability For Fission" .
+
+<http://qudt.org/vocab/quantitykind/RespiratoryRate> schema:name "Respiratory Rate" .
+
+<http://qudt.org/vocab/quantitykind/RestEnergy> schema:name "Rest Energy" .
+
+<http://qudt.org/vocab/quantitykind/RestMass> schema:name "rest mass" .
+
+<http://qudt.org/vocab/quantitykind/ReverberationTime> schema:name "Reverberation Time" .
+
+<http://qudt.org/vocab/quantitykind/ReynoldsNumber> schema:name "Reynolds Number" .
+
+<http://qudt.org/vocab/quantitykind/RichardsonConstant> schema:name "Richardson Constant" .
+
+<http://qudt.org/vocab/quantitykind/RocketAtmosphericTransverseForce> schema:name "Rocket Atmospheric Transverse Force" .
+
+<http://qudt.org/vocab/quantitykind/RotationalFrequency> schema:name "RotationalFrequency" .
+
+<http://qudt.org/vocab/quantitykind/RotationalMass> schema:name "Rotational Mass" .
+
+<http://qudt.org/vocab/quantitykind/RotationalStiffness> schema:name "Rotational Stiffness" .
+
+<http://qudt.org/vocab/quantitykind/RotationalVelocity> schema:name "RotationalFrequency" .
+
+<http://qudt.org/vocab/quantitykind/ScalarMagneticPotential> schema:name "Scalar Magnetic Potential" .
+
+<http://qudt.org/vocab/quantitykind/SecondAxialMomentOfArea> schema:name "Second Axial Moment of Area" .
+
+<http://qudt.org/vocab/quantitykind/SecondMomentOfArea> schema:name "second moment of area" .
+
+<http://qudt.org/vocab/quantitykind/SecondOrderReactionRateConstant> schema:name "Reaction Rate Constant" .
+
+<http://qudt.org/vocab/quantitykind/SecondPolarMomentOfArea> schema:name "Second Polar Moment of Area" .
+
+<http://qudt.org/vocab/quantitykind/SecondStageMassRatio> schema:name "Second Stage Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/SectionAreaIntegral> schema:name "Section Area Integral" .
+
+<http://qudt.org/vocab/quantitykind/SectionModulus> schema:name "Section Modulus" .
+
+<http://qudt.org/vocab/quantitykind/SeebeckCoefficient> schema:name "Seebeck Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/SerumOrPlasmaLevel> schema:name "Serum or Plasma Level" .
+
+<http://qudt.org/vocab/quantitykind/ServiceFactor> schema:name "Service Factor" .
+
+<http://qudt.org/vocab/quantitykind/ShannonDiversityIndex> schema:name "Shannon Diversity Index" .
+
+<http://qudt.org/vocab/quantitykind/ShearModulus> schema:name "Shear Modulus" .
+
+<http://qudt.org/vocab/quantitykind/ShearStrain> schema:name "Shear Strain" .
+
+<http://qudt.org/vocab/quantitykind/ShearStress> schema:name "Shear Stress" .
+
+<http://qudt.org/vocab/quantitykind/Short-RangeOrderParameter> schema:name "Short-Range Order Parameter" .
+
+<http://qudt.org/vocab/quantitykind/SignalDetectionThreshold> schema:name "Signal Detection Threshold" .
+
+<http://qudt.org/vocab/quantitykind/SignalStrength> schema:name "Signal Strength" .
+
+<http://qudt.org/vocab/quantitykind/SingleStageLauncherMassRatio> schema:name "Single Stage Launcher Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Slowing-DownArea> schema:name "Slowing-Down Area" .
+
+<http://qudt.org/vocab/quantitykind/Slowing-DownDensity> schema:name "Slowing-Down Density" .
+
+<http://qudt.org/vocab/quantitykind/Slowing-DownLength> schema:name "Slowing-Down Length" .
+
+<http://qudt.org/vocab/quantitykind/SoilAdsorptionCoefficient> schema:name "Soil Adsorption Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/SolidAngle> schema:name "solid angle" .
+
+<http://qudt.org/vocab/quantitykind/SolidStateDiffusionLength> schema:name "Diffusion Length (Solid State Physics)" .
+
+<http://qudt.org/vocab/quantitykind/Solubility_Water> schema:name "Water Solubility" .
+
+<http://qudt.org/vocab/quantitykind/SoundEnergyDensity> schema:name "Sound energy density" .
+
+<http://qudt.org/vocab/quantitykind/SoundExposure> schema:name "Sound exposure" .
+
+<http://qudt.org/vocab/quantitykind/SoundExposureLevel> schema:name "Sound exposure level" .
+
+<http://qudt.org/vocab/quantitykind/SoundIntensity> schema:name "Sound intensity" .
+
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> schema:name "Sound particle acceleration" .
+
+<http://qudt.org/vocab/quantitykind/SoundParticleDisplacement> schema:name "Sound Particle Displacement" .
+
+<http://qudt.org/vocab/quantitykind/SoundParticleVelocity> schema:name "sound particle velocity" .
+
+<http://qudt.org/vocab/quantitykind/SoundPower> schema:name "sound power" .
+
+<http://qudt.org/vocab/quantitykind/SoundPowerLevel> schema:name "Sound power level" .
+
+<http://qudt.org/vocab/quantitykind/SoundPressure> schema:name "Sound pressure" .
+
+<http://qudt.org/vocab/quantitykind/SoundPressureLevel> schema:name "sound pressure level" .
+
+<http://qudt.org/vocab/quantitykind/SoundReductionIndex> schema:name "Sound reduction index" .
+
+<http://qudt.org/vocab/quantitykind/SoundVolumeVelocity> schema:name "Sound volume velocity" .
+
+<http://qudt.org/vocab/quantitykind/SourceVoltage> schema:name "Source Voltage" .
+
+<http://qudt.org/vocab/quantitykind/SourceVoltageBetweenSubstances> schema:name "Source Voltage Between Substances" .
+
+<http://qudt.org/vocab/quantitykind/SpatialSummationFunction> schema:name "Spatial Summation Function" .
+
+<http://qudt.org/vocab/quantitykind/SpecificAcousticImpedance> schema:name "Specific Acoustic Impedance" .
+
+<http://qudt.org/vocab/quantitykind/SpecificActivity> schema:name "Specific Activity" .
+
+<http://qudt.org/vocab/quantitykind/SpecificElectricCharge> schema:name "Specific Electric Charge" .
+
+<http://qudt.org/vocab/quantitykind/SpecificElectricCurrent> schema:name "Specific Electrical Current" .
+
+<http://qudt.org/vocab/quantitykind/SpecificEnergy> schema:name "Specific Energy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificEnergyImparted> schema:name "Specific Energy Imparted" .
+
+<http://qudt.org/vocab/quantitykind/SpecificEnthalpy> schema:name "Specific Enthalpy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificEntropy> schema:name "Specific Entropy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificGibbsEnergy> schema:name "Specific Gibbs Energy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatCapacity> schema:name "Specific Heat Capacity" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtConstantPressure> schema:name "Specific heat capacity at constant pressure" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtConstantVolume> schema:name "Specific heat capacity at constant volume" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatCapacityAtSaturation> schema:name "Specific Heat Capacity at Saturation" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatPressure> schema:name "Specific Heat Pressure" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatVolume> schema:name "Specific Heat Volume" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHeatsRatio> schema:name "Specific Heats Ratio" .
+
+<http://qudt.org/vocab/quantitykind/SpecificHelmholtzEnergy> schema:name "Specific Helmholtz Energy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificImpulse> schema:name "Specific Impulse" .
+
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> schema:name "Specific Impulse by Mass" .
+
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByWeight> schema:name "Specific Impulse by Weight" .
+
+<http://qudt.org/vocab/quantitykind/SpecificInternalEnergy> schema:name "Specific Internal Energy" .
+
+<http://qudt.org/vocab/quantitykind/SpecificModulus> schema:name "Specific Modulus" .
+
+<http://qudt.org/vocab/quantitykind/SpecificOpticalRotatoryPower> schema:name "Specific Optical Rotatory Power" .
+
+<http://qudt.org/vocab/quantitykind/SpecificPower> schema:name "Specific Power" .
+
+<http://qudt.org/vocab/quantitykind/SpecificSurfaceArea> schema:name "Specific Surface Area" .
+
+<http://qudt.org/vocab/quantitykind/SpecificThrust> schema:name "Specific thrust" .
+
+<http://qudt.org/vocab/quantitykind/SpecificVolume> schema:name "Specific Volume" .
+
+<http://qudt.org/vocab/quantitykind/SpecificWeight> schema:name "specific weight" .
+
+<http://qudt.org/vocab/quantitykind/SpectralAngularCrossSection> schema:name "Spectral Angular Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/SpectralCrossSection> schema:name "Spectral Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/SpectralLuminousEfficiency> schema:name "Spectral Luminous Efficiency" .
+
+<http://qudt.org/vocab/quantitykind/SpectralRadiantEnergyDensity> schema:name "Spectral Radiant Energy Density" .
+
+<http://qudt.org/vocab/quantitykind/Speed> schema:name "Speed" .
+
+<http://qudt.org/vocab/quantitykind/SpeedOfLight> schema:name "speed of light" .
+
+<http://qudt.org/vocab/quantitykind/SpeedOfSound> schema:name "speed of sound" .
+
+<http://qudt.org/vocab/quantitykind/SpeedRatio> schema:name "Speed Ratio" .
+
+<http://qudt.org/vocab/quantitykind/SphericalIlluminance> schema:name "Illuminance" .
+
+<http://qudt.org/vocab/quantitykind/Spin> schema:name "spin" .
+
+<http://qudt.org/vocab/quantitykind/SpinQuantumNumber> schema:name "Spin Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/StagePropellantMass> schema:name "Stage Propellant Mass" .
+
+<http://qudt.org/vocab/quantitykind/StageStructuralMass> schema:name "Stage Structure Mass" .
+
+<http://qudt.org/vocab/quantitykind/StandardAbsoluteActivity> schema:name "Standard Absolute Activity" .
+
+<http://qudt.org/vocab/quantitykind/StandardChemicalPotential> schema:name "Standard Chemical Potential" .
+
+<http://qudt.org/vocab/quantitykind/StandardGravitationalParameter> schema:name "Standard Gravitational Parameter" .
+
+<http://qudt.org/vocab/quantitykind/StateOfCharge> schema:name "State of charge" .
+
+<http://qudt.org/vocab/quantitykind/StaticFriction> schema:name "Static Friction" .
+
+<http://qudt.org/vocab/quantitykind/StaticFrictionCoefficient> schema:name "Static Friction Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/StaticPressure> schema:name "Static pressure" .
+
+<http://qudt.org/vocab/quantitykind/StatisticalWeight> schema:name "Statistical Weight" .
+
+<http://qudt.org/vocab/quantitykind/StochasticProcess> schema:name "Stochastic Process" .
+
+<http://qudt.org/vocab/quantitykind/StoichiometricNumber> schema:name "Stoichiometric Number" .
+
+<http://qudt.org/vocab/quantitykind/Strain> schema:name "Strain" .
+
+<http://qudt.org/vocab/quantitykind/StrainEnergyDensity> schema:name "Strain Energy Density" .
+
+<http://qudt.org/vocab/quantitykind/StrainEnergyReleaseRate> schema:name "Strain Energy Release Rate" .
+
+<http://qudt.org/vocab/quantitykind/Stress> schema:name "Stress" .
+
+<http://qudt.org/vocab/quantitykind/StressIntensityFactor> schema:name "Stress Intensity Factor" .
+
+<http://qudt.org/vocab/quantitykind/StressOpticCoefficient> schema:name "Stress-Optic Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/StructuralEfficiency> schema:name "Structural Efficiency" .
+
+<http://qudt.org/vocab/quantitykind/StructureFactor> schema:name "Structure Factor" .
+
+<http://qudt.org/vocab/quantitykind/SuperconductionTransitionTemperature> schema:name "Superconduction Transition Temperature" .
+
+<http://qudt.org/vocab/quantitykind/SuperconductorEnergyGap> schema:name "Superconductor Energy Gap" .
+
+<http://qudt.org/vocab/quantitykind/SurfaceActivityDensity> schema:name "Surface Activity Density" .
+
+<http://qudt.org/vocab/quantitykind/SurfaceCoefficientOfHeatTransfer> schema:name "Surface Coefficient of Heat Transfer" .
+
+<http://qudt.org/vocab/quantitykind/SurfaceDensity> schema:name "Surface Density" .
+
+<http://qudt.org/vocab/quantitykind/SurfaceTension> schema:name "surface tension" .
+
+<http://qudt.org/vocab/quantitykind/Susceptance> schema:name "Susceptance" .
+
+<http://qudt.org/vocab/quantitykind/SystolicBloodPressure> schema:name "Systolic Blood Pressure" .
+
+<http://qudt.org/vocab/quantitykind/TARGET-BOGIE-MASS> schema:name "Target Bogie Mass" .
+
+<http://qudt.org/vocab/quantitykind/Temperature> schema:name "Temperature" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureAmountOfSubstance> schema:name "Temperature Amount of Substance" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureDifference> schema:name "temperature difference" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureGradient> schema:name "Temperature Gradient" .
+
+<http://qudt.org/vocab/quantitykind/TemperaturePerMagneticFluxDensity> schema:name "Temperature per Magnetic Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/TemperaturePerTime> schema:name "Temperature per Time" .
+
+<http://qudt.org/vocab/quantitykind/TemperaturePerTime_Squared> schema:name "Temperature per Time Squared" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureRateOfChange> schema:name "Temperature Rate of Change" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureRatio> schema:name "Temperature Ratio" .
+
+<http://qudt.org/vocab/quantitykind/TemperatureVariance_NEON> schema:name "Temperature Variance, NEON" .
+
+<http://qudt.org/vocab/quantitykind/TemporalSummationFunction> schema:name "Temporal Summation Function" .
+
+<http://qudt.org/vocab/quantitykind/Tension> schema:name "Tension" .
+
+<http://qudt.org/vocab/quantitykind/ThermalAdmittance> schema:name "Thermal Admittance" .
+
+<http://qudt.org/vocab/quantitykind/ThermalConductance> schema:name "Thermal Conductance" .
+
+<http://qudt.org/vocab/quantitykind/ThermalConductivity> schema:name "Thermal Conductivity" .
+
+<http://qudt.org/vocab/quantitykind/ThermalDiffusionFactor> schema:name "Thermal Diffusion Factor" .
+
+<http://qudt.org/vocab/quantitykind/ThermalDiffusionRatio> schema:name "Thermal Diffusion Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ThermalDiffusionRatioCoefficient> schema:name "Thermal Diffusion Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/ThermalDiffusivity> schema:name "Thermal Diffusivity" .
+
+<http://qudt.org/vocab/quantitykind/ThermalEfficiency> schema:name "Thermal Efficiency" .
+
+<http://qudt.org/vocab/quantitykind/ThermalEnergy> schema:name "Thermal Energy" .
+
+<http://qudt.org/vocab/quantitykind/ThermalEnergyLength> schema:name "Thermal Energy Length" .
+
+<http://qudt.org/vocab/quantitykind/ThermalExpansionCoefficient> schema:name "Thermal Expansion Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/ThermalInsulance> schema:name "Thermal Insulance" .
+
+<http://qudt.org/vocab/quantitykind/ThermalResistance> schema:name "thermal resistance" .
+
+<http://qudt.org/vocab/quantitykind/ThermalResistivity> schema:name "Thermal Resistivity" .
+
+<http://qudt.org/vocab/quantitykind/ThermalTransmittance> schema:name "Thermal Transmittance" .
+
+<http://qudt.org/vocab/quantitykind/ThermalUtilizationFactor> schema:name "Thermal Utilization Factor" .
+
+<http://qudt.org/vocab/quantitykind/ThermalUtilizationFactorForFission> schema:name "Thermal Utilization Factor For Fission" .
+
+<http://qudt.org/vocab/quantitykind/ThermodynamicCriticalMagneticFluxDensity> schema:name "Thermodynamic Critical Magnetic Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/ThermodynamicEnergy> schema:name "Thermodynamic Energy" .
+
+<http://qudt.org/vocab/quantitykind/ThermodynamicEntropy> schema:name "Thermodynamic Entropy" .
+
+<http://qudt.org/vocab/quantitykind/ThermodynamicTemperature> schema:name "thermodynamic temperature" .
+
+<http://qudt.org/vocab/quantitykind/Thickness> schema:name "Thickness" .
+
+<http://qudt.org/vocab/quantitykind/ThomsonCoefficient> schema:name "Thomson Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/Thrust> schema:name "Thrust" .
+
+<http://qudt.org/vocab/quantitykind/ThrustCoefficient> schema:name "Thrust Coefficient" .
+
+<http://qudt.org/vocab/quantitykind/ThrustToMassRatio> schema:name "Thrust To Mass Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ThrustToWeightRatio> schema:name "Thrust To Weight Ratio" .
+
+<http://qudt.org/vocab/quantitykind/ThrusterPowerToThrustEfficiency> schema:name "Thruster Power To Thrust Efficiency" .
+
+<http://qudt.org/vocab/quantitykind/Tilt> schema:name "Tilt" .
+
+<http://qudt.org/vocab/quantitykind/Time> schema:name "time" .
+
+<http://qudt.org/vocab/quantitykind/TimeAveragedSoundIntensity> schema:name "Time averaged sound intensity" .
+
+<http://qudt.org/vocab/quantitykind/TimeRatio> schema:name "Time Ratio" .
+
+<http://qudt.org/vocab/quantitykind/TimeTemperature> schema:name "Time Temperature" .
+
+<http://qudt.org/vocab/quantitykind/Time_Squared> schema:name "Time Squared" .
+
+<http://qudt.org/vocab/quantitykind/Torque> schema:name "torque" .
+
+<http://qudt.org/vocab/quantitykind/TorquePerAngle> schema:name "Torque per Angle" .
+
+<http://qudt.org/vocab/quantitykind/TorquePerLength> schema:name "Torque per Length" .
+
+<http://qudt.org/vocab/quantitykind/TorsionalSpringConstant> schema:name "torsional spring constant" .
+
+<http://qudt.org/vocab/quantitykind/TotalAngularMomentum> schema:name "Total Angular Momentum" .
+
+<http://qudt.org/vocab/quantitykind/TotalAngularMomentumQuantumNumber> schema:name "Total Angular Momentum Quantum Number" .
+
+<http://qudt.org/vocab/quantitykind/TotalAtomicStoppingPower> schema:name "Total Atomic Stopping Power" .
+
+<http://qudt.org/vocab/quantitykind/TotalCrossSection> schema:name "Total Cross-section" .
+
+<http://qudt.org/vocab/quantitykind/TotalCurrent> schema:name "Total Current" .
+
+<http://qudt.org/vocab/quantitykind/TotalCurrentDensity> schema:name "Total Current Density" .
+
+<http://qudt.org/vocab/quantitykind/TotalIonization> schema:name "Total Ionization" .
+
+<http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> schema:name "Total Linear Stopping Power" .
+
+<http://qudt.org/vocab/quantitykind/TotalMassStoppingPower> schema:name "Total Mass Stopping Power" .
+
+<http://qudt.org/vocab/quantitykind/TotalPressure> schema:name "Total Pressure" .
+
+<http://qudt.org/vocab/quantitykind/TouchThresholds> schema:name "Touch Thresholds" .
+
+<http://qudt.org/vocab/quantitykind/Transmittance> schema:name "Transmittance" .
+
+<http://qudt.org/vocab/quantitykind/TransmittanceDensity> schema:name "Transmittance Density" .
+
+<http://qudt.org/vocab/quantitykind/TrueExhaustVelocity> schema:name "True Exhaust Velocity" .
+
+<http://qudt.org/vocab/quantitykind/Turbidity> schema:name "Turbidity" .
+
+<http://qudt.org/vocab/quantitykind/Turns> schema:name "Turns" .
+
+<http://qudt.org/vocab/quantitykind/Unknown> schema:name "Unknown" .
+
+<http://qudt.org/vocab/quantitykind/UpperCriticalMagneticFluxDensity> schema:name "Upper Critical Magnetic Flux Density" .
+
+<http://qudt.org/vocab/quantitykind/VacuumThrust> schema:name "Vacuum Thrust" .
+
+<http://qudt.org/vocab/quantitykind/VaporPermeability> schema:name "Vapor Permeability" .
+
+<http://qudt.org/vocab/quantitykind/VaporPermeance> schema:name "Vapor Permeability" .
+
+<http://qudt.org/vocab/quantitykind/VaporPressure> schema:name "Vapor Pressure" .
+
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> schema:name "Vehicle Velocity" .
+
+<http://qudt.org/vocab/quantitykind/Velocity> schema:name "velocity" .
+
+<http://qudt.org/vocab/quantitykind/VentilationRatePerFloorArea> schema:name "Ventilation Rate per Floor Area" .
+
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> schema:name "Vertical Velocity" .
+
+<http://qudt.org/vocab/quantitykind/VideoFrameRate> schema:name "Video Frame Rate" .
+
+<http://qudt.org/vocab/quantitykind/Viscosity> schema:name "Viscosity" .
+
+<http://qudt.org/vocab/quantitykind/VisibleRadiantEnergy> schema:name "Visible Radiant Energy" .
+
+<http://qudt.org/vocab/quantitykind/VisionThresholds> schema:name "Vision Thresholds" .
+
+<http://qudt.org/vocab/quantitykind/Voltage> schema:name "Voltage" .
+
+<http://qudt.org/vocab/quantitykind/VoltagePhasor> schema:name "Voltage Phasor" .
+
+<http://qudt.org/vocab/quantitykind/VoltageRatio> schema:name "Voltage Ratio" .
+
+<http://qudt.org/vocab/quantitykind/Volume> schema:name "Volume" .
+
+<http://qudt.org/vocab/quantitykind/VolumeFlowRate> schema:name "Volume Flow Rate" .
+
+<http://qudt.org/vocab/quantitykind/VolumeFlowRatio> schema:name "Volume Flow Ratio" .
+
+<http://qudt.org/vocab/quantitykind/VolumeFraction> schema:name "Volume Fraction" .
+
+<http://qudt.org/vocab/quantitykind/VolumePerArea> schema:name "Volume per Unit Area" .
+
+<http://qudt.org/vocab/quantitykind/VolumePerTime> schema:name "Volume per Time" .
+
+<http://qudt.org/vocab/quantitykind/VolumeStrain> schema:name "Volume Strain" .
+
+<http://qudt.org/vocab/quantitykind/VolumeThermalExpansion> schema:name "Volume Thermal Expansion" .
+
+<http://qudt.org/vocab/quantitykind/VolumetricFlux> schema:name "Volumetric Flux" .
+
+<http://qudt.org/vocab/quantitykind/VolumetricHeatCapacity> schema:name "Volumetric Heat Capacity" .
+
+<http://qudt.org/vocab/quantitykind/VolumicElectromagneticEnergy> schema:name "Volumic Electromagnetic Energy" .
+
+<http://qudt.org/vocab/quantitykind/Vorticity> schema:name "Vorticity" .
+
+<http://qudt.org/vocab/quantitykind/WarmReceptorThreshold> schema:name "Warm Receptor Threshold" .
+
+<http://qudt.org/vocab/quantitykind/WarpingConstant> schema:name "Warping Constant" .
+
+<http://qudt.org/vocab/quantitykind/WarpingMoment> schema:name "Warping Moment" .
+
+<http://qudt.org/vocab/quantitykind/WaterHorsepower> schema:name "Water Horsepower" .
+
+<http://qudt.org/vocab/quantitykind/WaterVaporDiffusionCoefficient> schema:name "Water vapour diffusion coefficient" .
+
+<http://qudt.org/vocab/quantitykind/Wavelength> schema:name "wavelength" .
+
+<http://qudt.org/vocab/quantitykind/Wavenumber> schema:name "wavenumber" .
+
+<http://qudt.org/vocab/quantitykind/WebTime> schema:name "Web Time" .
+
+<http://qudt.org/vocab/quantitykind/WebTimeAveragePressure> schema:name "Web Time Average Pressure" .
+
+<http://qudt.org/vocab/quantitykind/WebTimeAverageThrust> schema:name "Web Time Average Thrust" .
+
+<http://qudt.org/vocab/quantitykind/Weight> schema:name "weight" .
+
+<http://qudt.org/vocab/quantitykind/WetBulbTemperature> schema:name "Wet Bulb Temperature" .
+
+<http://qudt.org/vocab/quantitykind/Width> schema:name "Width" .
+
+<http://qudt.org/vocab/quantitykind/Work> schema:name "work" .
+
+<http://qudt.org/vocab/quantitykind/WorkFunction> schema:name "Work Function" .

@@ -1,0 +1,533 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://purl.org/NET/rdflicense/cc-by4.0>
+    schema:name "Creative Commons - Attribution 4.0 International - CC BY 4.0"@en ;
+    schema:url "http://creativecommons.org/licenses/by/4.0/legalcode"^^xsd:anyURI ;
+.
+
+dcterms:audience
+    schema:description "A class of agents for whom the resource is intended or useful."@en ;
+    schema:name "Audience"@en ;
+.
+
+dcterms:conformsTo
+    schema:description "An established standard to which the described resource conforms."@en ;
+    schema:name "Conforms To"@en ;
+.
+
+dcterms:contributor
+    schema:description "An entity responsible for making contributions to the resource."@en ;
+    schema:name "Contributor"@en ;
+.
+
+dcterms:created
+    schema:description "Date of creation of the resource."@en ;
+    schema:name "Date Created"@en ;
+.
+
+dcterms:creator
+    schema:description "An entity responsible for making the resource."@en ;
+    schema:name "Creator"@en ;
+.
+
+dcterms:identifier
+    schema:description "An unambiguous reference to the resource within a given context."@en ;
+    schema:name "Identifier"@en ;
+.
+
+dcterms:isReplacedBy
+    schema:description "A related resource that supplants, displaces, or supersedes the described resource."@en ;
+    schema:name "Is Replaced By"@en ;
+.
+
+dcterms:language
+    schema:description "A language of the resource."@en ;
+    schema:name "Language"@en ;
+.
+
+dcterms:license
+    schema:description "A legal document giving official permission to do something with the resource."@en ;
+    schema:name "License"@en ;
+.
+
+dcterms:modified
+    schema:description "Date on which the resource was changed."@en ;
+    schema:name "Date Modified"@en ;
+.
+
+dcterms:publisher
+    schema:description "An entity responsible for making the resource available."@en ;
+    schema:name "Publisher"@en ;
+.
+
+dcterms:references
+    schema:description "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+    schema:name "References"@en ;
+.
+
+dcterms:source
+    schema:description "A related resource from which the described resource is derived."@en ;
+    schema:name "Source"@en ;
+.
+
+dcterms:subject
+    schema:description "A topic of the resource."@en ;
+    schema:name "Subject"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/Area>
+    schema:name "area"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/Depth>
+    schema:name "Depth"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/Frequency>
+    schema:name "frequency"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/MassConcentration>
+    schema:name "Mass Concentration"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/MassDensity>
+    schema:name "mass density"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/MassFlowRate>
+    schema:name "Mass Flow Rate"@en ;
+    schema:url <http://qudt.org/vocab/quantitykind/SpecificImpulse> ;
+.
+
+<http://qudt.org/vocab/quantitykind/NumberDensity>
+    schema:name "Number Density"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/Pressure>
+    schema:name "pressure"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/RelativeHumidity>
+    schema:name "Relative Humidity"@en ;
+    schema:url <http://qudt.org/vocab/quantitykind/AbsoluteHumidity> ;
+.
+
+<http://qudt.org/vocab/quantitykind/Speed>
+    schema:name "Speed"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/Temperature>
+    schema:name "Temperature"@en ;
+    schema:url <http://qudt.org/vocab/quantitykind/ThermodynamicTemperature> ;
+.
+
+geo:Feature
+    schema:description
+        "A discrete spatial phenomenon in a universe of discourse"@en ,
+        "A discrete spatial phenomenon in a universe of discourse."@en ;
+    schema:name
+        "Feature" ,
+        "Feature"@en ;
+.
+
+geo:FeatureCollection
+    schema:description "The class Feature Collection represents any collection of individual Features."@en ;
+    schema:name "Feature Collection"@en ;
+.
+
+geo:Geometry
+    schema:description "A coherent set of direct positions in Euclidian space. A direct position holds the coordinates for a position within a Coordinate Reference System (CRS)."@en ;
+    schema:name "Geometry"@en ;
+.
+
+geo:asWKT
+    schema:description "The WKT serialization of a Geometry"@en ;
+    schema:name "as WKT"@en ;
+.
+
+geo:hasBoundingBox
+    schema:description "The minimum or smallest bounding or enclosing box of a given Feature."@en ;
+    schema:name "has bounding box"@en ;
+.
+
+geo:hasGeometry
+    schema:description "A spatial representation for a given Feature."@en ;
+    schema:name "has geometry"@en ;
+.
+
+rdfs:isDefinedBy
+    schema:description "The defininition of the subject resource." ;
+    schema:name "is defined by" ;
+.
+
+rdfs:seeAlso
+    schema:description "Further information about the subject resource." ;
+    schema:name "see also" ;
+.
+
+owl:deprecated
+    schema:description "The annotation property that indicates that a given entity has been deprecated." ;
+    schema:name "deprecated" ;
+.
+
+owl:sameAs
+    schema:description "The property that determines that two given individuals are equal." ;
+    schema:name "sameAs" ;
+.
+
+owl:versionInfo
+    schema:description "The annotation property that provides version information for an ontology or another OWL construct." ;
+    schema:name "versionInfo" ;
+.
+
+skos:Concept
+    schema:description
+        "An idea or notion; a unit of thought" ,
+        "An idea or notion; a unit of thought"@en ;
+    schema:name
+        "Concept" ,
+        "Concept"@en ;
+.
+
+skos:ConceptScheme
+    schema:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en ;
+    schema:name "Concept Scheme"@en ;
+.
+
+skos:altLabel
+    schema:description "An alternative lexical label for a resource"@en ;
+    schema:name "alternative label"@en ;
+.
+
+skos:broadMatch
+    schema:description "skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes"@en ;
+    schema:name "has broader match"@en ;
+.
+
+skos:broader
+    schema:description "Relates a concept to a concept that is more general in meaning"@en ;
+    schema:name "has broader"@en ;
+.
+
+skos:changeNote
+    schema:description "A note about a modification to a concept"@en ;
+    schema:name "change note"@en ;
+.
+
+skos:closeMatch
+    schema:description "skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of \"compound errors\" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property"@en ;
+    schema:name "has close match"@en ;
+.
+
+skos:definition
+    schema:description "A statement or formal explanation of the meaning of a concept"@en ;
+    schema:name "definition"@en ;
+.
+
+skos:editorialNote
+    schema:description "A note for an editor, translator or maintainer of the vocabulary"@en ;
+    schema:name "editorial note"@en ;
+.
+
+skos:exactMatch
+    schema:description "skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch"@en ;
+    schema:name "has exact match"@en ;
+.
+
+skos:example
+    schema:description "An example of the use of a concept"@en ;
+    schema:name "example"@en ;
+.
+
+skos:hasTopConcept
+    schema:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en ;
+    schema:name "has top concept"@en ;
+.
+
+skos:hiddenLabel
+    schema:description "A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations"@en ;
+    schema:name "hidden label"@en ;
+.
+
+skos:historyNote
+    schema:description "A note about the past state/use/meaning of a concept"@en ;
+    schema:name "history note"@en ;
+.
+
+skos:inScheme
+    schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included"@en ;
+    schema:name "is in scheme"@en ;
+.
+
+skos:narrowMatch
+    schema:description "skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes"@en ;
+    schema:name "has narrower match"@en ;
+.
+
+skos:narrower
+    schema:description "Relates a concept to a concept that is more specific in meaning"@en ;
+    schema:name "has narrower"@en ;
+.
+
+skos:notation
+    schema:description "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme"@en ;
+    schema:name "notation"@en ;
+.
+
+skos:note
+    schema:description "A general note, for any purpose"@en ;
+    schema:name "note"@en ;
+.
+
+skos:prefLabel
+    schema:description "The preferred lexical label for a resource, in a given language"@en ;
+    schema:name "preferred label"@en ;
+.
+
+skos:relatedMatch
+    schema:description "skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes"@en ;
+    schema:name "has related match"@en ;
+.
+
+skos:scopeNote
+    schema:description "A note that helps to clarify the meaning and/or the use of a concept"@en ;
+    schema:name "scope note"@en ;
+.
+
+skos:topConceptOf
+    schema:description "Relates a concept to the concept scheme that it is a top level concept of"@en ;
+    schema:name "is top concept in scheme"@en ;
+.
+
+time:TemporalEntity
+    schema:description "A temporal interval or instant."@en ;
+    schema:name "Temporal entity"@en ;
+.
+
+time:hasTime
+    schema:description
+        "Supports the association of a temporal entity (instant or interval) to any thing"@en ,
+        "Supports the association of a temporal entity (instant or interval) to any thing."@en ;
+    schema:name "has time"@en ;
+.
+
+time:inXSDDateTime
+    schema:description "Position of an instant, expressed using xsd:dateTime"@en ;
+    schema:name "in XSD Date-Time"@en ;
+.
+
+prof:hasArtifact
+    schema:description "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"@en ;
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    schema:description "A resource which describes the nature of an artifact and the role it plays in relation to the Profile"@en ;
+    schema:name "has resource"@en ;
+.
+
+prof:hasRole
+    schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."@en ;
+    schema:name "has role" ;
+.
+
+<https://linked.data.gov.au/def/anzsrc-for/2020/300202>
+    schema:name "Agricultural land management"@en ;
+.
+
+<https://linked.data.gov.au/def/anzsrc-for/2020/300203>
+    schema:name "Agricultural land planning"@en ;
+.
+
+<https://linked.data.gov.au/org/agldwg>
+    schema:name "Australian Government Linked Data Working Group" ;
+.
+
+<https://prez.dev/Manifest>
+    schema:name "Manifest" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CatalogueData>
+    schema:description "Data for the container, usually a Catalogue, including the identity of it and each item fo content" ;
+    schema:name "Catalogue Data" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels>
+    schema:description "All the labels - possibly including names, descriptions & seeAlso links - for the Catalogue and Resource objects" ;
+    schema:name "Complete Catalogue and Resource Labels" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/ResourceData>
+    schema:description "Data for the content of the container" ;
+    schema:name "Resource Data" ;
+.
+
+schema:CreativeWork
+    schema:description "The most generic kind of creative work, including books, movies, photographs, software programs, etc" ;
+    schema:name "Creative work" ;
+.
+
+schema:DataCatalog
+    schema:description "A collection of datasets" ;
+    schema:name "Data catalog" ;
+.
+
+schema:Dataset
+    schema:description "A body of structured information describing some topic(s) of interest" ;
+    schema:name "Dataset" ;
+.
+
+schema:Organization
+    schema:description "An organization such as a school, NGO, corporation, club, etc" ;
+    schema:name "Organization" ;
+.
+
+schema:Person
+    schema:description "A person (alive, dead, undead, or fictional)" ;
+    schema:name "Person" ;
+.
+
+schema:QuantitativeValue
+    schema:description " A point value or interval for product characteristics and other purposes" ;
+    schema:name "Quantitative value" ;
+.
+
+schema:Researcher
+    schema:description "Researchers" ;
+    schema:name "Researcher" ;
+.
+
+schema:citation
+    schema:description "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc" ;
+    schema:name "citation" ;
+.
+
+schema:codeRepository
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)" ;
+    schema:name "code repository" ;
+.
+
+schema:contributor
+    schema:description "A secondary contributor to the CreativeWork or Event" ;
+    schema:name "contributor" ;
+.
+
+schema:creator
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork" ;
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed" ;
+    schema:name "date created" ;
+.
+
+schema:dateIssued
+    schema:description "The date the ticket was issued" ;
+    schema:name "date issued" ;
+.
+
+schema:dateModified
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed" ;
+    schema:name "date modified" ;
+.
+
+schema:description
+    schema:description "A description of the item" ;
+    schema:name "description" ;
+.
+
+schema:email
+    schema:description "Email address" ;
+    schema:name "email" ;
+.
+
+schema:hasPart
+    schema:description
+        "Indicates a Resource that is part of this item" ,
+        "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)" ;
+    schema:name
+        "has part" ,
+        "member" ;
+.
+
+schema:identifier
+    schema:description """The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
+        """ ;
+    schema:name "identifier" ;
+.
+
+schema:includedInDataCatalog
+    schema:description "A data catalog which contains this dataset" ;
+    schema:name "included in data catalog" ;
+.
+
+schema:isPartOf
+    schema:description "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of" ;
+    schema:name "is part of" ;
+.
+
+schema:keywords
+    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property" ;
+    schema:name "keywords" ;
+.
+
+schema:license
+    schema:description "A license document that applies to this content, typically indicated by URL" ;
+    schema:name "license" ;
+.
+
+schema:memberOf
+    schema:description "An Organization (or ProgramMembership) to which this Person or Organization belongs" ;
+    schema:name "member of" ;
+.
+
+schema:name
+    schema:description "The name of the item" ;
+    schema:name "name" ;
+.
+
+schema:parentOrganization
+    schema:description "The larger organization that this organization is a [[subOrganization]] of, if any" ;
+    schema:name "parent organization" ;
+.
+
+schema:publisher
+    schema:description "The publisher of the creative work" ;
+    schema:name "publisher" ;
+.
+
+schema:unitCode
+    schema:description "The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes than the UN/CEFACT Common Code may be used with a prefix followed by a colon" ;
+    schema:name "unit code" ;
+.
+
+schema:url
+    schema:description "URL of the item" ;
+    schema:name "url" ;
+.
+
+schema:value
+    schema:description "The value of a [[QuantitativeValue]] (including [[Observation]]) or property value node.\\n\\n* For [[QuantitativeValue]] and [[MonetaryAmount]], the recommended type for values is 'Number'.\\n* For [[PropertyValue]], it can be 'Text', 'Number', 'Boolean', or 'StructuredValue'.\\n* Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similar Unicode symbols.\\n* Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator" ;
+    schema:name "value" ;
+.
+
+schema:version
+    schema:description "The version of the CreativeWork embodied by a specified resource" ;
+    schema:name "version" ;
+.
+
+<https://w3id.org/tern/ontologies/tern/featureType>
+    schema:description "The feature type of a [Feature of Interest](#FeatureofInterest)." ;
+    schema:name "feature type" ;
+.
+

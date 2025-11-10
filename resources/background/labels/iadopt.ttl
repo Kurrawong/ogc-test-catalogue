@@ -1,0 +1,10 @@
+PREFIX schema: <https://schema.org/>
+
+<https://w3id.org/iadopt/ont/Constraint> schema:name "Constraint" .
+<https://w3id.org/iadopt/ont/Variable> schema:name "Variable" .
+<https://w3id.org/iadopt/ont/constrains> schema:name "constrains" .
+<https://w3id.org/iadopt/ont/hasConstraint> schema:name "has constraint" .
+<https://w3id.org/iadopt/ont/hasContextObject> schema:name "has context object" .
+<https://w3id.org/iadopt/ont/hasMatrix> schema:name "has matrix" .
+<https://w3id.org/iadopt/ont/hasObjectOfInterest> schema:name "has object of interest" .
+<https://w3id.org/iadopt/ont/hasProperty> schema:name "has property" .

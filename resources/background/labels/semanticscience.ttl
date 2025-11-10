@@ -1,0 +1,12 @@
+PREFIX schema: <https://schema.org/>
+
+<http://semanticscience.org/resource/SIO_000147> schema:name "keyword" .
+<http://semanticscience.org/resource/SIO_000318> schema:name "longitude" .
+<http://semanticscience.org/resource/SIO_000485> schema:name "human" .
+<http://semanticscience.org/resource/SIO_000600> schema:name "structure" .
+<http://semanticscience.org/resource/SIO_001080> schema:name "vocabulary" .
+<http://semanticscience.org/resource/SIO_001109> schema:name "mean" .
+<http://semanticscience.org/resource/SIO_001212> schema:name "intensity" .
+<http://semanticscience.org/resource/SIO_010026> schema:name "genetic polymorphism" .
+<http://semanticscience.org/resource/SIO_010029> schema:name "biological sex" .
+<http://semanticscience.org/resource/SIO_010418> schema:name "solute" .

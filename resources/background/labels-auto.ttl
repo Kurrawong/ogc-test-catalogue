@@ -1,0 +1,467 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+<http://purl.org/NET/rdflicense/cc-zero1.0>
+    schema:name
+        "Creative Commons CC0" ,
+        "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"@en ;
+    schema:url <http://creativecommons.org/publicdomain/zero/1.0/legalcode> ;
+.
+
+dc:
+    schema:name "Dublin Core Metadata Element Set, Version 1.1"@en ;
+.
+
+dcterms:bibliographicCitation
+    schema:description "A bibliographic reference for the resource."@en ;
+    schema:name "Bibliographic Citation"@en ;
+.
+
+dcterms:issued
+    schema:description "Date of formal issuance of the resource."@en ;
+    schema:name "Date Issued"@en ;
+.
+
+dcterms:replaces
+    schema:description "A related resource that is supplanted, displaced, or superseded by the described resource."@en ;
+    schema:name "Replaces"@en ;
+.
+
+dcterms:rightsHolder
+    schema:description "A person or organization owning or managing rights over the resource."@en ;
+    schema:name "Rights Holder"@en ;
+.
+
+dcterms:type
+    schema:description "The nature or genre of the resource."@en ;
+    schema:name "Type"@en ;
+.
+
+<http://qudt.org/schema/qudt/QuantityValue>
+    schema:description "A <i>Quantity Value</i> expresses the magnitude and kind of a quantity and is given by the product of a numerical value <code>n</code> and a unit of measure <code>U</code>. The number multiplying the unit is referred to as the numerical value of the quantity expressed in that unit. Refer to <a href=\"http://physics.nist.gov/Pubs/SP811/sec07.html\">NIST SP 811 section 7</a> for more on quantity values." ;
+    schema:name "Quantity value" ;
+.
+
+<http://rs.tdwg.org/dwc/terms/>
+    schema:description "This term list includes all currently valid terms that have been defined in the core Darwin Core namespace dwc:.  To comment on this schema, please create a new issue in https://github.com/tdwg/dwc/issues"@en ;
+    schema:name "Core terms defined by Darwin Core"@en ;
+.
+
+rdf:Property
+    schema:description "The class of RDF properties." ;
+    schema:name "Property" ;
+.
+
+rdf:first
+    schema:description "The first item in the subject RDF list." ;
+    schema:name "first" ;
+.
+
+()
+    schema:description "The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it." ;
+    schema:name "nil" ;
+.
+
+rdf:rest
+    schema:description "The rest of the subject RDF list after the first item." ;
+    schema:name "rest" ;
+.
+
+rdfs:member
+    schema:description "A member of the subject resource." ;
+    schema:name "member" ;
+.
+
+rdfs:range
+    schema:description "A range of the subject property." ;
+    schema:name "range" ;
+.
+
+rdfs:subPropertyOf
+    schema:description "The subject is a subproperty of a property." ;
+    schema:name "subproperty of" ;
+.
+
+owl:DatatypeProperty
+    schema:description "The class of data properties." ;
+    schema:name "DatatypeProperty" ;
+.
+
+owl:ObjectProperty
+    schema:description "The class of object properties." ;
+    schema:name "ObjectProperty" ;
+.
+
+owl:Restriction
+    schema:description "The class of property restrictions." ;
+    schema:name "Restriction" ;
+.
+
+owl:allValuesFrom
+    schema:description "The property that determines the class that a universal property restriction refers to." ;
+    schema:name "allValuesFrom" ;
+.
+
+owl:cardinality
+    schema:description "The property that determines the cardinality of an exact cardinality restriction." ;
+    schema:name "cardinality" ;
+.
+
+owl:hasValue
+    schema:description "The property that determines the individual that a has-value restriction refers to." ;
+    schema:name "hasValue" ;
+.
+
+owl:maxCardinality
+    schema:description "The property that determines the cardinality of a maximum cardinality restriction." ;
+    schema:name "maxCardinality" ;
+.
+
+owl:maxQualifiedCardinality
+    schema:description "The property that determines the cardinality of a maximum qualified cardinality restriction." ;
+    schema:name "maxQualifiedCardinality" ;
+.
+
+owl:minCardinality
+    schema:description "The property that determines the cardinality of a minimum cardinality restriction." ;
+    schema:name "minCardinality" ;
+.
+
+owl:minQualifiedCardinality
+    schema:description "The property that determines the cardinality of a minimum qualified cardinality restriction." ;
+    schema:name "minQualifiedCardinality" ;
+.
+
+owl:onClass
+    schema:description "The property that determines the class that a qualified object cardinality restriction refers to." ;
+    schema:name "onClass" ;
+.
+
+owl:onDataRange
+    schema:description "The property that determines the data range that a qualified data cardinality restriction refers to." ;
+    schema:name "onDataRange" ;
+.
+
+owl:onProperty
+    schema:description "The property that determines the property that a property restriction refers to." ;
+    schema:name "onProperty" ;
+.
+
+owl:qualifiedCardinality
+    schema:description "The property that determines the cardinality of an exact qualified cardinality restriction." ;
+    schema:name "qualifiedCardinality" ;
+.
+
+owl:someValuesFrom
+    schema:description "The property that determines the class that an existential property restriction refers to." ;
+    schema:name "someValuesFrom" ;
+.
+
+owl:unionOf
+    schema:description "The property that determines the collection of classes or data ranges that build a union." ;
+    schema:name "unionOf" ;
+.
+
+owl:versionIRI
+    schema:description "The property that identifies the version IRI of an ontology." ;
+    schema:name "versionIRI" ;
+.
+
+time:Instant
+    schema:description "A temporal entity with zero extent or duration"@en ;
+    schema:name "Time instant"@en ;
+.
+
+time:ProperInterval
+    schema:description "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"@en ;
+    schema:name "Proper interval"@en ;
+.
+
+time:hasBeginning
+    schema:description "Beginning of a temporal entity."@en ;
+    schema:name "has beginning"@en ;
+.
+
+time:hasEnd
+    schema:description "End of a temporal entity."@en ;
+    schema:name "has end"@en ;
+.
+
+time:inXSDDate
+    schema:description "Position of an instant, expressed using xsd:date"@en ;
+    schema:name "in XSD date"@en ;
+.
+
+time:inXSDgYear
+    schema:description "Position of an instant, expressed using xsd:gYear"@en ;
+    schema:name "in XSD g-Year"@en ;
+.
+
+prov:Activity
+    schema:name "Activity" ;
+.
+
+prov:Entity
+    schema:name "Entity" ;
+.
+
+prov:Person
+    schema:name "Person" ;
+.
+
+prov:endedAtTime
+    schema:description "The time at which an activity ended. See also prov:startedAtTime."@en ;
+    schema:name "ended at time" ;
+.
+
+prov:startedAtTime
+    schema:description "The time at which an activity started. See also prov:endedAtTime."@en ;
+    schema:name "started at time" ;
+.
+
+prov:wasAssociatedWith
+    schema:description "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."@en ;
+    schema:name "was associated with" ;
+.
+
+<http://www.w3.org/ns/prov-o#>
+    schema:description """This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page). 
+
+If you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/Archives/Public/public-prov-comments/). All feedback is welcome."""@en ;
+    schema:name "W3C PROVenance Interchange Ontology (PROV-O)"@en ;
+    schema:url
+        <http://www.w3.org/TR/prov-o/> ,
+        <http://www.w3.org/ns/prov> ;
+.
+
+sosa:Actuation
+    schema:description "An Actuation carries out an (Actuation) Procedure to change the state of the world using an Actuator."@en ;
+    schema:name "Actuation"@en ;
+.
+
+sosa:ObservableProperty
+    schema:description "An observable quality (property, characteristic) of a FeatureOfInterest."@en ;
+    schema:name "Observable Property"@en ;
+.
+
+sosa:Observation
+    schema:description
+        """If values are not provided for the following Observation properties, they may be provided by the ObservationCollection of which it is a member:
+- hasFeatureOfInterest
+- hasUltimateFeatureOfInterest
+- madeBySensor
+- observedProperty
+- phenomenonTime
+- resultTime
+- usedProcedure""" ,
+        "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en ;
+    schema:name "Observation"@en ;
+.
+
+sosa:Platform
+    schema:description "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms."@en ;
+    schema:name "Platform"@en ;
+.
+
+sosa:Sample
+    schema:description "Feature which is intended to be representative of a FeatureOfInterest on which Observations may be made."@en ;
+    schema:name "Sample"@en ;
+.
+
+sosa:Sampling
+    schema:description "An act of Sampling carries out a sampling Procedure to create or transform one or more samples."@en ;
+    schema:name "Sampling"@en ;
+.
+
+sosa:actsOnProperty
+    schema:description "Relation between an Actuation and the property of a FeatureOfInterest it is acting upon."@en ;
+    schema:name "acts on property"@en ;
+.
+
+sosa:hasFeatureOfInterest
+    schema:description "A relation between an Observation and the entity whose quality was observed, or between an Actuation and the entity whose property was modified, or between an act of Sampling and the entity that was sampled."@en ;
+    schema:name "has feature of interest"@en ;
+.
+
+sosa:hasResult
+    schema:description "Relation linking an Observation or Actuation or act of Sampling and a Result or Sample."@en ;
+    schema:name "has result"@en ;
+.
+
+sosa:hasSample
+    schema:description "Relation between a FeatureOfInterest and the Sample used to represent it."@en ;
+    schema:name "has sample"@en ;
+.
+
+sosa:hasSimpleResult
+    schema:description "The simple value of an Observation or Actuation or act of Sampling."@en ;
+    schema:name "has simple result"@en ;
+.
+
+sosa:hosts
+    schema:description "Relation between a Platform and a Sensor, Actuator, Sampler, or Platform, hosted or mounted on it."@en ;
+    schema:name "hosts"@en ;
+.
+
+sosa:isActedOnBy
+    schema:description "Relation between an ActuatableProperty of a FeatureOfInterest and an Actuation changing its state."@en ;
+    schema:name "is acted on by"@en ;
+.
+
+sosa:isFeatureOfInterestOf
+    schema:description "A relation between a FeatureOfInterest and an Observation about it, an Actuation acting on it, or an act of Sampling that sampled it."@en ;
+    schema:name "is feature of interest of"@en ;
+.
+
+sosa:isHostedBy
+    schema:description "Relation between a Sensor, Actuator, Sampler, or Platform, and the Platform that it is mounted on or hosted by."@en ;
+    schema:name "is hosted by"@en ;
+.
+
+sosa:isObservedBy
+    schema:description "Relation between an ObservableProperty and the Sensor able to observe it."@en ;
+    schema:name "is observed by"@en ;
+.
+
+sosa:isResultOf
+    schema:description "Relation linking a Result to the Observation or Actuation or act of Sampling that created or caused it."@en ;
+    schema:name "is result of"@en ;
+.
+
+sosa:isSampleOf
+    schema:description "Relation from a Sample to the FeatureOfInterest that it is intended to be representative of."@en ;
+    schema:name "is sample of"@en ;
+.
+
+sosa:madeActuation
+    schema:description "Relation between an Actuator and the Actuation it has made."@en ;
+    schema:name "made actuation"@en ;
+.
+
+sosa:madeByActuator
+    schema:description "Relation linking an Actuation to the Actuator that made that Actuation."@en ;
+    schema:name "made by actuator"@en ;
+.
+
+sosa:madeBySampler
+    schema:description "Relation linking an act of Sampling to the Sampler (sampling device or entity) that made it."@en ;
+    schema:name "made by sampler"@en ;
+.
+
+sosa:madeBySensor
+    schema:description "Relation between an Observation and the Sensor which made the Observation."@en ;
+    schema:name "made by sensor"@en ;
+.
+
+sosa:madeObservation
+    schema:description "Relation between a Sensor and an Observation made by the Sensor."@en ;
+    schema:name "made observation"@en ;
+.
+
+sosa:madeSampling
+    schema:description "Relation between a Sampler (sampling device or entity) and the Sampling act it performed."@en ;
+    schema:name "made sampling"@en ;
+.
+
+sosa:observedProperty
+    schema:description "Relation linking an Observation to the property that was observed. The ObservableProperty should be a property of the FeatureOfInterest (linked by hasFeatureOfInterest) of this Observation."@en ;
+    schema:name "observed property"@en ;
+.
+
+sosa:observes
+    schema:description "Relation between a Sensor and an ObservableProperty that it is capable of sensing."@en ;
+    schema:name "observes"@en ;
+.
+
+sosa:phenomenonTime
+    schema:description "The time that the Result of an Observation, Actuation or Sampling applies to the FeatureOfInterest. Not necessarily the same as the resultTime. May be an Interval or an Instant, or some other compound TemporalEntity."@en ;
+    schema:name "phenomenon time"@en ;
+.
+
+sosa:resultTime
+    schema:description "The result time is the instant of time when the Observation, Actuation or Sampling activity was completed."@en ;
+    schema:name "result time"@en ;
+.
+
+sosa:usedProcedure
+    schema:description "A relation to link to a re-usable Procedure used in making an Observation, an Actuation, or a Sample, typically through a Sensor, Actuator or Sampler."@en ;
+    schema:name "used procedure"@en ;
+.
+
+schema:additionalType
+    schema:description
+        "An additional type for the item, typically used for adding more specific types from external vocabularies" ,
+        """An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
+    use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.""" ,
+        "An additional type for the item, typically used for adding more specific types from external vocabularies"@en ;
+    schema:name
+        "additional type" ,
+        "additional type"@en ;
+.
+
+schema:affiliation
+    schema:description "An organization that this person is affiliated with. For example, a school/university, a club, or a team" ;
+    schema:name "affiliation" ;
+.
+
+schema:color
+    schema:description "The color of the product" ;
+    schema:name "color" ;
+.
+
+schema:copyrightHolder
+    schema:description "The party holding the legal copyright to the CreativeWork" ;
+    schema:name "copyright holder" ;
+.
+
+schema:copyrightNotice
+    schema:description "Text of a notice appropriate for describing the copyright aspects of this Creative Work, ideally indicating the owner of the copyright for the Work" ;
+    schema:name "copyright notice" ;
+.
+
+schema:domainIncludes
+    schema:description "Relates a property to a class that is (one of) the type(s) the property is expected to be used on" ;
+    schema:name "domain includes" ;
+.
+
+schema:jurisdiction
+    schema:description "Indicates a legal jurisdiction, e.g. of some legislation, or where some government service is based" ;
+    schema:name "jurisdiction" ;
+.
+
+schema:rangeIncludes
+    schema:description "Relates a property to a class that constitutes (one of) the expected type(s) for values of the property" ;
+    schema:name "range includes" ;
+.
+
+schema:subjectOf
+    schema:description "A CreativeWork or Event about this Thing" ;
+    schema:name "subject of" ;
+.
+
+<https://w3id.org/tern/ontologies/tern/Attribute>
+    schema:description "A property-value pair. Same modelling pattern as [schema:PropertyValue](https://schema.org/PropertyValue)." ;
+    schema:name "Attribute" ;
+.
+
+<https://w3id.org/tern/ontologies/tern/attribute>
+    schema:description "Point to a concept representing the attribute." ;
+    schema:name "attribute" ;
+.
+
+<https://w3id.org/tern/ontologies/tern/hasAttribute>
+    schema:description "Link to an Attribute." ;
+    schema:name "has attribute" ;
+.
+
+<https://w3id.org/tern/ontologies/tern/hasValue>
+    schema:name "has value" ;
+.
+

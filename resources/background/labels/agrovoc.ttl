@@ -1,0 +1,316 @@
+PREFIX schema: <https://schema.org/>
+
+<http://aims.fao.org/aos/agrovoc/c_987> schema:name "bogs" .
+<http://aims.fao.org/aos/agrovoc/c_9499> schema:name "burning" .
+<http://aims.fao.org/aos/agrovoc/c_9421> schema:name "respiration" .
+<http://aims.fao.org/aos/agrovoc/c_935> schema:name "birds" .
+<http://aims.fao.org/aos/agrovoc/c_926> schema:name "biomass" .
+<http://aims.fao.org/aos/agrovoc/c_925> schema:name "biology" .
+<http://aims.fao.org/aos/agrovoc/c_92324> schema:name "organizational units" .
+<http://aims.fao.org/aos/agrovoc/c_915> schema:name "biogeography" .
+<http://aims.fao.org/aos/agrovoc/c_9000181> schema:name "net primary productivity" .
+<http://aims.fao.org/aos/agrovoc/c_8994> schema:name "atmosphere" .
+<http://aims.fao.org/aos/agrovoc/c_878> schema:name "benthos" .
+<http://aims.fao.org/aos/agrovoc/c_8721> schema:name "alkalinity" .
+<http://aims.fao.org/aos/agrovoc/c_8517> schema:name "zinc" .
+<http://aims.fao.org/aos/agrovoc/c_8421> schema:name "wood" .
+<http://aims.fao.org/aos/agrovoc/c_8410> schema:name "winter" .
+<http://aims.fao.org/aos/agrovoc/c_8371> schema:name "wetlands" .
+<http://aims.fao.org/aos/agrovoc/c_8334> schema:name "watersheds" .
+<http://aims.fao.org/aos/agrovoc/c_8327> schema:name "water storage" .
+<http://aims.fao.org/aos/agrovoc/c_8311> schema:name "water balance" .
+<http://aims.fao.org/aos/agrovoc/c_8309> schema:name "water" .
+<http://aims.fao.org/aos/agrovoc/c_820> schema:name "bark" .
+<http://aims.fao.org/aos/agrovoc/c_8196> schema:name "vertebrates" .
+<http://aims.fao.org/aos/agrovoc/c_8176> schema:name "vegetation" .
+<http://aims.fao.org/aos/agrovoc/c_8065> schema:name "ungulates" .
+<http://aims.fao.org/aos/agrovoc/c_8004> schema:name "tundra" .
+<http://aims.fao.org/aos/agrovoc/c_7983> schema:name "trout" .
+<http://aims.fao.org/aos/agrovoc/c_7878> schema:name "trapping" .
+<http://aims.fao.org/aos/agrovoc/c_7871> schema:name "transpiration" .
+<http://aims.fao.org/aos/agrovoc/c_7869> schema:name "translocation (plant physiology)" .
+<http://aims.fao.org/aos/agrovoc/c_7815> schema:name "topography" .
+<http://aims.fao.org/aos/agrovoc/c_7771> schema:name "tillage" .
+<http://aims.fao.org/aos/agrovoc/c_7764> schema:name "tides" .
+<http://aims.fao.org/aos/agrovoc/c_7729> schema:name "thinning" .
+<http://aims.fao.org/aos/agrovoc/c_7726> schema:name "thickness" .
+<http://aims.fao.org/aos/agrovoc/c_7657> schema:name "temperature" .
+<http://aims.fao.org/aos/agrovoc/c_765> schema:name "Bacteria" .
+<http://aims.fao.org/aos/agrovoc/c_7631> schema:name "taxonomy" .
+<http://aims.fao.org/aos/agrovoc/c_7563> schema:name "symbiosis" .
+<http://aims.fao.org/aos/agrovoc/c_7538> schema:name "survival" .
+<http://aims.fao.org/aos/agrovoc/c_7537> schema:name "surveys" .
+<http://aims.fao.org/aos/agrovoc/c_7462> schema:name "strontium" .
+<http://aims.fao.org/aos/agrovoc/c_7436> schema:name "storms" .
+<http://aims.fao.org/aos/agrovoc/c_7390> schema:name "stems" .
+<http://aims.fao.org/aos/agrovoc/c_7324> schema:name "spores" .
+<http://aims.fao.org/aos/agrovoc/c_7280> schema:name "species" .
+<http://aims.fao.org/aos/agrovoc/c_7208> schema:name "soil water content" .
+<http://aims.fao.org/aos/agrovoc/c_7205> schema:name "soil water" .
+<http://aims.fao.org/aos/agrovoc/c_7199> schema:name "soil texture" .
+<http://aims.fao.org/aos/agrovoc/c_7197> schema:name "soil temperature" .
+<http://aims.fao.org/aos/agrovoc/c_7162> schema:name "soil classification" .
+<http://aims.fao.org/aos/agrovoc/c_7161> schema:name "soil chemistry" .
+<http://aims.fao.org/aos/agrovoc/c_7156> schema:name "soil" .
+<http://aims.fao.org/aos/agrovoc/c_7145> schema:name "sodium" .
+<http://aims.fao.org/aos/agrovoc/c_7124> schema:name "snow" .
+<http://aims.fao.org/aos/agrovoc/c_7121> schema:name "snails" .
+<http://aims.fao.org/aos/agrovoc/c_7111> schema:name "slugs" .
+<http://aims.fao.org/aos/agrovoc/c_7071> schema:name "silviculture" .
+<http://aims.fao.org/aos/agrovoc/c_7061> schema:name "silicon" .
+<http://aims.fao.org/aos/agrovoc/c_7048> schema:name "shrews" .
+<http://aims.fao.org/aos/agrovoc/c_6998> schema:name "seston" .
+<http://aims.fao.org/aos/agrovoc/c_6946> schema:name "seeds" .
+<http://aims.fao.org/aos/agrovoc/c_6945> schema:name "seedlings" .
+<http://aims.fao.org/aos/agrovoc/c_6932> schema:name "seed dispersal" .
+<http://aims.fao.org/aos/agrovoc/c_693> schema:name "atmospheric pressure" .
+<http://aims.fao.org/aos/agrovoc/c_6926> schema:name "sedimentation" .
+<http://aims.fao.org/aos/agrovoc/c_6779> schema:name "sand" .
+<http://aims.fao.org/aos/agrovoc/c_6751> schema:name "salinity" .
+<http://aims.fao.org/aos/agrovoc/c_6743> schema:name "salamanders" .
+<http://aims.fao.org/aos/agrovoc/c_6651> schema:name "roots" .
+<http://aims.fao.org/aos/agrovoc/c_6621> schema:name "roads" .
+<http://aims.fao.org/aos/agrovoc/c_6617> schema:name "rivers" .
+<http://aims.fao.org/aos/agrovoc/c_6569> schema:name "rhizosphere" .
+<http://aims.fao.org/aos/agrovoc/c_6511> schema:name "reptiles" .
+<http://aims.fao.org/aos/agrovoc/c_6507> schema:name "reproduction" .
+<http://aims.fao.org/aos/agrovoc/c_6498> schema:name "remote sensing" .
+<http://aims.fao.org/aos/agrovoc/c_6496> schema:name "relative humidity" .
+<http://aims.fao.org/aos/agrovoc/c_6486> schema:name "regeneration" .
+<http://aims.fao.org/aos/agrovoc/c_6435> schema:name "rain" .
+<http://aims.fao.org/aos/agrovoc/c_6422> schema:name "radiation" .
+<http://aims.fao.org/aos/agrovoc/c_6414> schema:name "rabbits" .
+<http://aims.fao.org/aos/agrovoc/c_6268> schema:name "Protozoa" .
+<http://aims.fao.org/aos/agrovoc/c_6210> schema:name "productivity" .
+<http://aims.fao.org/aos/agrovoc/c_6200> schema:name "production" .
+<http://aims.fao.org/aos/agrovoc/c_6163> schema:name "predators" .
+<http://aims.fao.org/aos/agrovoc/c_6162> schema:name "predation" .
+<http://aims.fao.org/aos/agrovoc/c_6161> schema:name "precipitation" .
+<http://aims.fao.org/aos/agrovoc/c_6139> schema:name "potassium" .
+<http://aims.fao.org/aos/agrovoc/c_6111> schema:name "population dynamics" .
+<http://aims.fao.org/aos/agrovoc/c_6077> schema:name "pollution" .
+<http://aims.fao.org/aos/agrovoc/c_6070> schema:name "pollen" .
+<http://aims.fao.org/aos/agrovoc/c_5993> schema:name "plants" .
+<http://aims.fao.org/aos/agrovoc/c_5963> schema:name "plant ecology" .
+<http://aims.fao.org/aos/agrovoc/c_5950> schema:name "plankton" .
+<http://aims.fao.org/aos/agrovoc/c_5833> schema:name "physics" .
+<http://aims.fao.org/aos/agrovoc/c_5812> schema:name "photosynthesis" .
+<http://aims.fao.org/aos/agrovoc/c_5804> schema:name "phosphorus" .
+<http://aims.fao.org/aos/agrovoc/c_5778> schema:name "pheromones" .
+<http://aims.fao.org/aos/agrovoc/c_5774> schema:name "phenology" .
+<http://aims.fao.org/aos/agrovoc/c_5753> schema:name "pH" .
+<http://aims.fao.org/aos/agrovoc/c_5709> schema:name "periphyton" .
+<http://aims.fao.org/aos/agrovoc/c_5577> schema:name "parasitism" .
+<http://aims.fao.org/aos/agrovoc/c_5485> schema:name "ozone" .
+<http://aims.fao.org/aos/agrovoc/c_5477> schema:name "oxygen" .
+<http://aims.fao.org/aos/agrovoc/c_5387> schema:name "organic matter" .
+<http://aims.fao.org/aos/agrovoc/c_5274> schema:name "nutrients" .
+<http://aims.fao.org/aos/agrovoc/c_5209> schema:name "simulation" .
+<http://aims.fao.org/aos/agrovoc/c_5196> schema:name "nitrogen fixation" .
+<http://aims.fao.org/aos/agrovoc/c_5193> schema:name "nitrogen content" .
+<http://aims.fao.org/aos/agrovoc/c_5192> schema:name "nitrogen" .
+<http://aims.fao.org/aos/agrovoc/c_5188> schema:name "nitric acid" .
+<http://aims.fao.org/aos/agrovoc/c_5172> schema:name "nickel" .
+<http://aims.fao.org/aos/agrovoc/c_5105> schema:name "nekton" .
+<http://aims.fao.org/aos/agrovoc/c_510> schema:name "antimony" .
+<http://aims.fao.org/aos/agrovoc/c_5023> schema:name "mycorrhizae" .
+<http://aims.fao.org/aos/agrovoc/c_50182> schema:name "communities" .
+<http://aims.fao.org/aos/agrovoc/c_5016> schema:name "Mya" .
+<http://aims.fao.org/aos/agrovoc/c_5014> schema:name "mutation" .
+<http://aims.fao.org/aos/agrovoc/c_49904> schema:name "organisms" .
+<http://aims.fao.org/aos/agrovoc/c_49901> schema:name "nitrogen compounds" .
+<http://aims.fao.org/aos/agrovoc/c_49881> schema:name "physiology" .
+<http://aims.fao.org/aos/agrovoc/c_49865> schema:name "invasive species" .
+<http://aims.fao.org/aos/agrovoc/c_4973> schema:name "mud" .
+<http://aims.fao.org/aos/agrovoc/c_4945> schema:name "mortality" .
+<http://aims.fao.org/aos/agrovoc/c_4911> schema:name "monitoring" .
+<http://aims.fao.org/aos/agrovoc/c_4881> schema:name "models" .
+<http://aims.fao.org/aos/agrovoc/c_4788> schema:name "methods" .
+<http://aims.fao.org/aos/agrovoc/c_4784> schema:name "methane" .
+<http://aims.fao.org/aos/agrovoc/c_4783> schema:name "meteorology" .
+<http://aims.fao.org/aos/agrovoc/c_4769> schema:name "metabolism" .
+<http://aims.fao.org/aos/agrovoc/c_4631> schema:name "marshes" .
+<http://aims.fao.org/aos/agrovoc/c_4570> schema:name "manganese" .
+<http://aims.fao.org/aos/agrovoc/c_4560> schema:name "mammals" .
+<http://aims.fao.org/aos/agrovoc/c_4517> schema:name "magnesium" .
+<http://aims.fao.org/aos/agrovoc/c_447> schema:name "Annelida" .
+<http://aims.fao.org/aos/agrovoc/c_444> schema:name "animals" .
+<http://aims.fao.org/aos/agrovoc/c_4420> schema:name "logs" .
+<http://aims.fao.org/aos/agrovoc/c_4404> schema:name "lizards" .
+<http://aims.fao.org/aos/agrovoc/c_4343> schema:name "limnology" .
+<http://aims.fao.org/aos/agrovoc/c_4327> schema:name "lightning" .
+<http://aims.fao.org/aos/agrovoc/c_4322> schema:name "light" .
+<http://aims.fao.org/aos/agrovoc/c_4292> schema:name "leucine" .
+<http://aims.fao.org/aos/agrovoc/c_4243> schema:name "leaves" .
+<http://aims.fao.org/aos/agrovoc/c_4235> schema:name "lead" .
+<http://aims.fao.org/aos/agrovoc/c_4204> schema:name "larvae" .
+<http://aims.fao.org/aos/agrovoc/c_4185> schema:name "landscape" .
+<http://aims.fao.org/aos/agrovoc/c_4182> schema:name "land use" .
+<http://aims.fao.org/aos/agrovoc/c_4160> schema:name "lakes" .
+<http://aims.fao.org/aos/agrovoc/c_3954> schema:name "irrigation" .
+<http://aims.fao.org/aos/agrovoc/c_3950> schema:name "iron" .
+<http://aims.fao.org/aos/agrovoc/c_3929> schema:name "invertebrates" .
+<http://aims.fao.org/aos/agrovoc/c_37897> schema:name "land cover" .
+<http://aims.fao.org/aos/agrovoc/c_3782> schema:name "ice" .
+<http://aims.fao.org/aos/agrovoc/c_37744> schema:name "isolation" .
+<http://aims.fao.org/aos/agrovoc/c_3731> schema:name "hydrology" .
+<http://aims.fao.org/aos/agrovoc/c_3727> schema:name "hydrography" .
+<http://aims.fao.org/aos/agrovoc/c_37253> schema:name "stomatal conductance" .
+<http://aims.fao.org/aos/agrovoc/c_3689> schema:name "humidity" .
+<http://aims.fao.org/aos/agrovoc/c_36856> schema:name "time domain reflectometry" .
+<http://aims.fao.org/aos/agrovoc/c_36766> schema:name "Landsat" .
+<http://aims.fao.org/aos/agrovoc/c_36761> schema:name "satellite imagery" .
+<http://aims.fao.org/aos/agrovoc/c_36760> schema:name "imagery" .
+<http://aims.fao.org/aos/agrovoc/c_36752> schema:name "foliage" .
+<http://aims.fao.org/aos/agrovoc/c_3635> schema:name "history" .
+<http://aims.fao.org/aos/agrovoc/c_36243> schema:name "nitrogen mineralization" .
+<http://aims.fao.org/aos/agrovoc/c_36106> schema:name "dissolved oxygen" .
+<http://aims.fao.org/aos/agrovoc/c_36094> schema:name "atmospheric deposition" .
+<http://aims.fao.org/aos/agrovoc/c_359> schema:name "amphibians" .
+<http://aims.fao.org/aos/agrovoc/c_3567> schema:name "herbivores" .
+<http://aims.fao.org/aos/agrovoc/c_35657> schema:name "soil organic matter" .
+<http://aims.fao.org/aos/agrovoc/c_35388> schema:name "runoff" .
+<http://aims.fao.org/aos/agrovoc/c_3536> schema:name "height" .
+<http://aims.fao.org/aos/agrovoc/c_35196> schema:name "leaf area index" .
+<http://aims.fao.org/aos/agrovoc/c_35034> schema:name "troposphere" .
+<http://aims.fao.org/aos/agrovoc/c_3500> schema:name "harvesting" .
+<http://aims.fao.org/aos/agrovoc/c_349> schema:name "ammonia" .
+<http://aims.fao.org/aos/agrovoc/c_3456> schema:name "habitats" .
+<http://aims.fao.org/aos/agrovoc/c_34329> schema:name "primary production" .
+<http://aims.fao.org/aos/agrovoc/c_34328> schema:name "primary productivity" .
+<http://aims.fao.org/aos/agrovoc/c_342> schema:name "amino acids" .
+<http://aims.fao.org/aos/agrovoc/c_34150> schema:name "wildfires" .
+<http://aims.fao.org/aos/agrovoc/c_34117> schema:name "seasonality" .
+<http://aims.fao.org/aos/agrovoc/c_33949> schema:name "biodiversity" .
+<http://aims.fao.org/aos/agrovoc/c_3394> schema:name "growth" .
+<http://aims.fao.org/aos/agrovoc/c_3391> schema:name "groundwater" .
+<http://aims.fao.org/aos/agrovoc/c_3366> schema:name "grasslands" .
+<http://aims.fao.org/aos/agrovoc/c_3362> schema:name "grasses" .
+<http://aims.fao.org/aos/agrovoc/c_33553> schema:name "soil respiration" .
+<http://aims.fao.org/aos/agrovoc/c_33476> schema:name "deuterium" .
+<http://aims.fao.org/aos/agrovoc/c_33475> schema:name "dendrochronology" .
+<http://aims.fao.org/aos/agrovoc/c_331546> schema:name "physiological processes" .
+<http://aims.fao.org/aos/agrovoc/c_331377> schema:name "emission" .
+<http://aims.fao.org/aos/agrovoc/c_331025> schema:name "composition" .
+<http://aims.fao.org/aos/agrovoc/c_331015> schema:name "herbivory" .
+<http://aims.fao.org/aos/agrovoc/c_330999> schema:name "biological processes" .
+<http://aims.fao.org/aos/agrovoc/c_330979> schema:name "events" .
+<http://aims.fao.org/aos/agrovoc/c_330883> schema:name "soil properties" .
+<http://aims.fao.org/aos/agrovoc/c_330705> schema:name "substances" .
+<http://aims.fao.org/aos/agrovoc/c_32749> schema:name "soil horizons" .
+<http://aims.fao.org/aos/agrovoc/c_32698> schema:name "natural selection" .
+<http://aims.fao.org/aos/agrovoc/c_32634> schema:name "ammonium" .
+<http://aims.fao.org/aos/agrovoc/c_32514> schema:name "plant communities" .
+<http://aims.fao.org/aos/agrovoc/c_3247> schema:name "germination" .
+<http://aims.fao.org/aos/agrovoc/c_3233> schema:name "geomorphology" .
+<http://aims.fao.org/aos/agrovoc/c_3232> schema:name "geology" .
+<http://aims.fao.org/aos/agrovoc/c_3230> schema:name "geography" .
+<http://aims.fao.org/aos/agrovoc/c_3222> schema:name "genetics" .
+<http://aims.fao.org/aos/agrovoc/c_3197> schema:name "gases" .
+<http://aims.fao.org/aos/agrovoc/c_3145> schema:name "Fungi" .
+<http://aims.fao.org/aos/agrovoc/c_3113> schema:name "frost" .
+<http://aims.fao.org/aos/agrovoc/c_3102> schema:name "freshwater" .
+<http://aims.fao.org/aos/agrovoc/c_3062> schema:name "forests" .
+<http://aims.fao.org/aos/agrovoc/c_3044> schema:name "forest ecology" .
+<http://aims.fao.org/aos/agrovoc/c_304> schema:name "alpacas" .
+<http://aims.fao.org/aos/agrovoc/c_2996> schema:name "fluorine" .
+<http://aims.fao.org/aos/agrovoc/c_2993> schema:name "flowers" .
+<http://aims.fao.org/aos/agrovoc/c_2992> schema:name "flowering" .
+<http://aims.fao.org/aos/agrovoc/c_29583> schema:name "wind direction" .
+<http://aims.fao.org/aos/agrovoc/c_29582> schema:name "wind speed" .
+<http://aims.fao.org/aos/agrovoc/c_2943> schema:name "fishes" .
+<http://aims.fao.org/aos/agrovoc/c_2915> schema:name "fires" .
+<http://aims.fao.org/aos/agrovoc/c_2863> schema:name "fertilization" .
+<http://aims.fao.org/aos/agrovoc/c_28538> schema:name "reflectance" .
+<http://aims.fao.org/aos/agrovoc/c_28317> schema:name "contamination" .
+<http://aims.fao.org/aos/agrovoc/c_28315> schema:name "consumers" .
+<http://aims.fao.org/aos/agrovoc/c_2821> schema:name "fauna" .
+<http://aims.fao.org/aos/agrovoc/c_27879> schema:name "pesticide application" .
+<http://aims.fao.org/aos/agrovoc/c_2745> schema:name "evolution" .
+<http://aims.fao.org/aos/agrovoc/c_2741> schema:name "evapotranspiration" .
+<http://aims.fao.org/aos/agrovoc/c_2739> schema:name "evaporation" .
+<http://aims.fao.org/aos/agrovoc/c_26823> schema:name "shrubs" .
+<http://aims.fao.org/aos/agrovoc/c_26815> schema:name "revegetation" .
+<http://aims.fao.org/aos/agrovoc/c_26789> schema:name "infiltration" .
+<http://aims.fao.org/aos/agrovoc/c_2673> schema:name "estuaries" .
+<http://aims.fao.org/aos/agrovoc/c_2651> schema:name "erosion" .
+<http://aims.fao.org/aos/agrovoc/c_258> schema:name "Algae" .
+<http://aims.fao.org/aos/agrovoc/c_2557> schema:name "endangered species" .
+<http://aims.fao.org/aos/agrovoc/c_25409> schema:name "plant cover" .
+<http://aims.fao.org/aos/agrovoc/c_25341> schema:name "sediment" .
+<http://aims.fao.org/aos/agrovoc/c_25243> schema:name "grazing" .
+<http://aims.fao.org/aos/agrovoc/c_24981> schema:name "cation exchange capacity" .
+<http://aims.fao.org/aos/agrovoc/c_24962> schema:name "allometry" .
+<http://aims.fao.org/aos/agrovoc/c_2482> schema:name "ecosystems" .
+<http://aims.fao.org/aos/agrovoc/c_2467> schema:name "ecology" .
+<http://aims.fao.org/aos/agrovoc/c_2410> schema:name "dunes" .
+<http://aims.fao.org/aos/agrovoc/c_24022> schema:name "electrical conductivity" .
+<http://aims.fao.org/aos/agrovoc/c_2372> schema:name "drainage" .
+<http://aims.fao.org/aos/agrovoc/c_230> schema:name "air temperature" .
+<http://aims.fao.org/aos/agrovoc/c_2283> schema:name "dimensions" .
+<http://aims.fao.org/aos/agrovoc/c_228> schema:name "air pollution" .
+<http://aims.fao.org/aos/agrovoc/c_224> schema:name "air" .
+<http://aims.fao.org/aos/agrovoc/c_2205> schema:name "deserts" .
+<http://aims.fao.org/aos/agrovoc/c_2204> schema:name "desertification" .
+<http://aims.fao.org/aos/agrovoc/c_2190> schema:name "depth" .
+<http://aims.fao.org/aos/agrovoc/c_203> schema:name "agriculture" .
+<http://aims.fao.org/aos/agrovoc/c_1984> schema:name "Crustacea" .
+<http://aims.fao.org/aos/agrovoc/c_1972> schema:name "crops" .
+<http://aims.fao.org/aos/agrovoc/c_1942> schema:name "crabs" .
+<http://aims.fao.org/aos/agrovoc/c_1882> schema:name "corals" .
+<http://aims.fao.org/aos/agrovoc/c_1880> schema:name "coral reefs" .
+<http://aims.fao.org/aos/agrovoc/c_1868> schema:name "copper" .
+<http://aims.fao.org/aos/agrovoc/c_1671> schema:name "climatology" .
+<http://aims.fao.org/aos/agrovoc/c_16190> schema:name "mangroves" .
+<http://aims.fao.org/aos/agrovoc/c_16169> schema:name "cations" .
+<http://aims.fao.org/aos/agrovoc/c_16163> schema:name "anions" .
+<http://aims.fao.org/aos/agrovoc/c_16162> schema:name "ions" .
+<http://aims.fao.org/aos/agrovoc/c_16110> schema:name "leaf area" .
+<http://aims.fao.org/aos/agrovoc/c_16063> schema:name "water temperature" .
+<http://aims.fao.org/aos/agrovoc/c_16061> schema:name "water quality" .
+<http://aims.fao.org/aos/agrovoc/c_15999> schema:name "mineralization" .
+<http://aims.fao.org/aos/agrovoc/c_1595> schema:name "chromium" .
+<http://aims.fao.org/aos/agrovoc/c_15933> schema:name "acid rain" .
+<http://aims.fao.org/aos/agrovoc/c_15903> schema:name "fish" .
+<http://aims.fao.org/aos/agrovoc/c_15869> schema:name "denitrification" .
+<http://aims.fao.org/aos/agrovoc/c_1586> schema:name "cholinesterase" .
+<http://aims.fao.org/aos/agrovoc/c_1568> schema:name "chlorine" .
+<http://aims.fao.org/aos/agrovoc/c_15579> schema:name "defoliation" .
+<http://aims.fao.org/aos/agrovoc/c_15490> schema:name "zooplankton" .
+<http://aims.fao.org/aos/agrovoc/c_15292> schema:name "weather" .
+<http://aims.fao.org/aos/agrovoc/c_1522> schema:name "chemistry" .
+<http://aims.fao.org/aos/agrovoc/c_15043> schema:name "turbidity" .
+<http://aims.fao.org/aos/agrovoc/c_1503> schema:name "charcoal" .
+<http://aims.fao.org/aos/agrovoc/c_14650> schema:name "subsidence" .
+<http://aims.fao.org/aos/agrovoc/c_14415> schema:name "solar radiation" .
+<http://aims.fao.org/aos/agrovoc/c_14400> schema:name "soil physics" .
+<http://aims.fao.org/aos/agrovoc/c_14283> schema:name "silica" .
+<http://aims.fao.org/aos/agrovoc/c_1423> schema:name "cellulose" .
+<http://aims.fao.org/aos/agrovoc/c_140> schema:name "advection" .
+<http://aims.fao.org/aos/agrovoc/c_13586> schema:name "processes" .
+<http://aims.fao.org/aos/agrovoc/c_13520> schema:name "porosity" .
+<http://aims.fao.org/aos/agrovoc/c_13344> schema:name "phytoplankton" .
+<http://aims.fao.org/aos/agrovoc/c_1303> schema:name "carbon monoxide" .
+<http://aims.fao.org/aos/agrovoc/c_1302> schema:name "carbon dioxide" .
+<http://aims.fao.org/aos/agrovoc/c_1301> schema:name "carbon" .
+<http://aims.fao.org/aos/agrovoc/c_1300> schema:name "carbohydrates" .
+<http://aims.fao.org/aos/agrovoc/c_12890> schema:name "Oceans" .
+<http://aims.fao.org/aos/agrovoc/c_12889> schema:name "oceanography" .
+<http://aims.fao.org/aos/agrovoc/c_12838> schema:name "nitrous oxide" .
+<http://aims.fao.org/aos/agrovoc/c_12834> schema:name "nitrification" .
+<http://aims.fao.org/aos/agrovoc/c_12679> schema:name "mowing" .
+<http://aims.fao.org/aos/agrovoc/c_12447> schema:name "meadows" .
+<http://aims.fao.org/aos/agrovoc/c_1196> schema:name "calcium" .
+<http://aims.fao.org/aos/agrovoc/c_11852> schema:name "isotopes" .
+<http://aims.fao.org/aos/agrovoc/c_1178> schema:name "cadmium" .
+<http://aims.fao.org/aos/agrovoc/c_117> schema:name "adaptation" .
+<http://aims.fao.org/aos/agrovoc/c_11650> schema:name "hurricanes" .
+<http://aims.fao.org/aos/agrovoc/c_1142> schema:name "buildings" .
+<http://aims.fao.org/aos/agrovoc/c_1118> schema:name "browsing" .
+<http://aims.fao.org/aos/agrovoc/c_10935> schema:name "fluorescence" .
+<http://aims.fao.org/aos/agrovoc/c_10795> schema:name "fertilizer application" .
+<http://aims.fao.org/aos/agrovoc/c_10793> schema:name "ferns" .
+<http://aims.fao.org/aos/agrovoc/c_1049> schema:name "brackish water" .
+<http://aims.fao.org/aos/agrovoc/c_10328> schema:name "demography" .
+<http://aims.fao.org/aos/agrovoc/c_1018> schema:name "boron" .
+<http://aims.fao.org/aos/agrovoc/c_1014> schema:name "boreal forests" .

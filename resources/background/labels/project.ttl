@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+
+<https://linked.data.gov.au/def/project> schema:name "Project Ontology" .
+<https://linked.data.gov.au/def/project#hadBudgetTotal> schema:name "had budget total" .
+<https://linked.data.gov.au/def/project#hadLeader> schema:name "had leader" .
+<https://linked.data.gov.au/def/project#hadPlan> schema:name "had plan" .
+<https://linked.data.gov.au/def/project#hadSponsor> schema:name "had sponsor" .
+<https://linked.data.gov.au/def/project#plannedEnd> schema:name "planned end" .
+<https://linked.data.gov.au/def/project#plannedStart> schema:name "planned start" .

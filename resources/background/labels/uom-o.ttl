@@ -1,0 +1,5 @@
+PREFIX schema: <https://schema.org/>
+
+<http://www.ontology-of-units-of-measure.org/resource/om-2/AreaFraction> schema:name "Area Fraction" .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/Date> schema:name "Date" .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/Height> schema:name "Height" .

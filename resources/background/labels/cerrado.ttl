@@ -1,0 +1,9 @@
+PREFIX schema: <https://schema.org/>
+
+<http://cerrado.linkeddata.es/ecology/ccon#ConservationStatus> schema:name "Conservation Status" .
+<http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex> schema:name "Diversity Index" .
+<http://cerrado.linkeddata.es/ecology/ccon#DrySeason> schema:name "Dry Season" .
+<http://cerrado.linkeddata.es/ecology/ccon#Temperature> schema:name "Temperature" .
+<http://cerrado.linkeddata.es/ecology/ccon/#Recruitment> schema:name "Recruitment" .
+<http://cerrado.linkeddata.es/ecology/fire#MaximumTemperature> schema:name "Maximum Temperature" .
+<http://cerrado.linkeddata.es/ecology/fire#PlantResprout> schema:name "Plant Resprout" .

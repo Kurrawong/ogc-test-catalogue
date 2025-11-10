@@ -1,0 +1,357 @@
+PREFIX schema: <https://schema.org/>
+
+<https://doi.org/10.1002/ajb2.1538>
+    schema:name "Phylogenetic analysis of fossil flowers using an angiosperm‐wide data set: proof‐of‐concept and challenges ahead" ;
+.
+
+<https://doi.org/10.1002/ece3.7544>
+    schema:name "Calcicole–calcifuge plant strategies limit restoration potential in a regional semi‐arid flora" ;
+.
+
+<https://doi.org/10.1007/978-1-4684-7747-4_8>
+    schema:name "Seed Viability and Vigour" ;
+.
+
+<https://doi.org/10.1007/978-3-662-04931-0>
+    schema:name "Xylem Structure and the Ascent of Sap" ;
+.
+
+<https://doi.org/10.1007/978-94-007-1242-3_13>
+    schema:name "Hydraulic Capacitance: Biophysics and Functional Significance of Internal Water Sources in Relation to Tree Size" ;
+.
+
+<https://doi.org/10.1007/BF00121013>
+    schema:name "The use of vital attributes to predict successional changes in plant communities subject to recurrent disturbances" ;
+.
+
+<https://doi.org/10.1007/BF00195081>
+    schema:name "Quantum yields for uptake of carbon dioxide in C3 vascular plants of contrasting habitats and taxonomic groupings" ;
+.
+
+<https://doi.org/10.1007/BF00317209>
+    schema:name "Leaf area ratio and net assimilation rate of 24 wild species differing in relative growth rate" ;
+.
+
+<https://doi.org/10.1007/BF00386231>
+    schema:name "A biochemical model of photosynthetic CO2 assimilation in leaves of C3 species" ;
+.
+
+<https://doi.org/10.1007/BF02803249>
+    schema:name "Some ecophysiological and historical approaches to species richness and calcicole/calcifuge behaviour — contribution to a debate" ;
+.
+
+<https://doi.org/10.1007/BF02858770>
+    schema:name "Canopy seed storage in woody plants" ;
+.
+
+<https://doi.org/10.1007/s00442-006-0523-z>
+    schema:name "Accessory costs of seed production" ;
+.
+
+<https://doi.org/10.1007/s004420000624>
+    schema:name "Variation in measured values of photosynthetic quantum yield in ecophysiological studies" ;
+.
+
+<https://doi.org/10.1007/s004420050337>
+    schema:name "The photochemical reflectance index: an optical indicator of photosynthetic radiation use efficiency across species, functional types, and nutrient levels" ;
+.
+
+<https://doi.org/10.1007/s11284-010-0712-4>
+    schema:name "A review of light interception in plant stands from leaf to canopy in different plant functional types and in species with varying shade tolerance" ;
+.
+
+<https://doi.org/10.1016/B978-0-12-380868-4.00004-1>
+    schema:name "The Ecological Water-Use Strategies of Succulent Plants" ;
+.
+
+<https://doi.org/10.1016/S0034-4257(02)00010-X>
+    schema:name "Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages" ;
+.
+
+<https://doi.org/10.1016/S0169-5347(03)00061-2>
+    schema:name "Plant height and evolutionary games" ;
+.
+
+<https://doi.org/10.1016/j.ecoinf.2021.101232>
+    schema:name "A reporting format for leaf-level gas exchange data and metadata" ;
+.
+
+<https://doi.org/10.1016/j.plantsci.2012.05.009>
+    schema:name "Mesophyll diffusion conductance to CO2: An unappreciated central player in photosynthesis" ;
+.
+
+<https://doi.org/10.1016/j.ppees.2007.01.001>
+    schema:name "Plant structural traits and their role in anti-herbivore defence" ;
+.
+
+<https://doi.org/10.1016/j.ppees.2019.125497>
+    schema:name "Plant resprouting: How many sprouts and how deep? Flexible modelling of multi-species experimental disturbances" ;
+.
+
+<https://doi.org/10.1016/j.scitotenv.2015.04.002>
+    schema:name "A synthesis of postfire recovery traits of woody plants in Australian ecosystems" ;
+.
+
+<https://doi.org/10.1016/j.tplants.2010.10.003>
+    schema:name "Is plant ecology more siliceous than we realise?" ;
+.
+
+<https://doi.org/10.1016/j.tree.2022.11.002>
+    schema:name "Why do plants silicify?" ;
+.
+
+<https://doi.org/10.1017/CBO9780511845727>
+    schema:name "Plants and Microclimate" ;
+.
+
+<https://doi.org/10.1017/S0960258510000267>
+    schema:name "To germinate or not to germinate: more than just a question of dormancy" ;
+.
+
+<https://doi.org/10.1038/282424a0>
+    schema:name "Stomatal conductance correlates with photosynthetic capacity" ;
+.
+
+<https://doi.org/10.1038/nature02403>
+    schema:name "The worldwide leaf economics spectrum" ;
+.
+
+<https://doi.org/10.1038/s41467-022-32545-0>
+    schema:name "Convergence in phosphorus constraints to photosynthesis in forests around the world" ;
+.
+
+<https://doi.org/10.1038/s41597-019-0189-0>
+    schema:name "PalmTraits 1.0, a species-level functional trait database of palms worldwide" ;
+.
+
+<https://doi.org/10.1038/sdata.2018.135>
+    schema:name "A functional trait database for Mediterranean Basin plants" ;
+.
+
+<https://doi.org/10.1046/j.1365-2435.2001.00522.x>
+    schema:name "Relationships between leaf lifespan and structural defences in a low‐nutrient, sclerophyll flora" ;
+.
+
+<https://doi.org/10.1046/j.1365-3040.2002.00891.x>
+    schema:name "Temperature response of parameters of a biochemically based model of photosynthesis. II. A review of experimental data" ;
+.
+
+<https://doi.org/10.1046/j.1442-9993.2001.01154.x>
+    schema:name "Measurement of leaf biomechanical properties in studies of herbivory: Opportunities, problems and procedures" ;
+.
+
+<https://doi.org/10.1046/j.1469-8137.2003.00765.x>
+    schema:name "Leaf size and angle vary widely across species: what consequences for light interception?" ;
+.
+
+<https://doi.org/10.1071/9780643109865>
+    schema:name "Atlas of Leaf Venation and Oil Gland Patterns in the Eucalypts" ;
+.
+
+<https://doi.org/10.1071/BT02124>
+    schema:name "A handbook of protocols for standardised and easy measurement of plant functional traits worldwide" ;
+.
+
+<https://doi.org/10.1071/BT06106>
+    schema:name "Seed dormancy and germination stimulation syndromes for Australian temperate species" ;
+.
+
+<https://doi.org/10.1071/BT11284>
+    schema:name "Relationships among leaf traits of Australian arid zone plants: alternative modes of thermal protection" ;
+.
+
+<https://doi.org/10.1071/BT12225>
+    schema:name "New handbook for standardised measurement of plant functional traits worldwide" ;
+.
+
+<https://doi.org/10.1071/BT20048>
+    schema:name "A handbook for the standardised sampling of plant functional traits in disturbance-prone ecosystems, with a focus on open ecosystems" ;
+.
+
+<https://doi.org/10.1071/BT9900255>
+    schema:name "The Survival of Juvenile Plants of the Resprouting Shrub Angophora hispida (Myrtaceae) After a Simulated Low Intensity Fire" ;
+.
+
+<https://doi.org/10.1071/FP05298>
+    schema:name "Estimating the internal conductance to CO2 movement" ;
+.
+
+<https://doi.org/10.1079/SSR2003150>
+    schema:name "A classification system for seed dormancy" ;
+.
+
+<https://doi.org/10.1079/SSR2005209>
+    schema:name "Defining transient and persistent seed banks in species with pronounced seasonal dormancy and germination patterns" ;
+.
+
+<https://doi.org/10.1080/014311697216810>
+    schema:name "The modified normalized difference vegetation index (mNDVI) a new index to determine frost damages in agriculture based on Landsat TM data" ;
+.
+
+<https://doi.org/10.1080/014311697217387>
+    schema:name "Photochemical reflectance index and leaf photosynthetic radiation-use-efficiency assessment in Mediterranean trees" ;
+.
+
+<https://doi.org/10.1080/07352689.2017.1364209>
+    schema:name "Fire-Stimulated Flowering: A Review and Look to the Future" ;
+.
+
+<https://doi.org/10.1080/07352689.2020.1768465>
+    schema:name "Fire as a Selective Agent for both Serotiny and Nonserotiny Over Space and Time" ;
+.
+
+<https://doi.org/10.1086/319579>
+    schema:name "Comparative Anatomy of the Photosynthetic Organs of 39 Xeromorphic Species from Subhumid New South Wales, Australia" ;
+.
+
+<https://doi.org/10.1086/670400>
+    schema:name "More Woodiness/Less Woodiness: Evolutionary Avenues, Ontogenetic Mechanisms" ;
+.
+
+<https://doi.org/10.1093/jexbot/51.345.659>
+    schema:name "Chlorophyll fluorescence—a practical guide" ;
+.
+
+<https://doi.org/10.1093/jxb/erp117>
+    schema:name "Resistances along the CO2 diffusion pathway inside leaves" ;
+.
+
+<https://doi.org/10.1093/pcp/pcv155>
+    schema:name "eHALOPH a Database of Salt-Tolerant Plants: Helping put Halophytes to Work" ;
+.
+
+<https://doi.org/10.1094/PHI-I-2004-0330-01>
+    schema:name "Introduction to Parasitic Flowering Plants" ;
+.
+
+<https://doi.org/10.1111/1365-2745.12035>
+    schema:name "Costs and benefits of relative bark thickness in relation to fire damage: a savanna/forest contrast" ;
+.
+
+<https://doi.org/10.1111/geb.12346>
+    schema:name "A mammoth mouthful? A test of the idea that larger animals ingest larger seeds" ;
+.
+
+<https://doi.org/10.1111/geb.13065>
+    schema:name "Evolutionary constraints and adaptation shape the size and colour of rain forest fruits and flowers at continental scale" ;
+.
+
+<https://doi.org/10.1111/j.1365-2435.2010.01826.x>
+    schema:name "Chemical ecology of tannins and other phenolics: we need a change in approach" ;
+.
+
+<https://doi.org/10.1111/j.1365-2699.2012.02773.x>
+    schema:name "A global analysis of trait variation and evolution in climbing plants" ;
+.
+
+<https://doi.org/10.1111/j.1365-2745.2007.01302.x>
+    schema:name "Plant functional types can predict decade‐scale changes in fire‐prone vegetation" ;
+.
+
+<https://doi.org/10.1111/j.1469-8137.1991.tb00035.x>
+    schema:name "The hydraulic architecture of trees and other woody plants" ;
+.
+
+<https://doi.org/10.1111/j.1469-8137.2010.03439.x>
+    schema:name "Leaf hydraulic vulnerability is related to conduit dimensions and drought resistance across a diverse range of woody angiosperms" ;
+.
+
+<https://doi.org/10.1111/j.1654-1103.2003.tb02160.x>
+    schema:name "An application of plant functional types to fire management in a conservation reserve in southeastern Australia" ;
+.
+
+<https://doi.org/10.1111/j.1654-1103.2012.01434.x>
+    schema:name "Changes in plant species and functional composition with time since fire in two mediterranean climate plant communities" ;
+.
+
+<https://doi.org/10.1111/jbi.14375>
+    schema:name "Climate shapes community flowering periods across biomes" ;
+.
+
+<https://doi.org/10.1111/jipb.12534>
+    schema:name "Plant xylem hydraulics: What we understand, current research, and future challenges" ;
+.
+
+<https://doi.org/10.1111/jvs.12375>
+    schema:name "Seed germination traits can contribute better to plant community ecology" ;
+.
+
+<https://doi.org/10.1111/nph.12001>
+    schema:name "Resprouting as a key functional trait: how buds, protection and resources drive persistence after fire" ;
+.
+
+<https://doi.org/10.1111/nph.12253>
+    schema:name "Leaf venation: structure, function, development, evolution, ecology and applications in the past, present and future" ;
+.
+
+<https://doi.org/10.1111/nph.14982>
+    schema:name "Unearthing belowground bud banks in fire‐prone ecosystems" ;
+.
+
+<https://doi.org/10.1111/nph.15480>
+    schema:name "Effects of drought and fire on resprouting capacity of 52 temperate Australian perennial native grasses" ;
+.
+
+<https://doi.org/10.1111/nph.15502>
+    schema:name "A research agenda for seed‐trait functional ecology" ;
+.
+
+<https://doi.org/10.1111/nph.16793>
+    schema:name "Pollination syndromes in the 21<sup>st</sup>century: where do we stand and where may we go?" ;
+.
+
+<https://doi.org/10.1111/oik.03886>
+    schema:name "Scaling up flammability from individual leaves to fuel beds" ;
+.
+
+<https://doi.org/10.1139/x87-131>
+    schema:name "Vertical root distributions of northern tree species in relation to successional status" ;
+.
+
+<https://doi.org/10.1201/b10812>
+    schema:name "Elevated Carbon Dioxide" ;
+.
+
+<https://doi.org/10.1890/12-0621.1>
+    schema:name "Estimating fire interval bounds using vital attributes: implications of uncertainty and among‐population variability" ;
+.
+
+<https://doi.org/10.2307/1217034>
+    schema:name "IIa. TERMINOLOGY OF SIMPLE SYMMETRICAL PLANE SHAPES (CHART 1a)" ;
+.
+
+<https://doi.org/10.2307/1932458>
+    schema:name "A Tentative Classification of Root Systems" ;
+.
+
+<https://doi.org/10.2307/1938268>
+    schema:name "Seed Size and Plant Growth Form as Factors in Dispersal Spectra" ;
+.
+
+<https://doi.org/10.2307/3236276>
+    schema:name "A functional classification for predicting the dynamics of landscapes" ;
+.
+
+<https://doi.org/10.3389/fpls.2013.00056>
+    schema:name "How to quantify conduits in wood?" ;
+.
+
+<https://doi.org/10.3732/ajb.0900178>
+    schema:name "Angiosperm wood structure: Global patterns in vessel anatomy and their relation to wood density and potential conductivity" ;
+.
+
+<https://doi.org/10.4236/ajps.2013.45A005>
+    schema:name "Seeds as a Source of Carbon, Nitrogen, and Phosphorus for Seedling Establishment in Temperate Regions: A Synthesis" ;
+.
+
+<https://doi.org/10.2307/2441319>
+    schema:name "Classification of the Architecture of Dicotyledonous Leaves" ;
+.
+
+<https://doi.org/10.13140/2.1.2761.5367>
+    schema:name "Plant life at the edge of wetlands: ecological responses to wetting and drying patterns" ;
+.
+
+<https://doi.org/10.1890/0012-9658%281997%29078%5B2542%3ALPOWSI%5D2.0.CO%3B2>
+    schema:name "Leaf Phenology of Woody Species in a North Australian Tropical Savanna" ;
+.

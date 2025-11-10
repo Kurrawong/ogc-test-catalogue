@@ -1,0 +1,1413 @@
+PREFIX schema: <https://schema.org/>
+
+<http://www.eionet.europa.eu/gemet/concept/10044>
+    schema:name "plant production" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10074>
+    schema:name "plant species" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10128>
+    schema:name "forest ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10130>
+    schema:name "urban ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10133>
+    schema:name "environmental engineering" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10191>
+    schema:name "environmental analysis" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10193>
+    schema:name "abiotic environment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1025>
+    schema:name "budget" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10421>
+    schema:name "marine mammal" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10554>
+    schema:name "survival" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10562>
+    schema:name "endemic species" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10633>
+    schema:name "plant population" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10691>
+    schema:name "pruning" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/10918>
+    schema:name "population density" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1100>
+    schema:name "cadmium" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1111>
+    schema:name "calcium" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11118>
+    schema:name "spatial distribution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11133>
+    schema:name "seasonal variation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1114>
+    schema:name "calibration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11212>
+    schema:name "potassium fertiliser" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11227>
+    schema:name "organic matter" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1160>
+    schema:name "carbon" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1164>
+    schema:name "carbon cycle" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11641>
+    schema:name "diffuse pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11672>
+    schema:name "biomarker" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1168>
+    schema:name "carbon dioxide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11714>
+    schema:name "organic nitrogen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1173>
+    schema:name "carbon monoxide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11779>
+    schema:name "total organic carbon" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11788>
+    schema:name "dissolved oxygen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/11807>
+    schema:name "experimental study" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/12063>
+    schema:name "Mediterranean climate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/12067>
+    schema:name "tropical climate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/12104>
+    schema:name "water table" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/12231>
+    schema:name "catchment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1244>
+    schema:name "cellulose" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/12601>
+    schema:name "biological treatment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1262>
+    schema:name "centrifugation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1290>
+    schema:name "charcoal" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1298>
+    schema:name "chemical analysis" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1299>
+    schema:name "chemical composition" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/13088>
+    schema:name "method" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/13209>
+    schema:name "crop production" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1324>
+    schema:name "chemical reaction" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1336>
+    schema:name "chemical treatment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1348>
+    schema:name "chemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/135>
+    schema:name "aerial photograph" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/13577>
+    schema:name "nitrogen oxide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1366>
+    schema:name "chloride" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1373>
+    schema:name "chlorine" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1391>
+    schema:name "chlorophyll" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1401>
+    schema:name "chromium" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1462>
+    schema:name "climate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1469>
+    schema:name "climate type" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1474>
+    schema:name "climate factor" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1479>
+    schema:name "climatology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/14937>
+    schema:name "longitude" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1513>
+    schema:name "coastal area" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1519>
+    schema:name "coastal erosion" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1686>
+    schema:name "conductivity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1694>
+    schema:name "coniferous forest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1700>
+    schema:name "conservation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1751>
+    schema:name "contaminated soil" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1752>
+    schema:name "contamination" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1757>
+    schema:name "continental shelf" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1792>
+    schema:name "copper" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1875>
+    schema:name "crop rotation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/193>
+    schema:name "agricultural economics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/1950>
+    schema:name "dairy farm" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2014>
+    schema:name "decomposition" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/202>
+    schema:name "agricultural land" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2035>
+    schema:name "defoliation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/204>
+    schema:name "agricultural landscape" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2060>
+    schema:name "demography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2069>
+    schema:name "dendrochronology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2071>
+    schema:name "denitrification" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2084>
+    schema:name "deposition" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2105>
+    schema:name "desertification" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2232>
+    schema:name "disease" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2245>
+    schema:name "dispersion" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2259>
+    schema:name "dissolved organic carbon" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2264>
+    schema:name "distribution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2319>
+    schema:name "drainage" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/232>
+    schema:name "agriculture" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2359>
+    schema:name "dry deposition" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/245>
+    schema:name "air" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2456>
+    schema:name "ecological niche" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2470>
+    schema:name "ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2518>
+    schema:name "ecophysiology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2530>
+    schema:name "ecotoxicology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/265>
+    schema:name "air pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/270>
+    schema:name "air quality" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2744>
+    schema:name "energy storage" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2774>
+    schema:name "environmental assessment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2778>
+    schema:name "environmental awareness" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2782>
+    schema:name "environmental change" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2784>
+    schema:name "environmental chemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2795>
+    schema:name "environmental control" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2796>
+    schema:name "environmental cost" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/281>
+    schema:name "air temperature" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2818>
+    schema:name "environmental ethics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2824>
+    schema:name "environmental health" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2829>
+    schema:name "environmental impact" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2830>
+    schema:name "environmental impact assessment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2847>
+    schema:name "environmental indicator" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2882>
+    schema:name "environmental monitoring" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2889>
+    schema:name "environmental planning" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2892>
+    schema:name "environmental policy" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2895>
+    schema:name "environmental pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2900>
+    schema:name "environmental protection" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2901>
+    schema:name "environmental protection agency" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2912>
+    schema:name "environmental quality" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2920>
+    schema:name "environmental risk assessment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2921>
+    schema:name "environmental risk" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2963>
+    schema:name "erosion" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/2964>
+    schema:name "erosion control" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3019>
+    schema:name "evaporation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3022>
+    schema:name "evapotranspiration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3026>
+    schema:name "evolution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/303>
+    schema:name "algal bloom" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3048>
+    schema:name "exotic species" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3050>
+    schema:name "experiment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3138>
+    schema:name "fauna" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3178>
+    schema:name "field experiment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3179>
+    schema:name "field study" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3252>
+    schema:name "fish" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3300>
+    schema:name "flood control" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3334>
+    schema:name "fluorine" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3350>
+    schema:name "foliage" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3358>
+    schema:name "food chain" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3419>
+    schema:name "forest fire" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3425>
+    schema:name "forest management" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3485>
+    schema:name "freshwater" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3496>
+    schema:name "frost" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3530>
+    schema:name "fungicide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3620>
+    schema:name "genetic diversity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3632>
+    schema:name "genetic resource" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3633>
+    schema:name "genetics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3646>
+    schema:name "geography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3650>
+    schema:name "geology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3654>
+    schema:name "geomorphology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3663>
+    schema:name "germination" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3748>
+    schema:name "grazing" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/375>
+    schema:name "ammonia" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3761>
+    schema:name "greenhouse effect" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3780>
+    schema:name "groundwater" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3784>
+    schema:name "groundwater pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/379>
+    schema:name "ammonium" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3808>
+    schema:name "habitat" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3849>
+    schema:name "harvest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3933>
+    schema:name "herbicide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/3983>
+    schema:name "history" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4103>
+    schema:name "hydrogen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4109>
+    schema:name "hydrography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4118>
+    schema:name "hydrology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4124>
+    schema:name "hydrosphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4131>
+    schema:name "ice" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/415>
+    schema:name "animal behaviour" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4196>
+    schema:name "indicator" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/42>
+    schema:name "acid deposition" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/420>
+    schema:name "animal ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/429>
+    schema:name "animal husbandry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4291>
+    schema:name "infiltration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/432>
+    schema:name "animal manure" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/441>
+    schema:name "animal production" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4466>
+    schema:name "inventory" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4498>
+    schema:name "iron" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4505>
+    schema:name "irrigation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/453>
+    schema:name "animal waste" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4612>
+    schema:name "land cover" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4629>
+    schema:name "landform" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4648>
+    schema:name "landscape" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4657>
+    schema:name "landscape ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4678>
+    schema:name "land use" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/47>
+    schema:name "acidity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4723>
+    schema:name "lead" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4802>
+    schema:name "life cycle" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4810>
+    schema:name "light" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4830>
+    schema:name "limnology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4855>
+    schema:name "lithosphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/4857>
+    schema:name "litter" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5013>
+    schema:name "mapping" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5030>
+    schema:name "marine ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5031>
+    schema:name "marine ecosystem" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5033>
+    schema:name "marine environment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/504>
+    schema:name "aquatic ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5044>
+    schema:name "marine pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5046>
+    schema:name "marine reserve" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5049>
+    schema:name "marine sediment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/51>
+    schema:name "acid rain" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5138>
+    schema:name "medicinal plant" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5161>
+    schema:name "metabolism" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5197>
+    schema:name "meteorology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5199>
+    schema:name "methane" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5218>
+    schema:name "microbiology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5327>
+    schema:name "modelling" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5332>
+    schema:name "moisture" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5333>
+    schema:name "molecular biology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5346>
+    schema:name "monitoring" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5353>
+    schema:name "monitoring system" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5369>
+    schema:name "morphology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5371>
+    schema:name "mortality" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5412>
+    schema:name "mowing" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5418>
+    schema:name "mulch" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5462>
+    schema:name "mutation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5484>
+    schema:name "national park" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5506>
+    schema:name "natural hazard" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/552>
+    schema:name "arid land" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5537>
+    schema:name "nature conservation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5589>
+    schema:name "nickel" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5593>
+    schema:name "nitrate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5598>
+    schema:name "nitrification" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5601>
+    schema:name "nitrite" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5605>
+    schema:name "nitrogen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5607>
+    schema:name "nitrogen cycle" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5608>
+    schema:name "nitrogen dioxide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5611>
+    schema:name "nitrogen fixation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5751>
+    schema:name "nucleic acid" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5758>
+    schema:name "nutrient content" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5761>
+    schema:name "nutrient removal" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5791>
+    schema:name "ocean circulation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5797>
+    schema:name "oceanography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5837>
+    schema:name "oil pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5892>
+    schema:name "organic carbon" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5897>
+    schema:name "organic farming" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5914>
+    schema:name "organism" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5982>
+    schema:name "oxygen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/5991>
+    schema:name "ozone" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6033>
+    schema:name "parameter" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6094>
+    schema:name "pedosphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6115>
+    schema:name "periphyton" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6138>
+    schema:name "pest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6139>
+    schema:name "pest control" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6140>
+    schema:name "pesticide" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/617>
+    schema:name "atmosphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6189>
+    schema:name "phosphate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6196>
+    schema:name "phosphorus" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/621>
+    schema:name "atmospheric chemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6211>
+    schema:name "photosynthesis" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/622>
+    schema:name "atmospheric circulation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6235>
+    schema:name "physics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6240>
+    schema:name "physiology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6247>
+    schema:name "phytoplankton" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6282>
+    schema:name "plankton" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6298>
+    schema:name "plant breeding" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6299>
+    schema:name "plant community" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6316>
+    schema:name "plant physiology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6318>
+    schema:name "plant protection" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6357>
+    schema:name "point source" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/636>
+    schema:name "atmospheric pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6392>
+    schema:name "pollen" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6395>
+    schema:name "pollutant" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6445>
+    schema:name "pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6507>
+    schema:name "pond" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6518>
+    schema:name "population dynamics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6520>
+    schema:name "population ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6527>
+    schema:name "population structure" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6593>
+    schema:name "pressure" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6623>
+    schema:name "precautionary principle" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6670>
+    schema:name "productivity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6740>
+    schema:name "protected area" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6758>
+    schema:name "protocol" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/678>
+    schema:name "avalanche" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6884>
+    schema:name "radiation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6947>
+    schema:name "rain" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6949>
+    schema:name "rain forest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/6965>
+    schema:name "rare species" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7057>
+    schema:name "regeneration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7102>
+    schema:name "remote sensing" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7176>
+    schema:name "respiration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7188>
+    schema:name "restoration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7202>
+    schema:name "revegetation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7230>
+    schema:name "riparian zone" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7235>
+    schema:name "risk analysis" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7236>
+    schema:name "risk assessment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7340>
+    schema:name "runoff" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7345>
+    schema:name "rural area" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7413>
+    schema:name "sand" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7420>
+    schema:name "sand dune" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7452>
+    schema:name "satellite" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7513>
+    schema:name "sea level" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7514>
+    schema:name "sea level rise" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7529>
+    schema:name "season" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7565>
+    schema:name "sediment" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7566>
+    schema:name "sediment transport" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7694>
+    schema:name "silicon" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7698>
+    schema:name "silt" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7702>
+    schema:name "simulation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/775>
+    schema:name "benthos" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7769>
+    schema:name "snow" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7843>
+    schema:name "soil" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7849>
+    schema:name "soil chemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7857>
+    schema:name "soil degradation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7858>
+    schema:name "soil erosion" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7860>
+    schema:name "soil fertility" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7874>
+    schema:name "soil moisture" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7898>
+    schema:name "soil texture" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7899>
+    schema:name "soil type" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7902>
+    schema:name "soil water" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7912>
+    schema:name "solar radiation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/7982>
+    schema:name "species" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8076>
+    schema:name "statistics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8125>
+    schema:name "stratification" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8144>
+    schema:name "strontium" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8163>
+    schema:name "subsidence" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8225>
+    schema:name "surface runoff" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8240>
+    schema:name "survey" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8247>
+    schema:name "sustainable development" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8259>
+    schema:name "symbiosis" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/827>
+    schema:name "biodiversity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8313>
+    schema:name "taxonomy" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/834>
+    schema:name "biogeochemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/836>
+    schema:name "biogeography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8361>
+    schema:name "temperate forest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8366>
+    schema:name "temperature" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8487>
+    schema:name "time" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/849>
+    schema:name "biological effect" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8543>
+    schema:name "toxicology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/856>
+    schema:name "biological indicator" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/861>
+    schema:name "biological monitoring" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8630>
+    schema:name "transpiration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8655>
+    schema:name "trapping" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8664>
+    schema:name "tree" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8683>
+    schema:name "trophic level" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8687>
+    schema:name "tropical forest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8688>
+    schema:name "tropical rain forest" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8695>
+    schema:name "troposphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8704>
+    schema:name "tundra" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8711>
+    schema:name "turbidity" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8742>
+    schema:name "ultraviolet radiation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8776>
+    schema:name "United Nations" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8807>
+    schema:name "urban ecosystem" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/881>
+    schema:name "biology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/883>
+    schema:name "biomass" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8908>
+    schema:name "vegetation cover" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8910>
+    schema:name "plant ecology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8918>
+    schema:name "plant reproduction" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/892>
+    schema:name "biosphere" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8922>
+    schema:name "vegetation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/8925>
+    schema:name "vegetation type" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/901>
+    schema:name "biotope" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9190>
+    schema:name "water level" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9214>
+    schema:name "water quality" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9269>
+    schema:name "weather" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9280>
+    schema:name "weed" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9281>
+    schema:name "weed control" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9314>
+    schema:name "wildlife conservation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9327>
+    schema:name "wind" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9349>
+    schema:name "wood" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/9412>
+    schema:name "zinc" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/965>
+    schema:name "boron" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/984>
+    schema:name "brackish water" ;
+.
+
+<http://www.eionet.europa.eu/gemet/concept/994>
+    schema:name "breeding" ;
+.

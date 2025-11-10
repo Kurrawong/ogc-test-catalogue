@@ -1,0 +1,38 @@
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX schema: <https://schema.org/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+[]    a <https://prez.dev/Manifest> ;
+    prof:hasResource
+        [
+            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub> ;
+            prof:hasArtifact "resources/vocabularies/asls-substrate.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:name "Vocabularies" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/vocabularies/asgs.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:name "Vocabularies" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/vocabularies/adms.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:name "Vocabularies" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/datasets/*.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:name "Datasets" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/catalogues/*.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/CatalogueData> ;
+            schema:name "Catalogues" ;
+        ] ,
+        [
+            prof:hasArtifact "resources/background/*.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels> ;
+            schema:name "Background Details" ;
+        ] ;
+.

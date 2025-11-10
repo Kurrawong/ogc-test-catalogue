@@ -1,0 +1,17 @@
+PREFIX schema: <https://schema.org/>
+
+<http://purl.bioontology.org/ontology/CSP/0074-5454> schema:name "air sampling/monitoring" .
+<http://purl.bioontology.org/ontology/CSP/0467-2841> schema:name "body weight" .
+<http://purl.bioontology.org/ontology/CSP/0604-0425> schema:name "cell morphology" .
+<http://purl.bioontology.org/ontology/CSP/0632-5038> schema:name "infrared spectrometry" .
+<http://purl.bioontology.org/ontology/CSP/1035-8189> schema:name "environmental contamination" .
+<http://purl.bioontology.org/ontology/CSP/1354-4287> schema:name "diapause" .
+<http://purl.bioontology.org/ontology/CSP/2253-9046> schema:name "pesticide residue" .
+<http://purl.bioontology.org/ontology/CSP/2340-7524> schema:name "alfalfa" .
+<http://purl.bioontology.org/ontology/CSP/2340-8793> schema:name "corn" .
+<http://purl.bioontology.org/ontology/CSP/2341-3000> schema:name "genetically modified plant" .
+<http://purl.bioontology.org/ontology/CSP/2683-4779> schema:name "imagery" .
+<http://purl.bioontology.org/ontology/CSP/4000-0286> schema:name "phenotype" .
+<http://purl.bioontology.org/ontology/CSP/4001-0048> schema:name "enzyme activity" .
+<http://purl.bioontology.org/ontology/CSP/5002-0017> schema:name "brain morphology" .
+<http://purl.bioontology.org/ontology/CSP/5004-0025> schema:name "domestic animal" .

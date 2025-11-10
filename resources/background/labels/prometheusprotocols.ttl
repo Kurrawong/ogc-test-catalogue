@@ -1,0 +1,8 @@
+PREFIX schema: <https://schema.org/>
+
+<https://prometheusprotocols.net/function/gas-exchange-and-chlorophyll-fluorescence/gas-exchange-measurements-of-photosynthetic-response-curves/> schema:name "gas exchange measurements of photosynthetic response curves" .
+<https://prometheusprotocols.net/function/water-relations/hydraulic-conductance-and-conductivity/> schema:name "hydraulic conductance and conductivity" .
+<https://prometheusprotocols.net/function/water-relations/pressure-volume-curves/leaf-pressure-volume-curve-parameters/> schema:name "leaf pressure volume curve parameters" .
+<https://prometheusprotocols.net/function/water-relations/sap-flow/> schema:name "sap flow" .
+<https://prometheusprotocols.net/function/water-relations/sap-flow/standardised-protocol-for-sap-flow-measurements/> schema:name "standardised protocol for sap flow measurements" .
+<https://prometheusprotocols.net/function/water-relations/xylem-vulnerability-curves/> schema:name "xylem vulnerability curves" .

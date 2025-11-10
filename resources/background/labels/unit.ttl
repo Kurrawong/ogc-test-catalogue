@@ -1,0 +1,3976 @@
+PREFIX schema: <https://schema.org/>
+
+<http://qudt.org/vocab/unit/A> schema:name "ampere" .
+
+<http://qudt.org/vocab/unit/A-HR> schema:name "Ampere Hour" .
+
+<http://qudt.org/vocab/unit/A-M2> schema:name "Ampere Square Metre" .
+
+<http://qudt.org/vocab/unit/A-M2-PER-J-SEC> schema:name "Ampere Square Metre per Joule Second" .
+
+<http://qudt.org/vocab/unit/A-PER-CentiM> schema:name "Ampere per Centimetre" .
+
+<http://qudt.org/vocab/unit/A-PER-CentiM2> schema:name "Ampere per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/A-PER-DEG_C> schema:name "Ampere per Degree Celsius" .
+
+<http://qudt.org/vocab/unit/A-PER-GM> schema:name "Ampere per Gram" .
+
+<http://qudt.org/vocab/unit/A-PER-J> schema:name "Ampere per Joule" .
+
+<http://qudt.org/vocab/unit/A-PER-M> schema:name "ampere per metre" .
+
+<http://qudt.org/vocab/unit/A-PER-M2> schema:name "ampere per square metre" .
+
+<http://qudt.org/vocab/unit/A-PER-M2-K2> schema:name "Ampere per Square Metre Square Kelvin" .
+
+<http://qudt.org/vocab/unit/A-PER-MilliM> schema:name "Ampere per Millimetre" .
+
+<http://qudt.org/vocab/unit/A-PER-MilliM2> schema:name "Ampere per Square Millimetre" .
+
+<http://qudt.org/vocab/unit/A-PER-RAD> schema:name "Ampere per Radian" .
+
+<http://qudt.org/vocab/unit/A-SEC> schema:name "Ampere Second" .
+
+<http://qudt.org/vocab/unit/AC> schema:name "Acre" .
+
+<http://qudt.org/vocab/unit/AC-FT> schema:name "Acre Foot" .
+
+<http://qudt.org/vocab/unit/AMU> schema:name "Atomic mass unit" .
+
+<http://qudt.org/vocab/unit/ANGSTROM> schema:name "Angstrom" .
+
+<http://qudt.org/vocab/unit/ANGSTROM3> schema:name "Cubic Angstrom" .
+
+<http://qudt.org/vocab/unit/ARCMIN> schema:name "ArcMinute" .
+
+<http://qudt.org/vocab/unit/ARCSEC> schema:name "ArcSecond" .
+
+<http://qudt.org/vocab/unit/ARE> schema:name "are" .
+
+<http://qudt.org/vocab/unit/AT> schema:name "Ampere Turn" .
+
+<http://qudt.org/vocab/unit/AT-PER-IN> schema:name "Ampere Turn per Inch" .
+
+<http://qudt.org/vocab/unit/AT-PER-M> schema:name "Ampere Turn per Metre" .
+
+<http://qudt.org/vocab/unit/ATM> schema:name "Standard Atmosphere" .
+
+<http://qudt.org/vocab/unit/ATM-M3-PER-MOL> schema:name "Atmosphere Cubic Metre per Mole" .
+
+<http://qudt.org/vocab/unit/ATM_T> schema:name "Technical Atmosphere" .
+
+<http://qudt.org/vocab/unit/AU> schema:name "astronomical-unit" .
+
+<http://qudt.org/vocab/unit/A_Ab> schema:name "Abampere" .
+
+<http://qudt.org/vocab/unit/A_Ab-CentiM2> schema:name "Abampere Square centimetre" .
+
+<http://qudt.org/vocab/unit/A_Ab-PER-CentiM2> schema:name "Abampere per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/A_Stat> schema:name "Statampere" .
+
+<http://qudt.org/vocab/unit/A_Stat-PER-CentiM2> schema:name "Statampere per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/AttoC> schema:name "AttoCoulomb" .
+
+<http://qudt.org/vocab/unit/AttoFARAD> schema:name "Attofarad" .
+
+<http://qudt.org/vocab/unit/AttoJ> schema:name "Attojoule" .
+
+<http://qudt.org/vocab/unit/AttoJ-SEC> schema:name "Attojoule Second" .
+
+<http://qudt.org/vocab/unit/AttoSEC> schema:name "Attosecond" .
+
+<http://qudt.org/vocab/unit/B> schema:name "bel" .
+
+<http://qudt.org/vocab/unit/BAN> schema:name "Ban" .
+
+<http://qudt.org/vocab/unit/BAR> schema:name "Bar" .
+
+<http://qudt.org/vocab/unit/BAR-L-PER-SEC> schema:name "Bar Litre per Second" .
+
+<http://qudt.org/vocab/unit/BAR-M3-PER-SEC> schema:name "Bar Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/BAR-PER-BAR> schema:name "Bar per Bar" .
+
+<http://qudt.org/vocab/unit/BAR-PER-K> schema:name "Bar per Kelvin" .
+
+<http://qudt.org/vocab/unit/BARAD> schema:name "Barad" .
+
+<http://qudt.org/vocab/unit/BARN> schema:name "Barn" .
+
+<http://qudt.org/vocab/unit/BARYE> schema:name "Barye" .
+
+<http://qudt.org/vocab/unit/BBL> schema:name "Barrel" .
+
+<http://qudt.org/vocab/unit/BBL_UK_PET> schema:name "Barrel (UK Petroleum)" .
+
+<http://qudt.org/vocab/unit/BBL_UK_PET-PER-DAY> schema:name "Barrel (UK Petroleum) per Day" .
+
+<http://qudt.org/vocab/unit/BBL_UK_PET-PER-HR> schema:name "Barrel (UK Petroleum) per Hour" .
+
+<http://qudt.org/vocab/unit/BBL_UK_PET-PER-MIN> schema:name "Barrel (UK Petroleum) per Minute" .
+
+<http://qudt.org/vocab/unit/BBL_UK_PET-PER-SEC> schema:name "Barrel (UK Petroleum) per Second" .
+
+<http://qudt.org/vocab/unit/BBL_US> schema:name "Barrel (US)" .
+
+<http://qudt.org/vocab/unit/BBL_US-PER-DAY> schema:name "Barrel (US) per Day" .
+
+<http://qudt.org/vocab/unit/BBL_US-PER-MIN> schema:name "Barrel (US) per Minute" .
+
+<http://qudt.org/vocab/unit/BBL_US_DRY> schema:name "Dry Barrel (US)" .
+
+<http://qudt.org/vocab/unit/BBL_US_PET> schema:name "Barrel (US Petroleum)" .
+
+<http://qudt.org/vocab/unit/BBL_US_PET-PER-HR> schema:name "Barrel (US Petroleum) per Hour" .
+
+<http://qudt.org/vocab/unit/BBL_US_PET-PER-SEC> schema:name "Barrel (US Petroleum) per Second" .
+
+<http://qudt.org/vocab/unit/BEAT-PER-MIN> schema:name "Heart Beats per Minute" .
+
+<http://qudt.org/vocab/unit/BFT> schema:name "Beaufort" .
+
+<http://qudt.org/vocab/unit/BIOT> schema:name "Biot" .
+
+<http://qudt.org/vocab/unit/BIT> schema:name "Bit" .
+
+<http://qudt.org/vocab/unit/BIT-PER-SEC> schema:name "Bit per Second" .
+
+<http://qudt.org/vocab/unit/BQ> schema:name "becquerel" .
+
+<http://qudt.org/vocab/unit/BQ-PER-KiloGM> schema:name "Becquerel per Kilogram" .
+
+<http://qudt.org/vocab/unit/BQ-PER-L> schema:name "Becquerels per litre" .
+
+<http://qudt.org/vocab/unit/BQ-PER-M2> schema:name "Becquerel per Square Metre" .
+
+<http://qudt.org/vocab/unit/BQ-PER-M3> schema:name "Becquerel per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/BQ-SEC-PER-M3> schema:name "Becquerels second per cubic metre" .
+
+<http://qudt.org/vocab/unit/BREATH-PER-MIN> schema:name "Breath per Minute" .
+
+<http://qudt.org/vocab/unit/BREWSTER> schema:name "Brewster" .
+
+<http://qudt.org/vocab/unit/BTU_IT> schema:name "British Thermal Unit (International Definition)" .
+
+<http://qudt.org/vocab/unit/BTU_IT-FT> schema:name "BTU Foot" .
+
+<http://qudt.org/vocab/unit/BTU_IT-FT-PER-FT2-HR-DEG_F> schema:name "BTU (IT) Foot per Square Foot Hour Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-IN> schema:name "BTU Inch" .
+
+<http://qudt.org/vocab/unit/BTU_IT-IN-PER-FT2-HR-DEG_F> schema:name "British Thermal Unit (international Table) Inch per Hour Square Foot Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-IN-PER-FT2-SEC-DEG_F> schema:name "BTU (IT) Inch per Square Foot Second Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-IN-PER-HR-FT2-DEG_F> schema:name "British Thermal Unit (international Table) Inch per Hour Square Foot degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-IN-PER-SEC-FT2-DEG_F> schema:name "British Thermal Unit (international Table) Inch per Second Square Foot degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-DEG_F> schema:name "BTU (IT) per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-DEG_R> schema:name "BTU per Degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-FT2> schema:name "BTU per Square Foot" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-FT2-HR-DEG_F> schema:name "BTU per Square Foot Hour Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-FT2-SEC-DEG_F> schema:name "BTU per Square Foot Second Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-FT3> schema:name "British Thermal Unit (IT) per Cubic Foot" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-HR> schema:name "BTU per Hour" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-HR-FT2> schema:name "BTU per Hour Square Foot" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-HR-FT2-DEG_R> schema:name "British Thermal Unit (international Table) per Hour Square Foot degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB> schema:name "BTU-IT-PER-lb" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB-DEG_F> schema:name "BTU per Pound Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB-DEG_R> schema:name "BTU per Pound Degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB_F> schema:name "British Thermal Unit (international Table) per Pound of Force" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB_F-DEG_F> schema:name "British Thermal Unit (international Table) per Pound of force Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-LB_F-DEG_R> schema:name "British Thermal Unit (international Table) per Pound of force Degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-MIN> schema:name "British Thermal Unit (international Table) per Minute" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-MOL_LB> schema:name "BTU per Pound Mole" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-MOL_LB-DEG_F> schema:name "BTU per Pound Mole Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-SEC> schema:name "BTU per Second" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-SEC-FT-DEG_R> schema:name "British Thermal Unit (international Table) per Second Foot Degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-SEC-FT2> schema:name "BTU per Second Square Foot" .
+
+<http://qudt.org/vocab/unit/BTU_IT-PER-SEC-FT2-DEG_R> schema:name "British Thermal Unit (international Table) per Second Square Foot degree Rankine" .
+
+<http://qudt.org/vocab/unit/BTU_MEAN> schema:name "British Thermal Unit (mean)" .
+
+<http://qudt.org/vocab/unit/BTU_TH> schema:name "British Thermal Unit (Thermochemical Definition)" .
+
+<http://qudt.org/vocab/unit/BTU_TH-FT-PER-FT2-HR-DEG_F> schema:name "BTU (TH) Foot per Square Foot Hour Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_TH-FT-PER-HR-FT2-DEG_F> schema:name "British Thermal Unit (thermochemical) Foot per Hour Square Foot degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_TH-IN-PER-FT2-HR-DEG_F> schema:name "BTU (TH) Inch per Square Foot Hour Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_TH-IN-PER-FT2-SEC-DEG_F> schema:name "BTU (TH) Inch per Square Foot Second Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-FT3> schema:name "British Thermal Unit (TH) per Cubic Foot" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-HR> schema:name "British Thermal Unit (thermochemical) per Hour" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-LB> schema:name "British Thermal Unit (TH) per Pound" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-LB-DEG_F> schema:name "British Thermal Unit (thermochemical) per Pound Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-MIN> schema:name "British Thermal Unit (thermochemical) per Minute" .
+
+<http://qudt.org/vocab/unit/BTU_TH-PER-SEC> schema:name "British Thermal Unit (thermochemical) per Second" .
+
+<http://qudt.org/vocab/unit/BU_UK> schema:name "bushel (UK)" .
+
+<http://qudt.org/vocab/unit/BU_UK-PER-DAY> schema:name "Bushel (UK) per Day" .
+
+<http://qudt.org/vocab/unit/BU_UK-PER-HR> schema:name "Bushel (UK) per Hour" .
+
+<http://qudt.org/vocab/unit/BU_UK-PER-MIN> schema:name "Bushel (UK) per Minute" .
+
+<http://qudt.org/vocab/unit/BU_UK-PER-SEC> schema:name "Bushel (UK) per Second" .
+
+<http://qudt.org/vocab/unit/BU_US> schema:name "bushel (US)" .
+
+<http://qudt.org/vocab/unit/BU_US_DRY> schema:name "Bushel (US Dry)" .
+
+<http://qudt.org/vocab/unit/BU_US_DRY-PER-DAY> schema:name "Bushel (US Dry) per Day" .
+
+<http://qudt.org/vocab/unit/BU_US_DRY-PER-HR> schema:name "Bushel (US Dry) per Hour" .
+
+<http://qudt.org/vocab/unit/BU_US_DRY-PER-MIN> schema:name "Bushel (US Dry) per Minute" .
+
+<http://qudt.org/vocab/unit/BU_US_DRY-PER-SEC> schema:name "Bushel (US Dry) per Second" .
+
+<http://qudt.org/vocab/unit/BYTE> schema:name "Byte" .
+
+<http://qudt.org/vocab/unit/C> schema:name "coulomb" .
+
+<http://qudt.org/vocab/unit/C-M> schema:name "coulomb metre" .
+
+<http://qudt.org/vocab/unit/C-M2> schema:name "coulomb square metre" .
+
+<http://qudt.org/vocab/unit/C-M2-PER-V> schema:name "coulomb square metre per volt" .
+
+<http://qudt.org/vocab/unit/C-PER-CentiM2> schema:name "Coulomb per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/C-PER-CentiM3> schema:name "Coulomb per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/C-PER-KiloGM> schema:name "Coulomb per Kilogram" .
+
+<http://qudt.org/vocab/unit/C-PER-KiloGM-SEC> schema:name "Coulomb per Kilogram Second" .
+
+<http://qudt.org/vocab/unit/C-PER-M> schema:name "Coulomb per Metre" .
+
+<http://qudt.org/vocab/unit/C-PER-M2> schema:name "coulomb per square metre" .
+
+<http://qudt.org/vocab/unit/C-PER-M3> schema:name "Coulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/C-PER-MOL> schema:name "Coulomb per Mole" .
+
+<http://qudt.org/vocab/unit/C-PER-MilliM2> schema:name "Coulomb per Square Millimetre" .
+
+<http://qudt.org/vocab/unit/C-PER-MilliM3> schema:name "Coulomb per Cubic Millimetre" .
+
+<http://qudt.org/vocab/unit/C2-M2-PER-J> schema:name "Square Coulomb Square Metre per Joule" .
+
+<http://qudt.org/vocab/unit/C3-M-PER-J2> schema:name "Cubic Coulomb Metre per Square Joule" .
+
+<http://qudt.org/vocab/unit/C4-M4-PER-J3> schema:name "Quartic Coulomb Metre per Cubic Energy" .
+
+<http://qudt.org/vocab/unit/CAL_15_DEG_C> schema:name "Calorie (15 Degrees C)" .
+
+<http://qudt.org/vocab/unit/CAL_IT> schema:name "International Table calorie" .
+
+<http://qudt.org/vocab/unit/CAL_IT-PER-GM> schema:name "Calorie (international Table) per Gram" .
+
+<http://qudt.org/vocab/unit/CAL_IT-PER-GM-DEG_C> schema:name "Calorie (international Table) per Gram Degree Celsius" .
+
+<http://qudt.org/vocab/unit/CAL_IT-PER-GM-K> schema:name "Calorie (international Table) per Gram Kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_IT-PER-SEC-CentiM-K> schema:name "Calorie (international Table) per Second Centimetre Kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_IT-PER-SEC-CentiM2-K> schema:name "Calorie (international Table) per Second Square Centimetre kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_MEAN> schema:name "Calorie (mean)" .
+
+<http://qudt.org/vocab/unit/CAL_TH> schema:name "Thermochemical Calorie" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-CentiM-SEC-DEG_C> schema:name "Calorie (thermochemical) per Centimetre Second Degree Celsius" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-CentiM3-K> schema:name "Thermochemical Calorie per Cubic Centimetre Kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-GM> schema:name "Calorie (thermochemical) per Gram" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-GM-DEG_C> schema:name "Calorie (thermochemical) per Gram Degree Celsius" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-GM-K> schema:name "Calorie (thermochemical) per Gram Kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-MIN> schema:name "Calorie (thermochemical) per Minute" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-SEC> schema:name "Calorie (thermochemical) per Second" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-SEC-CentiM-K> schema:name "Calorie (thermochemical) per Second Centimetre Kelvin" .
+
+<http://qudt.org/vocab/unit/CAL_TH-PER-SEC-CentiM2-K> schema:name "Calorie (thermochemical) per Second Square Centimetre kelvin" .
+
+<http://qudt.org/vocab/unit/CARAT> schema:name "Carat" .
+
+<http://qudt.org/vocab/unit/CASES-PER-KiloINDIV-YR> schema:name "Cases per 1000 individuals year" .
+
+<http://qudt.org/vocab/unit/CCY_AED> schema:name "United Arab Emirates dirham" .
+
+<http://qudt.org/vocab/unit/CCY_AFN> schema:name "Afghani" .
+
+<http://qudt.org/vocab/unit/CCY_ALL> schema:name "Lek" .
+
+<http://qudt.org/vocab/unit/CCY_AMD> schema:name "Armenian Dram" .
+
+<http://qudt.org/vocab/unit/CCY_ANG> schema:name "Netherlands Antillian Guilder" .
+
+<http://qudt.org/vocab/unit/CCY_AOA> schema:name "Kwanza" .
+
+<http://qudt.org/vocab/unit/CCY_ARS> schema:name "Argentine Peso" .
+
+<http://qudt.org/vocab/unit/CCY_AUD> schema:name "Australian Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_AWG> schema:name "Aruban Guilder" .
+
+<http://qudt.org/vocab/unit/CCY_AZN> schema:name "Azerbaijanian Manat" .
+
+<http://qudt.org/vocab/unit/CCY_BAM> schema:name "Convertible Marks" .
+
+<http://qudt.org/vocab/unit/CCY_BBD> schema:name "Barbados Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_BDT> schema:name "Bangladeshi Taka" .
+
+<http://qudt.org/vocab/unit/CCY_BGN> schema:name "Bulgarian Lev" .
+
+<http://qudt.org/vocab/unit/CCY_BGN-PER-KiloW-HR> schema:name "Bulgarian Lev per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_BHD> schema:name "Bahraini Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_BIF> schema:name "Burundian Franc" .
+
+<http://qudt.org/vocab/unit/CCY_BMD> schema:name "Bermuda Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_BND> schema:name "Brunei Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_BOB> schema:name "Boliviano" .
+
+<http://qudt.org/vocab/unit/CCY_BOV> schema:name "Bolivian Mvdol (Funds code)" .
+
+<http://qudt.org/vocab/unit/CCY_BRL> schema:name "Brazilian Real" .
+
+<http://qudt.org/vocab/unit/CCY_BSD> schema:name "Bahamian Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_BTN> schema:name "Ngultrum" .
+
+<http://qudt.org/vocab/unit/CCY_BWP> schema:name "Pula" .
+
+<http://qudt.org/vocab/unit/CCY_BYN> schema:name "Belarussian Ruble" .
+
+<http://qudt.org/vocab/unit/CCY_BZD> schema:name "Belize Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_CAD> schema:name "Canadian Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_CDF> schema:name "Franc Congolais" .
+
+<http://qudt.org/vocab/unit/CCY_CHE> schema:name "WIR Euro (complementary currency)" .
+
+<http://qudt.org/vocab/unit/CCY_CHF> schema:name "Swiss Franc" .
+
+<http://qudt.org/vocab/unit/CCY_CHF-PER-KiloW-HR> schema:name "Swiss Franc per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_CHW> schema:name "WIR Franc (complementary currency)" .
+
+<http://qudt.org/vocab/unit/CCY_CLF> schema:name "Unidades de formento (Funds code)" .
+
+<http://qudt.org/vocab/unit/CCY_CLP> schema:name "Chilean Peso" .
+
+<http://qudt.org/vocab/unit/CCY_CNY> schema:name "Yuan Renminbi" .
+
+<http://qudt.org/vocab/unit/CCY_COP> schema:name "Colombian Peso" .
+
+<http://qudt.org/vocab/unit/CCY_COU> schema:name "Unidad de Valor Real" .
+
+<http://qudt.org/vocab/unit/CCY_CRC> schema:name "Costa Rican Colon" .
+
+<http://qudt.org/vocab/unit/CCY_CUP> schema:name "Cuban Peso" .
+
+<http://qudt.org/vocab/unit/CCY_CVE> schema:name "Cape Verde Escudo" .
+
+<http://qudt.org/vocab/unit/CCY_CYP> schema:name "Cyprus Pound" .
+
+<http://qudt.org/vocab/unit/CCY_CZK> schema:name "Czech Koruna" .
+
+<http://qudt.org/vocab/unit/CCY_CZK-PER-KiloW-HR> schema:name "Czech Koruna per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_DJF> schema:name "Djibouti Franc" .
+
+<http://qudt.org/vocab/unit/CCY_DKK> schema:name "Danish Krone" .
+
+<http://qudt.org/vocab/unit/CCY_DKK-PER-KiloW-HR> schema:name "Danish Krone per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_DOP> schema:name "Dominican Peso" .
+
+<http://qudt.org/vocab/unit/CCY_DZD> schema:name "Algerian Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_EEK> schema:name "Kroon" .
+
+<http://qudt.org/vocab/unit/CCY_EGP> schema:name "Egyptian Pound" .
+
+<http://qudt.org/vocab/unit/CCY_ERN> schema:name "Nakfa" .
+
+<http://qudt.org/vocab/unit/CCY_ETB> schema:name "Ethiopian Birr" .
+
+<http://qudt.org/vocab/unit/CCY_EUR> schema:name "Euro" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-KiloW> schema:name "Euro per kilowatt" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-KiloW-HR> schema:name "Euro per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-M2> schema:name "Euro per square metre" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-W> schema:name "Euro per watt" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-W-HR> schema:name "Euro per watt hour" .
+
+<http://qudt.org/vocab/unit/CCY_EUR-PER-W-SEC> schema:name "Euro per watt second" .
+
+<http://qudt.org/vocab/unit/CCY_FJD> schema:name "Fiji Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_FKP> schema:name "Falkland Islands Pound" .
+
+<http://qudt.org/vocab/unit/CCY_GBP> schema:name "Pound Sterling" .
+
+<http://qudt.org/vocab/unit/CCY_GBP-PER-KiloW-HR> schema:name "Pound Sterling per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_GEL> schema:name "Lari" .
+
+<http://qudt.org/vocab/unit/CCY_GHS> schema:name "Cedi" .
+
+<http://qudt.org/vocab/unit/CCY_GIP> schema:name "Gibraltar pound" .
+
+<http://qudt.org/vocab/unit/CCY_GMD> schema:name "Dalasi" .
+
+<http://qudt.org/vocab/unit/CCY_GNF> schema:name "Guinea Franc" .
+
+<http://qudt.org/vocab/unit/CCY_GTQ> schema:name "Quetzal" .
+
+<http://qudt.org/vocab/unit/CCY_GYD> schema:name "Guyana Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_HKD> schema:name "Hong Kong Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_HNL> schema:name "Lempira" .
+
+<http://qudt.org/vocab/unit/CCY_HRK> schema:name "Croatian Kuna" .
+
+<http://qudt.org/vocab/unit/CCY_HTG> schema:name "Haiti Gourde" .
+
+<http://qudt.org/vocab/unit/CCY_HUF> schema:name "Forint" .
+
+<http://qudt.org/vocab/unit/CCY_HUF-PER-KiloW-HR> schema:name "Forint per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_IDR> schema:name "Rupiah" .
+
+<http://qudt.org/vocab/unit/CCY_ILS> schema:name "New Israeli Shekel" .
+
+<http://qudt.org/vocab/unit/CCY_INR> schema:name "Indian Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_IQD> schema:name "Iraqi Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_IRR> schema:name "Iranian Rial" .
+
+<http://qudt.org/vocab/unit/CCY_ISK> schema:name "Iceland Krona" .
+
+<http://qudt.org/vocab/unit/CCY_JMD> schema:name "Jamaican Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_JOD> schema:name "Jordanian Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_JPY> schema:name "Japanese yen" .
+
+<http://qudt.org/vocab/unit/CCY_KES> schema:name "Kenyan Shilling" .
+
+<http://qudt.org/vocab/unit/CCY_KGS> schema:name "Som" .
+
+<http://qudt.org/vocab/unit/CCY_KHR> schema:name "Riel" .
+
+<http://qudt.org/vocab/unit/CCY_KMF> schema:name "Comoro Franc" .
+
+<http://qudt.org/vocab/unit/CCY_KPW> schema:name "North Korean Won" .
+
+<http://qudt.org/vocab/unit/CCY_KRW> schema:name "South Korean Won" .
+
+<http://qudt.org/vocab/unit/CCY_KWD> schema:name "Kuwaiti Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_KYD> schema:name "Cayman Islands Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_KZT> schema:name "Tenge" .
+
+<http://qudt.org/vocab/unit/CCY_LAK> schema:name "Lao kip" .
+
+<http://qudt.org/vocab/unit/CCY_LBP> schema:name "Lebanese Pound" .
+
+<http://qudt.org/vocab/unit/CCY_LKR> schema:name "Sri Lanka Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_LRD> schema:name "Liberian Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_LSL> schema:name "Loti" .
+
+<http://qudt.org/vocab/unit/CCY_LTL> schema:name "Lithuanian Litas" .
+
+<http://qudt.org/vocab/unit/CCY_LVL> schema:name "Latvian Lats" .
+
+<http://qudt.org/vocab/unit/CCY_LYD> schema:name "Libyan Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_MAD> schema:name "Moroccan Dirham" .
+
+<http://qudt.org/vocab/unit/CCY_MDL> schema:name "Moldovan Leu" .
+
+<http://qudt.org/vocab/unit/CCY_MGA> schema:name "Malagasy Ariary" .
+
+<http://qudt.org/vocab/unit/CCY_MKD> schema:name "Denar" .
+
+<http://qudt.org/vocab/unit/CCY_MMK> schema:name "Kyat" .
+
+<http://qudt.org/vocab/unit/CCY_MNT> schema:name "Mongolian Tugrik" .
+
+<http://qudt.org/vocab/unit/CCY_MOP> schema:name "Pataca" .
+
+<http://qudt.org/vocab/unit/CCY_MRU> schema:name "Ouguiya" .
+
+<http://qudt.org/vocab/unit/CCY_MTL> schema:name "Maltese Lira" .
+
+<http://qudt.org/vocab/unit/CCY_MUR> schema:name "Mauritius Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_MVR> schema:name "Rufiyaa" .
+
+<http://qudt.org/vocab/unit/CCY_MWK> schema:name "Malawi Kwacha" .
+
+<http://qudt.org/vocab/unit/CCY_MXN> schema:name "Mexican Peso" .
+
+<http://qudt.org/vocab/unit/CCY_MXV> schema:name "Mexican Unidad de Inversion (UDI) (Funds code)" .
+
+<http://qudt.org/vocab/unit/CCY_MYR> schema:name "Malaysian Ringgit" .
+
+<http://qudt.org/vocab/unit/CCY_MZN> schema:name "Metical" .
+
+<http://qudt.org/vocab/unit/CCY_NAD> schema:name "Namibian Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_NGN> schema:name "Naira" .
+
+<http://qudt.org/vocab/unit/CCY_NIO> schema:name "Cordoba Oro" .
+
+<http://qudt.org/vocab/unit/CCY_NOK> schema:name "Norwegian Krone" .
+
+<http://qudt.org/vocab/unit/CCY_NOK-PER-KiloW-HR> schema:name "Norwegian Krone per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_NPR> schema:name "Nepalese Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_NZD> schema:name "New Zealand Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_OMR> schema:name "Rial Omani" .
+
+<http://qudt.org/vocab/unit/CCY_PAB> schema:name "Balboa" .
+
+<http://qudt.org/vocab/unit/CCY_PEN> schema:name "Nuevo Sol" .
+
+<http://qudt.org/vocab/unit/CCY_PGK> schema:name "Kina" .
+
+<http://qudt.org/vocab/unit/CCY_PHP> schema:name "Philippine Peso" .
+
+<http://qudt.org/vocab/unit/CCY_PKR> schema:name "Pakistan Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_PLN> schema:name "Zloty" .
+
+<http://qudt.org/vocab/unit/CCY_PLN-PER-KiloW-HR> schema:name "Zloty per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_PYG> schema:name "Guarani" .
+
+<http://qudt.org/vocab/unit/CCY_QAR> schema:name "Qatari Rial" .
+
+<http://qudt.org/vocab/unit/CCY_RON> schema:name "Romanian New Leu" .
+
+<http://qudt.org/vocab/unit/CCY_RON-PER-KiloW-HR> schema:name "Romanian New Leu per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_RSD> schema:name "Serbian Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_RUB> schema:name "Russian Ruble" .
+
+<http://qudt.org/vocab/unit/CCY_RWF> schema:name "Rwanda Franc" .
+
+<http://qudt.org/vocab/unit/CCY_SAR> schema:name "Saudi Riyal" .
+
+<http://qudt.org/vocab/unit/CCY_SBD> schema:name "Solomon Islands Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_SCR> schema:name "Seychelles Rupee" .
+
+<http://qudt.org/vocab/unit/CCY_SDG> schema:name "Sudanese Pound" .
+
+<http://qudt.org/vocab/unit/CCY_SEK> schema:name "Swedish Krona" .
+
+<http://qudt.org/vocab/unit/CCY_SEK-PER-KiloW-HR> schema:name "Swedish Krona per kilowatt hour" .
+
+<http://qudt.org/vocab/unit/CCY_SGD> schema:name "Singapore Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_SHP> schema:name "Saint Helena Pound" .
+
+<http://qudt.org/vocab/unit/CCY_SKK> schema:name "Slovak Koruna" .
+
+<http://qudt.org/vocab/unit/CCY_SLE> schema:name "Leone" .
+
+<http://qudt.org/vocab/unit/CCY_SOS> schema:name "Somali Shilling" .
+
+<http://qudt.org/vocab/unit/CCY_SRD> schema:name "Surinam Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_STN> schema:name "Dobra" .
+
+<http://qudt.org/vocab/unit/CCY_SYP> schema:name "Syrian Pound" .
+
+<http://qudt.org/vocab/unit/CCY_SZL> schema:name "Lilangeni" .
+
+<http://qudt.org/vocab/unit/CCY_THB> schema:name "Baht" .
+
+<http://qudt.org/vocab/unit/CCY_TJS> schema:name "Somoni" .
+
+<http://qudt.org/vocab/unit/CCY_TMT> schema:name "Manat" .
+
+<http://qudt.org/vocab/unit/CCY_TND> schema:name "Tunisian Dinar" .
+
+<http://qudt.org/vocab/unit/CCY_TOP> schema:name "Pa'anga" .
+
+<http://qudt.org/vocab/unit/CCY_TRY> schema:name "New Turkish Lira" .
+
+<http://qudt.org/vocab/unit/CCY_TTD> schema:name "Trinidad and Tobago Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_TWD> schema:name "New Taiwan Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_TZS> schema:name "Tanzanian Shilling" .
+
+<http://qudt.org/vocab/unit/CCY_UAH> schema:name "Hryvnia" .
+
+<http://qudt.org/vocab/unit/CCY_UGX> schema:name "Uganda Shilling" .
+
+<http://qudt.org/vocab/unit/CCY_USD> schema:name "US Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_USN> schema:name "United States Dollar (next day) (funds code)" .
+
+<http://qudt.org/vocab/unit/CCY_USS> schema:name "United States Dollar (same day) (funds code)" .
+
+<http://qudt.org/vocab/unit/CCY_UYU> schema:name "Peso Uruguayo" .
+
+<http://qudt.org/vocab/unit/CCY_UZS> schema:name "Uzbekistan Som" .
+
+<http://qudt.org/vocab/unit/CCY_VES> schema:name "Venezuelan bolvar" .
+
+<http://qudt.org/vocab/unit/CCY_VND> schema:name "Vietnamese ??ng" .
+
+<http://qudt.org/vocab/unit/CCY_VUV> schema:name "Vatu" .
+
+<http://qudt.org/vocab/unit/CCY_WST> schema:name "Samoan Tala" .
+
+<http://qudt.org/vocab/unit/CCY_XAF> schema:name "CFA Franc BEAC" .
+
+<http://qudt.org/vocab/unit/CCY_XAG> schema:name "Silver (one Troy ounce)" .
+
+<http://qudt.org/vocab/unit/CCY_XAU> schema:name "Gold (one Troy ounce)" .
+
+<http://qudt.org/vocab/unit/CCY_XBA> schema:name "European Composite Unit (EURCO) (Bonds market unit)" .
+
+<http://qudt.org/vocab/unit/CCY_XBB> schema:name "European Monetary Unit (E.M.U.-6) (Bonds market unit)" .
+
+<http://qudt.org/vocab/unit/CCY_XBC> schema:name "European Unit of Account 9 (E.U.A.-9) (Bonds market unit)" .
+
+<http://qudt.org/vocab/unit/CCY_XBD> schema:name "European Unit of Account 17 (E.U.A.-17) (Bonds market unit)" .
+
+<http://qudt.org/vocab/unit/CCY_XCD> schema:name "East Caribbean Dollar" .
+
+<http://qudt.org/vocab/unit/CCY_XDR> schema:name "Special Drawing Rights" .
+
+<http://qudt.org/vocab/unit/CCY_XFO> schema:name "Gold franc (special settlement currency)" .
+
+<http://qudt.org/vocab/unit/CCY_XFU> schema:name "UIC franc (special settlement currency)" .
+
+<http://qudt.org/vocab/unit/CCY_XOF> schema:name "CFA Franc BCEAO" .
+
+<http://qudt.org/vocab/unit/CCY_XPD> schema:name "Palladium (one Troy ounce)" .
+
+<http://qudt.org/vocab/unit/CCY_XPF> schema:name "CFP franc" .
+
+<http://qudt.org/vocab/unit/CCY_XPT> schema:name "Platinum (one Troy ounce)" .
+
+<http://qudt.org/vocab/unit/CCY_YER> schema:name "Yemeni Rial" .
+
+<http://qudt.org/vocab/unit/CCY_ZAR> schema:name "South African Rand" .
+
+<http://qudt.org/vocab/unit/CCY_ZMW> schema:name "Zambian Kwacha" .
+
+<http://qudt.org/vocab/unit/CCY_ZWL> schema:name "Zimbabwe Dollar" .
+
+<http://qudt.org/vocab/unit/CD> schema:name "candela" .
+
+<http://qudt.org/vocab/unit/CD-PER-IN2> schema:name "Candela per Square Inch" .
+
+<http://qudt.org/vocab/unit/CD-PER-KiloLM> schema:name "Candela per Kilolumen" .
+
+<http://qudt.org/vocab/unit/CD-PER-LM> schema:name "Candela per Lumen" .
+
+<http://qudt.org/vocab/unit/CD-PER-M2> schema:name "candela per square metre" .
+
+<http://qudt.org/vocab/unit/CH> schema:name "chain" .
+
+<http://qudt.org/vocab/unit/CHF-PER-KiloGM> schema:name "Swiss Francs per kilogram" .
+
+<http://qudt.org/vocab/unit/CI> schema:name "Curie" .
+
+<http://qudt.org/vocab/unit/CLO> schema:name "Clo" .
+
+<http://qudt.org/vocab/unit/CORD> schema:name "Cord" .
+
+<http://qudt.org/vocab/unit/COUNT> schema:name "Count" .
+
+<http://qudt.org/vocab/unit/CP> schema:name "Candlepower" .
+
+<http://qudt.org/vocab/unit/CUP> schema:name "US Liquid Cup" .
+
+<http://qudt.org/vocab/unit/CUP_US> schema:name "Cup (US)" .
+
+<http://qudt.org/vocab/unit/CWT_LONG> schema:name "Long Hundred Weight" .
+
+<http://qudt.org/vocab/unit/CWT_SHORT> schema:name "Hundred Weight - Short" .
+
+<http://qudt.org/vocab/unit/CYC-PER-SEC> schema:name "Cycles per Second" .
+
+<http://qudt.org/vocab/unit/C_Ab> schema:name "Abcoulomb" .
+
+<http://qudt.org/vocab/unit/C_Ab-PER-CentiM2> schema:name "Abcoulomb per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/C_Stat> schema:name "Statcoulomb" .
+
+<http://qudt.org/vocab/unit/C_Stat-PER-CentiM2> schema:name "Statcoulomb per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/C_Stat-PER-MOL> schema:name "Statcoulomb per Mole" .
+
+<http://qudt.org/vocab/unit/CentiBAR> schema:name "Centibar" .
+
+<http://qudt.org/vocab/unit/CentiC> schema:name "CentiCoulomb" .
+
+<http://qudt.org/vocab/unit/CentiGM> schema:name "Centigram" .
+
+<http://qudt.org/vocab/unit/CentiL> schema:name "Centilitre" .
+
+<http://qudt.org/vocab/unit/CentiM> schema:name "Centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-HR> schema:name "Centimetre per Hour" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-K> schema:name "Centimetre per Kelvin" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-KiloYR> schema:name "Centimetres per thousand years" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-SEC> schema:name "centimetre per second" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-SEC2> schema:name "Centimetre per Square Second" .
+
+<http://qudt.org/vocab/unit/CentiM-PER-YR> schema:name "Centimetres per year" .
+
+<http://qudt.org/vocab/unit/CentiM-SEC-DEG_C> schema:name "Centimetre Second Degree Celsius" .
+
+<http://qudt.org/vocab/unit/CentiM2> schema:name "Square Centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM2-MIN> schema:name "Square Centimetre Minute" .
+
+<http://qudt.org/vocab/unit/CentiM2-PER-CentiM3> schema:name "Square centimetres per cubic centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM2-PER-GM> schema:name "Square centimetres per gram" .
+
+<http://qudt.org/vocab/unit/CentiM2-PER-SEC> schema:name "Square centimetres per second" .
+
+<http://qudt.org/vocab/unit/CentiM2-PER-V-SEC> schema:name "square centimetre per volt second" .
+
+<http://qudt.org/vocab/unit/CentiM2-SEC> schema:name "Square Centimetre Second" .
+
+<http://qudt.org/vocab/unit/CentiM3> schema:name "cubic centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-CentiM3> schema:name "Cubic Centimetre per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-DAY> schema:name "Cubic Centimetre per Day" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-GM> schema:name "Cubic Centimetres per Gram" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-HR> schema:name "Cubic Centimetre per Hour" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-K> schema:name "Cubic Centimetre per Kelvin" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-M3> schema:name "Cubic Centimetre per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-MIN> schema:name "Cubic Centimetre per Minute" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-MOL> schema:name "Cubic Centimetre per Mole" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-MOL-SEC> schema:name "Cubic Centimeter per Mole Second" .
+
+<http://qudt.org/vocab/unit/CentiM3-PER-SEC> schema:name "Cubic Centimetre per Second" .
+
+<http://qudt.org/vocab/unit/CentiM4> schema:name "quartic Centimetre" .
+
+<http://qudt.org/vocab/unit/CentiM6> schema:name "Sextic Centimetre" .
+
+<http://qudt.org/vocab/unit/CentiMOL> schema:name "CentiMole" .
+
+<http://qudt.org/vocab/unit/CentiMOL-PER-KiloGM> schema:name "Centimole per kilogram" .
+
+<http://qudt.org/vocab/unit/CentiMOL-PER-L> schema:name "Centimole per litre" .
+
+<http://qudt.org/vocab/unit/CentiM_H2O> schema:name "Conventional Centimetre Of Water" .
+
+<http://qudt.org/vocab/unit/CentiM_HG> schema:name "Centimetre Of Mercury" .
+
+<http://qudt.org/vocab/unit/CentiN> schema:name "CentiNewton" .
+
+<http://qudt.org/vocab/unit/CentiN-M> schema:name "Centinewton Metre" .
+
+<http://qudt.org/vocab/unit/CentiPOISE> schema:name "Centipoise" .
+
+<http://qudt.org/vocab/unit/CentiPOISE-PER-BAR> schema:name "Centipoise per Bar" .
+
+<http://qudt.org/vocab/unit/CentiST> schema:name "Centistokes" .
+
+<http://qudt.org/vocab/unit/DA> schema:name "Dalton" .
+
+<http://qudt.org/vocab/unit/DARCY> schema:name "Darcy" .
+
+<http://qudt.org/vocab/unit/DAY> schema:name "Day" .
+
+<http://qudt.org/vocab/unit/DAY_Sidereal> schema:name "Sidereal Day" .
+
+<http://qudt.org/vocab/unit/DEATHS-PER-KiloINDIV-YR> schema:name "Deaths per 1000 individuals year" .
+
+<http://qudt.org/vocab/unit/DEATHS-PER-MegaINDIV-YR> schema:name "Deaths per Million individuals year" .
+
+<http://qudt.org/vocab/unit/DEBYE> schema:name "Debye" .
+
+<http://qudt.org/vocab/unit/DECADE> schema:name "Dec" .
+
+<http://qudt.org/vocab/unit/DEG> schema:name "Degree" .
+
+<http://qudt.org/vocab/unit/DEG-PER-HR> schema:name "Degree per Hour" .
+
+<http://qudt.org/vocab/unit/DEG-PER-M> schema:name "Degrees per metre" .
+
+<http://qudt.org/vocab/unit/DEG-PER-MIN> schema:name "Degree per Minute" .
+
+<http://qudt.org/vocab/unit/DEG-PER-SEC> schema:name "Degree per Second" .
+
+<http://qudt.org/vocab/unit/DEG-PER-SEC2> schema:name "Degree per Square Second" .
+
+<http://qudt.org/vocab/unit/DEG2> schema:name "Square degree" .
+
+<http://qudt.org/vocab/unit/DEGREE_API> schema:name "Degree API" .
+
+<http://qudt.org/vocab/unit/DEGREE_BALLING> schema:name "Degree Balling" .
+
+<http://qudt.org/vocab/unit/DEGREE_BAUME> schema:name "Degree Baume (origin Scale)" .
+
+<http://qudt.org/vocab/unit/DEGREE_BAUME_US_HEAVY> schema:name "Degree Baume (US Heavy)" .
+
+<http://qudt.org/vocab/unit/DEGREE_BAUME_US_LIGHT> schema:name "Degree Baume (US Light)" .
+
+<http://qudt.org/vocab/unit/DEGREE_BRIX> schema:name "Degree Brix" .
+
+<http://qudt.org/vocab/unit/DEGREE_OECHSLE> schema:name "Degree Oechsle" .
+
+<http://qudt.org/vocab/unit/DEGREE_PLATO> schema:name "Degree Plato" .
+
+<http://qudt.org/vocab/unit/DEGREE_TWADDELL> schema:name "Degree Twaddell" .
+
+<http://qudt.org/vocab/unit/DEG_C> schema:name "degree Celsius" .
+
+<http://qudt.org/vocab/unit/DEG_C-CentiM> schema:name "Degree Celsius Centimetre" .
+
+<http://qudt.org/vocab/unit/DEG_C-DAY> schema:name "Degree Celsius Day" .
+
+<http://qudt.org/vocab/unit/DEG_C-HR> schema:name "Degree Celsius Hour" .
+
+<http://qudt.org/vocab/unit/DEG_C-KiloGM-PER-M2> schema:name "Degrees Celsius kilogram per square metre" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-HR> schema:name "Degree Celsius per Hour" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-K> schema:name "Degree Celsius per Kelvin" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-M> schema:name "Degrees Celsius per metre" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-MIN> schema:name "Degree Celsius per Minute" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-SEC> schema:name "Degree Celsius per Second" .
+
+<http://qudt.org/vocab/unit/DEG_C-PER-YR> schema:name "Degrees Celsius per year" .
+
+<http://qudt.org/vocab/unit/DEG_C-WK> schema:name "Degree Celsius week" .
+
+<http://qudt.org/vocab/unit/DEG_C2> schema:name "Degrees Celsius Squared" .
+
+<http://qudt.org/vocab/unit/DEG_C2-PER-SEC> schema:name "Square Degrees Celsius per second" .
+
+<http://qudt.org/vocab/unit/DEG_C_GROWING_CEREAL-DAY> schema:name "Growing Degree Days (Cereals)" .
+
+<http://qudt.org/vocab/unit/DEG_F> schema:name "Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/DEG_F-DAY> schema:name "Degree Fahrenheit Day" .
+
+<http://qudt.org/vocab/unit/DEG_F-HR> schema:name "Degree Fahrenheit Hour" .
+
+<http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_IT> schema:name "Degree Fahrenheit Hour Square Foot per British Thermal Unit (international Table)" .
+
+<http://qudt.org/vocab/unit/DEG_F-HR-FT2-PER-BTU_TH> schema:name "Degree Fahrenheit Hour Square Foot per British Thermal Unit (thermochemical)" .
+
+<http://qudt.org/vocab/unit/DEG_F-HR-PER-BTU_IT> schema:name "Degree Fahrenheit Hour per BTU" .
+
+<http://qudt.org/vocab/unit/DEG_F-PER-HR> schema:name "Degree Fahrenheit per Hour" .
+
+<http://qudt.org/vocab/unit/DEG_F-PER-K> schema:name "Degree Fahrenheit per Kelvin" .
+
+<http://qudt.org/vocab/unit/DEG_F-PER-MIN> schema:name "Degree Fahrenheit per Minute" .
+
+<http://qudt.org/vocab/unit/DEG_F-PER-SEC> schema:name "Degree Fahrenheit per Second" .
+
+<http://qudt.org/vocab/unit/DEG_F-PER-SEC2> schema:name "Degree Fahrenheit per Square Second" .
+
+<http://qudt.org/vocab/unit/DEG_R> schema:name "Degree Rankine" .
+
+<http://qudt.org/vocab/unit/DEG_R-PER-HR> schema:name "Degree Rankine per Hour" .
+
+<http://qudt.org/vocab/unit/DEG_R-PER-MIN> schema:name "Degree Rankine per Minute" .
+
+<http://qudt.org/vocab/unit/DEG_R-PER-SEC> schema:name "Degree Rankine per Second" .
+
+<http://qudt.org/vocab/unit/DENIER> schema:name "Denier" .
+
+<http://qudt.org/vocab/unit/DIOPTER> schema:name "Diopter" .
+
+<http://qudt.org/vocab/unit/DPI> schema:name "Dots per Inch" .
+
+<http://qudt.org/vocab/unit/DRAM_UK> schema:name "Dram (UK)" .
+
+<http://qudt.org/vocab/unit/DRAM_US> schema:name "Dram (US)" .
+
+<http://qudt.org/vocab/unit/DWT> schema:name "Penny Weight" .
+
+<http://qudt.org/vocab/unit/DYN> schema:name "Dyne" .
+
+<http://qudt.org/vocab/unit/DYN-CentiM> schema:name "Dyne Centimetre" .
+
+<http://qudt.org/vocab/unit/DYN-PER-CentiM> schema:name "Dyne per Centimetre" .
+
+<http://qudt.org/vocab/unit/DYN-PER-CentiM2> schema:name "Dyne per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/DYN-SEC-PER-CentiM> schema:name "Dyne Second per Centimetre" .
+
+<http://qudt.org/vocab/unit/DYN-SEC-PER-CentiM3> schema:name "Dyne Second per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/Da> schema:name "Dalton" .
+
+<http://qudt.org/vocab/unit/Debye> schema:name "Debye" .
+
+<http://qudt.org/vocab/unit/DecaARE> schema:name "Decare" .
+
+<http://qudt.org/vocab/unit/DecaC> schema:name "DecaCoulomb" .
+
+<http://qudt.org/vocab/unit/DecaGM> schema:name "Decagram" .
+
+<http://qudt.org/vocab/unit/DecaL> schema:name "Decalitre" .
+
+<http://qudt.org/vocab/unit/DecaM> schema:name "Decametre" .
+
+<http://qudt.org/vocab/unit/DecaM3> schema:name "Cubic Decametre" .
+
+<http://qudt.org/vocab/unit/DecaPA> schema:name "Decapascal" .
+
+<http://qudt.org/vocab/unit/DecaPOISE> schema:name "Decapoise" .
+
+<http://qudt.org/vocab/unit/DeciB> schema:name "Decibel" .
+
+<http://qudt.org/vocab/unit/DeciBAR> schema:name "Decibar" .
+
+<http://qudt.org/vocab/unit/DeciBAR-PER-YR> schema:name "Decibars per year" .
+
+<http://qudt.org/vocab/unit/DeciB_C> schema:name "Decibel Carrier Unit" .
+
+<http://qudt.org/vocab/unit/DeciB_M> schema:name "Decibel Referred to 1mw" .
+
+<http://qudt.org/vocab/unit/DeciC> schema:name "DeciCoulomb" .
+
+<http://qudt.org/vocab/unit/DeciGM> schema:name "Decigram" .
+
+<http://qudt.org/vocab/unit/DeciL> schema:name "Decilitre" .
+
+<http://qudt.org/vocab/unit/DeciL-PER-GM> schema:name "Decilitre per Gram" .
+
+<http://qudt.org/vocab/unit/DeciM> schema:name "Decimetre" .
+
+<http://qudt.org/vocab/unit/DeciM2> schema:name "Square Decimetre" .
+
+<http://qudt.org/vocab/unit/DeciM3> schema:name "Cubic Decimetre" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-DAY> schema:name "Cubic Decimetre per Day" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-HR> schema:name "Cubic Decimetre per Hour" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-M3> schema:name "Cubic Decimetre per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-MIN> schema:name "Cubic Decimetre per Minute" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-MOL> schema:name "Cubic Decimetre per Mole" .
+
+<http://qudt.org/vocab/unit/DeciM3-PER-SEC> schema:name "Cubic Decimetre per Second" .
+
+<http://qudt.org/vocab/unit/DeciN> schema:name "DeciNewton" .
+
+<http://qudt.org/vocab/unit/DeciN-M> schema:name "Decinewton Metre" .
+
+<http://qudt.org/vocab/unit/DeciS> schema:name "DeciSiemens" .
+
+<http://qudt.org/vocab/unit/DeciS-PER-M> schema:name "decisiemens per metre" .
+
+<http://qudt.org/vocab/unit/DeciSEC> schema:name "decisecond" .
+
+<http://qudt.org/vocab/unit/DeciTONNE> schema:name "DeciTonne" .
+
+<http://qudt.org/vocab/unit/DeciTON_Metric> schema:name "Metric DeciTON" .
+
+<http://qudt.org/vocab/unit/Denier> schema:name "Denier" .
+
+<http://qudt.org/vocab/unit/E> schema:name "Elementary Charge" .
+
+<http://qudt.org/vocab/unit/ERG> schema:name "Erg" .
+
+<http://qudt.org/vocab/unit/ERG-PER-CentiM> schema:name "Erg per Centimetre" .
+
+<http://qudt.org/vocab/unit/ERG-PER-CentiM2> schema:name "Erg per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/ERG-PER-CentiM2-SEC> schema:name "Erg per Square Centimetre Second" .
+
+<http://qudt.org/vocab/unit/ERG-PER-CentiM3> schema:name "Erg per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/ERG-PER-GM> schema:name "Erg per Gram" .
+
+<http://qudt.org/vocab/unit/ERG-PER-GM-SEC> schema:name "Erg per Gram Second" .
+
+<http://qudt.org/vocab/unit/ERG-PER-SEC> schema:name "Erg per Second" .
+
+<http://qudt.org/vocab/unit/ERG-SEC> schema:name "Erg Second" .
+
+<http://qudt.org/vocab/unit/ERLANG> schema:name "Erlang" .
+
+<http://qudt.org/vocab/unit/EV> schema:name "Electron Volt" .
+
+<http://qudt.org/vocab/unit/EV-PER-ANGSTROM> schema:name "Electronvolt per Angstrom" .
+
+<http://qudt.org/vocab/unit/EV-PER-K> schema:name "Electron Volt per Kelvin" .
+
+<http://qudt.org/vocab/unit/EV-PER-M> schema:name "Electronvolt per Metre" .
+
+<http://qudt.org/vocab/unit/EV-PER-T> schema:name "Electron Volt per Tesla" .
+
+<http://qudt.org/vocab/unit/EV-SEC> schema:name "Electron Volt Second" .
+
+<http://qudt.org/vocab/unit/E_h> schema:name "Hartree" .
+
+<http://qudt.org/vocab/unit/EarthMass> schema:name "Earth mass" .
+
+<http://qudt.org/vocab/unit/ElementaryCharge> schema:name "Elementary Charge" .
+
+<http://qudt.org/vocab/unit/ExaBYTE> schema:name "ExaByte" .
+
+<http://qudt.org/vocab/unit/ExaC> schema:name "ExaCoulomb" .
+
+<http://qudt.org/vocab/unit/ExaJ> schema:name "Exajoule" .
+
+<http://qudt.org/vocab/unit/ExbiBYTE> schema:name "ExbiByte" .
+
+<http://qudt.org/vocab/unit/F> schema:name "Faraday" .
+
+<http://qudt.org/vocab/unit/FA> schema:name "Fractional area" .
+
+<http://qudt.org/vocab/unit/FARAD> schema:name "farad" .
+
+<http://qudt.org/vocab/unit/FARAD-PER-KiloM> schema:name "Farad per Kilometre" .
+
+<http://qudt.org/vocab/unit/FARAD-PER-M> schema:name "farad per metre" .
+
+<http://qudt.org/vocab/unit/FARAD_Ab> schema:name "Abfarad" .
+
+<http://qudt.org/vocab/unit/FARAD_Ab-PER-CentiM> schema:name "Abfarad per Centimetre" .
+
+<http://qudt.org/vocab/unit/FARAD_Stat> schema:name "Statfarad" .
+
+<http://qudt.org/vocab/unit/FATH> schema:name "Fathom" .
+
+<http://qudt.org/vocab/unit/FBM> schema:name "Board Foot" .
+
+<http://qudt.org/vocab/unit/FC> schema:name "Foot Candle" .
+
+<http://qudt.org/vocab/unit/FLIGHT> schema:name "Flight" .
+
+<http://qudt.org/vocab/unit/FM> schema:name "fermi" .
+
+<http://qudt.org/vocab/unit/FR> schema:name "Franklin" .
+
+<http://qudt.org/vocab/unit/FRACTION> schema:name "Fraction" .
+
+<http://qudt.org/vocab/unit/FRAME-PER-SEC> schema:name "Frame per Second" .
+
+<http://qudt.org/vocab/unit/FT> schema:name "Foot" .
+
+<http://qudt.org/vocab/unit/FT-LB_F> schema:name "Foot Pound Force" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-FT2> schema:name "Foot Pound per Square Foot" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-FT2-SEC> schema:name "Foot Pound Force per Square Foot Second" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-HR> schema:name "Foot Pound Force per Hour" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-M2> schema:name "Foot Pound Force per Square Metre" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-MIN> schema:name "Foot Pound Force per Minute" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-PER-SEC> schema:name "Foot Pound Force per Second" .
+
+<http://qudt.org/vocab/unit/FT-LB_F-SEC> schema:name "Foot Pound Force Second" .
+
+<http://qudt.org/vocab/unit/FT-PDL> schema:name "Foot Poundal" .
+
+<http://qudt.org/vocab/unit/FT-PER-DAY> schema:name "Foot per Day" .
+
+<http://qudt.org/vocab/unit/FT-PER-DEG_F> schema:name "Foot per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT-PER-HR> schema:name "Foot per Hour" .
+
+<http://qudt.org/vocab/unit/FT-PER-MIN> schema:name "Foot per Minute" .
+
+<http://qudt.org/vocab/unit/FT-PER-SEC> schema:name "Foot per Second" .
+
+<http://qudt.org/vocab/unit/FT-PER-SEC2> schema:name "Foot per Square Second" .
+
+<http://qudt.org/vocab/unit/FT2> schema:name "Square Foot" .
+
+<http://qudt.org/vocab/unit/FT2-DEG_F> schema:name "Square Foot Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT2-HR-DEG_F> schema:name "Square Foot Hour Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT2-HR-DEG_F-PER-BTU_IT> schema:name "Square Foot Hour Degree Fahrenheit per BTU" .
+
+<http://qudt.org/vocab/unit/FT2-PER-BTU_IT-IN> schema:name "Square Foot per BTU Inch" .
+
+<http://qudt.org/vocab/unit/FT2-PER-HR> schema:name "Square Foot per Hour" .
+
+<http://qudt.org/vocab/unit/FT2-PER-SEC> schema:name "Square Foot per Second" .
+
+<http://qudt.org/vocab/unit/FT2-SEC-DEG_F> schema:name "Square Foot Second Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT3> schema:name "Cubic Foot" .
+
+<http://qudt.org/vocab/unit/FT3-PER-DAY> schema:name "Cubic Foot per Day" .
+
+<http://qudt.org/vocab/unit/FT3-PER-DEG_F> schema:name "Cubic Foot per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/FT3-PER-HR> schema:name "Cubic Foot per Hour" .
+
+<http://qudt.org/vocab/unit/FT3-PER-MIN> schema:name "Cubic Foot per Minute" .
+
+<http://qudt.org/vocab/unit/FT3-PER-MIN-FT2> schema:name "Cubic Foot per Minute Square Foot" .
+
+<http://qudt.org/vocab/unit/FT3-PER-SEC> schema:name "Cubic Foot per Second" .
+
+<http://qudt.org/vocab/unit/FT_H2O> schema:name "Foot of Water" .
+
+<http://qudt.org/vocab/unit/FT_HG> schema:name "Foot Of Mercury" .
+
+<http://qudt.org/vocab/unit/FT_US> schema:name "US Survey Foot" .
+
+<http://qudt.org/vocab/unit/FUR> schema:name "Furlong" .
+
+<http://qudt.org/vocab/unit/FUR_Long> schema:name "Long Furlong" .
+
+<http://qudt.org/vocab/unit/FemtoC> schema:name "FemtoCoulomb" .
+
+<http://qudt.org/vocab/unit/FemtoGM> schema:name "FemtoGram" .
+
+<http://qudt.org/vocab/unit/FemtoGM-PER-KiloGM> schema:name "Femtograms per kilogram" .
+
+<http://qudt.org/vocab/unit/FemtoGM-PER-L> schema:name "Femtograms per litre" .
+
+<http://qudt.org/vocab/unit/FemtoJ> schema:name "Femtojoule" .
+
+<http://qudt.org/vocab/unit/FemtoL> schema:name "Femtolitre" .
+
+<http://qudt.org/vocab/unit/FemtoM> schema:name "Femtometre" .
+
+<http://qudt.org/vocab/unit/FemtoMOL> schema:name "FemtoMole" .
+
+<http://qudt.org/vocab/unit/FemtoMOL-PER-KiloGM> schema:name "Femtomoles per kilogram" .
+
+<http://qudt.org/vocab/unit/FemtoMOL-PER-L> schema:name "Femtomoles per litre" .
+
+<http://qudt.org/vocab/unit/FemtoSEC> schema:name "Femtosecond" .
+
+<http://qudt.org/vocab/unit/G> schema:name "Gravity" .
+
+<http://qudt.org/vocab/unit/GALILEO> schema:name "Galileo" .
+
+<http://qudt.org/vocab/unit/GAL_IMP> schema:name "Imperial Gallon" .
+
+<http://qudt.org/vocab/unit/GAL_UK> schema:name "Gallon (UK)" .
+
+<http://qudt.org/vocab/unit/GAL_UK-PER-DAY> schema:name "Gallon (UK) per Day" .
+
+<http://qudt.org/vocab/unit/GAL_UK-PER-HR> schema:name "Gallon (UK) per Hour" .
+
+<http://qudt.org/vocab/unit/GAL_UK-PER-MIN> schema:name "Gallon (UK) per Minute" .
+
+<http://qudt.org/vocab/unit/GAL_UK-PER-SEC> schema:name "Gallon (UK) per Second" .
+
+<http://qudt.org/vocab/unit/GAL_US> schema:name "US Gallon" .
+
+<http://qudt.org/vocab/unit/GAL_US-PER-DAY> schema:name "US Gallon per Day" .
+
+<http://qudt.org/vocab/unit/GAL_US-PER-HR> schema:name "Gallon (US) per Hour" .
+
+<http://qudt.org/vocab/unit/GAL_US-PER-MIN> schema:name "US Gallon per Minute" .
+
+<http://qudt.org/vocab/unit/GAL_US-PER-SEC> schema:name "Gallon (US Liquid) per Second" .
+
+<http://qudt.org/vocab/unit/GAL_US_DRY> schema:name "Dry Gallon US" .
+
+<http://qudt.org/vocab/unit/GAMMA> schema:name "Gamma" .
+
+<http://qudt.org/vocab/unit/GAUGE_FR> schema:name "French Gauge" .
+
+<http://qudt.org/vocab/unit/GAUSS> schema:name "Gauss" .
+
+<http://qudt.org/vocab/unit/GI> schema:name "Gilbert" .
+
+<http://qudt.org/vocab/unit/GI_UK> schema:name "Gill (UK)" .
+
+<http://qudt.org/vocab/unit/GI_UK-PER-DAY> schema:name "Gill (UK) per Day" .
+
+<http://qudt.org/vocab/unit/GI_UK-PER-HR> schema:name "Gill (UK) per Hour" .
+
+<http://qudt.org/vocab/unit/GI_UK-PER-MIN> schema:name "Gill (UK) per Minute" .
+
+<http://qudt.org/vocab/unit/GI_UK-PER-SEC> schema:name "Gill (UK) per Second" .
+
+<http://qudt.org/vocab/unit/GI_US> schema:name "Gill (US)" .
+
+<http://qudt.org/vocab/unit/GI_US-PER-DAY> schema:name "Gill (US) per Day" .
+
+<http://qudt.org/vocab/unit/GI_US-PER-HR> schema:name "Gill (US) per Hour" .
+
+<http://qudt.org/vocab/unit/GI_US-PER-MIN> schema:name "Gill (US) per Minute" .
+
+<http://qudt.org/vocab/unit/GI_US-PER-SEC> schema:name "Gill (US) per Second" .
+
+<http://qudt.org/vocab/unit/GM> schema:name "Gram" .
+
+<http://qudt.org/vocab/unit/GM-MilliM> schema:name "Gram Millimetre" .
+
+<http://qudt.org/vocab/unit/GM-PER-CentiM2> schema:name "Gram per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/GM-PER-CentiM2-YR> schema:name "Grams per square centimetre year" .
+
+<http://qudt.org/vocab/unit/GM-PER-CentiM3> schema:name "Gram per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/GM-PER-DAY> schema:name "Gram per Day" .
+
+<http://qudt.org/vocab/unit/GM-PER-DEG_C> schema:name "Gram Degree Celsius" .
+
+<http://qudt.org/vocab/unit/GM-PER-DeciL> schema:name "grams per decilitre" .
+
+<http://qudt.org/vocab/unit/GM-PER-DeciM3> schema:name "Gram per Cubic Decimetre" .
+
+<http://qudt.org/vocab/unit/GM-PER-GM> schema:name "Gram per Gram" .
+
+<http://qudt.org/vocab/unit/GM-PER-HA> schema:name "Gram per Hectare" .
+
+<http://qudt.org/vocab/unit/GM-PER-HR> schema:name "Gram per Hour" .
+
+<http://qudt.org/vocab/unit/GM-PER-HectoGM> schema:name "Gram Per Hectogram" .
+
+<http://qudt.org/vocab/unit/GM-PER-KiloGM> schema:name "Gram per Kilogram" .
+
+<http://qudt.org/vocab/unit/GM-PER-KiloM> schema:name "Gram per Kilometre" .
+
+<http://qudt.org/vocab/unit/GM-PER-L> schema:name "Gram per Litre" .
+
+<http://qudt.org/vocab/unit/GM-PER-M> schema:name "Gram per Metre" .
+
+<http://qudt.org/vocab/unit/GM-PER-M2> schema:name "Gram per Square Metre" .
+
+<http://qudt.org/vocab/unit/GM-PER-M2-DAY> schema:name "grams per square metre day" .
+
+<http://qudt.org/vocab/unit/GM-PER-M2-HR> schema:name "Grams per square meter per hour" .
+
+<http://qudt.org/vocab/unit/GM-PER-M2-YR> schema:name "grams per square metre per year" .
+
+<http://qudt.org/vocab/unit/GM-PER-M3> schema:name "Gram per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/GM-PER-MIN> schema:name "Gram per Minute" .
+
+<http://qudt.org/vocab/unit/GM-PER-MOL> schema:name "Gram per Mole" .
+
+<http://qudt.org/vocab/unit/GM-PER-MilliL> schema:name "Gram per Millilitre" .
+
+<http://qudt.org/vocab/unit/GM-PER-MilliM> schema:name "Gram per Millimetre" .
+
+<http://qudt.org/vocab/unit/GM-PER-MilliM-BAR> schema:name "Gram per Millimetre Bar" .
+
+<http://qudt.org/vocab/unit/GM-PER-SEC> schema:name "Gram per Second" .
+
+<http://qudt.org/vocab/unit/GM_Carbon-PER-M2-DAY> schema:name "grams Carbon per square metre day" .
+
+<http://qudt.org/vocab/unit/GM_F> schema:name "Gram Force" .
+
+<http://qudt.org/vocab/unit/GM_F-PER-CentiM2> schema:name "Gram Force per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/GM_Nitrogen-PER-M2-DAY> schema:name "grams Nitrogen per square metre day" .
+
+<http://qudt.org/vocab/unit/GON> schema:name "Gon" .
+
+<http://qudt.org/vocab/unit/GR> schema:name "Grade" .
+
+<http://qudt.org/vocab/unit/GRAD> schema:name "Grad" .
+
+<http://qudt.org/vocab/unit/GRAIN> schema:name "Grain" .
+
+<http://qudt.org/vocab/unit/GRAIN-PER-GAL> schema:name "Grain per Gallon" .
+
+<http://qudt.org/vocab/unit/GRAIN-PER-GAL_US> schema:name "Grain per Gallon (US)" .
+
+<http://qudt.org/vocab/unit/GRAIN-PER-M3> schema:name "Grains per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/GRAY> schema:name "gray" .
+
+<http://qudt.org/vocab/unit/GRAY-PER-SEC> schema:name "Gray per Second" .
+
+<http://qudt.org/vocab/unit/GT> schema:name "Gross Tonnage" .
+
+<http://qudt.org/vocab/unit/Gamma> schema:name "Gamma" .
+
+<http://qudt.org/vocab/unit/GibiBYTE> schema:name "GibiByte" .
+
+<http://qudt.org/vocab/unit/GigaBIT-PER-SEC> schema:name "Gigabit per Second" .
+
+<http://qudt.org/vocab/unit/GigaBQ> schema:name "Gigabecquerel" .
+
+<http://qudt.org/vocab/unit/GigaBYTE> schema:name "GigaByte" .
+
+<http://qudt.org/vocab/unit/GigaBasePair> schema:name "Gigabase Pair" .
+
+<http://qudt.org/vocab/unit/GigaC> schema:name "GigaCoulomb" .
+
+<http://qudt.org/vocab/unit/GigaC-PER-M3> schema:name "Gigacoulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/GigaEV> schema:name "Giga Electron Volt" .
+
+<http://qudt.org/vocab/unit/GigaHZ> schema:name "Gigahertz" .
+
+<http://qudt.org/vocab/unit/GigaHZ-M> schema:name "Gigahertz Metre" .
+
+<http://qudt.org/vocab/unit/GigaJ> schema:name "Gigajoule" .
+
+<http://qudt.org/vocab/unit/GigaJ-PER-HR> schema:name "Gigajoule per Hour" .
+
+<http://qudt.org/vocab/unit/GigaJ-PER-M2> schema:name "Gigajoule per Square Metre" .
+
+<http://qudt.org/vocab/unit/GigaOHM> schema:name "Gigaohm" .
+
+<http://qudt.org/vocab/unit/GigaPA> schema:name "Gigapascal" .
+
+<http://qudt.org/vocab/unit/GigaPA-CentiM3-PER-GM> schema:name "Gigapascal Cubed Centimetre per Gram" .
+
+<http://qudt.org/vocab/unit/GigaW> schema:name "Gigawatt" .
+
+<http://qudt.org/vocab/unit/GigaW-HR> schema:name "Gigawatt Hour" .
+
+<http://qudt.org/vocab/unit/Gs> schema:name "Gs" .
+
+<http://qudt.org/vocab/unit/H> schema:name "henry" .
+
+<http://qudt.org/vocab/unit/H-PER-KiloOHM> schema:name "Henry per Kiloohm" .
+
+<http://qudt.org/vocab/unit/H-PER-M> schema:name "Henry per Metre" .
+
+<http://qudt.org/vocab/unit/H-PER-OHM> schema:name "Henry per Ohm" .
+
+<http://qudt.org/vocab/unit/HA> schema:name "Hectare" .
+
+<http://qudt.org/vocab/unit/HART> schema:name "Hartley" .
+
+<http://qudt.org/vocab/unit/HART-PER-SEC> schema:name "Hartley per Second" .
+
+<http://qudt.org/vocab/unit/HP> schema:name "Horsepower" .
+
+<http://qudt.org/vocab/unit/HP_Boiler> schema:name "Boiler Horsepower" .
+
+<http://qudt.org/vocab/unit/HP_Brake> schema:name "Horsepower (brake)" .
+
+<http://qudt.org/vocab/unit/HP_Electric> schema:name "Horsepower (electric)" .
+
+<http://qudt.org/vocab/unit/HP_Metric> schema:name "Horsepower (metric)" .
+
+<http://qudt.org/vocab/unit/HR> schema:name "Hour" .
+
+<http://qudt.org/vocab/unit/HR-FT2> schema:name "Hour Square Foot" .
+
+<http://qudt.org/vocab/unit/HR-PER-YR> schema:name "Hours per Year" .
+
+<http://qudt.org/vocab/unit/HR_Sidereal> schema:name "Sidereal Hour" .
+
+<http://qudt.org/vocab/unit/HZ> schema:name "hertz" .
+
+<http://qudt.org/vocab/unit/HZ-M> schema:name "Hertz Metre" .
+
+<http://qudt.org/vocab/unit/HZ-PER-K> schema:name "hertz per kelvin" .
+
+<http://qudt.org/vocab/unit/HZ-PER-T> schema:name "Hertz per Tesla" .
+
+<http://qudt.org/vocab/unit/HZ-PER-V> schema:name "Hertz per Volt" .
+
+<http://qudt.org/vocab/unit/H_Ab> schema:name "Abhenry" .
+
+<http://qudt.org/vocab/unit/H_Stat> schema:name "Stathenry" .
+
+<http://qudt.org/vocab/unit/H_Stat-PER-CentiM> schema:name "Stathenry per Centimetre" .
+
+<http://qudt.org/vocab/unit/HeartBeat> schema:name "Heart Beat" .
+
+<http://qudt.org/vocab/unit/HectoBAR> schema:name "Hectobar" .
+
+<http://qudt.org/vocab/unit/HectoC> schema:name "HectoCoulomb" .
+
+<http://qudt.org/vocab/unit/HectoGM> schema:name "Hectogram" .
+
+<http://qudt.org/vocab/unit/HectoL> schema:name "Hectolitre" .
+
+<http://qudt.org/vocab/unit/HectoM> schema:name "Hectometre" .
+
+<http://qudt.org/vocab/unit/HectoPA> schema:name "Hectopascal" .
+
+<http://qudt.org/vocab/unit/HectoPA-L-PER-SEC> schema:name "Hectopascal Litre per Second" .
+
+<http://qudt.org/vocab/unit/HectoPA-M3-PER-SEC> schema:name "Hectopascal Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/HectoPA-PER-BAR> schema:name "Hectopascal per Bar" .
+
+<http://qudt.org/vocab/unit/HectoPA-PER-HR> schema:name "Hectopascals per hour" .
+
+<http://qudt.org/vocab/unit/HectoPA-PER-K> schema:name "Hectopascal per Kelvin" .
+
+<http://qudt.org/vocab/unit/Hundredweight_UK> schema:name "Hundredweight (UK)" .
+
+<http://qudt.org/vocab/unit/Hundredweight_US> schema:name "Hundredweight (US)" .
+
+<http://qudt.org/vocab/unit/IN> schema:name "Inch" .
+
+<http://qudt.org/vocab/unit/IN-PER-DEG_F> schema:name "Inch per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/IN-PER-MIN> schema:name "Inch per Minute" .
+
+<http://qudt.org/vocab/unit/IN-PER-SEC> schema:name "Inch per Second" .
+
+<http://qudt.org/vocab/unit/IN-PER-SEC2> schema:name "Inch per Square second" .
+
+<http://qudt.org/vocab/unit/IN2> schema:name "Square Inch" .
+
+<http://qudt.org/vocab/unit/IN2-PER-SEC> schema:name "Square Inch per Second" .
+
+<http://qudt.org/vocab/unit/IN3> schema:name "Cubic Inch" .
+
+<http://qudt.org/vocab/unit/IN3-PER-HR> schema:name "Cubic Inch per Hour" .
+
+<http://qudt.org/vocab/unit/IN3-PER-MIN> schema:name "Cubic Inch per Minute" .
+
+<http://qudt.org/vocab/unit/IN3-PER-SEC> schema:name "Cubic Inch per Second" .
+
+<http://qudt.org/vocab/unit/IN4> schema:name "Quartic Inch" .
+
+<http://qudt.org/vocab/unit/IN_H2O> schema:name "Inch of Water" .
+
+<http://qudt.org/vocab/unit/IN_HG> schema:name "Inch of Mercury" .
+
+<http://qudt.org/vocab/unit/IU> schema:name "International Unit" .
+
+<http://qudt.org/vocab/unit/IU-PER-L> schema:name "International Unit per Litre" .
+
+<http://qudt.org/vocab/unit/IU-PER-MilliGM> schema:name "International Unit per milligram" .
+
+<http://qudt.org/vocab/unit/IU-PER-MilliL> schema:name "International Unit per milliliter" .
+
+<http://qudt.org/vocab/unit/J> schema:name "joule" .
+
+<http://qudt.org/vocab/unit/J-M-PER-MOL> schema:name "Joule Metre per Mole" .
+
+<http://qudt.org/vocab/unit/J-M2> schema:name "Joule Square Metre" .
+
+<http://qudt.org/vocab/unit/J-M2-PER-KiloGM> schema:name "Joule Square Metre per Kilogram" .
+
+<http://qudt.org/vocab/unit/J-PER-CentiM2> schema:name "Joule per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/J-PER-CentiM2-DAY> schema:name "Joules per square centimetre day" .
+
+<http://qudt.org/vocab/unit/J-PER-CentiM3-K> schema:name "Joule per Cubic Centimetre Kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-GM> schema:name "Joule per Gram" .
+
+<http://qudt.org/vocab/unit/J-PER-GM-DEG_C> schema:name "joule per gram degree celsius" .
+
+<http://qudt.org/vocab/unit/J-PER-GM-K> schema:name "Joule per Gram Kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-HR> schema:name "Joule per Hour" .
+
+<http://qudt.org/vocab/unit/J-PER-K> schema:name "joule per kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-KiloGM> schema:name "Joule per Kilogram" .
+
+<http://qudt.org/vocab/unit/J-PER-KiloGM-DEG_C> schema:name "joule per kilogram degree celsius" .
+
+<http://qudt.org/vocab/unit/J-PER-KiloGM-K> schema:name "Joule per Kilogram Kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-KiloGM-K-M3> schema:name "Joule per Kilogram Kelvin Cubic Metre" .
+
+<http://qudt.org/vocab/unit/J-PER-KiloGM-K-PA> schema:name "Joule per Kilogram Kelvin Pascal" .
+
+<http://qudt.org/vocab/unit/J-PER-M> schema:name "Joule per Metre" .
+
+<http://qudt.org/vocab/unit/J-PER-M2> schema:name "Joule per Square Metre" .
+
+<http://qudt.org/vocab/unit/J-PER-M3> schema:name "Joule per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/J-PER-M3-K> schema:name "Joule per Cubic Metre Kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-M4> schema:name "Joule per Quartic Metre" .
+
+<http://qudt.org/vocab/unit/J-PER-MOL> schema:name "joule per mole" .
+
+<http://qudt.org/vocab/unit/J-PER-MOL-K> schema:name "Joule per Mole Kelvin" .
+
+<http://qudt.org/vocab/unit/J-PER-SEC> schema:name "Joule per Second" .
+
+<http://qudt.org/vocab/unit/J-PER-T> schema:name "joule per tesla" .
+
+<http://qudt.org/vocab/unit/J-PER-T2> schema:name "Joule per Square Tesla" .
+
+<http://qudt.org/vocab/unit/J-SEC> schema:name "joule second" .
+
+<http://qudt.org/vocab/unit/J-SEC-PER-MOL> schema:name "Joule Second per Mole" .
+
+<http://qudt.org/vocab/unit/K> schema:name "kelvin" .
+
+<http://qudt.org/vocab/unit/K-DAY> schema:name "Kelvin day" .
+
+<http://qudt.org/vocab/unit/K-M> schema:name "Kelvin metres" .
+
+<http://qudt.org/vocab/unit/K-M-PER-SEC> schema:name "Kelvin metres per second" .
+
+<http://qudt.org/vocab/unit/K-M-PER-W> schema:name "Kelvin Metre per Watt" .
+
+<http://qudt.org/vocab/unit/K-M2-PER-KiloGM-SEC> schema:name "Kelvin square metres per kilogram second" .
+
+<http://qudt.org/vocab/unit/K-PA-PER-SEC> schema:name "Kelvin Pascals per second" .
+
+<http://qudt.org/vocab/unit/K-PER-HR> schema:name "Kelvin per Hour" .
+
+<http://qudt.org/vocab/unit/K-PER-K> schema:name "Kelvin per Kelvin" .
+
+<http://qudt.org/vocab/unit/K-PER-M> schema:name "Kelvin per metre" .
+
+<http://qudt.org/vocab/unit/K-PER-MIN> schema:name "Kelvin per Minute" .
+
+<http://qudt.org/vocab/unit/K-PER-SEC> schema:name "Kelvin per Second" .
+
+<http://qudt.org/vocab/unit/K-PER-SEC2> schema:name "Kelvin per Square Second" .
+
+<http://qudt.org/vocab/unit/K-PER-T> schema:name "Kelvin per Tesla" .
+
+<http://qudt.org/vocab/unit/K-PER-W> schema:name "kelvin per watt" .
+
+<http://qudt.org/vocab/unit/K-SEC> schema:name "Kelvin second" .
+
+<http://qudt.org/vocab/unit/K2> schema:name "Square Kelvin" .
+
+<http://qudt.org/vocab/unit/KAT> schema:name "katal" .
+
+<http://qudt.org/vocab/unit/KAT-PER-L> schema:name "Katal per Litre" .
+
+<http://qudt.org/vocab/unit/KAT-PER-MicroL> schema:name "Katal per Microlitre" .
+
+<http://qudt.org/vocab/unit/KIP_F> schema:name "Kip" .
+
+<http://qudt.org/vocab/unit/KIP_F-PER-IN2> schema:name "Kip per Square Inch" .
+
+<http://qudt.org/vocab/unit/KN> schema:name "Knot" .
+
+<http://qudt.org/vocab/unit/KN-PER-SEC> schema:name "Knot per Second" .
+
+<http://qudt.org/vocab/unit/KY> schema:name "Kayser" .
+
+<http://qudt.org/vocab/unit/KibiBYTE> schema:name "KibiByte" .
+
+<http://qudt.org/vocab/unit/KiloA> schema:name "kiloampere" .
+
+<http://qudt.org/vocab/unit/KiloA-HR> schema:name "Kiloampere Hour" .
+
+<http://qudt.org/vocab/unit/KiloA-PER-M> schema:name "Kiloampere per Metre" .
+
+<http://qudt.org/vocab/unit/KiloA-PER-M2> schema:name "Kiloampere per Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloBAR> schema:name "Kilobar" .
+
+<http://qudt.org/vocab/unit/KiloBIT-PER-SEC> schema:name "Kilobit per Second" .
+
+<http://qudt.org/vocab/unit/KiloBQ> schema:name "Kilobecquerel" .
+
+<http://qudt.org/vocab/unit/KiloBTU_IT> schema:name "Kilo British Thermal Unit (International Definition)" .
+
+<http://qudt.org/vocab/unit/KiloBTU_IT-PER-FT2> schema:name "kBTU per Square Foot" .
+
+<http://qudt.org/vocab/unit/KiloBTU_IT-PER-HR> schema:name "Kilo British Thermal Unit (International Definition) per Hour" .
+
+<http://qudt.org/vocab/unit/KiloBTU_TH> schema:name "Kilo British Thermal Unit (Thermochemical Definition)" .
+
+<http://qudt.org/vocab/unit/KiloBTU_TH-PER-HR> schema:name "Kilo British Thermal Unit (thermochemical) per Hour" .
+
+<http://qudt.org/vocab/unit/KiloBYTE> schema:name "Kilo Byte" .
+
+<http://qudt.org/vocab/unit/KiloBYTE-PER-SEC> schema:name "Kilobyte per Second" .
+
+<http://qudt.org/vocab/unit/KiloC> schema:name "KiloCoulomb" .
+
+<http://qudt.org/vocab/unit/KiloC-PER-M2> schema:name "Kilocoulomb per Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloC-PER-M3> schema:name "Kilocoulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/KiloCAL> schema:name "Kilocalorie" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-CentiM-SEC-DEG_C> schema:name "Kilocalorie per Centimetre Second Degree Celsius" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-CentiM2> schema:name "Kilocalorie per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-CentiM2-MIN> schema:name "Kilocalorie per Square Centimetre Minute" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-CentiM2-SEC> schema:name "Kilocalorie per Square Centimetre Second" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-GM> schema:name "Kilocalorie per Gram" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-GM-DEG_C> schema:name "Calorie per Gram Degree Celsius" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-MIN> schema:name "Kilocalorie per Minute" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-MOL> schema:name "Kilocalorie per Mole" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-MOL-DEG_C> schema:name "Kilocalorie per Mole Degree Celsius" .
+
+<http://qudt.org/vocab/unit/KiloCAL-PER-SEC> schema:name "Kilocalorie per Second" .
+
+<http://qudt.org/vocab/unit/KiloCAL_IT> schema:name "Kilocalorie (international Table)" .
+
+<http://qudt.org/vocab/unit/KiloCAL_IT-PER-HR-M-DEG_C> schema:name "Kilocalorie (international Table) per Hour Metre Degree Celsius" .
+
+<http://qudt.org/vocab/unit/KiloCAL_Mean> schema:name "Kilocalorie (mean)" .
+
+<http://qudt.org/vocab/unit/KiloCAL_TH> schema:name "Kilocalorie (thermochemical)" .
+
+<http://qudt.org/vocab/unit/KiloCAL_TH-PER-HR> schema:name "Kilocalorie (thermochemical) per Hour" .
+
+<http://qudt.org/vocab/unit/KiloCAL_TH-PER-MIN> schema:name "Kilocalorie (thermochemical) per Minute" .
+
+<http://qudt.org/vocab/unit/KiloCAL_TH-PER-SEC> schema:name "Kilocalorie (thermochemical) per Second" .
+
+<http://qudt.org/vocab/unit/KiloCi> schema:name "Kilocurie" .
+
+<http://qudt.org/vocab/unit/KiloCubicFT> schema:name "Thousand Cubic Foot" .
+
+<http://qudt.org/vocab/unit/KiloEV> schema:name "Kilo Electron Volt" .
+
+<http://qudt.org/vocab/unit/KiloEV-PER-MicroM> schema:name "Kilo Electron Volt per Micrometre" .
+
+<http://qudt.org/vocab/unit/KiloGAUSS> schema:name "Kilogauss" .
+
+<http://qudt.org/vocab/unit/KiloGM> schema:name "kilogram" .
+
+<http://qudt.org/vocab/unit/KiloGM-CentiM2> schema:name "Kilogram Square Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-K> schema:name "Kilogram Kelvin" .
+
+<http://qudt.org/vocab/unit/KiloGM-M-PER-SEC> schema:name "kilogram metre per second" .
+
+<http://qudt.org/vocab/unit/KiloGM-M2> schema:name "kilogram square metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-M2-PER-SEC> schema:name "Kilogram Square Metre per Second" .
+
+<http://qudt.org/vocab/unit/KiloGM-MilliM2> schema:name "Kilogram Square Millimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-CentiM2> schema:name "Kilogram per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-CentiM3> schema:name "Kilogram per Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-DAY> schema:name "Kilogram per Day" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-DeciM3> schema:name "Kilogram per Cubic Decimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-FT2> schema:name "Kilogram per Square Foot" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-GigaJ> schema:name "Kilogram per Gigajoule" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-HA> schema:name "Kilogram per Hectare" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-HA-YR> schema:name "kilogram per hectare per year" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-HR> schema:name "Kilogram per Hour" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-J> schema:name "Kilogram per Joule" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-KiloGM> schema:name "Kilogram per Kilogram" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-KiloM2> schema:name "Kilograms per square kilometre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-KiloMOL> schema:name "Kilogram per Kilomol" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-L> schema:name "Kilogram per Litre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M> schema:name "Kilogram per Metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M-HR> schema:name "Kilograms per metre hour" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M-SEC> schema:name "Kilograms per metre second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M-SEC2> schema:name "Kilograms per metre square second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M2> schema:name "Kilogram per Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M2-DAY> schema:name "kilogram per square metre per day" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M2-PA-SEC> schema:name "Kilograms per square metre Pascal second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M2-SEC> schema:name "Kilograms per square metre second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M2-SEC2> schema:name "Kilogram per Square Metre Square Second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M3> schema:name "kilogram per cubic metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-M3-SEC> schema:name "Kilograms per cubic metre second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-MIN> schema:name "Kilogram per Minute" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-MOL> schema:name "Kilogram per Mol" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-MegaBTU_IT> schema:name "Kilogram per Mega BTU" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-MilliM> schema:name "Kilogram per Millimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-PA-SEC-M> schema:name "kilogram per pascal second metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-SEC> schema:name "Kilogram per Second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-SEC-M2> schema:name "Kilogram per Second Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-SEC2> schema:name "Kilogram per Square Second" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-SEC3-K> schema:name "kilogram per cubic second kelvin" .
+
+<http://qudt.org/vocab/unit/KiloGM-PER-YR> schema:name "Kilogram per Year" .
+
+<http://qudt.org/vocab/unit/KiloGM-SEC2> schema:name "Kilogram Square Second" .
+
+<http://qudt.org/vocab/unit/KiloGM2-PER-SEC2> schema:name "Square Kilograms per square second" .
+
+<http://qudt.org/vocab/unit/KiloGM_F> schema:name "Kilogram Force" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-M> schema:name "Kilogram_force Metre" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-M-PER-CentiM2> schema:name "Kilogram Force Metre per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-M-PER-SEC> schema:name "Kilogram_force Metre per Second" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-PER-CentiM2> schema:name "Kilogram Force per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-PER-M2> schema:name "Kilogram Force per Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloGM_F-PER-MilliM2> schema:name "Kilogram Force per Square Millimetre" .
+
+<http://qudt.org/vocab/unit/KiloHZ> schema:name "Kilohertz" .
+
+<http://qudt.org/vocab/unit/KiloHZ-M> schema:name "Kilohertz Metre" .
+
+<http://qudt.org/vocab/unit/KiloJ> schema:name "Kilojoule" .
+
+<http://qudt.org/vocab/unit/KiloJ-PER-K> schema:name "Kilojoule per Kelvin" .
+
+<http://qudt.org/vocab/unit/KiloJ-PER-KiloGM> schema:name "Kilojoule per Kilogram" .
+
+<http://qudt.org/vocab/unit/KiloJ-PER-KiloGM-K> schema:name "Kilojoule per Kilogram Kelvin" .
+
+<http://qudt.org/vocab/unit/KiloJ-PER-MOL> schema:name "Kilojoule per Mole" .
+
+<http://qudt.org/vocab/unit/KiloL> schema:name "Kilolitre" .
+
+<http://qudt.org/vocab/unit/KiloL-PER-HR> schema:name "Kilolitre per Hour" .
+
+<http://qudt.org/vocab/unit/KiloLB_F> schema:name "KiloPound Force" .
+
+<http://qudt.org/vocab/unit/KiloLB_F-FT-PER-A> schema:name "Pound Force Foot per Ampere" .
+
+<http://qudt.org/vocab/unit/KiloLB_F-FT-PER-LB> schema:name "Pound Force Foot per Pound" .
+
+<http://qudt.org/vocab/unit/KiloLB_F-PER-FT> schema:name "Pound Force per Foot" .
+
+<http://qudt.org/vocab/unit/KiloLB_F-PER-IN2> schema:name "Kilopound Force per Square Inch" .
+
+<http://qudt.org/vocab/unit/KiloLM> schema:name "kilolumen" .
+
+<http://qudt.org/vocab/unit/KiloM> schema:name "Kilometre" .
+
+<http://qudt.org/vocab/unit/KiloM-PER-DAY> schema:name "Kilometres per day" .
+
+<http://qudt.org/vocab/unit/KiloM-PER-HR> schema:name "Kilometre per Hour" .
+
+<http://qudt.org/vocab/unit/KiloM-PER-SEC> schema:name "Kilometre per Second" .
+
+<http://qudt.org/vocab/unit/KiloM2-PER-SEC2> schema:name "Square kilometres per square second" .
+
+<http://qudt.org/vocab/unit/KiloM3-PER-SEC2> schema:name "Cubic Kilometre per Square Second" .
+
+<http://qudt.org/vocab/unit/KiloMOL> schema:name "Kilomole" .
+
+<http://qudt.org/vocab/unit/KiloMOL-PER-HR> schema:name "Kilomole per Hour" .
+
+<http://qudt.org/vocab/unit/KiloMOL-PER-KiloGM> schema:name "Kilomole per Kilogram" .
+
+<http://qudt.org/vocab/unit/KiloMOL-PER-M3> schema:name "Kilomole per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/KiloMOL-PER-MIN> schema:name "Kilomole per Minute" .
+
+<http://qudt.org/vocab/unit/KiloMOL-PER-SEC> schema:name "Kilomole per Second" .
+
+<http://qudt.org/vocab/unit/KiloN> schema:name "Kilonewton" .
+
+<http://qudt.org/vocab/unit/KiloN-M> schema:name "Kilonewton Metre" .
+
+<http://qudt.org/vocab/unit/KiloN-M-PER-DEG> schema:name "Kilonewton Metre per Degree" .
+
+<http://qudt.org/vocab/unit/KiloN-M-PER-DEG-M> schema:name "kilonewton metre per degree metre" .
+
+<http://qudt.org/vocab/unit/KiloN-M-PER-M> schema:name "Kilonewton Metre per metre" .
+
+<http://qudt.org/vocab/unit/KiloN-M2> schema:name "Kilo Newton Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloOHM> schema:name "Kiloohm" .
+
+<http://qudt.org/vocab/unit/KiloPA> schema:name "Kilopascal" .
+
+<http://qudt.org/vocab/unit/KiloPA-M2-PER-GM> schema:name "Kilopascal Square Metre per Gram" .
+
+<http://qudt.org/vocab/unit/KiloPA-PER-BAR> schema:name "Kilopascal per Bar" .
+
+<http://qudt.org/vocab/unit/KiloPA-PER-K> schema:name "Kilopascal per Kelvin" .
+
+<http://qudt.org/vocab/unit/KiloPA-PER-MilliM> schema:name "Kilopascal per Millimetre" .
+
+<http://qudt.org/vocab/unit/KiloPA_A> schema:name "Kilopascal Absolute" .
+
+<http://qudt.org/vocab/unit/KiloPOISE> schema:name "Kilopoise" .
+
+<http://qudt.org/vocab/unit/KiloPOND> schema:name "Kilopond" .
+
+<http://qudt.org/vocab/unit/KiloR> schema:name "Kiloroentgen" .
+
+<http://qudt.org/vocab/unit/KiloS> schema:name "Kilosiemens" .
+
+<http://qudt.org/vocab/unit/KiloS-PER-M> schema:name "Kilosiemens per Metre" .
+
+<http://qudt.org/vocab/unit/KiloSEC> schema:name "kilosecond" .
+
+<http://qudt.org/vocab/unit/KiloTONNE> schema:name "KiloTonne" .
+
+<http://qudt.org/vocab/unit/KiloTONNE-PER-YR> schema:name "KiloTonne per Year" .
+
+<http://qudt.org/vocab/unit/KiloTON_Metric> schema:name "Metric KiloTON" .
+
+<http://qudt.org/vocab/unit/KiloV> schema:name "Kilovolt" .
+
+<http://qudt.org/vocab/unit/KiloV-A> schema:name "Kilovolt Ampere" .
+
+<http://qudt.org/vocab/unit/KiloV-A-HR> schema:name "Kilovolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/KiloV-A_Reactive> schema:name "Kilovolt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/KiloV-A_Reactive-HR> schema:name "Kilovolt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/KiloV-PER-M> schema:name "Kilovolt per Metre" .
+
+<http://qudt.org/vocab/unit/KiloVA> schema:name "Kilovolt Ampere" .
+
+<http://qudt.org/vocab/unit/KiloVA-HR> schema:name "Kilovolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/KiloVAR> schema:name "Kilovolt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/KiloVAR-HR> schema:name "Kilovolt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/KiloW> schema:name "Kilowatt" .
+
+<http://qudt.org/vocab/unit/KiloW-HR> schema:name "Kilowatthour" .
+
+<http://qudt.org/vocab/unit/KiloW-HR-PER-M2> schema:name "Kilowatt hour per square metre" .
+
+<http://qudt.org/vocab/unit/KiloW-PER-M2> schema:name "Kilowatt Per Square Metre" .
+
+<http://qudt.org/vocab/unit/KiloWB> schema:name "KiloWeber" .
+
+<http://qudt.org/vocab/unit/KiloWB-PER-M> schema:name "Kiloweber per Metre" .
+
+<http://qudt.org/vocab/unit/KiloYR> schema:name "KiloYear" .
+
+<http://qudt.org/vocab/unit/L> schema:name "Litre" .
+
+<http://qudt.org/vocab/unit/L-PER-DAY> schema:name "Litre per Day" .
+
+<http://qudt.org/vocab/unit/L-PER-HR> schema:name "Litre per Hour" .
+
+<http://qudt.org/vocab/unit/L-PER-K> schema:name "Litre per Kelvin" .
+
+<http://qudt.org/vocab/unit/L-PER-KiloGM> schema:name "Litre per Kilogram" .
+
+<http://qudt.org/vocab/unit/L-PER-L> schema:name "Litre per Litre" .
+
+<http://qudt.org/vocab/unit/L-PER-MIN> schema:name "Litre per Minute" .
+
+<http://qudt.org/vocab/unit/L-PER-MOL> schema:name "Litre per Mole" .
+
+<http://qudt.org/vocab/unit/L-PER-MicroMOL> schema:name "Litres per micromole" .
+
+<http://qudt.org/vocab/unit/L-PER-SEC> schema:name "Litre per Second" .
+
+<http://qudt.org/vocab/unit/L-PER-SEC-M2> schema:name "Litre per Second Square Metre" .
+
+<http://qudt.org/vocab/unit/LA> schema:name "Lambert" .
+
+<http://qudt.org/vocab/unit/LA_FT> schema:name "Foot Lambert" .
+
+<http://qudt.org/vocab/unit/LB> schema:name "Pound Mass" .
+
+<http://qudt.org/vocab/unit/LB-DEG_F> schema:name "Pound Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/LB-DEG_R> schema:name "Pound Degree Rankine" .
+
+<http://qudt.org/vocab/unit/LB-FT2> schema:name "Pound Mass (avoirdupois) Square Foot" .
+
+<http://qudt.org/vocab/unit/LB-IN> schema:name "Pound Mass (avoirdupois) Inch" .
+
+<http://qudt.org/vocab/unit/LB-IN2> schema:name "Pound Mass (avoirdupois) Square Inch" .
+
+<http://qudt.org/vocab/unit/LB-PER-AC> schema:name "pound per acre" .
+
+<http://qudt.org/vocab/unit/LB-PER-DAY> schema:name "Pound (avoirdupois) per Day" .
+
+<http://qudt.org/vocab/unit/LB-PER-FT> schema:name "Pound per Foot" .
+
+<http://qudt.org/vocab/unit/LB-PER-FT-HR> schema:name "Pound per Foot Hour" .
+
+<http://qudt.org/vocab/unit/LB-PER-FT-SEC> schema:name "Pound per Foot Second" .
+
+<http://qudt.org/vocab/unit/LB-PER-FT2> schema:name "Pound Mass (avoirdupois) per Square Foot" .
+
+<http://qudt.org/vocab/unit/LB-PER-FT3> schema:name "Pound per Cubic Foot" .
+
+<http://qudt.org/vocab/unit/LB-PER-GAL> schema:name "Pound per Gallon" .
+
+<http://qudt.org/vocab/unit/LB-PER-GAL_UK> schema:name "Pound (avoirdupois) per Gallon (UK)" .
+
+<http://qudt.org/vocab/unit/LB-PER-GAL_US> schema:name "Pound (avoirdupois) per Gallon (US)" .
+
+<http://qudt.org/vocab/unit/LB-PER-HR> schema:name "Pound per Hour" .
+
+<http://qudt.org/vocab/unit/LB-PER-IN> schema:name "Pound per Inch" .
+
+<http://qudt.org/vocab/unit/LB-PER-IN2> schema:name "Pound (avoirdupois) per Square Inch" .
+
+<http://qudt.org/vocab/unit/LB-PER-IN3> schema:name "Pound per Cubic Inch" .
+
+<http://qudt.org/vocab/unit/LB-PER-M3> schema:name "Pound per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/LB-PER-MIN> schema:name "Pound per Minute" .
+
+<http://qudt.org/vocab/unit/LB-PER-SEC> schema:name "Pound (avoirdupois) per Second" .
+
+<http://qudt.org/vocab/unit/LB-PER-YD3> schema:name "Pound per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/LB_F> schema:name "Pound Force" .
+
+<http://qudt.org/vocab/unit/LB_F-FT> schema:name "Pound Force Foot" .
+
+<http://qudt.org/vocab/unit/LB_F-IN> schema:name "Pound Force Inch" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-FT> schema:name "Pound Force per Foot" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-FT2> schema:name "Pound Force per Square Foot" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-IN> schema:name "Pound Force per Inch" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-IN2> schema:name "Pound Force per Square Inch" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-IN2-DEG_F> schema:name "Pound Force per Square Inch Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-IN2-SEC> schema:name "Pound Force per Square Inch Second" .
+
+<http://qudt.org/vocab/unit/LB_F-PER-LB> schema:name "Pound Force per Pound" .
+
+<http://qudt.org/vocab/unit/LB_F-SEC-PER-FT2> schema:name "Pound Force Second per Square Foot" .
+
+<http://qudt.org/vocab/unit/LB_F-SEC-PER-IN2> schema:name "Pound Force Second per Square Inch" .
+
+<http://qudt.org/vocab/unit/LB_M> schema:name "Pound Mass" .
+
+<http://qudt.org/vocab/unit/LB_T> schema:name "Pound Troy" .
+
+<http://qudt.org/vocab/unit/LM> schema:name "lumen" .
+
+<http://qudt.org/vocab/unit/LM-PER-W> schema:name "Lumen per Watt" .
+
+<http://qudt.org/vocab/unit/LM-SEC> schema:name "lumen second" .
+
+<http://qudt.org/vocab/unit/LUX> schema:name "lux" .
+
+<http://qudt.org/vocab/unit/LUX-HR> schema:name "Lux Hour" .
+
+<http://qudt.org/vocab/unit/LY> schema:name "Light Year" .
+
+<http://qudt.org/vocab/unit/LunarMass> schema:name "Lunar mass" .
+
+<http://qudt.org/vocab/unit/M> schema:name "metre" .
+
+<http://qudt.org/vocab/unit/M-K> schema:name "metre kelvin" .
+
+<http://qudt.org/vocab/unit/M-K-PER-W> schema:name "Metre Kelvin per Watt" .
+
+<http://qudt.org/vocab/unit/M-KiloGM> schema:name "Metre Kilogram" .
+
+<http://qudt.org/vocab/unit/M-PER-DAY> schema:name "Metre per Day" .
+
+<http://qudt.org/vocab/unit/M-PER-FARAD> schema:name "Metre per Farad" .
+
+<http://qudt.org/vocab/unit/M-PER-HA> schema:name "Metres per hectare" .
+
+<http://qudt.org/vocab/unit/M-PER-HR> schema:name "Metre per Hour" .
+
+<http://qudt.org/vocab/unit/M-PER-K> schema:name "Metre per Kelvin" .
+
+<http://qudt.org/vocab/unit/M-PER-M2> schema:name "Metres per square metre" .
+
+<http://qudt.org/vocab/unit/M-PER-MIN> schema:name "Metre per Minute" .
+
+<http://qudt.org/vocab/unit/M-PER-SEC> schema:name "metre per second" .
+
+<http://qudt.org/vocab/unit/M-PER-SEC2> schema:name "Metre per Square Second" .
+
+<http://qudt.org/vocab/unit/M-PER-YR> schema:name "Metre per year" .
+
+<http://qudt.org/vocab/unit/M2> schema:name "square metre" .
+
+<http://qudt.org/vocab/unit/M2-HR-DEG_C-PER-KiloCAL_IT> schema:name "Square Metre Hour Degree Celsius per Kilocalorie (international Table)" .
+
+<http://qudt.org/vocab/unit/M2-HZ> schema:name "Square metres Hertz" .
+
+<http://qudt.org/vocab/unit/M2-HZ2> schema:name "Square Metres square Hertz" .
+
+<http://qudt.org/vocab/unit/M2-HZ3> schema:name "Square metres cubic Hertz" .
+
+<http://qudt.org/vocab/unit/M2-HZ4> schema:name "Square metres Hertz^4" .
+
+<http://qudt.org/vocab/unit/M2-K> schema:name "Square Metre Kelvin" .
+
+<http://qudt.org/vocab/unit/M2-K-PER-W> schema:name "Square Metre Kelvin per Watt" .
+
+<http://qudt.org/vocab/unit/M2-PER-GM> schema:name "Square metres per gram" .
+
+<http://qudt.org/vocab/unit/M2-PER-GM_DRY> schema:name "Square metres per gram of dry sediment" .
+
+<http://qudt.org/vocab/unit/M2-PER-HA> schema:name "square metres per hectare" .
+
+<http://qudt.org/vocab/unit/M2-PER-HA-YR> schema:name "Square Metre per Hectare Year" .
+
+<http://qudt.org/vocab/unit/M2-PER-HZ> schema:name "Square metres per Hertz" .
+
+<http://qudt.org/vocab/unit/M2-PER-HZ-DEG> schema:name "Square metres per Hertz degree" .
+
+<http://qudt.org/vocab/unit/M2-PER-HZ2> schema:name "Square metres per square Hertz" .
+
+<http://qudt.org/vocab/unit/M2-PER-J> schema:name "Square Metre per Joule" .
+
+<http://qudt.org/vocab/unit/M2-PER-K> schema:name "Square Metre per Kelvin" .
+
+<http://qudt.org/vocab/unit/M2-PER-KiloGM> schema:name "Square Metre per Kilogram" .
+
+<http://qudt.org/vocab/unit/M2-PER-KiloW> schema:name "square metre per Kilowatt" .
+
+<http://qudt.org/vocab/unit/M2-PER-M> schema:name "square metre per metre" .
+
+<http://qudt.org/vocab/unit/M2-PER-M2> schema:name "square metre per square metre" .
+
+<http://qudt.org/vocab/unit/M2-PER-MOL> schema:name "Square Metre per Mole" .
+
+<http://qudt.org/vocab/unit/M2-PER-N> schema:name "Square Metre per Newton" .
+
+<http://qudt.org/vocab/unit/M2-PER-SEC> schema:name "square metre per second" .
+
+<http://qudt.org/vocab/unit/M2-PER-SEC2> schema:name "Square metres per square second" .
+
+<http://qudt.org/vocab/unit/M2-PER-SEC2-K> schema:name "square metre per square second kelvin" .
+
+<http://qudt.org/vocab/unit/M2-PER-SR> schema:name "Square Metre per Steradian" .
+
+<http://qudt.org/vocab/unit/M2-PER-SR-J> schema:name "Square Metre per Steradian Joule" .
+
+<http://qudt.org/vocab/unit/M2-PER-V-SEC> schema:name "square metre per volt second" .
+
+<http://qudt.org/vocab/unit/M2-PER-W> schema:name "square metre per watt" .
+
+<http://qudt.org/vocab/unit/M2-SEC-PER-RAD> schema:name "Square metre seconds per radian" .
+
+<http://qudt.org/vocab/unit/M2-SR> schema:name "Square Metre Steradian" .
+
+<http://qudt.org/vocab/unit/M3> schema:name "cubic metre" .
+
+<http://qudt.org/vocab/unit/M3-PER-C> schema:name "Cubic Metre per Coulomb" .
+
+<http://qudt.org/vocab/unit/M3-PER-DAY> schema:name "Cubic Metre per Day" .
+
+<http://qudt.org/vocab/unit/M3-PER-HA> schema:name "Cubic Metre per Hectare" .
+
+<http://qudt.org/vocab/unit/M3-PER-HA-YR> schema:name "Cubic Metre per Hectare Year" .
+
+<http://qudt.org/vocab/unit/M3-PER-HR> schema:name "Cubic Metre per Hour" .
+
+<http://qudt.org/vocab/unit/M3-PER-K> schema:name "Cubic Metre per Kelvin" .
+
+<http://qudt.org/vocab/unit/M3-PER-KiloGM> schema:name "Cubic Metre per Kilogram" .
+
+<http://qudt.org/vocab/unit/M3-PER-KiloGM-SEC2> schema:name "Cubic Metre per Kilogram Square Second" .
+
+<http://qudt.org/vocab/unit/M3-PER-M2> schema:name "Cubic Metre per Square Metre" .
+
+<http://qudt.org/vocab/unit/M3-PER-M3> schema:name "Cubic Metre per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/M3-PER-MIN> schema:name "Cubic Metre per Minute" .
+
+<http://qudt.org/vocab/unit/M3-PER-MOL> schema:name "cubic metre per mole" .
+
+<http://qudt.org/vocab/unit/M3-PER-MOL-SEC> schema:name "Cubic Metre per Mole Second" .
+
+<http://qudt.org/vocab/unit/M3-PER-SEC> schema:name "Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/M3-PER-SEC2> schema:name "Cubic Metre per Square Second" .
+
+<http://qudt.org/vocab/unit/M3-PER-YR> schema:name "Cubic Metre per Year" .
+
+<http://qudt.org/vocab/unit/M4> schema:name "Quartic Metre" .
+
+<http://qudt.org/vocab/unit/M4-PER-SEC> schema:name "Metres to the power four per second" .
+
+<http://qudt.org/vocab/unit/M5> schema:name "Quintic Metre" .
+
+<http://qudt.org/vocab/unit/M6> schema:name "Sextic Metre" .
+
+<http://qudt.org/vocab/unit/MACH> schema:name "Mach" .
+
+<http://qudt.org/vocab/unit/MESH> schema:name "Mesh" .
+
+<http://qudt.org/vocab/unit/MHO> schema:name "Mho" .
+
+<http://qudt.org/vocab/unit/MHO_Stat> schema:name "Statmho" .
+
+<http://qudt.org/vocab/unit/MI> schema:name "International Mile" .
+
+<http://qudt.org/vocab/unit/MI-PER-HR> schema:name "Mile per Hour" .
+
+<http://qudt.org/vocab/unit/MI-PER-MIN> schema:name "Mile per Minute" .
+
+<http://qudt.org/vocab/unit/MI-PER-SEC> schema:name "Mile per Second" .
+
+<http://qudt.org/vocab/unit/MI2> schema:name "Square Mile" .
+
+<http://qudt.org/vocab/unit/MI3> schema:name "Cubic Mile" .
+
+<http://qudt.org/vocab/unit/MIL> schema:name "Mil Angle (NATO)" .
+
+<http://qudt.org/vocab/unit/MIL_Circ> schema:name "Circular Mil" .
+
+<http://qudt.org/vocab/unit/MIN> schema:name "Minute" .
+
+<http://qudt.org/vocab/unit/MIN_Angle> schema:name "Minute Angle" .
+
+<http://qudt.org/vocab/unit/MIN_Sidereal> schema:name "Sidereal Minute" .
+
+<http://qudt.org/vocab/unit/MI_N> schema:name "Nautical Mile" .
+
+<http://qudt.org/vocab/unit/MI_N-PER-HR> schema:name "Nautical Mile per Hour" .
+
+<http://qudt.org/vocab/unit/MI_N-PER-MIN> schema:name "Nautical Mile per Minute" .
+
+<http://qudt.org/vocab/unit/MI_US> schema:name "Mile US Statute" .
+
+<http://qudt.org/vocab/unit/MI_US2> schema:name "Square Mile US Statute" .
+
+<http://qudt.org/vocab/unit/MO> schema:name "Month" .
+
+<http://qudt.org/vocab/unit/MOHM> schema:name "Mohm" .
+
+<http://qudt.org/vocab/unit/MOL> schema:name "mole" .
+
+<http://qudt.org/vocab/unit/MOL-DEG_C> schema:name "Mole Degree Celsius" .
+
+<http://qudt.org/vocab/unit/MOL-K> schema:name "Mole Kelvin" .
+
+<http://qudt.org/vocab/unit/MOL-PER-DeciM3> schema:name "Mole per Cubic Decimetre" .
+
+<http://qudt.org/vocab/unit/MOL-PER-GM-HR> schema:name "Moles per gram hour" .
+
+<http://qudt.org/vocab/unit/MOL-PER-HR> schema:name "Mole per Hour" .
+
+<http://qudt.org/vocab/unit/MOL-PER-KiloGM> schema:name "Mole per Kilogram" .
+
+<http://qudt.org/vocab/unit/MOL-PER-KiloGM-PA> schema:name "Mole per Kilogram Pascal" .
+
+<http://qudt.org/vocab/unit/MOL-PER-L> schema:name "Mole per Litre" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2> schema:name "Moles per square metre" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2-DAY> schema:name "Moles per Square Metre Day" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2-SEC> schema:name "Moles per square metre second" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2-SEC-M> schema:name "Moles per square metre second metre" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2-SEC-M-SR> schema:name "Moles per square metre second metre steradian" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M2-SEC-SR> schema:name "Moles per square metre second steradian" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M3> schema:name "Mole per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MOL-PER-M3-SEC> schema:name "Moles per cubic metre second" .
+
+<http://qudt.org/vocab/unit/MOL-PER-MIN> schema:name "Mole per Minute" .
+
+<http://qudt.org/vocab/unit/MOL-PER-MOL> schema:name "Moles per mole" .
+
+<http://qudt.org/vocab/unit/MOL-PER-SEC> schema:name "Mole per Second" .
+
+<http://qudt.org/vocab/unit/MOL-PER-TONNE> schema:name "Mol per Tonne" .
+
+<http://qudt.org/vocab/unit/MOL_LB> schema:name "Pound Mole" .
+
+<http://qudt.org/vocab/unit/MOL_LB-DEG_F> schema:name "Pound Mole Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/MO_MeanGREGORIAN> schema:name "Mean Gregorian Month" .
+
+<http://qudt.org/vocab/unit/MO_MeanJulian> schema:name "Mean Julian Month" .
+
+<http://qudt.org/vocab/unit/MO_Synodic> schema:name "Synodic month" .
+
+<http://qudt.org/vocab/unit/MX> schema:name "Maxwell" .
+
+<http://qudt.org/vocab/unit/MebiBYTE> schema:name "Mebibyte" .
+
+<http://qudt.org/vocab/unit/MegaA> schema:name "Megaampere" .
+
+<http://qudt.org/vocab/unit/MegaA-PER-M2> schema:name "Megaampere per Square Metre" .
+
+<http://qudt.org/vocab/unit/MegaBAR> schema:name "Megabar" .
+
+<http://qudt.org/vocab/unit/MegaBIT-PER-SEC> schema:name "Megabit per Second" .
+
+<http://qudt.org/vocab/unit/MegaBQ> schema:name "Megabecquerel" .
+
+<http://qudt.org/vocab/unit/MegaBTU_IT-PER-HR> schema:name "Mega British Thermal Unit (International Definition) per Hour" .
+
+<http://qudt.org/vocab/unit/MegaBYTE> schema:name "Mega byte" .
+
+<http://qudt.org/vocab/unit/MegaC> schema:name "MegaCoulomb" .
+
+<http://qudt.org/vocab/unit/MegaC-PER-M2> schema:name "Megacoulomb per Square Metre" .
+
+<http://qudt.org/vocab/unit/MegaC-PER-M3> schema:name "Megacoulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MegaCCY_USD-PER-FLIGHT> schema:name "Million US Dollars per Flight" .
+
+<http://qudt.org/vocab/unit/MegaCCY_USD-PER-YR> schema:name "Million US Dollars per Year" .
+
+<http://qudt.org/vocab/unit/MegaDOLLAR_US-PER-FLIGHT> schema:name "Million US Dollars per Flight" .
+
+<http://qudt.org/vocab/unit/MegaEV> schema:name "Mega Electron Volt" .
+
+<http://qudt.org/vocab/unit/MegaEV-FemtoM> schema:name "Mega Electron Volt Femtometre" .
+
+<http://qudt.org/vocab/unit/MegaEV-PER-CentiM> schema:name "Mega Electron Volt per Centimetre" .
+
+<http://qudt.org/vocab/unit/MegaEV-PER-SpeedOfLight> schema:name "Mega Electron Volt per Speed of Light" .
+
+<http://qudt.org/vocab/unit/MegaGM> schema:name "Megagram" .
+
+<http://qudt.org/vocab/unit/MegaGM-PER-HA> schema:name "Megagram per Hectare" .
+
+<http://qudt.org/vocab/unit/MegaGM-PER-HA-YR> schema:name "Megagram per Hectare per Year" .
+
+<http://qudt.org/vocab/unit/MegaGM-PER-M3> schema:name "Megagram per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MegaHZ> schema:name "Megahertz" .
+
+<http://qudt.org/vocab/unit/MegaHZ-M> schema:name "Megahertz Metre" .
+
+<http://qudt.org/vocab/unit/MegaHZ-PER-K> schema:name "Mega Hertz per Kelvin" .
+
+<http://qudt.org/vocab/unit/MegaHZ-PER-T> schema:name "Mega Hertz per Tesla" .
+
+<http://qudt.org/vocab/unit/MegaJ> schema:name "Megajoule" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-HR> schema:name "Megajoule per Hour" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-K> schema:name "MegaJoule per Kelvin" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-KiloGM> schema:name "Megajoule per Kilogram" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-M2> schema:name "Megajoule per Square Metre" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-M2-DAY> schema:name "Megajoule Per Square Metre Per Day" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-M3> schema:name "Megajoule per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MegaJ-PER-SEC> schema:name "Megajoule per Second" .
+
+<http://qudt.org/vocab/unit/MegaL> schema:name "Megalitre" .
+
+<http://qudt.org/vocab/unit/MegaLB_F> schema:name "Mega Pound Force" .
+
+<http://qudt.org/vocab/unit/MegaN> schema:name "Meganewton" .
+
+<http://qudt.org/vocab/unit/MegaN-M> schema:name "Meganewton Metre" .
+
+<http://qudt.org/vocab/unit/MegaOHM> schema:name "Megaohm" .
+
+<http://qudt.org/vocab/unit/MegaPA> schema:name "Megapascal" .
+
+<http://qudt.org/vocab/unit/MegaPA-L-PER-SEC> schema:name "Megapascal Litre per Second" .
+
+<http://qudt.org/vocab/unit/MegaPA-M0dot5> schema:name "Megapascal Square Root Metre" .
+
+<http://qudt.org/vocab/unit/MegaPA-M3-PER-SEC> schema:name "Megapascal Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/MegaPA-PER-BAR> schema:name "Megapascal per Bar" .
+
+<http://qudt.org/vocab/unit/MegaPA-PER-K> schema:name "Megapascal per Kelvin" .
+
+<http://qudt.org/vocab/unit/MegaPSI> schema:name "MPSI" .
+
+<http://qudt.org/vocab/unit/MegaS> schema:name "MegaSiemens" .
+
+<http://qudt.org/vocab/unit/MegaS-PER-M> schema:name "Megasiemens per Metre" .
+
+<http://qudt.org/vocab/unit/MegaTOE> schema:name "Megaton of Oil Equivalent" .
+
+<http://qudt.org/vocab/unit/MegaTONNE-PER-YR> schema:name "Megatonne per Year" .
+
+<http://qudt.org/vocab/unit/MegaV> schema:name "Megavolt" .
+
+<http://qudt.org/vocab/unit/MegaV-A> schema:name "Megavolt Ampere" .
+
+<http://qudt.org/vocab/unit/MegaV-A-HR> schema:name "Megavolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/MegaV-A_Reactive> schema:name "Megavolt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/MegaV-A_Reactive-HR> schema:name "Megavolt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/MegaV-PER-M> schema:name "Megavolt per Metre" .
+
+<http://qudt.org/vocab/unit/MegaVA> schema:name "Megavolt Ampere" .
+
+<http://qudt.org/vocab/unit/MegaVA-HR> schema:name "Megavolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/MegaVAR> schema:name "Megavolt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/MegaVAR-HR> schema:name "Megavolt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/MegaW> schema:name "MegaW" .
+
+<http://qudt.org/vocab/unit/MegaW-HR> schema:name "Megawatt Hour" .
+
+<http://qudt.org/vocab/unit/MegaYR> schema:name "Million Years" .
+
+<http://qudt.org/vocab/unit/MicroA> schema:name "microampere" .
+
+<http://qudt.org/vocab/unit/MicroATM> schema:name "Microatmospheres" .
+
+<http://qudt.org/vocab/unit/MicroBAR> schema:name "Microbar" .
+
+<http://qudt.org/vocab/unit/MicroBQ> schema:name "Microbecquerel" .
+
+<http://qudt.org/vocab/unit/MicroBQ-PER-KiloGM> schema:name "Microbecquerels per kilogram" .
+
+<http://qudt.org/vocab/unit/MicroBQ-PER-L> schema:name "Microbecquerels per litre" .
+
+<http://qudt.org/vocab/unit/MicroC> schema:name "MicroCoulomb" .
+
+<http://qudt.org/vocab/unit/MicroC-PER-M2> schema:name "Microcoulomb per Square Metre" .
+
+<http://qudt.org/vocab/unit/MicroC-PER-M3> schema:name "Microcoulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MicroCi> schema:name "MicroCurie" .
+
+<http://qudt.org/vocab/unit/MicroFARAD> schema:name "microfarad" .
+
+<http://qudt.org/vocab/unit/MicroFARAD-PER-KiloM> schema:name "Microfarad per Kilometre" .
+
+<http://qudt.org/vocab/unit/MicroFARAD-PER-M> schema:name "Microfarad per Metre" .
+
+<http://qudt.org/vocab/unit/MicroG> schema:name "Microgravity" .
+
+<http://qudt.org/vocab/unit/MicroGAL-PER-M> schema:name "MicroGals per metre" .
+
+<http://qudt.org/vocab/unit/MicroGM> schema:name "Microgram" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-CentiM2> schema:name "Microgram per square centimetre" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-CentiM2-WK> schema:name "Micrograms per square centimetre week" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-DeciL> schema:name "Microgram per Decilitre" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-GM> schema:name "Micrograms per gram" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-GM-DAY> schema:name "Microgram per Gram per Day" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-GM-HR> schema:name "Micrograms per gram per hour" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-IN2> schema:name "Microgram per Square Inch" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-KiloGM> schema:name "Microgram per Kilogram" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-L> schema:name "Microgram per Litre" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-L-DAY> schema:name "Micrograms per litre per hour" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-L-HR> schema:name "Micrograms per litre hour" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-M2-DAY> schema:name "Micrograms per square metre day" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-M3> schema:name "Microgram per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-M3-HR> schema:name "Micrograms per cubic metre hour" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-MilliGM> schema:name "Microgram per Milligram" .
+
+<http://qudt.org/vocab/unit/MicroGM-PER-MilliL> schema:name "Microgram per MilliLitre" .
+
+<http://qudt.org/vocab/unit/MicroGRAY> schema:name "MicroGray" .
+
+<http://qudt.org/vocab/unit/MicroH> schema:name "Microhenry" .
+
+<http://qudt.org/vocab/unit/MicroH-PER-KiloOHM> schema:name "Microhenry per Kiloohm" .
+
+<http://qudt.org/vocab/unit/MicroH-PER-M> schema:name "Microhenry per Metre" .
+
+<http://qudt.org/vocab/unit/MicroH-PER-OHM> schema:name "Microhenry per Ohm" .
+
+<http://qudt.org/vocab/unit/MicroIN> schema:name "Microinch" .
+
+<http://qudt.org/vocab/unit/MicroJ> schema:name "Micro Joule" .
+
+<http://qudt.org/vocab/unit/MicroKAT-PER-L> schema:name "Microkatal per Litre" .
+
+<http://qudt.org/vocab/unit/MicroL> schema:name "Microlitre" .
+
+<http://qudt.org/vocab/unit/MicroL-PER-L> schema:name "Microlitre per Litre" .
+
+<http://qudt.org/vocab/unit/MicroM> schema:name "Micrometre" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-K> schema:name "Micrometre per Kelvin" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-L-DAY> schema:name "Micromoles per litre day" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-MIN> schema:name "micrometre per minute" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-MilliL> schema:name "Square microns per millilitre" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-N> schema:name "Micro metre per Newton" .
+
+<http://qudt.org/vocab/unit/MicroM-PER-SEC> schema:name "micrometre per second" .
+
+<http://qudt.org/vocab/unit/MicroM2> schema:name "Square Micrometre" .
+
+<http://qudt.org/vocab/unit/MicroM3> schema:name "Cubic micrometres (microns)" .
+
+<http://qudt.org/vocab/unit/MicroM3-PER-M3> schema:name "Cubic microns per cubic metre" .
+
+<http://qudt.org/vocab/unit/MicroM3-PER-MilliL> schema:name "Cubic microns per millilitre" .
+
+<http://qudt.org/vocab/unit/MicroMHO> schema:name "Micromho" .
+
+<http://qudt.org/vocab/unit/MicroMOL> schema:name "Micromole" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-GM> schema:name "Micromoles per gram" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-GM-HR> schema:name "Micromoles per gram hour" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-GM-SEC> schema:name "Micromoles per gram second" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-KiloGM> schema:name "Micromoles per kilogram" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-L> schema:name "Micromoles per litre" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-L-HR> schema:name "Micromoles per litre hour" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-M2> schema:name "Micromoles per square metre" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-M2-DAY> schema:name "Micromoles per square metre day" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-M2-HR> schema:name "Micromoles per square metre hour" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC> schema:name "Micromoles per square metre second" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-M2-SEC2> schema:name "micromole per square metre per square second" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-MOL> schema:name "Micromoles per mole" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-MicroMOL-DAY> schema:name "Micromole per micromole of biomass day" .
+
+<http://qudt.org/vocab/unit/MicroMOL-PER-SEC> schema:name "Micromoles per second" .
+
+<http://qudt.org/vocab/unit/MicroMOL2-PER-M4-SEC2> schema:name "(micromole per metre squared per second) squared" .
+
+<http://qudt.org/vocab/unit/MicroN> schema:name "Micronewton" .
+
+<http://qudt.org/vocab/unit/MicroN-M> schema:name "Micronewton Metre" .
+
+<http://qudt.org/vocab/unit/MicroOHM> schema:name "Microohm" .
+
+<http://qudt.org/vocab/unit/MicroPA> schema:name "Micropascal" .
+
+<http://qudt.org/vocab/unit/MicroPOISE> schema:name "Micropoise" .
+
+<http://qudt.org/vocab/unit/MicroRAD> schema:name "microradian" .
+
+<http://qudt.org/vocab/unit/MicroS> schema:name "Microsiemens" .
+
+<http://qudt.org/vocab/unit/MicroS-PER-CentiM> schema:name "Microsiemens per Centimetre" .
+
+<http://qudt.org/vocab/unit/MicroS-PER-M> schema:name "Microsiemens per Metre" .
+
+<http://qudt.org/vocab/unit/MicroS2-PER-CentiM2> schema:name "Microsiemen Squared Per Centimetre Squared" .
+
+<http://qudt.org/vocab/unit/MicroSEC> schema:name "microsecond" .
+
+<http://qudt.org/vocab/unit/MicroSV> schema:name "MicroSievert" .
+
+<http://qudt.org/vocab/unit/MicroSV-PER-HR> schema:name "MicroSievert per hour" .
+
+<http://qudt.org/vocab/unit/MicroT> schema:name "Microtesla" .
+
+<http://qudt.org/vocab/unit/MicroTORR> schema:name "MicroTorr" .
+
+<http://qudt.org/vocab/unit/MicroV> schema:name "Microvolt" .
+
+<http://qudt.org/vocab/unit/MicroV-PER-M> schema:name "Microvolt per Metre" .
+
+<http://qudt.org/vocab/unit/MicroW> schema:name "Microwatt" .
+
+<http://qudt.org/vocab/unit/MicroW-PER-M2> schema:name "Microwatt per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilLength> schema:name "Mil Length" .
+
+<http://qudt.org/vocab/unit/MilliA> schema:name "MilliAmpere" .
+
+<http://qudt.org/vocab/unit/MilliA-HR> schema:name "Milliampere Hour" .
+
+<http://qudt.org/vocab/unit/MilliA-HR-PER-GM> schema:name "Milliampere Hour per Gram" .
+
+<http://qudt.org/vocab/unit/MilliA-PER-IN> schema:name "Milliampere per Inch" .
+
+<http://qudt.org/vocab/unit/MilliA-PER-MilliM> schema:name "Milliampere per Millimetre" .
+
+<http://qudt.org/vocab/unit/MilliARCSEC> schema:name "Milli ArcSecond" .
+
+<http://qudt.org/vocab/unit/MilliBAR> schema:name "Millibar" .
+
+<http://qudt.org/vocab/unit/MilliBAR-L-PER-SEC> schema:name "Millibar Litre per Second" .
+
+<http://qudt.org/vocab/unit/MilliBAR-M3-PER-SEC> schema:name "Millibar Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/MilliBAR-PER-BAR> schema:name "Millibar per Bar" .
+
+<http://qudt.org/vocab/unit/MilliBAR-PER-K> schema:name "Millibar per Kelvin" .
+
+<http://qudt.org/vocab/unit/MilliBAR_A> schema:name "Millibar Absolute" .
+
+<http://qudt.org/vocab/unit/MilliBQ> schema:name "MilliBecquerel" .
+
+<http://qudt.org/vocab/unit/MilliBQ-PER-GM> schema:name "Millibecquerels per gram" .
+
+<http://qudt.org/vocab/unit/MilliBQ-PER-KiloGM> schema:name "Millibecquerels per kilogram" .
+
+<http://qudt.org/vocab/unit/MilliBQ-PER-L> schema:name "Millibecquerels per litre" .
+
+<http://qudt.org/vocab/unit/MilliBQ-PER-M2-DAY> schema:name "Millibecquerels per square metre day" .
+
+<http://qudt.org/vocab/unit/MilliC> schema:name "MilliCoulomb" .
+
+<http://qudt.org/vocab/unit/MilliC-PER-KiloGM> schema:name "Millicoulomb per Kilogram" .
+
+<http://qudt.org/vocab/unit/MilliC-PER-M2> schema:name "Millicoulomb per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilliC-PER-M3> schema:name "Millicoulomb per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MilliCi> schema:name "Millicurie" .
+
+<http://qudt.org/vocab/unit/MilliDARCY> schema:name "Millidarcy" .
+
+<http://qudt.org/vocab/unit/MilliDEG_C> schema:name "Millidegree Celsius" .
+
+<http://qudt.org/vocab/unit/MilliFARAD> schema:name "Millifarad" .
+
+<http://qudt.org/vocab/unit/MilliG> schema:name "Milligravity" .
+
+<http://qudt.org/vocab/unit/MilliGAL> schema:name "Milligal" .
+
+<http://qudt.org/vocab/unit/MilliGAL-PER-MO> schema:name "MilliGals per month" .
+
+<http://qudt.org/vocab/unit/MilliGM> schema:name "Milligram" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-CentiM2> schema:name "Milligram per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-DAY> schema:name "Milligram per Day" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-DeciL> schema:name "milligrams per decilitre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-DeciM2> schema:name "Milligram per Square Decimetre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-GM> schema:name "Milligram per Gram" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-GM-HR> schema:name "Milligram per gram per hour" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-HA> schema:name "Milligram per Hectare" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-HR> schema:name "Milligram per Hour" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-KiloGM> schema:name "Milligram per Kilogram" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-KiloGM-DAY> schema:name "Milligram per kilogram per Day" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-L> schema:name "Milligram per Litre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M> schema:name "Milligram per Metre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M2> schema:name "Milligram per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M2-DAY> schema:name "Milligrams per square metre day" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M2-HR> schema:name "Milligrams per square metre hour" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M2-SEC> schema:name "Milligrams per square metre second" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M3> schema:name "Milligram per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M3-DAY> schema:name "Milligrams per cubic metre day" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M3-HR> schema:name "Milligrams per cubic metre hour" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-M3-SEC> schema:name "Milligrams per cubic metre second" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-MIN> schema:name "Milligram per Minute" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-MilliL> schema:name "Milligram per Millilitre" .
+
+<http://qudt.org/vocab/unit/MilliGM-PER-SEC> schema:name "Milligram per Second" .
+
+<http://qudt.org/vocab/unit/MilliGRAY> schema:name "Milligray" .
+
+<http://qudt.org/vocab/unit/MilliH> schema:name "Millihenry" .
+
+<http://qudt.org/vocab/unit/MilliH-PER-KiloOHM> schema:name "Millihenry per Kiloohm" .
+
+<http://qudt.org/vocab/unit/MilliH-PER-OHM> schema:name "Millihenry per Ohm" .
+
+<http://qudt.org/vocab/unit/MilliIN> schema:name "Milli-inch" .
+
+<http://qudt.org/vocab/unit/MilliJ> schema:name "Millijoule" .
+
+<http://qudt.org/vocab/unit/MilliJ-PER-GM> schema:name "Millijoule per Gram" .
+
+<http://qudt.org/vocab/unit/MilliJ-PER-M2> schema:name "Millijoule per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilliKAT-PER-L> schema:name "Millikatal per Litre" .
+
+<http://qudt.org/vocab/unit/MilliL> schema:name "Millilitre" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-CentiM2-MIN> schema:name "Millilitre per Square Centimetre Minute" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-CentiM2-SEC> schema:name "Millilitre per Square Centimetre Second" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-DAY> schema:name "Millilitre per Day" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-GM> schema:name "Millilitre per Gram" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-HR> schema:name "Millilitre per Hour" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-K> schema:name "Millilitre per Kelvin" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-KiloGM> schema:name "Millilitre per Kilogram" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-L> schema:name "Millilitre per Litre" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-M2-DAY> schema:name "Millilitres per square metre day" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-M3> schema:name "Millilitre per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-MIN> schema:name "Millilitre per Minute" .
+
+<http://qudt.org/vocab/unit/MilliL-PER-SEC> schema:name "Millilitre per Second" .
+
+<http://qudt.org/vocab/unit/MilliM> schema:name "Millimetre" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-DAY> schema:name "millimetres per day" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-HR> schema:name "Millimetre per Hour" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-K> schema:name "Millimetre per Kelvin" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-M2> schema:name "Millimetre Per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-MIN> schema:name "Millimetre per Minute" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-SEC> schema:name "Millimetre per Second" .
+
+<http://qudt.org/vocab/unit/MilliM-PER-YR> schema:name "Millimetre per Year" .
+
+<http://qudt.org/vocab/unit/MilliM2> schema:name "Square Millimetre" .
+
+<http://qudt.org/vocab/unit/MilliM2-PER-SEC> schema:name "Square Millimetre per Second" .
+
+<http://qudt.org/vocab/unit/MilliM3> schema:name "Cubic Millimetre" .
+
+<http://qudt.org/vocab/unit/MilliM3-PER-GM> schema:name "Cubic Millimetre per Gram" .
+
+<http://qudt.org/vocab/unit/MilliM3-PER-KiloGM> schema:name "Cubic Millimetre per Kilogram" .
+
+<http://qudt.org/vocab/unit/MilliM3-PER-M3> schema:name "Cubic Millimetre per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/MilliM4> schema:name "Quartic Millimetre" .
+
+<http://qudt.org/vocab/unit/MilliMOL> schema:name "Millimole" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-GM> schema:name "Millimole per Gram" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-KiloGM> schema:name "Millimole per Kilogram" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-L> schema:name "millimoles per litre" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M2> schema:name "Millimoles per square metre" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M2-DAY> schema:name "Millimoles per square metre day" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M2-HR> schema:name "Millimole per Square Metre per Hour" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M2-SEC> schema:name "Millimoles per square metre second" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M3> schema:name "Millimoles per cubic metre" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-M3-DAY> schema:name "Millimoles per cubic metre day" .
+
+<http://qudt.org/vocab/unit/MilliMOL-PER-MOL> schema:name "Millimoles per mole" .
+
+<http://qudt.org/vocab/unit/MilliM_H2O> schema:name "Conventional Millimetre Of Water" .
+
+<http://qudt.org/vocab/unit/MilliM_HG> schema:name "Millimetre of Mercury" .
+
+<http://qudt.org/vocab/unit/MilliM_HGA> schema:name "Millimetre of Mercury - Absolute" .
+
+<http://qudt.org/vocab/unit/MilliN> schema:name "Millinewton" .
+
+<http://qudt.org/vocab/unit/MilliN-M> schema:name "Millinewton Metre" .
+
+<http://qudt.org/vocab/unit/MilliN-PER-M> schema:name "Millinewton per Metre" .
+
+<http://qudt.org/vocab/unit/MilliOHM> schema:name "Milliohm" .
+
+<http://qudt.org/vocab/unit/MilliPA> schema:name "Millipascal" .
+
+<http://qudt.org/vocab/unit/MilliPA-SEC> schema:name "Millipascal Second" .
+
+<http://qudt.org/vocab/unit/MilliPA-SEC-PER-BAR> schema:name "Millipascal Second per Bar" .
+
+<http://qudt.org/vocab/unit/MilliR> schema:name "Milliroentgen" .
+
+<http://qudt.org/vocab/unit/MilliRAD> schema:name "milliradian" .
+
+<http://qudt.org/vocab/unit/MilliRAD_R> schema:name "MilliRad" .
+
+<http://qudt.org/vocab/unit/MilliRAD_R-PER-HR> schema:name "Millirads per hour" .
+
+<http://qudt.org/vocab/unit/MilliR_man> schema:name "Milliroentgen Equivalent Man" .
+
+<http://qudt.org/vocab/unit/MilliS> schema:name "Millisiemens" .
+
+<http://qudt.org/vocab/unit/MilliS-PER-CentiM> schema:name "Millisiemens per Centimetre" .
+
+<http://qudt.org/vocab/unit/MilliS-PER-M> schema:name "MilliSiemens per metre" .
+
+<http://qudt.org/vocab/unit/MilliSEC> schema:name "millisecond" .
+
+<http://qudt.org/vocab/unit/MilliSV> schema:name "Millisievert" .
+
+<http://qudt.org/vocab/unit/MilliT> schema:name "Millitesla" .
+
+<http://qudt.org/vocab/unit/MilliTORR> schema:name "MilliTorr" .
+
+<http://qudt.org/vocab/unit/MilliV> schema:name "Millivolt" .
+
+<http://qudt.org/vocab/unit/MilliV-PER-M> schema:name "Millivolt per Metre" .
+
+<http://qudt.org/vocab/unit/MilliV-PER-MIN> schema:name "Millivolt per Minute" .
+
+<http://qudt.org/vocab/unit/MilliW> schema:name "MilliW" .
+
+<http://qudt.org/vocab/unit/MilliW-PER-CentiM2-MicroM-SR> schema:name "Milliwatts per square centimetre micrometre steradian" .
+
+<http://qudt.org/vocab/unit/MilliW-PER-M2> schema:name "Milliwatt per Square Metre" .
+
+<http://qudt.org/vocab/unit/MilliW-PER-M2-NanoM> schema:name "Milliwatts per square metre nanometre" .
+
+<http://qudt.org/vocab/unit/MilliW-PER-M2-NanoM-SR> schema:name "Milliwatts per square metre nanometre steradian" .
+
+<http://qudt.org/vocab/unit/MilliW-PER-MilliGM> schema:name "Milliwatt per Milligram" .
+
+<http://qudt.org/vocab/unit/MilliWB> schema:name "Milliweber" .
+
+<http://qudt.org/vocab/unit/MillionUSD-PER-YR> schema:name "Million US Dollars per Year" .
+
+<http://qudt.org/vocab/unit/N> schema:name "newton" .
+
+<http://qudt.org/vocab/unit/N-CentiM> schema:name "Newton Centimetre" .
+
+<http://qudt.org/vocab/unit/N-M> schema:name "newton metre" .
+
+<http://qudt.org/vocab/unit/N-M-PER-A> schema:name "Newton Metre per Ampere" .
+
+<http://qudt.org/vocab/unit/N-M-PER-DEG-M> schema:name "Newton metre per degree metre" .
+
+<http://qudt.org/vocab/unit/N-M-PER-KiloGM> schema:name "Newton Metre per Kilogram" .
+
+<http://qudt.org/vocab/unit/N-M-PER-M> schema:name "Newton metre per metre" .
+
+<http://qudt.org/vocab/unit/N-M-PER-M-RAD> schema:name "Newton Metre per Metre Radian" .
+
+<http://qudt.org/vocab/unit/N-M-PER-M2> schema:name "Newton Metre per Square Metre" .
+
+<http://qudt.org/vocab/unit/N-M-PER-RAD> schema:name "Newton metre per radian" .
+
+<http://qudt.org/vocab/unit/N-M-SEC> schema:name "newton metre second" .
+
+<http://qudt.org/vocab/unit/N-M-SEC-PER-M> schema:name "Newton metre seconds per metre" .
+
+<http://qudt.org/vocab/unit/N-M-SEC-PER-RAD> schema:name "Newton metre seconds per radian" .
+
+<http://qudt.org/vocab/unit/N-M2> schema:name "Newton Square Metre" .
+
+<http://qudt.org/vocab/unit/N-M2-PER-A> schema:name "Newton Metre Squared per Ampere" .
+
+<http://qudt.org/vocab/unit/N-M2-PER-KiloGM2> schema:name "Newton Square Metre per Square Kilogram" .
+
+<http://qudt.org/vocab/unit/N-PER-A> schema:name "Newton per Ampere" .
+
+<http://qudt.org/vocab/unit/N-PER-C> schema:name "Newton per Coulomb" .
+
+<http://qudt.org/vocab/unit/N-PER-CentiM> schema:name "Newton per Centimetre" .
+
+<http://qudt.org/vocab/unit/N-PER-CentiM2> schema:name "Newton per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/N-PER-KiloGM> schema:name "Newton per Kilogram" .
+
+<http://qudt.org/vocab/unit/N-PER-M> schema:name "newton per metre" .
+
+<http://qudt.org/vocab/unit/N-PER-M2> schema:name "Newtons per Square Metre" .
+
+<http://qudt.org/vocab/unit/N-PER-M3> schema:name "Newtons per cubic metre" .
+
+<http://qudt.org/vocab/unit/N-PER-MilliM> schema:name "Newton per Millimetre" .
+
+<http://qudt.org/vocab/unit/N-PER-MilliM2> schema:name "Newton per Square Millimetre" .
+
+<http://qudt.org/vocab/unit/N-PER-RAD> schema:name "Newton per radian" .
+
+<http://qudt.org/vocab/unit/N-SEC> schema:name "newton second" .
+
+<http://qudt.org/vocab/unit/N-SEC-PER-M> schema:name "Newton Second per Metre" .
+
+<http://qudt.org/vocab/unit/N-SEC-PER-M3> schema:name "Newton second per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/N-SEC-PER-RAD> schema:name "Newton seconds per radian" .
+
+<http://qudt.org/vocab/unit/NAT> schema:name "Nat" .
+
+<http://qudt.org/vocab/unit/NAT-PER-SEC> schema:name "Nat per Second" .
+
+<http://qudt.org/vocab/unit/NP> schema:name "Neper" .
+
+<http://qudt.org/vocab/unit/NT> schema:name "Net tonnage" .
+
+<http://qudt.org/vocab/unit/NTU> schema:name "Nephelometry Turbidity Unit" .
+
+<http://qudt.org/vocab/unit/NUM> schema:name "Number" .
+
+<http://qudt.org/vocab/unit/NUM-PER-CentiM-KiloYR> schema:name "Number per square centimetre thousand years" .
+
+<http://qudt.org/vocab/unit/NUM-PER-GM> schema:name "Number per gram" .
+
+<http://qudt.org/vocab/unit/NUM-PER-HA> schema:name "Number per hectare" .
+
+<http://qudt.org/vocab/unit/NUM-PER-HA-YR> schema:name "Number per Hectare Year" .
+
+<http://qudt.org/vocab/unit/NUM-PER-HR> schema:name "Number per hour" .
+
+<http://qudt.org/vocab/unit/NUM-PER-HectoGM> schema:name "Number per 100 grams" .
+
+<http://qudt.org/vocab/unit/NUM-PER-KiloGM> schema:name "Number per kilogram" .
+
+<http://qudt.org/vocab/unit/NUM-PER-KiloM2> schema:name "Number per square kilometre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-L> schema:name "Number per litre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-M> schema:name "Number per metre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-M2> schema:name "Number per square metre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-M2-DAY> schema:name "Number per square metre day" .
+
+<http://qudt.org/vocab/unit/NUM-PER-M3> schema:name "Number per cubic metre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-MIN> schema:name "Number per Minute" .
+
+<http://qudt.org/vocab/unit/NUM-PER-MicroL> schema:name "Number per microlitre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-MilliGM> schema:name "Number per milligram" .
+
+<http://qudt.org/vocab/unit/NUM-PER-MilliL> schema:name "Number per millilitre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-MilliM3> schema:name "Number per cubic millimeter" .
+
+<http://qudt.org/vocab/unit/NUM-PER-NanoL> schema:name "Number per nanolitre" .
+
+<http://qudt.org/vocab/unit/NUM-PER-PicoL> schema:name "Number per picoliter" .
+
+<http://qudt.org/vocab/unit/NUM-PER-SEC> schema:name "Counts per second" .
+
+<http://qudt.org/vocab/unit/NUM-PER-YR> schema:name "Number per Year" .
+
+<http://qudt.org/vocab/unit/NanoA> schema:name "nanoampere" .
+
+<http://qudt.org/vocab/unit/NanoBQ> schema:name "NanoBecquerel" .
+
+<http://qudt.org/vocab/unit/NanoBQ-PER-L> schema:name "Nanobecquerels per litre" .
+
+<http://qudt.org/vocab/unit/NanoC> schema:name "NanoCoulomb" .
+
+<http://qudt.org/vocab/unit/NanoFARAD> schema:name "Nanofarad" .
+
+<http://qudt.org/vocab/unit/NanoFARAD-PER-M> schema:name "Nanofarad per Metre" .
+
+<http://qudt.org/vocab/unit/NanoGM> schema:name "Nanogram" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-CentiM2> schema:name "Nanogram per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-CentiM2-DAY> schema:name "Nanogram per Square Centimetre Day" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-DAY> schema:name "Nanogram per Day" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-DeciL> schema:name "Nanogram per Decilitre" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-KiloGM> schema:name "Nanogram per Kilogram" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-L> schema:name "Nanogram per Litre" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-M2-PA-SEC> schema:name "Nanogram per Square Metre Pascal Second" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-M3> schema:name "Nanogram per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-MicroL> schema:name "Nanogram per Microlitre" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-MilliGM> schema:name "Nanogram per Milligram" .
+
+<http://qudt.org/vocab/unit/NanoGM-PER-MilliL> schema:name "Nanogram per Millilitre" .
+
+<http://qudt.org/vocab/unit/NanoH> schema:name "Nanohenry" .
+
+<http://qudt.org/vocab/unit/NanoH-PER-M> schema:name "Nanohenry per Metre" .
+
+<http://qudt.org/vocab/unit/NanoKAT-PER-L> schema:name "Nanokatal per Litre" .
+
+<http://qudt.org/vocab/unit/NanoL> schema:name "Nanolitre" .
+
+<http://qudt.org/vocab/unit/NanoM> schema:name "Nanometre" .
+
+<http://qudt.org/vocab/unit/NanoM-PER-CentiM-MegaPA> schema:name "Nanometer per Centimeter Megapascal" .
+
+<http://qudt.org/vocab/unit/NanoM-PER-CentiM-PSI> schema:name "Nanometer per Centimeter PSI" .
+
+<http://qudt.org/vocab/unit/NanoM-PER-MilliM-MegaPA> schema:name "Nanometer per Millimeter Megapascal" .
+
+<http://qudt.org/vocab/unit/NanoM2> schema:name "Square Nanometre" .
+
+<http://qudt.org/vocab/unit/NanoMOL> schema:name "NanoMole" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-CentiM3-HR> schema:name "Nanomoles per cubic centimetre hour" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-GM> schema:name "Nanomoles per gram" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-GM-HR> schema:name "Nanomoles per gram per hour" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-GM-SEC> schema:name "Nanomoles per gram second" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-KiloGM> schema:name "Nanomoles per kilogram" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-L> schema:name "Nanomoles per litre" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-L-DAY> schema:name "Nanomoles per litre day" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-L-HR> schema:name "Nanomoles per litre hour" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-M2-DAY> schema:name "Nanomoles per square metre day" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-M2-SEC> schema:name "Nanomole per Square Metre per second" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-MicroGM-HR> schema:name "Nanomoles per microgram hour" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-MicroMOL> schema:name "Nanomoles per micromole" .
+
+<http://qudt.org/vocab/unit/NanoMOL-PER-MicroMOL-DAY> schema:name "Nanomoles per micromole day" .
+
+<http://qudt.org/vocab/unit/NanoS> schema:name "NanoSiemens" .
+
+<http://qudt.org/vocab/unit/NanoS-PER-CentiM> schema:name "Nanosiemens per Centimetre" .
+
+<http://qudt.org/vocab/unit/NanoS-PER-M> schema:name "Nanosiemens per Metre" .
+
+<http://qudt.org/vocab/unit/NanoSEC> schema:name "nanosecond" .
+
+<http://qudt.org/vocab/unit/NanoT> schema:name "Nanotesla" .
+
+<http://qudt.org/vocab/unit/NanoW> schema:name "Nanowatt" .
+
+<http://qudt.org/vocab/unit/OCT> schema:name "Oct" .
+
+<http://qudt.org/vocab/unit/OERSTED> schema:name "Oersted" .
+
+<http://qudt.org/vocab/unit/OERSTED-CentiM> schema:name "Oersted Centimetre" .
+
+<http://qudt.org/vocab/unit/OHM> schema:name "ohm" .
+
+<http://qudt.org/vocab/unit/OHM-CentiM> schema:name "Ohm Centimetre" .
+
+<http://qudt.org/vocab/unit/OHM-M> schema:name "ohm metre" .
+
+<http://qudt.org/vocab/unit/OHM-M2-PER-M> schema:name "Ohm Square Metre per Metre" .
+
+<http://qudt.org/vocab/unit/OHM_Ab> schema:name "Abohm" .
+
+<http://qudt.org/vocab/unit/OHM_Stat> schema:name "Statohm" .
+
+<http://qudt.org/vocab/unit/OKTA> schema:name "Okta" .
+
+<http://qudt.org/vocab/unit/OZ> schema:name "Ounce Mass" .
+
+<http://qudt.org/vocab/unit/OZ-FT> schema:name "Ounce (avoirdupois) Foot" .
+
+<http://qudt.org/vocab/unit/OZ-IN> schema:name "Ounce (avoirdupois) Inch" .
+
+<http://qudt.org/vocab/unit/OZ-PER-DAY> schema:name "Ounce (avoirdupois) per Day" .
+
+<http://qudt.org/vocab/unit/OZ-PER-FT2> schema:name "Imperial Mass Ounce per Square Foot" .
+
+<http://qudt.org/vocab/unit/OZ-PER-GAL_IMP> schema:name "Imperial Mass Ounce per Gallon" .
+
+<http://qudt.org/vocab/unit/OZ-PER-GAL_UK> schema:name "Ounce (avoirdupois) per Gallon (UK)" .
+
+<http://qudt.org/vocab/unit/OZ-PER-GAL_US> schema:name "Ounce (avoirdupois) per Gallon (US)" .
+
+<http://qudt.org/vocab/unit/OZ-PER-HR> schema:name "Ounce (avoirdupois) per Hour" .
+
+<http://qudt.org/vocab/unit/OZ-PER-IN3> schema:name "Imperial Mass Ounce per Cubic Inch" .
+
+<http://qudt.org/vocab/unit/OZ-PER-MIN> schema:name "Ounce (avoirdupois) per Minute" .
+
+<http://qudt.org/vocab/unit/OZ-PER-SEC> schema:name "Ounce (avoirdupois) per Second" .
+
+<http://qudt.org/vocab/unit/OZ-PER-YD2> schema:name "Imperial Mass Ounce per Square Yard" .
+
+<http://qudt.org/vocab/unit/OZ-PER-YD3> schema:name "Ounce (avoirdupois) per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/OZ_F> schema:name "Imperial Ounce Force" .
+
+<http://qudt.org/vocab/unit/OZ_F-IN> schema:name "Imperial Ounce Force Inch" .
+
+<http://qudt.org/vocab/unit/OZ_M> schema:name "Ounce Mass" .
+
+<http://qudt.org/vocab/unit/OZ_TROY> schema:name "Ounce Troy" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_UK> schema:name "Fluid Ounce (UK)" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_UK-PER-DAY> schema:name "Ounce (UK Fluid) per Day" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_UK-PER-HR> schema:name "Ounce (UK Fluid) per Hour" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_UK-PER-MIN> schema:name "Ounce (UK Fluid) per Minute" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_UK-PER-SEC> schema:name "Ounce (UK Fluid) per Second" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_US> schema:name "US Liquid Ounce" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_US-PER-DAY> schema:name "Ounce (US Fluid) per Day" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_US-PER-HR> schema:name "Ounce (US Fluid) per Hour" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_US-PER-MIN> schema:name "Ounce (US Fluid) per Minute" .
+
+<http://qudt.org/vocab/unit/OZ_VOL_US-PER-SEC> schema:name "Ounce (US Fluid) per Second" .
+
+<http://qudt.org/vocab/unit/PA> schema:name "pascal" .
+
+<http://qudt.org/vocab/unit/PA-L-PER-SEC> schema:name "Pascal Litre per Second" .
+
+<http://qudt.org/vocab/unit/PA-M> schema:name "Pascal metres" .
+
+<http://qudt.org/vocab/unit/PA-M-PER-SEC> schema:name "Pascal metres per second" .
+
+<http://qudt.org/vocab/unit/PA-M-PER-SEC2> schema:name "Pascal metres per square second" .
+
+<http://qudt.org/vocab/unit/PA-M0dot5> schema:name "Pascal Square Root Metre" .
+
+<http://qudt.org/vocab/unit/PA-M3-PER-SEC> schema:name "Pascal Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/PA-PER-BAR> schema:name "Pascal per Bar" .
+
+<http://qudt.org/vocab/unit/PA-PER-HR> schema:name "Pascal per Hour" .
+
+<http://qudt.org/vocab/unit/PA-PER-K> schema:name "Pascal per Kelvin" .
+
+<http://qudt.org/vocab/unit/PA-PER-M> schema:name "Pascal per Metre" .
+
+<http://qudt.org/vocab/unit/PA-PER-MIN> schema:name "Pascal per Minute" .
+
+<http://qudt.org/vocab/unit/PA-PER-SEC> schema:name "Pascal per Second" .
+
+<http://qudt.org/vocab/unit/PA-SEC> schema:name "pascal second" .
+
+<http://qudt.org/vocab/unit/PA-SEC-PER-BAR> schema:name "Pascal Second per Bar" .
+
+<http://qudt.org/vocab/unit/PA-SEC-PER-M> schema:name "Pascal Second per Metre" .
+
+<http://qudt.org/vocab/unit/PA-SEC-PER-M3> schema:name "pascal second per cubic metre" .
+
+<http://qudt.org/vocab/unit/PA2-PER-SEC2> schema:name "Square pascal per square second" .
+
+<http://qudt.org/vocab/unit/PA2-SEC> schema:name "Square Pascal Second" .
+
+<http://qudt.org/vocab/unit/PARSEC> schema:name "Parsec" .
+
+<http://qudt.org/vocab/unit/PCA> schema:name "Pica" .
+
+<http://qudt.org/vocab/unit/PDL> schema:name "Poundal" .
+
+<http://qudt.org/vocab/unit/PDL-PER-FT2> schema:name "Poundal per Square Foot" .
+
+<http://qudt.org/vocab/unit/PENNYWEIGHT> schema:name "Pennyweight" .
+
+<http://qudt.org/vocab/unit/PER-ANGSTROM> schema:name "Reciprocal Angstrom" .
+
+<http://qudt.org/vocab/unit/PER-BAR> schema:name "Reciprocal Bar" .
+
+<http://qudt.org/vocab/unit/PER-CentiM> schema:name "Reciprocal Centimetre" .
+
+<http://qudt.org/vocab/unit/PER-CentiM3> schema:name "Reciprocal Cubic Centimetre" .
+
+<http://qudt.org/vocab/unit/PER-DAY> schema:name "Reciprocal Day" .
+
+<http://qudt.org/vocab/unit/PER-DEG_C> schema:name "reciprocal degree Celsius" .
+
+<http://qudt.org/vocab/unit/PER-EV2> schema:name "Reciprocal Square Electron Volt" .
+
+<http://qudt.org/vocab/unit/PER-FT3> schema:name "Reciprocal Cubic Foot" .
+
+<http://qudt.org/vocab/unit/PER-GM> schema:name "Reciprocal gram" .
+
+<http://qudt.org/vocab/unit/PER-GigaEV2> schema:name "Reciprocal Square Giga Electron Volt Unit" .
+
+<http://qudt.org/vocab/unit/PER-H> schema:name "Reciprocal Henry" .
+
+<http://qudt.org/vocab/unit/PER-HR> schema:name "Reciprocal Hour" .
+
+<http://qudt.org/vocab/unit/PER-IN3> schema:name "Reciprocal Cubic Inch" .
+
+<http://qudt.org/vocab/unit/PER-J-M3> schema:name "Reciprocal Joule Cubic Metre" .
+
+<http://qudt.org/vocab/unit/PER-J2> schema:name "Reciprocal Square Joule" .
+
+<http://qudt.org/vocab/unit/PER-K> schema:name "Reciprocal Kelvin" .
+
+<http://qudt.org/vocab/unit/PER-KiloGM2> schema:name "Reciprocal Square Kilogram" .
+
+<http://qudt.org/vocab/unit/PER-KiloM> schema:name "Reciprocal Kilometre" .
+
+<http://qudt.org/vocab/unit/PER-KiloV-A-HR> schema:name "Reciprocal Kilovolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/PER-KiloVA-HR> schema:name "Reciprocal Kilovolt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/PER-L> schema:name "Reciprocal Litre" .
+
+<http://qudt.org/vocab/unit/PER-M> schema:name "Reciprocal Metre" .
+
+<http://qudt.org/vocab/unit/PER-M-K> schema:name "Reciprocal Metre Kelvin" .
+
+<http://qudt.org/vocab/unit/PER-M-NanoM> schema:name "Reciprocal metre per nanometre" .
+
+<http://qudt.org/vocab/unit/PER-M-NanoM-SR> schema:name "Reciprocal metre nanometre steradian" .
+
+<http://qudt.org/vocab/unit/PER-M-SEC> schema:name "Reciprocal metre per second" .
+
+<http://qudt.org/vocab/unit/PER-M-SR> schema:name "Reciprocal metre per steradian" .
+
+<http://qudt.org/vocab/unit/PER-M2> schema:name "Reciprocal Square Metre" .
+
+<http://qudt.org/vocab/unit/PER-M2-SEC> schema:name "Reciprocal Square Metre Second" .
+
+<http://qudt.org/vocab/unit/PER-M3> schema:name "Reciprocal Cubic Metre" .
+
+<http://qudt.org/vocab/unit/PER-M3-SEC> schema:name "Reciprocal Cubic Metre Second" .
+
+<http://qudt.org/vocab/unit/PER-MILLE-PSI> schema:name "Reciprocal Mille Psi" .
+
+<http://qudt.org/vocab/unit/PER-MIN> schema:name "Reciprocal Minute" .
+
+<http://qudt.org/vocab/unit/PER-MO> schema:name "Reciprocal Month" .
+
+<http://qudt.org/vocab/unit/PER-MOL> schema:name "Reciprocal Mole" .
+
+<http://qudt.org/vocab/unit/PER-MicroM> schema:name "Reciprocal Micrometre" .
+
+<http://qudt.org/vocab/unit/PER-MicroMOL-L> schema:name "Reciprocal micromole per litre" .
+
+<http://qudt.org/vocab/unit/PER-MilliL> schema:name "Reciprocal Millilitre" .
+
+<http://qudt.org/vocab/unit/PER-MilliM> schema:name "Reciprocal Millimetre" .
+
+<http://qudt.org/vocab/unit/PER-MilliM3> schema:name "Reciprocal Cubic Millimetre" .
+
+<http://qudt.org/vocab/unit/PER-MilliSEC> schema:name "Reciprocal millisecond" .
+
+<http://qudt.org/vocab/unit/PER-NanoM> schema:name "Reciprocal Nanometre" .
+
+<http://qudt.org/vocab/unit/PER-PA> schema:name "Reciprocal Pascal" .
+
+<http://qudt.org/vocab/unit/PER-PA-SEC> schema:name "Reciprocal Pascal per second" .
+
+<http://qudt.org/vocab/unit/PER-PSI> schema:name "Reciprocal Psi" .
+
+<http://qudt.org/vocab/unit/PER-PicoM> schema:name "Reciprocal Picometre" .
+
+<http://qudt.org/vocab/unit/PER-PlanckMass2> schema:name "Inverse Square Planck Mass" .
+
+<http://qudt.org/vocab/unit/PER-SEC> schema:name "Reciprocal Second" .
+
+<http://qudt.org/vocab/unit/PER-SEC-M2> schema:name "Reciprocal Second Square Metre" .
+
+<http://qudt.org/vocab/unit/PER-SEC-M2-SR> schema:name "Reciprocal Second Square Metre Steradian" .
+
+<http://qudt.org/vocab/unit/PER-SEC-SR> schema:name "Reciprocal Second Steradian" .
+
+<http://qudt.org/vocab/unit/PER-SEC2> schema:name "Reciprocal square second" .
+
+<http://qudt.org/vocab/unit/PER-SR> schema:name "Reciprocal steradian" .
+
+<http://qudt.org/vocab/unit/PER-T-M> schema:name "Reciprocal Tesla Metre" .
+
+<http://qudt.org/vocab/unit/PER-T-SEC> schema:name "Reciprocal Tesla Second Unit" .
+
+<http://qudt.org/vocab/unit/PER-WB> schema:name "Reciprocal Weber" .
+
+<http://qudt.org/vocab/unit/PER-WK> schema:name "Reciprocal Week" .
+
+<http://qudt.org/vocab/unit/PER-YD3> schema:name "Reciprocal Cubic Yard" .
+
+<http://qudt.org/vocab/unit/PER-YR> schema:name "Reciprocal Year" .
+
+<http://qudt.org/vocab/unit/PERCENT> schema:name "Percent" .
+
+<http://qudt.org/vocab/unit/PERCENT-PER-DAY> schema:name "Percent per day" .
+
+<http://qudt.org/vocab/unit/PERCENT-PER-HR> schema:name "Percent per hour" .
+
+<http://qudt.org/vocab/unit/PERCENT-PER-M> schema:name "Percent per metre" .
+
+<http://qudt.org/vocab/unit/PERCENT-PER-WK> schema:name "Percent per week" .
+
+<http://qudt.org/vocab/unit/PERCENT-PER-YR> schema:name "Percent per Year" .
+
+<http://qudt.org/vocab/unit/PERCENT_RH> schema:name "Percent Relative Humidity" .
+
+<http://qudt.org/vocab/unit/PERMEABILITY_EM_REL> schema:name "Relative Electromagnetic Permeability" .
+
+<http://qudt.org/vocab/unit/PERMEABILITY_REL> schema:name "Relative Permeability" .
+
+<http://qudt.org/vocab/unit/PERMITTIVITY_REL> schema:name "Relative Permittivity" .
+
+<http://qudt.org/vocab/unit/PERM_Metric> schema:name "Metric Perm" .
+
+<http://qudt.org/vocab/unit/PERM_US> schema:name "U.S. Perm" .
+
+<http://qudt.org/vocab/unit/PH> schema:name "Acidity" .
+
+<http://qudt.org/vocab/unit/PHOT> schema:name "Phot" .
+
+<http://qudt.org/vocab/unit/PINT> schema:name "Imperial Pint" .
+
+<http://qudt.org/vocab/unit/PINT_UK> schema:name "Pint (UK)" .
+
+<http://qudt.org/vocab/unit/PINT_UK-PER-DAY> schema:name "Pint (UK) per Day" .
+
+<http://qudt.org/vocab/unit/PINT_UK-PER-HR> schema:name "Pint (UK) per Hour" .
+
+<http://qudt.org/vocab/unit/PINT_UK-PER-MIN> schema:name "Pint (UK) per Minute" .
+
+<http://qudt.org/vocab/unit/PINT_UK-PER-SEC> schema:name "Pint (UK) per Second" .
+
+<http://qudt.org/vocab/unit/PINT_US> schema:name "US Liquid Pint" .
+
+<http://qudt.org/vocab/unit/PINT_US-PER-DAY> schema:name "Pint (US Liquid) per Day" .
+
+<http://qudt.org/vocab/unit/PINT_US-PER-HR> schema:name "Pint (US Liquid) per Hour" .
+
+<http://qudt.org/vocab/unit/PINT_US-PER-MIN> schema:name "Pint (US Liquid) per Minute" .
+
+<http://qudt.org/vocab/unit/PINT_US-PER-SEC> schema:name "Pint (US Liquid) per Second" .
+
+<http://qudt.org/vocab/unit/PINT_US_DRY> schema:name "US Dry Pint" .
+
+<http://qudt.org/vocab/unit/PK_UK> schema:name "Peck (UK)" .
+
+<http://qudt.org/vocab/unit/PK_UK-PER-DAY> schema:name "Peck (UK) per Day" .
+
+<http://qudt.org/vocab/unit/PK_UK-PER-HR> schema:name "Peck (UK) per Hour" .
+
+<http://qudt.org/vocab/unit/PK_UK-PER-MIN> schema:name "Peck (UK) per Minute" .
+
+<http://qudt.org/vocab/unit/PK_UK-PER-SEC> schema:name "Peck (UK) per Second" .
+
+<http://qudt.org/vocab/unit/PK_US_DRY> schema:name "US Peck" .
+
+<http://qudt.org/vocab/unit/PK_US_DRY-PER-DAY> schema:name "Peck (US Dry) per Day" .
+
+<http://qudt.org/vocab/unit/PK_US_DRY-PER-HR> schema:name "Peck (US Dry) per Hour" .
+
+<http://qudt.org/vocab/unit/PK_US_DRY-PER-MIN> schema:name "Peck (US Dry) per Minute" .
+
+<http://qudt.org/vocab/unit/PK_US_DRY-PER-SEC> schema:name "Peck (US Dry) per Second" .
+
+<http://qudt.org/vocab/unit/POISE> schema:name "Poise" .
+
+<http://qudt.org/vocab/unit/POISE-PER-BAR> schema:name "Poise per Bar" .
+
+<http://qudt.org/vocab/unit/PPB> schema:name "Parts per billion" .
+
+<http://qudt.org/vocab/unit/PPM> schema:name "Parts per million" .
+
+<http://qudt.org/vocab/unit/PPM-PER-K> schema:name "Parts-Per-Million per Kelvin" .
+
+<http://qudt.org/vocab/unit/PPT> schema:name "part per trillion" .
+
+<http://qudt.org/vocab/unit/PPTH> schema:name "Parts per thousand" .
+
+<http://qudt.org/vocab/unit/PPTH-PER-HR> schema:name "Parts-per-thousand per hour" .
+
+<http://qudt.org/vocab/unit/PPTM> schema:name "Parts per Ten Million" .
+
+<http://qudt.org/vocab/unit/PPTM-PER-K> schema:name "Parts-Per-Ten Million per Kelvin" .
+
+<http://qudt.org/vocab/unit/PPTR_VOL> schema:name "Parts per trillion by volume" .
+
+<http://qudt.org/vocab/unit/PPT_VOL> schema:name "Parts per trillion by volume" .
+
+<http://qudt.org/vocab/unit/PSI> schema:name "PSI" .
+
+<http://qudt.org/vocab/unit/PSI-IN3-PER-SEC> schema:name "Psi Cubic Inch per Second" .
+
+<http://qudt.org/vocab/unit/PSI-L-PER-SEC> schema:name "Psi Litre per Second" .
+
+<http://qudt.org/vocab/unit/PSI-M3-PER-SEC> schema:name "PSI Cubic Metre per Second" .
+
+<http://qudt.org/vocab/unit/PSI-PER-PSI> schema:name "Psi per Psi" .
+
+<http://qudt.org/vocab/unit/PSI-YD3-PER-SEC> schema:name "Psi Cubic Yard per Second" .
+
+<http://qudt.org/vocab/unit/PSU> schema:name "Practical Salinity Unit" .
+
+<http://qudt.org/vocab/unit/PT> schema:name "Point" .
+
+<http://qudt.org/vocab/unit/PebiBYTE> schema:name "PebiByte" .
+
+<http://qudt.org/vocab/unit/Pennyweight> schema:name "Pennyweight" .
+
+<http://qudt.org/vocab/unit/PetaBYTE> schema:name "PetaByte" .
+
+<http://qudt.org/vocab/unit/PetaC> schema:name "PetaCoulomb" .
+
+<http://qudt.org/vocab/unit/PetaJ> schema:name "Petajoule" .
+
+<http://qudt.org/vocab/unit/PicoA> schema:name "picoampere" .
+
+<http://qudt.org/vocab/unit/PicoA-PER-MicroMOL-L> schema:name "Picoamps per micromole litre" .
+
+<http://qudt.org/vocab/unit/PicoC> schema:name "PicoCoulomb" .
+
+<http://qudt.org/vocab/unit/PicoFARAD> schema:name "Picofarad" .
+
+<http://qudt.org/vocab/unit/PicoFARAD-PER-M> schema:name "Picofarad per Metre" .
+
+<http://qudt.org/vocab/unit/PicoGM> schema:name "Picograms" .
+
+<http://qudt.org/vocab/unit/PicoGM-PER-GM> schema:name "Picograms per gram" .
+
+<http://qudt.org/vocab/unit/PicoGM-PER-KiloGM> schema:name "Picograms per kilogram" .
+
+<http://qudt.org/vocab/unit/PicoGM-PER-L> schema:name "Picograms per litre" .
+
+<http://qudt.org/vocab/unit/PicoGM-PER-MilliGM> schema:name "Picograms per milligram" .
+
+<http://qudt.org/vocab/unit/PicoGM-PER-MilliL> schema:name "Picograms per millilitre" .
+
+<http://qudt.org/vocab/unit/PicoH> schema:name "Picohenry" .
+
+<http://qudt.org/vocab/unit/PicoKAT-PER-L> schema:name "Picokatal per Litre" .
+
+<http://qudt.org/vocab/unit/PicoL> schema:name "Picolitre" .
+
+<http://qudt.org/vocab/unit/PicoM> schema:name "Picometre" .
+
+<http://qudt.org/vocab/unit/PicoMOL> schema:name "PicoMole" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-KiloGM> schema:name "Picomoles per kilogram" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-L> schema:name "Picomoles per litre" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-L-DAY> schema:name "Picomoles per litre day" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-L-HR> schema:name "Picomoles per litre hour" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-M-W-SEC> schema:name "Picomoles per metre watt second" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-M2-DAY> schema:name "Picomoles per square metre day" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-M3> schema:name "Picomoles per cubic metre" .
+
+<http://qudt.org/vocab/unit/PicoMOL-PER-M3-SEC> schema:name "Picomoles per cubic metre second" .
+
+<http://qudt.org/vocab/unit/PicoPA> schema:name "PicoPascal" .
+
+<http://qudt.org/vocab/unit/PicoPA-PER-KiloM> schema:name "Picopascal per Kilometre" .
+
+<http://qudt.org/vocab/unit/PicoS> schema:name "PicoSiemens" .
+
+<http://qudt.org/vocab/unit/PicoS-PER-M> schema:name "Picosiemens per Metre" .
+
+<http://qudt.org/vocab/unit/PicoSEC> schema:name "Picosecond" .
+
+<http://qudt.org/vocab/unit/PicoW> schema:name "Picowatt" .
+
+<http://qudt.org/vocab/unit/PicoW-PER-CentiM2-L> schema:name "Picowatts per square centimetre litre" .
+
+<http://qudt.org/vocab/unit/PicoW-PER-M2> schema:name "Picowatt per Square Metre" .
+
+<http://qudt.org/vocab/unit/PlanckArea> schema:name "Planck Area" .
+
+<http://qudt.org/vocab/unit/PlanckCharge> schema:name "Planck Charge" .
+
+<http://qudt.org/vocab/unit/PlanckCurrent> schema:name "Planck Current" .
+
+<http://qudt.org/vocab/unit/PlanckCurrentDensity> schema:name "Planck Current Density" .
+
+<http://qudt.org/vocab/unit/PlanckDensity> schema:name "Planck Density" .
+
+<http://qudt.org/vocab/unit/PlanckEnergy> schema:name "Planck Energy" .
+
+<http://qudt.org/vocab/unit/PlanckForce> schema:name "Planck Force" .
+
+<http://qudt.org/vocab/unit/PlanckFrequency> schema:name "Planck Frequency" .
+
+<http://qudt.org/vocab/unit/PlanckFrequency_Ang> schema:name "Planck Angular Frequency" .
+
+<http://qudt.org/vocab/unit/PlanckImpedance> schema:name "Planck Impedance" .
+
+<http://qudt.org/vocab/unit/PlanckLength> schema:name "Planck Length" .
+
+<http://qudt.org/vocab/unit/PlanckMass> schema:name "Planck Mass" .
+
+<http://qudt.org/vocab/unit/PlanckMomentum> schema:name "Planck Momentum" .
+
+<http://qudt.org/vocab/unit/PlanckPower> schema:name "Planck Power" .
+
+<http://qudt.org/vocab/unit/PlanckPressure> schema:name "Planck Pressure" .
+
+<http://qudt.org/vocab/unit/PlanckTemperature> schema:name "PlanckTemperature" .
+
+<http://qudt.org/vocab/unit/PlanckTime> schema:name "Planck Time" .
+
+<http://qudt.org/vocab/unit/PlanckVolt> schema:name "Planck Volt" .
+
+<http://qudt.org/vocab/unit/PlanckVolume> schema:name "Planck Volume" .
+
+<http://qudt.org/vocab/unit/QT_UK> schema:name "Quart (UK)" .
+
+<http://qudt.org/vocab/unit/QT_UK-PER-DAY> schema:name "Quart (UK Liquid) per Day" .
+
+<http://qudt.org/vocab/unit/QT_UK-PER-HR> schema:name "Quart (UK Liquid) per Hour" .
+
+<http://qudt.org/vocab/unit/QT_UK-PER-MIN> schema:name "Quart (UK Liquid) per Minute" .
+
+<http://qudt.org/vocab/unit/QT_UK-PER-SEC> schema:name "Quart (UK Liquid) per Second" .
+
+<http://qudt.org/vocab/unit/QT_US> schema:name "US Liquid Quart" .
+
+<http://qudt.org/vocab/unit/QT_US-PER-DAY> schema:name "Quart (US Liquid) per Day" .
+
+<http://qudt.org/vocab/unit/QT_US-PER-HR> schema:name "Quart (US Liquid) per Hour" .
+
+<http://qudt.org/vocab/unit/QT_US-PER-MIN> schema:name "Quart (US Liquid) per Minute" .
+
+<http://qudt.org/vocab/unit/QT_US-PER-SEC> schema:name "Quart (US Liquid) per Second" .
+
+<http://qudt.org/vocab/unit/QT_US_DRY> schema:name "US Dry Quart" .
+
+<http://qudt.org/vocab/unit/QUAD> schema:name "Quad" .
+
+<http://qudt.org/vocab/unit/Quarter_UK> schema:name "Quarter (UK)" .
+
+<http://qudt.org/vocab/unit/R> schema:name "Roentgen" .
+
+<http://qudt.org/vocab/unit/RAD> schema:name "radian" .
+
+<http://qudt.org/vocab/unit/RAD-M2-PER-KiloGM> schema:name "Radian Square Metre per Kilogram" .
+
+<http://qudt.org/vocab/unit/RAD-M2-PER-MOL> schema:name "Radian Square Metre per Mole" .
+
+<http://qudt.org/vocab/unit/RAD-PER-HR> schema:name "Radian per Hour" .
+
+<http://qudt.org/vocab/unit/RAD-PER-M> schema:name "radian per metre" .
+
+<http://qudt.org/vocab/unit/RAD-PER-MIN> schema:name "Radian per Minute" .
+
+<http://qudt.org/vocab/unit/RAD-PER-SEC> schema:name "radian per second" .
+
+<http://qudt.org/vocab/unit/RAD-PER-SEC2> schema:name "Radian per Square Second" .
+
+<http://qudt.org/vocab/unit/RAD_R> schema:name "Rad" .
+
+<http://qudt.org/vocab/unit/RAYL> schema:name "Rayl" .
+
+<http://qudt.org/vocab/unit/REM> schema:name "Rem" .
+
+<http://qudt.org/vocab/unit/REV> schema:name "Revolution" .
+
+<http://qudt.org/vocab/unit/REV-PER-HR> schema:name "Revolution per Hour" .
+
+<http://qudt.org/vocab/unit/REV-PER-MIN> schema:name "Revolution per Minute" .
+
+<http://qudt.org/vocab/unit/REV-PER-MIN-SEC> schema:name "Revolution per Minute per Second" .
+
+<http://qudt.org/vocab/unit/REV-PER-SEC> schema:name "Revolution per Second" .
+
+<http://qudt.org/vocab/unit/REV-PER-SEC2> schema:name "Revolution per Square Second" .
+
+<http://qudt.org/vocab/unit/ROD> schema:name "Rod" .
+
+<http://qudt.org/vocab/unit/RPK> schema:name "Reads per Kilobase" .
+
+<http://qudt.org/vocab/unit/R_man> schema:name "roentgen equivalent man" .
+
+<http://qudt.org/vocab/unit/S> schema:name "siemens" .
+
+<http://qudt.org/vocab/unit/S-M2-PER-MOL> schema:name "Siemens Square metre per mole" .
+
+<http://qudt.org/vocab/unit/S-PER-CentiM> schema:name "Siemens per Centimetre" .
+
+<http://qudt.org/vocab/unit/S-PER-M> schema:name "siemens per metre" .
+
+<http://qudt.org/vocab/unit/SAMPLE-PER-SEC> schema:name "Sample per second" .
+
+<http://qudt.org/vocab/unit/SCF> schema:name "Standard Cubic Foot" .
+
+<http://qudt.org/vocab/unit/SCF-PER-HR> schema:name "Standard Cubic Foot per Hour" .
+
+<http://qudt.org/vocab/unit/SCF-PER-MIN> schema:name "Standard Cubic Foot per Minute" .
+
+<http://qudt.org/vocab/unit/SCM> schema:name "Standard Cubic Metre" .
+
+<http://qudt.org/vocab/unit/SCM-PER-HR> schema:name "Standard Cubic Metre per Hour" .
+
+<http://qudt.org/vocab/unit/SCM-PER-MIN> schema:name "Standard Cubic Metre per Minute" .
+
+<http://qudt.org/vocab/unit/SEC> schema:name "second" .
+
+<http://qudt.org/vocab/unit/SEC-FT2> schema:name "Second Square Foot" .
+
+<http://qudt.org/vocab/unit/SEC-PER-M> schema:name "Seconds per metre" .
+
+<http://qudt.org/vocab/unit/SEC-PER-RAD-M3> schema:name "Second per Radian Cubic Metre" .
+
+<http://qudt.org/vocab/unit/SEC2> schema:name "Square Second" .
+
+<http://qudt.org/vocab/unit/SH> schema:name "Shake" .
+
+<http://qudt.org/vocab/unit/SHANNON> schema:name "Shannon" .
+
+<http://qudt.org/vocab/unit/SHANNON-PER-SEC> schema:name "Shannon per Second" .
+
+<http://qudt.org/vocab/unit/SLUG> schema:name "Slug" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-DAY> schema:name "Slug per Day" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-FT> schema:name "Slug per Foot" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-FT-SEC> schema:name "Slug per Foot Second" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-FT2> schema:name "Slug per Square Foot" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-FT3> schema:name "Slug per Cubic Foot" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-HR> schema:name "Slug per Hour" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-MIN> schema:name "Slug per Minute" .
+
+<http://qudt.org/vocab/unit/SLUG-PER-SEC> schema:name "Slug per Second" .
+
+<http://qudt.org/vocab/unit/SR> schema:name "steradian" .
+
+<http://qudt.org/vocab/unit/ST> schema:name "Stokes" .
+
+<http://qudt.org/vocab/unit/STANDARD> schema:name "Standard" .
+
+<http://qudt.org/vocab/unit/STILB> schema:name "Stilb" .
+
+<http://qudt.org/vocab/unit/STR> schema:name "Stere" .
+
+<http://qudt.org/vocab/unit/SUSCEPTIBILITY_ELEC> schema:name "Electric Susceptibility Unit" .
+
+<http://qudt.org/vocab/unit/SUSCEPTIBILITY_MAG> schema:name "Magnetic Susceptibility Unit" .
+
+<http://qudt.org/vocab/unit/SV> schema:name "sievert" .
+
+<http://qudt.org/vocab/unit/S_Ab> schema:name "Absiemen" .
+
+<http://qudt.org/vocab/unit/S_Stat> schema:name "Statsiemens" .
+
+<http://qudt.org/vocab/unit/SolarMass> schema:name "Solar mass" .
+
+<http://qudt.org/vocab/unit/Standard> schema:name "Standard" .
+
+<http://qudt.org/vocab/unit/Stone_UK> schema:name "Stone (UK)" .
+
+<http://qudt.org/vocab/unit/T> schema:name "tesla" .
+
+<http://qudt.org/vocab/unit/T-M> schema:name "T-M" .
+
+<http://qudt.org/vocab/unit/T-SEC> schema:name "T-SEC" .
+
+<http://qudt.org/vocab/unit/TBSP> schema:name "Tablespoon" .
+
+<http://qudt.org/vocab/unit/TEX> schema:name "Tex" .
+
+<http://qudt.org/vocab/unit/THM_EEC> schema:name "THM_EEC" .
+
+<http://qudt.org/vocab/unit/THM_US> schema:name "Therm US" .
+
+<http://qudt.org/vocab/unit/THM_US-PER-HR> schema:name "Therm US per Hour" .
+
+<http://qudt.org/vocab/unit/TOE> schema:name "Ton of Oil Equivalent" .
+
+<http://qudt.org/vocab/unit/TON> schema:name "Ton" .
+
+<http://qudt.org/vocab/unit/TONNE> schema:name "Tonne" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-DAY> schema:name "Tonne per Day" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-HA> schema:name "tonne per hectare" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-HA-YR> schema:name "tonne per hectare year" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-HR> schema:name "Tonne per Hour" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-M3> schema:name "Tonne per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-MIN> schema:name "Tonne per Minute" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-SEC> schema:name "Tonne per Second" .
+
+<http://qudt.org/vocab/unit/TONNE-PER-YR> schema:name "Tonne per Year" .
+
+<http://qudt.org/vocab/unit/TON_Assay> schema:name "Assay Ton" .
+
+<http://qudt.org/vocab/unit/TON_FG> schema:name "Ton of Refrigeration" .
+
+<http://qudt.org/vocab/unit/TON_FG-HR> schema:name "Ton of Refrigeration Hour" .
+
+<http://qudt.org/vocab/unit/TON_F_US> schema:name "Ton Force (US Short)" .
+
+<http://qudt.org/vocab/unit/TON_LONG> schema:name "Long Ton" .
+
+<http://qudt.org/vocab/unit/TON_LONG-PER-YD3> schema:name "Long Ton per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/TON_Metric> schema:name "Metric Ton" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-DAY> schema:name "Tonne per Day" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-HA> schema:name "metric tonne per hectare" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-HR> schema:name "Tonne per Hour" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-M3> schema:name "Tonne per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-MIN> schema:name "Tonne per Minute" .
+
+<http://qudt.org/vocab/unit/TON_Metric-PER-SEC> schema:name "Tonne per Second (metric Ton)" .
+
+<http://qudt.org/vocab/unit/TON_SHIPPING_UK> schema:name "Ton (UK Shipping)" .
+
+<http://qudt.org/vocab/unit/TON_SHIPPING_US> schema:name "Ton (US Shipping)" .
+
+<http://qudt.org/vocab/unit/TON_SHORT> schema:name "Short Ton" .
+
+<http://qudt.org/vocab/unit/TON_SHORT-PER-HR> schema:name "Short Ton per Hour" .
+
+<http://qudt.org/vocab/unit/TON_SHORT-PER-YD3> schema:name "Short Ton per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/TON_UK> schema:name "Ton (UK)" .
+
+<http://qudt.org/vocab/unit/TON_UK-PER-DAY> schema:name "Long Ton (uk) per Day" .
+
+<http://qudt.org/vocab/unit/TON_UK-PER-YD3> schema:name "Long Ton (UK) per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/TON_US> schema:name "Ton (US)" .
+
+<http://qudt.org/vocab/unit/TON_US-PER-DAY> schema:name "Short Ton (us) per Day" .
+
+<http://qudt.org/vocab/unit/TON_US-PER-HR> schema:name "Ton (US) per Hour" .
+
+<http://qudt.org/vocab/unit/TON_US-PER-YD3> schema:name "Short Ton (US) per Cubic Yard" .
+
+<http://qudt.org/vocab/unit/TORR> schema:name "Torr" .
+
+<http://qudt.org/vocab/unit/TSP> schema:name "Teaspoon" .
+
+<http://qudt.org/vocab/unit/T_Ab> schema:name "Abtesla" .
+
+<http://qudt.org/vocab/unit/TebiBYTE> schema:name "TebiByte" .
+
+<http://qudt.org/vocab/unit/TeraBYTE> schema:name "TeraByte" .
+
+<http://qudt.org/vocab/unit/TeraC> schema:name "TeraCoulomb" .
+
+<http://qudt.org/vocab/unit/TeraHZ> schema:name "Terahertz" .
+
+<http://qudt.org/vocab/unit/TeraJ> schema:name "Terajoule" .
+
+<http://qudt.org/vocab/unit/TeraOHM> schema:name "Teraohm" .
+
+<http://qudt.org/vocab/unit/TeraW> schema:name "Terawatt" .
+
+<http://qudt.org/vocab/unit/TeraW-HR> schema:name "Terawatt Hour" .
+
+<http://qudt.org/vocab/unit/TeraW-HR-PER-YR> schema:name "Terawatt Hour per Year" .
+
+<http://qudt.org/vocab/unit/TonEnergy> schema:name "Ton Energy" .
+
+<http://qudt.org/vocab/unit/U> schema:name "Unified Atomic Mass Unit" .
+
+<http://qudt.org/vocab/unit/UNITLESS> schema:name "Unitless" .
+
+<http://qudt.org/vocab/unit/UNKNOWN> schema:name "Unknown" .
+
+<http://qudt.org/vocab/unit/UnitPole> schema:name "Unit Pole" .
+
+<http://qudt.org/vocab/unit/V> schema:name "volt" .
+
+<http://qudt.org/vocab/unit/V-A> schema:name "volt ampere" .
+
+<http://qudt.org/vocab/unit/V-A-HR> schema:name "Volt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/V-A_Reactive> schema:name "Volt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/V-A_Reactive-HR> schema:name "Volt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/V-M> schema:name "V-M" .
+
+<http://qudt.org/vocab/unit/V-PER-CentiM> schema:name "Volt per Centimetre" .
+
+<http://qudt.org/vocab/unit/V-PER-IN> schema:name "Volt per Inch" .
+
+<http://qudt.org/vocab/unit/V-PER-K> schema:name "Volt per Kelvin" .
+
+<http://qudt.org/vocab/unit/V-PER-M> schema:name "volt per metre" .
+
+<http://qudt.org/vocab/unit/V-PER-M2> schema:name "Volt per Square Metre" .
+
+<http://qudt.org/vocab/unit/V-PER-MicroSEC> schema:name "Volt per Microsecond" .
+
+<http://qudt.org/vocab/unit/V-PER-MilliM> schema:name "Volt per Millimetre" .
+
+<http://qudt.org/vocab/unit/V-PER-SEC> schema:name "Volt per second" .
+
+<http://qudt.org/vocab/unit/V-SEC-PER-M> schema:name "Volt Second per Metre" .
+
+<http://qudt.org/vocab/unit/V2-PER-K2> schema:name "Square Volt per Square Kelvin" .
+
+<http://qudt.org/vocab/unit/VA> schema:name "volt ampere" .
+
+<http://qudt.org/vocab/unit/VA-HR> schema:name "Volt Ampere Hour" .
+
+<http://qudt.org/vocab/unit/VAR> schema:name "Volt Ampere Reactive" .
+
+<http://qudt.org/vocab/unit/VAR-HR> schema:name "Volt Ampere Reactive Hour" .
+
+<http://qudt.org/vocab/unit/V_Ab> schema:name "Abvolt" .
+
+<http://qudt.org/vocab/unit/V_Ab-PER-CentiM> schema:name "Abvolt per centimetre" .
+
+<http://qudt.org/vocab/unit/V_Ab-SEC> schema:name "Abvolt Second" .
+
+<http://qudt.org/vocab/unit/V_Stat> schema:name "Statvolt" .
+
+<http://qudt.org/vocab/unit/V_Stat-CentiM> schema:name "V_Stat-CentiM" .
+
+<http://qudt.org/vocab/unit/V_Stat-PER-CentiM> schema:name "Statvolt per Centimetre" .
+
+<http://qudt.org/vocab/unit/W> schema:name "watt" .
+
+<http://qudt.org/vocab/unit/W-HR> schema:name "Watthour" .
+
+<http://qudt.org/vocab/unit/W-HR-PER-M2> schema:name "Watt hour per square metre" .
+
+<http://qudt.org/vocab/unit/W-HR-PER-M3> schema:name "Watthour per Cubic metre" .
+
+<http://qudt.org/vocab/unit/W-M-PER-M2-SR> schema:name "Watt metre per square metre steradian" .
+
+<http://qudt.org/vocab/unit/W-M2> schema:name "W-M2" .
+
+<http://qudt.org/vocab/unit/W-M2-PER-SR> schema:name "W-M2-PER-SR" .
+
+<http://qudt.org/vocab/unit/W-PER-CentiM2> schema:name "Watt per Square Centimetre" .
+
+<http://qudt.org/vocab/unit/W-PER-FT2> schema:name "Watt per Square Foot" .
+
+<http://qudt.org/vocab/unit/W-PER-GM> schema:name "Watt per Gram" .
+
+<http://qudt.org/vocab/unit/W-PER-IN2> schema:name "Watt per Square Inch" .
+
+<http://qudt.org/vocab/unit/W-PER-K> schema:name "Watt per Kelvin" .
+
+<http://qudt.org/vocab/unit/W-PER-KiloGM> schema:name "Watt per Kilogram" .
+
+<http://qudt.org/vocab/unit/W-PER-M> schema:name "Watts per metre" .
+
+<http://qudt.org/vocab/unit/W-PER-M-K> schema:name "Watt per Metre Kelvin" .
+
+<http://qudt.org/vocab/unit/W-PER-M2> schema:name "watt per square metre" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-K> schema:name "Watt per Square Metre Kelvin" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-K4> schema:name "Watt per Square Metre Quartic Kelvin" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-M> schema:name "Watts per square metre metre" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-M-SR> schema:name "Watts per square metre metre steradian" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-NanoM> schema:name "Watts per square metre nanometre" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-NanoM-SR> schema:name "Watts per square metre nanometre steradian" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-PA> schema:name "Watt per Square Metre Pascal" .
+
+<http://qudt.org/vocab/unit/W-PER-M2-SR> schema:name "Watt per Square Metre Steradian" .
+
+<http://qudt.org/vocab/unit/W-PER-M3> schema:name "Watt per Cubic Metre" .
+
+<http://qudt.org/vocab/unit/W-PER-SR> schema:name "Watt per Steradian" .
+
+<http://qudt.org/vocab/unit/W-SEC> schema:name "Watt Second" .
+
+<http://qudt.org/vocab/unit/W-SEC-PER-M2> schema:name "Watt seconds per square metre" .
+
+<http://qudt.org/vocab/unit/WB> schema:name "weber" .
+
+<http://qudt.org/vocab/unit/WB-M> schema:name "Weber Metre" .
+
+<http://qudt.org/vocab/unit/WB-PER-M> schema:name "weber per metre" .
+
+<http://qudt.org/vocab/unit/WB-PER-MilliM> schema:name "Weber per Millimetre" .
+
+<http://qudt.org/vocab/unit/WK> schema:name "Week" .
+
+<http://qudt.org/vocab/unit/YD> schema:name "Yard" .
+
+<http://qudt.org/vocab/unit/YD-PER-DEG_F> schema:name "Yard per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/YD2> schema:name "Square Yard" .
+
+<http://qudt.org/vocab/unit/YD3> schema:name "Cubic Yard" .
+
+<http://qudt.org/vocab/unit/YD3-PER-DAY> schema:name "Cubic Yard per Day" .
+
+<http://qudt.org/vocab/unit/YD3-PER-DEG_F> schema:name "Cubic Yard per Degree Fahrenheit" .
+
+<http://qudt.org/vocab/unit/YD3-PER-HR> schema:name "Cubic Yard per Hour" .
+
+<http://qudt.org/vocab/unit/YD3-PER-MIN> schema:name "Cubic Yard per Minute" .
+
+<http://qudt.org/vocab/unit/YD3-PER-SEC> schema:name "Cubic Yard per Second" .
+
+<http://qudt.org/vocab/unit/YR> schema:name "Year" .
+
+<http://qudt.org/vocab/unit/YR_Common> schema:name "Common Year" .
+
+<http://qudt.org/vocab/unit/YR_Sidereal> schema:name "Sidereal Year" .
+
+<http://qudt.org/vocab/unit/YR_TROPICAL> schema:name "Tropical Year" .
+
+<http://qudt.org/vocab/unit/YoctoC> schema:name "YoctoCoulomb" .
+
+<http://qudt.org/vocab/unit/YottaC> schema:name "YottaCoulomb" .
+
+<http://qudt.org/vocab/unit/Z> schema:name "atomic-number" .
+
+<http://qudt.org/vocab/unit/ZeptoC> schema:name "ZeptoCoulomb" .
+
+<http://qudt.org/vocab/unit/ZettaC> schema:name "ZettaCoulomb" .
+
+<http://qudt.org/vocab/unit/failures-in-time> schema:name "Failures In Time" .
+

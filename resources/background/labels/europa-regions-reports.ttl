@@ -1,0 +1,21 @@
+PREFIX schema: <https://schema.org/>
+
+<http://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-1> schema:name "" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/ArcticReg.pdf> schema:name "Arctic Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/Boreal_Region.pdf> schema:name "Boreal Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/MacaronesiaReg.pdf> schema:name "Macaronesia Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf> schema:name "Alpine Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/anatolian.pdf> schema:name "Anatolian Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf> schema:name "Black Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/continental_biogeografical_region.pdf> schema:name "Continental Biogeografical Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/mediterranean_biogeografical_region.pdf> schema:name "Mediterranean Biogeografical region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/pannonian.pdf> schema:name "Pannonian Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/steppic.pdf> schema:name "Steppic Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/the_atlantic_region.pdf> schema:name "Atlantic Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/BalticSea.pdf> schema:name "Baltic Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/BlackSea.pdf> schema:name "Black Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/CaspianSea.pdf> schema:name "Caspian Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/MediterSea.pdf> schema:name "Mediterranean Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/NorthSea.pdf> schema:name "North Sea Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/arctic_ocean.pdf> schema:name "Arctic Ocean Region" .
+<http://www.eea.europa.eu/publications/report_2002_0524_154909/regional-seas-around-europe/nea_ocean.pdf> schema:name "NEA Ocean " .

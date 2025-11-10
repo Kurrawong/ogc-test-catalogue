@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+
+<http://qudt.org/vocab/MassConcentration> schema:name "Mass Concentration" .
+<http://qudt.org/vocab/MassPerArea> schema:name "Mass Per Area" .
+<http://qudt.org/vocab/MassPerAreaTime> schema:name "Mass Per Area Time" .
+<http://qudt.org/vocab/quantitykind/AngularMass> schema:name "Angular Mass" .
+<http://qudt.org/vocab/quantitykind/EnergyPerUnitArea> schema:name "Energy Per Unit Area" .
+<http://qudt.org/vocab/unit/DYNpersquarecentimeter> schema:name "DYN per square centimeter" .
+<http://qudt.org/vocab/unit/ERG-PER-SEC3> schema:name "Erg per second cubed" .
+<http://qudt.org/vocab/unit/FARAD_Abpercentimeter> schema:name "Addfarad per centimeter" .
+<http://qudt.org/vocab/unit/H_Statpercentimeter> schema:name "Stat perc entimeter" .
+<http://qudt.org/vocab/unit/J-PER-MOL-Kelvin> schema:name "Joules per mol Kelvin" .
+<http://qudt.org/vocab/unit/V_AbSecond> schema:name "AbSecond" .

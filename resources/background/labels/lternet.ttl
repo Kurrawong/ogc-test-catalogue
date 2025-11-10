@@ -1,0 +1,14 @@
+PREFIX schema: <https://schema.org/>
+
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=145&/depth> schema:name "depth" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=2&/forests> schema:name "forests" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=232&/grasslands> schema:name "grasslands" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=236&/growth> schema:name "growth" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=276&/isotopes> schema:name "isotopes" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=278> schema:name "lakes" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=370&/nitrification> schema:name "nitrification" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=467&/respiration> schema:name "respiration" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=474> schema:name "rivers" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=493&/sediments> schema:name "sediments" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=555&/stems> schema:name "stems" .
+<http://vocab.lternet.edu/vocab/vocab/index.php?tema=662&/disturbance> schema:name "disturbance" .

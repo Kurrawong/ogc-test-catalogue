@@ -1,0 +1,2699 @@
+@prefix asls: <http://anzsoil.org/def/au/asls/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix subst: <http://anzsoil.org/def/au/asls/substrate/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+asls:substrate
+  a owl:Ontology ;
+  a skos:ConceptScheme ;
+  dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:created "2021-04-07"^^xsd:date ;
+  dcterms:creator [
+      a schema:Person ;
+      schema:name "R.C. McDonald" ;
+      schema:email ""^^xsd:anyURI ;
+    ] ;
+  dcterms:creator [
+      a schema:Person ;
+      schema:name "R.F. Isbell" ;
+      schema:email ""^^xsd:anyURI ;
+    ] ;
+  skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 9 Substrate, by R.C. McDonald and R.F. Isbell, in Australian soil and land survey field handbook (3rd edn)
+
+This vocabulary deals with materials and masses of earth or rock that do not show pedological development. They are not soils, but typically underlie them.
+
+This chapter deals with materials and masses of earth (see page 163) or rock that do not show pedological development. They are not soils, but typically underlie them. The substrate includes the R horizon and that part of the C horizon that shows no pedological development (page 106), but excludes the solum, buried soil horizons (including D horizons), and pans. The substrate beneath a soil profile may or may not be the parent material of the soil.
+
+The properties of the substrate should be described as objectively as possible. The first group of properties refers to the material or substance in an intact state, as would be seen in a hand-sized specimen without cracks. Such properties serve to identify the type of rock, such as sandstone, or unconsolidated material, such as clay. A second group of properties comprising spacing of discontinuities, alteration, and mass strength refers to substrate masses. These require observations of areas of greater dimensions. Types of substrate mass are classified mainly according to their inferred origin. Examples are alluvium, parna, ferricrete and saprolite.
+
+The substrate should be observed at the point of the soil profile observation or as close to it as may be practicable. Large vertical exposures of the substrate may reveal the spatial variation of substrate features.""" ;
+  dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
+  schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+  dcterms:modified "2025-06-07"^^xsd:date ;
+  dcterms:publisher <https://linked.data.gov.au/org/csiro> ;
+  dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
+  dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
+  dcterms:title "Substrate classifiers" ;
+  rdfs:seeAlso "https://www.publish.csiro.au/book/5230"^^xsd:anyURI ;
+  skos:changeNote "2025-06-07 - made VocPub conformant; used prefLabels for missing definitions" ;
+  skos:changeNote "2022-07-26 - add observable-properties collection" ;
+  skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition and skos:prefLabel" ;
+  skos:changeNote "2022-07-28 - Completed the rest of the substrate chapter" ;
+  skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
+  skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
+  skos:changeNote "2022-12-07 - remove observable-properties collection" ;
+  skos:historyNote "The data was converted from the print representation to this linked-data form by Linda Gregory assisted by Simon J D Cox" ;
+  skos:notation "substrate"@en ;
+  skos:prefLabel "Substrate classifiers"@en ;
+  skos:hasTopConcept
+    subst:alteration-F ,
+    subst:alteration-K ,
+    subst:alteration-L ,
+    subst:alteration-O ,
+    subst:alteration-S ,
+    subst:confidence-certain ,
+    subst:confidence-doubtful ,
+    subst:confidence-not-parent ,
+    subst:confidence-probable ,
+    subst:discontinuity-spacing-B ,
+    subst:discontinuity-spacing-C ,
+    subst:discontinuity-spacing-F ,
+    subst:discontinuity-spacing-M ,
+    subst:discontinuity-spacing-S ,
+    subst:genesis-AC ,
+    subst:genesis-AL ,
+    subst:genesis-AT ,
+    subst:genesis-BE ,
+    subst:genesis-CD ,
+    subst:genesis-CN ,
+    subst:genesis-CO ,
+    subst:genesis-DR ,
+    subst:genesis-ED ,
+    subst:genesis-ES ,
+    subst:genesis-ET ,
+    subst:genesis-EV ,
+    subst:genesis-FC ,
+    subst:genesis-FI ,
+    subst:genesis-GY ,
+    subst:genesis-HA ,
+    subst:genesis-IG ,
+    subst:genesis-IN ,
+    subst:genesis-KC ,
+    subst:genesis-LA ,
+    subst:genesis-LC ,
+    subst:genesis-LD ,
+    subst:genesis-LO ,
+    subst:genesis-MA ,
+    subst:genesis-MD ,
+    subst:genesis-ME ,
+    subst:genesis-PA ,
+    subst:genesis-PC ,
+    subst:genesis-PL ,
+    subst:genesis-PW ,
+    subst:genesis-RB ,
+    subst:genesis-SA ,
+    subst:genesis-SC ,
+    subst:genesis-SD ,
+    subst:genesis-SE ,
+    subst:genesis-SH ,
+    subst:genesis-SP ,
+    subst:genesis-SR ,
+    subst:genesis-ST ,
+    subst:genesis-TI ,
+    subst:genesis-VA ,
+    subst:genesis-VO ,
+    subst:grain-size-1 ,
+    subst:grain-size-2 ,
+    subst:grain-size-3 ,
+    subst:lithology-AC ,
+    subst:lithology-AD ,
+    subst:lithology-AF ,
+    subst:lithology-AG ,
+    subst:lithology-AH ,
+    subst:lithology-AM ,
+    subst:lithology-AN ,
+    subst:lithology-AP ,
+    subst:lithology-AR ,
+    subst:lithology-AS ,
+    subst:lithology-BA ,
+    subst:lithology-BB ,
+    subst:lithology-BO ,
+    subst:lithology-BR ,
+    subst:lithology-C ,
+    subst:lithology-CB ,
+    subst:lithology-CG ,
+    subst:lithology-CH ,
+    subst:lithology-CO ,
+    subst:lithology-CU ,
+    subst:lithology-DI ,
+    subst:lithology-DM ,
+    subst:lithology-DR ,
+    subst:lithology-FC ,
+    subst:lithology-GA ,
+    subst:lithology-GD ,
+    subst:lithology-GE ,
+    subst:lithology-GN ,
+    subst:lithology-GR ,
+    subst:lithology-GS ,
+    subst:lithology-GV ,
+    subst:lithology-GW ,
+    subst:lithology-GY ,
+    subst:lithology-HA ,
+    subst:lithology-HO ,
+    subst:lithology-IG ,
+    subst:lithology-JA ,
+    subst:lithology-KA ,
+    subst:lithology-KC ,
+    subst:lithology-KL ,
+    subst:lithology-KM ,
+    subst:lithology-KR ,
+    subst:lithology-KS ,
+    subst:lithology-LC ,
+    subst:lithology-LI ,
+    subst:lithology-M ,
+    subst:lithology-MB ,
+    subst:lithology-MD ,
+    subst:lithology-ME ,
+    subst:lithology-MG ,
+    subst:lithology-MI ,
+    subst:lithology-ML ,
+    subst:lithology-MS ,
+    subst:lithology-MU ,
+    subst:lithology-MY ,
+    subst:lithology-PC ,
+    subst:lithology-PE ,
+    subst:lithology-PG ,
+    subst:lithology-PH ,
+    subst:lithology-PL ,
+    subst:lithology-PO ,
+    subst:lithology-PY ,
+    subst:lithology-QP ,
+    subst:lithology-QS ,
+    subst:lithology-QU ,
+    subst:lithology-QZ ,
+    subst:lithology-R ,
+    subst:lithology-RB ,
+    subst:lithology-RH ,
+    subst:lithology-S ,
+    subst:lithology-SA ,
+    subst:lithology-SD ,
+    subst:lithology-SH ,
+    subst:lithology-SK ,
+    subst:lithology-SL ,
+    subst:lithology-SN ,
+    subst:lithology-SR ,
+    subst:lithology-ST ,
+    subst:lithology-SY ,
+    subst:lithology-TR ,
+    subst:lithology-TU ,
+    subst:lithology-UC ,
+    subst:lithology-VB ,
+    subst:lithology-VG ,
+    subst:lithology-Z ,
+    subst:lithology-ZS ,
+    subst:material-strength-M ,
+    subst:material-strength-S ,
+    subst:material-strength-VS ,
+    subst:material-strength-VW ,
+    subst:material-strength-W ,
+    subst:material-structure-B ,
+    subst:material-structure-C ,
+    subst:material-structure-F ,
+    subst:material-structure-L ,
+    subst:material-structure-P ,
+    subst:material-structure-R ,
+    subst:material-structure-S ,
+    subst:material-structure-V ,
+    subst:mineral-composition-C ,
+    subst:mineral-composition-D ,
+    subst:mineral-composition-F ,
+    subst:mineral-composition-G ,
+    subst:mineral-composition-K ,
+    subst:mineral-composition-L ,
+    subst:mineral-composition-M ,
+    subst:mineral-composition-Q ,
+    subst:mineral-composition-S ,
+    subst:mineral-composition-Y ,
+    subst:observation-depth ,
+    subst:observation-type-A ,
+    subst:observation-type-C ,
+    subst:observation-type-E ,
+    subst:observation-type-O ,
+    subst:observation-type-P ,
+    subst:porosity-0 ,
+    subst:porosity-1 ,
+    subst:porosity-2 ,
+    subst:sample-distance ,
+    subst:texture-A ,
+    subst:texture-F ,
+    subst:texture-P ,
+    subst:texture-X ;
+.
+subst:Confidence
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The observer should state the degree of confidence that the observed substrate material is in fact the parent material of the observed soil profile or the major part of that profile, that is, of the B horizon." ;
+  skos:member subst:confidence-certain ;
+  skos:member subst:confidence-doubtful ;
+  skos:member subst:confidence-not-parent ;
+  skos:member subst:confidence-probable ;
+  skos:prefLabel "Confidence that substrate is parent material - enumeration"@en ;
+.
+subst:Field-texture
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:texture-A ;
+  skos:member subst:texture-F ;
+  skos:member subst:texture-P ;
+  skos:member subst:texture-X ;
+  skos:prefLabel "Texture - enumeration"@en ;
+  skos:definition "Texture - enumeration"@en ;
+.
+subst:Genesis
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:definition """Scheme of classification
+
+Table 37 presents a scheme of classification of soil substrate masses as they are found in soil and land surveys. The main classes represent rock masses not yet weathered, those now being weathered, those transported and deposited but not yet consolidated, and those hardened while still near the surface.
+
+Named classes in this table are defined in the following glossary. Since this is a genetic classification, diagnostic attributes may be hard to specify. Associated landforms should not be used as recognition criteria for observed substrate masses. They can be used to infer the nature of substrate masses that cannot be observed. In the same way, substrate observations should not be used as recognition criteria for landforms.""" ;
+  skos:member subst:Mass-genetic-type ;
+  skos:member subst:Rock-genesis-sediments ;
+  skos:member subst:Rock-genesis-unweathered ;
+  skos:member subst:Rock-genesis-weathered ;
+  skos:member subst:genesis-hardened ;
+  skos:note """Bedrock and regolith zones
+
+The mantle of earth and rock, including weathered rocks and sediments, altered or formed by land surface processes is called the regolith. The underlying zone of rocks formed or altered by deep-seated crustal processes is the bedrock. Regolith and bedrock are regarded here as zones characterised by different processes, rather than as classes of material. The original definition of regolith by Merrill (1897) stresses the latter view and includes only unconsolidated materials.
+
+The depth of the regolith zone ranges from zero, where bedrock outcrops at the surface, to over 100 m in areas of deep weathering (Ollier 1984).
+
+In areas without much sediment, the lower boundary of the regolith is the weathering front (Mabbutt 1961) where features due to weathering first appear. Where sediments are very thick, their lower layers become isolated from land surface processes by their depth and by reduced permeability due to compaction. Here the base of the regolith, which could be called a ‘lithification front’, is where most of the sediments transform to sedimentary rocks. Sedimentary rocks are often folded and faulted but, at least in Australia’s stable environment, most unconsolidated sediments remain flat-lying.
+
+Masses within the regolith zone, in contrast with those within the bedrock zone, tend to have low density, very low strength, and little cohesion between their particles or fragments. Despite Merrill’s definition, not all materials follow this tendency. Strong and cohesive masses (for example ferricrete) may be characteristic of the regolith. On the other hand, some layers of sedimentary rock never become strong. Other rocks are weakened within the bedrock zone by deep-seated processes. Table 36 assigns types of substrate mass to either the regolith zone or the bedrock zone.""" ;
+  skos:prefLabel "Genetic type of substrate masses"@en ;
+.
+subst:Lithology-rock
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  dcterms:source "Table 35 Alphabetical checklist of lithological type of rock material and unconsolidated material." ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Lithological type - rock."@en ;
+  skos:member subst:lithology-AC ;
+  skos:member subst:lithology-AD ;
+  skos:member subst:lithology-AF ;
+  skos:member subst:lithology-AG ;
+  skos:member subst:lithology-AH ;
+  skos:member subst:lithology-AM ;
+  skos:member subst:lithology-AN ;
+  skos:member subst:lithology-AP ;
+  skos:member subst:lithology-AR ;
+  skos:member subst:lithology-AS ;
+  skos:member subst:lithology-BA ;
+  skos:member subst:lithology-BB ;
+  skos:member subst:lithology-BR ;
+  skos:member subst:lithology-C ;
+  skos:member subst:lithology-CG ;
+  skos:member subst:lithology-CH ;
+  skos:member subst:lithology-CO ;
+  skos:member subst:lithology-CU ;
+  skos:member subst:lithology-DI ;
+  skos:member subst:lithology-DM ;
+  skos:member subst:lithology-DR ;
+  skos:member subst:lithology-FC ;
+  skos:member subst:lithology-GA ;
+  skos:member subst:lithology-GD ;
+  skos:member subst:lithology-GE ;
+  skos:member subst:lithology-GN ;
+  skos:member subst:lithology-GR ;
+  skos:member subst:lithology-GS ;
+  skos:member subst:lithology-GV ;
+  skos:member subst:lithology-GW ;
+  skos:member subst:lithology-GY ;
+  skos:member subst:lithology-HA ;
+  skos:member subst:lithology-HO ;
+  skos:member subst:lithology-IG ;
+  skos:member subst:lithology-JA ;
+  skos:member subst:lithology-KA ;
+  skos:member subst:lithology-KC ;
+  skos:member subst:lithology-KL ;
+  skos:member subst:lithology-KM ;
+  skos:member subst:lithology-KR ;
+  skos:member subst:lithology-KS ;
+  skos:member subst:lithology-LC ;
+  skos:member subst:lithology-LI ;
+  skos:member subst:lithology-M ;
+  skos:member subst:lithology-MB ;
+  skos:member subst:lithology-MD ;
+  skos:member subst:lithology-ME ;
+  skos:member subst:lithology-MG ;
+  skos:member subst:lithology-MI ;
+  skos:member subst:lithology-ML ;
+  skos:member subst:lithology-MS ;
+  skos:member subst:lithology-MU ;
+  skos:member subst:lithology-MY ;
+  skos:member subst:lithology-PC ;
+  skos:member subst:lithology-PE ;
+  skos:member subst:lithology-PG ;
+  skos:member subst:lithology-PH ;
+  skos:member subst:lithology-PL ;
+  skos:member subst:lithology-PO ;
+  skos:member subst:lithology-PY ;
+  skos:member subst:lithology-QP ;
+  skos:member subst:lithology-QS ;
+  skos:member subst:lithology-QU ;
+  skos:member subst:lithology-QZ ;
+  skos:member subst:lithology-R ;
+  skos:member subst:lithology-RB ;
+  skos:member subst:lithology-RH ;
+  skos:member subst:lithology-S ;
+  skos:member subst:lithology-SA ;
+  skos:member subst:lithology-SD ;
+  skos:member subst:lithology-SH ;
+  skos:member subst:lithology-SK ;
+  skos:member subst:lithology-SL ;
+  skos:member subst:lithology-SR ;
+  skos:member subst:lithology-ST ;
+  skos:member subst:lithology-SY ;
+  skos:member subst:lithology-TR ;
+  skos:member subst:lithology-TU ;
+  skos:member subst:lithology-UC ;
+  skos:member subst:lithology-VB ;
+  skos:member subst:lithology-VG ;
+  skos:member subst:lithology-Z ;
+  skos:member subst:lithology-ZS ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Lithological type- rock - enumeration"@en ;
+.
+subst:Lithology-unconsolidated
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  dcterms:source "Table 33 Unconsolidated material* classification" ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Lithological type - unconsoldiated material."@en ;
+  skos:member subst:lithology-AF ;
+  skos:member subst:lithology-AS ;
+  skos:member subst:lithology-BB ;
+  skos:member subst:lithology-BO ;
+  skos:member subst:lithology-C ;
+  skos:member subst:lithology-CB ;
+  skos:member subst:lithology-GV ;
+  skos:member subst:lithology-KS ;
+  skos:member subst:lithology-ML ;
+  skos:member subst:lithology-S ;
+  skos:member subst:lithology-SK ;
+  skos:member subst:lithology-SN ;
+  skos:member subst:lithology-Z ;
+  skos:prefLabel "Lithological type- unconsolidated material - enumeration"@en ;
+.
+subst:Mass-genetic-type
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:Rock-genesis-hardened-artificial ;
+  skos:member subst:Rock-genesis-hardened-chemical ;
+  skos:member subst:Rock-genesis-hardened-evaporite ;
+  skos:member subst:Rock-genesis-sediments ;
+  skos:member subst:Rock-genesis-unweathered ;
+  skos:member subst:Rock-genesis-weathered ;
+  skos:prefLabel "Glossary of substrate mass genetic types"@en ;
+  skos:definition "Glossary of substrate mass genetic types"@en ;
+.
+subst:Material-strength
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  skos:member subst:material-strength-M ;
+  skos:member subst:material-strength-S ;
+  skos:member subst:material-strength-VS ;
+  skos:member subst:material-strength-VW ;
+  skos:member subst:material-strength-W ;
+  skos:note "These are an exact match to coarse fragments strength in land surface chapter"@en ;
+  skos:prefLabel "Strength of substrate material - enumeration"@en ;
+.
+subst:Rock-alteration
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Substrate materials may be so extensively altered (as in deep weathering profiles) that it may be difficult or impossible to determine their original nature. Certain constituents may be either depleted or enriched. Thus, in many laterite profiles, some horizons are ferruginised, partially ferruginised and partially kaolinised, and the pallid zone kaolinised. Silicification may also be associated with deep weathering profiles although not exclusively so; for instance, some limestones may be variably silicified. In contrast, calcification, which is widespread in parts of southern Australia, is not usually associated with deep weathering." ;
+  skos:member subst:alteration-F ;
+  skos:member subst:alteration-K ;
+  skos:member subst:alteration-L ;
+  skos:member subst:alteration-O ;
+  skos:member subst:alteration-S ;
+  skos:note "In some instances more than one type of alteration may be present, for example the mottled zone of a laterite profile may be both ferruginised and kaolinised. Where both types of alteration occur, record both." ;
+  skos:prefLabel "Alteration - enumeration"@en ;
+.
+subst:Rock-genesis-hardened-artificial
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-AT ;
+  skos:member subst:genesis-CN ;
+  skos:member subst:genesis-ST ;
+  skos:prefLabel "Artificially hardened materials - enumeration"@en ;
+  skos:definition "Artificially hardened materials - enumeration"@en ;
+.
+subst:Rock-genesis-hardened-chemical
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-AC ;
+  skos:member subst:genesis-FC ;
+  skos:member subst:genesis-KC ;
+  skos:member subst:genesis-LC ;
+  skos:member subst:genesis-PC ;
+  skos:member subst:genesis-RB ;
+  skos:prefLabel "Chemically hardened materials - enumeration"@en ;
+  skos:definition "Chemically hardened materials - enumeration"@en ;
+.
+subst:Rock-genesis-hardened-evaporite
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-EV ;
+  skos:member subst:genesis-GY ;
+  skos:member subst:genesis-HA ;
+  skos:prefLabel "Evaporites - enumeration"@en ;
+  skos:definition "Evaporites - enumeration"@en ;
+.
+subst:Rock-genesis-sediments
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-AL ;
+  skos:member subst:genesis-BE ;
+  skos:member subst:genesis-CD ;
+  skos:member subst:genesis-CO ;
+  skos:member subst:genesis-ED ;
+  skos:member subst:genesis-ES ;
+  skos:member subst:genesis-FI ;
+  skos:member subst:genesis-GY ;
+  skos:member subst:genesis-LA ;
+  skos:member subst:genesis-LD ;
+  skos:member subst:genesis-LO ;
+  skos:member subst:genesis-MA ;
+  skos:member subst:genesis-MD ;
+  skos:member subst:genesis-PA ;
+  skos:member subst:genesis-SE ;
+  skos:member subst:genesis-SH ;
+  skos:member subst:genesis-TI ;
+  skos:member subst:genesis-VA ;
+  skos:notation "3" ;
+  skos:prefLabel "Sediments (unconsolidated) - enumeration"@en ;
+  skos:definition "Sediments (unconsolidated) - enumeration"@en ;
+.
+subst:Rock-genesis-unweathered
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-ET ;
+  skos:member subst:genesis-IG ;
+  skos:member subst:genesis-IN ;
+  skos:member subst:genesis-ME ;
+  skos:member subst:genesis-PL ;
+  skos:member subst:genesis-SC ;
+  skos:member subst:genesis-SD ;
+  skos:member subst:genesis-SP ;
+  skos:member subst:genesis-SR ;
+  skos:member subst:genesis-VO ;
+  skos:notation "1" ;
+  skos:prefLabel "Unweathered rocks of the bedrock zone - enumeration"@en ;
+  skos:definition "Unweathered rocks of the bedrock zone - enumeration"@en ;
+.
+subst:Rock-genesis-weathered
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:genesis-DR ;
+  skos:member subst:genesis-PW ;
+  skos:member subst:genesis-SA ;
+  skos:notation "2" ;
+  skos:prefLabel "Weathered rocks - enumeration"@en ;
+  skos:definition "Weathered rocks - enumeration"@en ;
+.
+subst:Substrate-discontinuity-spacing
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Physical weathering opens up fissures or joints that reduce the strength of the rock mass relative to that of the intact rock material.  These fissures generally increase in number towards the land surface.  The following categories of discontinuity spacing apply (Deere 1968, Selby 1982):" ;
+  skos:member subst:discontinuity-spacing-B ;
+  skos:member subst:discontinuity-spacing-C ;
+  skos:member subst:discontinuity-spacing-F ;
+  skos:member subst:discontinuity-spacing-M ;
+  skos:member subst:discontinuity-spacing-S ;
+  skos:prefLabel "Spacing of discontinuities - enumeration"@en ;
+.
+subst:Substrate-grain-size
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "It is informative to estimate the size of the most common particles of a substrate material whether the material is thought to be of sedimentary, metamorphic or igneous origin." ;
+  skos:member subst:grain-size-1 ;
+  skos:member subst:grain-size-2 ;
+  skos:member subst:grain-size-3 ;
+  skos:note "* As shown by Figure 15, page 116, these size grade limits agree with the scale of Wentworth (1922), adopted by the United States National Research Council (Pettijohn 1957) and the American Geophysical Union (Lane et al. 1947), and with that of the Massachusetts Institute of Technology, also adopted by the British Standards Institution (1975) and the Standards Association of Australia (1977). The 0.06 mm boundary criterion (strictly 0.063 mm) separating sand and silt differs markedly from the value 0.02 mm of the International Scheme (proposed originally by Atterberg (1905) and accepted by the International Society of Soil Science); the 0.05 mm value of the United States Department of Agriculture (Soil Survey Staff 1975); and the 0.075 mm value of the Unified Soil Classification (Anon. 1953)." ;
+  skos:prefLabel "Grain size - enumeration"@en ;
+.
+subst:Substrate-mineral-composition
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Make provision for recording one dominant mineral and one or two minor minerals, as identified by inspection of the hand specimen." ;
+  skos:member subst:mineral-composition-C ;
+  skos:member subst:mineral-composition-D ;
+  skos:member subst:mineral-composition-F ;
+  skos:member subst:mineral-composition-G ;
+  skos:member subst:mineral-composition-K ;
+  skos:member subst:mineral-composition-L ;
+  skos:member subst:mineral-composition-M ;
+  skos:member subst:mineral-composition-Q ;
+  skos:member subst:mineral-composition-S ;
+  skos:member subst:mineral-composition-Y ;
+  skos:prefLabel "Mineral composition - enumeration"@en ;
+.
+subst:Substrate-porosity
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:porosity-0 ;
+  skos:member subst:porosity-1 ;
+  skos:member subst:porosity-2 ;
+  skos:prefLabel "Porosity - enumeration"@en ;
+  skos:definition "Porosity - enumeration"@en ;
+.
+subst:Substrate-structure
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:material-structure-B ;
+  skos:member subst:material-structure-C ;
+  skos:member subst:material-structure-F ;
+  skos:member subst:material-structure-L ;
+  skos:member subst:material-structure-P ;
+  skos:member subst:material-structure-R ;
+  skos:member subst:material-structure-S ;
+  skos:member subst:material-structure-V ;
+  skos:prefLabel "Structure - enumeration"@en ;
+  skos:definition "Structure - enumeration"@en ;
+.
+subst:alteration-F
+  a subst:Rock-alteration ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "iron enriched." ;
+  skos:notation "F" ;
+  skos:prefLabel "Ferruginised"@en ;
+.
+subst:alteration-K
+  a subst:Rock-alteration ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "calcium carbonate enriched." ;
+  skos:notation "K" ;
+  skos:prefLabel "Calcified"@en ;
+.
+subst:alteration-L
+  a subst:Rock-alteration ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "clay enriched, usually pale coloured, for example the pallid zone of a laterite profile." ;
+  skos:notation "L" ;
+  skos:prefLabel "Kaolinised"@en ;
+.
+subst:alteration-O
+  a subst:Rock-alteration ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "deeply weathered but no specific nature." ;
+  skos:notation "O" ;
+  skos:prefLabel "Other"@en ;
+.
+subst:alteration-S
+  a subst:Rock-alteration ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "silica enriched." ;
+  skos:notation "S" ;
+  skos:prefLabel "Silicified"@en ;
+.
+subst:confidence-certain
+  a subst:Confidence ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "A" ;
+  skos:prefLabel "Almost certain or certain"@en ;
+  skos:definition "Almost certain or certain" ;
+.
+subst:confidence-doubtful
+  a subst:Confidence ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "D" ;
+  skos:prefLabel "Dubious, doubtful"@en ;
+  skos:definition "Dubious, doubtful" ;
+.
+subst:confidence-not-parent
+  a subst:Confidence ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "N" ;
+  skos:prefLabel "Not parent material"@en ;
+  skos:definition "Not parent material" ;
+.
+subst:confidence-probable
+  a subst:Confidence ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "P" ;
+  skos:prefLabel "Probable"@en ;
+  skos:definition "Probable" ;
+.
+subst:discontinuity-spacing-B
+  a subst:Substrate-discontinuity-spacing ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "300 mm – 1 m" ;
+  skos:notation "B" ;
+  skos:prefLabel "blocky; moderately jointed."@en ;
+.
+subst:discontinuity-spacing-C
+  a subst:Substrate-discontinuity-spacing ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "<50 mm" ;
+  skos:notation "C" ;
+  skos:prefLabel "crushed or shattered."@en ;
+.
+subst:discontinuity-spacing-F
+  a subst:Substrate-discontinuity-spacing ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "50-300 mm" ;
+  skos:notation "F" ;
+  skos:prefLabel "fractured; intensely jointed."@en ;
+.
+subst:discontinuity-spacing-M
+  a subst:Substrate-discontinuity-spacing ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "1-3 m" ;
+  skos:notation "M" ;
+  skos:prefLabel "massive; few joints."@en ;
+.
+subst:discontinuity-spacing-S
+  a subst:Substrate-discontinuity-spacing ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition ">3 m" ;
+  skos:notation "S" ;
+  skos:prefLabel "solid; virtually unjointed"@en ;
+.
+subst:genesis-AC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
+  skos:notation "AC" ;
+  skos:prefLabel "Alcrete (bauxite)"@en ;
+.
+subst:genesis-AL
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport by channelled stream flow or over-bank stream flow." ;
+  skos:notation "AL" ;
+  skos:prefLabel "Alluvium"@en ;
+.
+subst:genesis-AT
+  a subst:Rock-genesis-hardened-artificial ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "AT" ;
+  skos:prefLabel "Other artificially hardened materials"@en ;
+  skos:definition "Other artificially hardened materials" ;
+.
+subst:genesis-BE
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport by waves or tides at the shore of a sea or lake." ;
+  skos:notation "BE" ;
+  skos:prefLabel "Beach sediment"@en ;
+.
+subst:genesis-CD
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "colluvium slowly displaced a short distance downslope as a result of small irregular movements, with the net movement increasing towards the land surface." ;
+  skos:notation "CD" ;
+  skos:prefLabel "Creep deposit"@en ;
+.
+subst:genesis-CN
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-artificial ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "artificial conglomerate rock mass of selected size grade material that has been hardened using Portland cement or other kinds of cement. Concrete is a weak rock (ca. 35 MPa unconfined compressive strength) usually reinforced with steel to increase its tensile strength." ;
+  skos:notation "CN" ;
+  skos:prefLabel "Concrete"@en ;
+.
+subst:genesis-CO
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport down a slope by gravity (scree), landslide (landslide deposit), mudflow (mudflow deposit), creep (creep deposit) or sheet flow (sheet flow deposit), but not by stream flow. Compared with alluvium, colluvium lacks bedding structure; is more variable in grain size (that is, more poorly sorted); contains much local material; and is generally much more angular. Coarse particles may have particular alignments." ;
+  skos:notation "CO" ;
+  skos:prefLabel "Colluvium"@en ;
+.
+subst:genesis-DR
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-weathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "weathered material (typically soft and clay-rich) produced by thorough decomposition of rock masses due to exposure to land surface processes, but with no transport. It generally lacks any structures that may have been present in the unweathered rock (see also saprolite and partially weathered rock)." ;
+  skos:notation "DR" ;
+  skos:prefLabel "Decomposed rock"@en ;
+.
+subst:genesis-ED
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport by the wind." ;
+  skos:notation "ED" ;
+  skos:prefLabel "Eolian sediment"@en ;
+.
+subst:genesis-ES
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "eolian sediment of sand size, often taking the form of dunes, with characteristic bedding structures." ;
+  skos:notation "ES" ;
+  skos:prefLabel "Eolian sand"@en ;
+.
+subst:genesis-ET
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "consolidated sedimentary rock consisting of clastic material deposited by the wind.* Includes bioclastic calcarenites." ;
+  skos:notation "ET" ;
+  skos:prefLabel "Eolianite"@en ;
+.
+subst:genesis-EV
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-evaporite ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "weak sedimentary rock or sediment formed by the precipitation of solutes from water bodies on the land surface, typically as lacustrine sediments. Includes halite and gypsum." ;
+  skos:notation "EV" ;
+  skos:prefLabel "Evaporite"@en ;
+.
+subst:genesis-FC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
+  skos:notation "FC" ;
+  skos:prefLabel "Ferricrete"@en ;
+.
+subst:genesis-FI
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "mass of artificial sediment formed by earth-moving works. Fill is sometimes compacted to the status of a very weak rock mass (stabilised soil), but typically remains an earth mass (Table 36). Garbage forms a very low-density, low-strength fill." ;
+  skos:notation "FI" ;
+  skos:prefLabel "Fill"@en ;
+.
+subst:genesis-GY
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-evaporite ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "evaporite consisting of hydrated calcium sulphate. Non-hydrated calcium sulphate forms closely related masses called anhydrite. It may subsequently be transported by wind as fine crystals and form lunettes or more widespread sedimentary layers blanketing the landscape." ;
+  skos:notation "GY" ;
+  skos:prefLabel "Gypsum"@en ;
+.
+subst:genesis-HA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-evaporite ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "evaporite consisting of sodium chloride." ;
+  skos:notation "HA" ;
+  skos:prefLabel "Halite (rock salt)"@en ;
+.
+subst:genesis-IG
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "strong or very strong rock masses formed by solidification of molten rock matter (magma) derived from below the Earth’s surface. The rocks are mainly composed of interlocking crystals. Types are distinguished in Table 34. Plutonic rocks and volcanic rocks are included." ;
+  skos:notation "IG" ;
+  skos:prefLabel "Igneous rocks"@en ;
+.
+subst:genesis-IN
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "very weak to strong volcanic rock mass deposited from a flow of ash, the stronger forms being welded together by residual heat during deposition." ;
+  skos:notation "IN" ;
+  skos:prefLabel "Ignimbrite"@en ;
+.
+subst:genesis-KC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl." ;
+  skos:notation "KC" ;
+  skos:prefLabel "Calcrete"@en ;
+.
+subst:genesis-LA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport by waves and from sediment solution and suspension in still water in a closed depression on land." ;
+  skos:notation "LA" ;
+  skos:prefLabel "Lacustrine sediment"@en ;
+.
+subst:genesis-LC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
+  skos:notation "LC" ;
+  skos:prefLabel "Silcrete"@en ;
+.
+subst:genesis-LD
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "colluvium rapidly displaced many metres downslope by failure of a mass of earth or rock. If the mass is not already a part of the regolith, the landslide incorporates it in the regolith. Original rock structures are fragmented and disorganised by the action of the landslide." ;
+  skos:notation "LD" ;
+  skos:prefLabel "Landslide deposit"@en ;
+.
+subst:genesis-LO
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "eolian sediment of silt size." ;
+  skos:notation "LO" ;
+  skos:prefLabel "Loess"@en ;
+.
+subst:genesis-MA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport by waves and from solution and suspension in sea water." ;
+  skos:notation "MA" ;
+  skos:prefLabel "Marine sediment"@en ;
+.
+subst:genesis-MD
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "colluvium mixed with water to form dense fluid, and rapidly displaced metres or kilometres downslope. The material is more thoroughly disaggregated than that of a landslide deposit and lacks the bedding and sorting of grain sizes seen in alluvium." ;
+  skos:notation "MD" ;
+  skos:prefLabel "Mudflow deposit"@en ;
+.
+subst:genesis-ME
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "moderately strong to very strong rock masses formed by the chemical and physical alterations of igneous or sedimentary rocks under high temperatures and/or very high pressures within the Earth’s crust. Types are distinguished in Table 34." ;
+  skos:notation "ME" ;
+  skos:prefLabel "Metamorphic rocks"@en ;
+.
+subst:genesis-PA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "fine-grained calcareous eolian sediment consisting of 30–70% clay." ;
+  skos:notation "PA" ;
+  skos:prefLabel "Parna"@en ;
+.
+subst:genesis-PC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "dense argillaceous rock of varying degree of silicification with a conchoidal fracture and general appearance of unglazed porcelain." ;
+  skos:notation "PC" ;
+  skos:prefLabel "Porcellanite"@en ;
+.
+subst:genesis-PL
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "igneous rocks solidified at depth within the Earth’s crust." ;
+  skos:notation "PL" ;
+  skos:prefLabel "Plutonic rocks"@en ;
+.
+subst:genesis-PW
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-weathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "weathered material produced by exposure of rock masses to land surface processes but with no transport. Partial decomposition results in changes in colour, texture, composition, strength or form of the parent rock mass (see also decomposed rock and saprolite)." ;
+  skos:notation "PW" ;
+  skos:prefLabel "Partially weathered rock"@en ;
+.
+subst:genesis-RB
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-chemical ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "an informal name used for a particular indurated earthy material (see ‘Pans’, page 143). In many instances it is not known if the red-brown hardpan is a paleosol or a cemented sediment.*" ;
+  skos:notation "RB" ;
+  skos:prefLabel "Red-brown hardpan"@en ;
+.
+subst:genesis-SA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-weathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "a particular form of decomposed rock. It is characterised by the preservation of structures (including ‘texture’ in the petrological sense) that were present in the unweathered rock." ;
+  skos:notation "SA" ;
+  skos:prefLabel "Saprolite"@en ;
+.
+subst:genesis-SC
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sedimentary rocks in which mineral grains or fragments are not important constituents. The group includes coal, chert and non-fragmental limestones as well as saline rocks (evaporites) such as halite (rock salt) and gypsum. Chemical and organic sedimentary rocks are common in the regolith zone." ;
+  skos:notation "SC" ;
+  skos:prefLabel "Chemical and organic sedimentary rocks"@en ;
+.
+subst:genesis-SD
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sedimentary rocks composed of mineral grains or fragments derived from pre-existing rocks. Types are distinguished in Table 34." ;
+  skos:notation "SD" ;
+  skos:prefLabel "Detrital sedimentary rocks"@en ;
+.
+subst:genesis-SE
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "colluvium deposited after falling or rolling from cliffed or steep slopes, consisting of loose rock fragments of gravel size or larger and generally lacking a fine interstitial component." ;
+  skos:notation "SE" ;
+  skos:prefLabel "Scree"@en ;
+.
+subst:genesis-SH
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "colluvium deposited from transport by a very shallow flow of water as a sheet, or network of rills on the land surface. Sheet flow deposits are very thin except at the foot of a slope and beneath sheet-flood fans." ;
+  skos:notation "SH" ;
+  skos:prefLabel "Sheet flow deposit"@en ;
+.
+subst:genesis-SP
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sedimentary rocks resulting from the deposition of airborne materials produced by volcanic eruptions." ;
+  skos:notation "SP" ;
+  skos:prefLabel "Pyroclastic rocks"@en ;
+.
+subst:genesis-SR
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "weak or moderately strong rock masses formed by the hardening of sediments due to compaction, recrystallisation or cementation. These processes can occur within the regolith but are promoted by burial within the Earth’s crust. Major categories of sedimentary rocks are detrital sedimentary rocks, pyroclastic rocks, and chemical and organic sedimentary rocks." ;
+  skos:notation "SR" ;
+  skos:prefLabel "Sedimentary rocks"@en ;
+.
+subst:genesis-ST
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-hardened-artificial ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "artificial mass with the strength grade of very weak rock. It results from the ‘stabilisation’ of an earth mass by a variety of processes: compaction; the admixture of lime, Portland cement, bitumen or other substances; heating; freezing; or electro-hardening. Cement stabilisation can produce a mass as strong as 10 MPa unconfined compressive strength.*" ;
+  skos:notation "ST" ;
+  skos:prefLabel "Stabilised soil"@en ;
+.
+subst:genesis-TI
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sediment mass deposited from transport in ice, as in a glacier. Till is neither bedded nor sorted; it has a matrix of clay or silt enclosing larger particles of unweathered rock ranging up to large boulders." ;
+  skos:notation "TI" ;
+  skos:prefLabel "Till"@en ;
+.
+subst:genesis-VA
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-sediments ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "eolian sediment consisting of relatively fine (<2 mm) pyroclastic material. It often contains a proportion of highly weatherable glass." ;
+  skos:notation "VA" ;
+  skos:prefLabel "Volcanic ash"@en ;
+.
+subst:genesis-VO
+  a subst:Mass-genetic-type ;
+  a subst:Rock-genesis-unweathered ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "igneous rocks solidified after eruption on to the land surface." ;
+  skos:notation "VO" ;
+  skos:prefLabel "Volcanic rocks"@en ;
+.
+subst:genesis-hardened
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:member subst:Rock-genesis-hardened-artificial ;
+  skos:member subst:Rock-genesis-hardened-chemical ;
+  skos:member subst:Rock-genesis-hardened-evaporite ;
+  skos:notation "4" ;
+  skos:prefLabel "Masses hardened in the regolith"@en ;
+  skos:definition "Masses hardened in the regolith"@en ;
+.
+subst:grain-size-1
+  a subst:Substrate-grain-size ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "<0.06 mm:	silt- or clay-sized; grains not visible; for example chert, shale, basalt, silt, coal." ;
+  skos:notation "1" ;
+  skos:prefLabel "<0.06 mm"@en ;
+.
+subst:grain-size-2
+  a subst:Substrate-grain-size ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "0.06–2 mm:	sand-sized; grains visible; for example sand, sandstone, dolerite, porphyry, sandy tuff, graywacke, micro-granite, schist, quartzite." ;
+  skos:notation "2" ;
+  skos:prefLabel "0.06-2 mm"@en ;
+.
+subst:grain-size-3
+  a subst:Substrate-grain-size ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition ">2 mm:	gravel-sized; for example gravel, conglomerate, breccia, pebbles, cobbles, stones, boulders, pegmatite, granite, agglomerate." ;
+  skos:notation "3" ;
+  skos:prefLabel ">2 mm"@en ;
+.
+subst:lithology
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:definition "Lithological type of rock material and unconsolidated material."@en ;
+  skos:member subst:Lithology-rock ;
+  skos:member subst:Lithology-unconsolidated ;
+  skos:note "C_LITHOLOGY" ;
+  skos:note """The properties above will key out many of the rock types and unconsolidated materials listed in Tables 33 and 34.
+
+Record the rock type only if it is definitely known or is confidently presumed. An alphabetic checklist for types of substrate material, both rocks and unconsolidated materials, is given in Table 35. Only the more common materials are listed. Others can be recorded in free format.""" ;
+  skos:prefLabel "Lithology"@en ;
+.
+subst:lithology-AC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:altLabel "Bauxite"@en ;
+  skos:definition "Alcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "AC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Alcrete"@en ;
+.
+subst:lithology-AD
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Adamellite (Igneous rock)"@en ;
+  skos:notation "AD" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Adamellite"@en ;
+.
+subst:lithology-AF
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Fine grained
+0.002-0.06 mm
+Volcanic"""@en ;
+  skos:notation "AF" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Volcanic ash (fine)"@en ;
+.
+subst:lithology-AG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
+  skos:notation "AG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Agglomerate"@en ;
+.
+subst:lithology-AH
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "AH" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Anhydrite"@en ;
+.
+subst:lithology-AM
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Amphibolite (Metamorphic rock)"@en ;
+  skos:notation "AM" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Amphibolite"@en ;
+.
+subst:lithology-AN
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Andesite (Igneous rock)"@en ;
+  skos:notation "AN" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Andesite"@en ;
+.
+subst:lithology-AP
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Aplite (Igneous rock)"@en ;
+  skos:notation "AP" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Aplite"@en ;
+.
+subst:lithology-AR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Arkose (Sedimentary rock, detrital)"@en ;
+  skos:notation "AR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Arkose"@en ;
+.
+subst:lithology-AS
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Medium grained
+0.06-2 mm
+Volcanic"""@en ;
+  skos:notation "AS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Volcanic ash (sandy)"@en ;
+.
+subst:lithology-BA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Basalt (Igneous rock)"@en ;
+  skos:notation "BA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Basalt"@en ;
+.
+subst:lithology-BB
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Very coarse grained
+>60 mm
+Volcanic"""@en ;
+  skos:notation "BB" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Bombs (or blocks)"@en ;
+.
+subst:lithology-BO
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-BO" ;
+  skos:definition """Very coarse grained
+>60 mm
+Non-volcanic
+Without significant carbonate""" ;
+  skos:notation "BO" ;
+  skos:prefLabel "Boulders"@en ;
+.
+subst:lithology-BR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Breccia (Sedimentary rock, detrital)"@en ;
+  skos:notation "BR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Breccia"@en ;
+.
+subst:lithology-C
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Very fine grained
+<0.002 mm
+Non-volcanic
+Without significant carbonate"""@en ;
+  skos:notation "C" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Clay"@en ;
+.
+subst:lithology-CB
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-CB" ;
+  skos:definition """Very coarse grained
+>60 mm
+Non-volcanic
+Without significant carbonate""" ;
+  skos:notation "CB" ;
+  skos:prefLabel "Cobbles"@en ;
+.
+subst:lithology-CG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Conglomerate (Sedimentary rock, detrital)"@en ;
+  skos:notation "CG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Conglomerate"@en ;
+.
+subst:lithology-CH
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Chert (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "CH" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Chert"@en ;
+.
+subst:lithology-CO
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Coal (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "CO" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Coal"@en ;
+.
+subst:lithology-CU
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Consolidated rock (Unidentified)"@en ;
+  skos:notation "CU" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Consolidated rock"@en ;
+.
+subst:lithology-DI
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Diorite (Igneous rock)"@en ;
+  skos:notation "DI" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Diorite"@en ;
+.
+subst:lithology-DM
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Dolomite (Sedimentary rock, detrital)"@en ;
+  skos:notation "DM" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Dolomite"@en ;
+.
+subst:lithology-DR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Dolerite (Igneous rock)"@en ;
+  skos:notation "DR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Dolerite"@en ;
+.
+subst:lithology-FC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "FC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Ferricrete"@en ;
+.
+subst:lithology-GA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Gabbro (Igneous rock)"@en ;
+  skos:notation "GA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Gabbro"@en ;
+.
+subst:lithology-GD
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Granodiorite (Igneous rock)"@en ;
+  skos:notation "GD" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Granodiorite"@en ;
+.
+subst:lithology-GE
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Greenstone (Metamorphic rock)"@en ;
+  skos:notation "GE" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Greenstone"@en ;
+.
+subst:lithology-GN
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Granite (Igneous rock)"@en ;
+  skos:notation "GN" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Granite"@en ;
+.
+subst:lithology-GR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Granulite (Metamorphic rock)"@en ;
+  skos:notation "GR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Granulite"@en ;
+.
+subst:lithology-GS
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Gneiss (Metamorphic rock)"@en ;
+  skos:notation "GS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Gneiss"@en ;
+.
+subst:lithology-GV
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Coarse grained
+2-60 mm
+Non-volcanic
+Without significant carbonate"""@en ;
+  skos:notation "GV" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Gravel"@en ;
+.
+subst:lithology-GW
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Graywacke (Sedimentary rock, detrital)"@en ;
+  skos:notation "GW" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Graywacke"@en ;
+.
+subst:lithology-GY
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Gypsum (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "GY" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Gypsum"@en ;
+.
+subst:lithology-HA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Halite (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "HA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Halite"@en ;
+.
+subst:lithology-HO
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Hornfels (Metamorphic rock)"@en ;
+  skos:notation "HO" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Hornfels"@en ;
+.
+subst:lithology-IG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Igneous rock (Unidentified)"@en ;
+  skos:notation "IG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Igneous rock"@en ;
+.
+subst:lithology-JA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Jasper (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "JA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Jasper"@en ;
+.
+subst:lithology-KA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Calcarenite (Sedimentary rock, detrital)"@en ;
+  skos:notation "KA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcarenite"@en ;
+.
+subst:lithology-KC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Calcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "KC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcrete"@en ;
+.
+subst:lithology-KL
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Calcilutite (Sedimentary rock, detrital)"@en ;
+  skos:notation "KL" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcilutite"@en ;
+.
+subst:lithology-KM
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
+  skos:notation "KM" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcareous mudstone"@en ;
+.
+subst:lithology-KR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Calcirudite (Sedimentary rock, detrital)"@en ;
+  skos:notation "KR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcirudite"@en ;
+.
+subst:lithology-KS
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Medium grained
+0.06-2 mm
+Non-volcanic
+With significant carbonate"""@en ;
+  skos:notation "KS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Calcareous sand"@en ;
+.
+subst:lithology-LC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Silcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "LC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Silcrete"@en ;
+.
+subst:lithology-LI
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Limestone (Sedimentary rock, detrital)"@en ;
+  skos:notation "LI" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Limestone"@en ;
+.
+subst:lithology-M
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Lithology is same as the substrate material"@en ;
+  skos:notation "M" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Same as substrate material"@en ;
+.
+subst:lithology-MB
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Marble (Metamorphic rock)"@en ;
+  skos:notation "MB" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Marble"@en ;
+.
+subst:lithology-MD
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Microdiorite (Igneous rock)"@en ;
+  skos:notation "MD" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Microdiorite"@en ;
+.
+subst:lithology-ME
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Metamorphic rock (Unidentified)"@en ;
+  skos:notation "ME" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Metamorphic rock"@en ;
+.
+subst:lithology-MG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Microgranite (Igneous rock)"@en ;
+  skos:notation "MG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Microgranite"@en ;
+.
+subst:lithology-MI
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Migmatite (Metamorphic rock)"@en ;
+  skos:notation "MI" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Migmatite"@en ;
+.
+subst:lithology-ML
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Very fine grained
+<0.002 mm
+Non-volcanic
+With significant carbonate"""@en ;
+  skos:notation "ML" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Marl"@en ;
+.
+subst:lithology-MS
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Microsyenite (Igneous rock)"@en ;
+  skos:notation "MS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Microsyenite"@en ;
+.
+subst:lithology-MU
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Mudstone (Sedimentary rock, detrital)"@en ;
+  skos:notation "MU" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Mudstone"@en ;
+.
+subst:lithology-MY
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Mylonite (Metamorphic rock)"@en ;
+  skos:notation "MY" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Mylonite"@en ;
+.
+subst:lithology-PC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "PC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Porcellanite"@en ;
+.
+subst:lithology-PE
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Peridotite (Igneous rock)"@en ;
+  skos:notation "PE" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Peridotite"@en ;
+.
+subst:lithology-PG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Pegmatite (Igneous rock)"@en ;
+  skos:notation "PG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Pegmatite"@en ;
+.
+subst:lithology-PH
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Phyllite (Metamorphic rock)"@en ;
+  skos:notation "PH" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Phyllite"@en ;
+.
+subst:lithology-PL
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Phonolite (Igneous rock)"@en ;
+  skos:notation "PL" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Phonolite"@en ;
+.
+subst:lithology-PO
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Porphyry (Igneous rock)"@en ;
+  skos:notation "PO" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Porphyry"@en ;
+.
+subst:lithology-PY
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Pyroxenite (Igneous rock)"@en ;
+  skos:notation "PY" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Pyroxenite"@en ;
+.
+subst:lithology-QP
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Quartz porphyry (Igneous rock)"@en ;
+  skos:notation "QP" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Quartz porphyry"@en ;
+.
+subst:lithology-QS
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Quartz sandstone (Sedimentary rock, detrital)"@en ;
+  skos:notation "QS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Quartz sandstone"@en ;
+.
+subst:lithology-QU
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Quartzite (Metamorphic rock)"@en ;
+  skos:notation "QU" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Quartzite"@en ;
+.
+subst:lithology-QZ
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Quartz (Igneous rock)"@en ;
+  skos:notation "QZ" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Quartz"@en ;
+.
+subst:lithology-R
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Lithology is same as the rock outcrop"@en ;
+  skos:notation "R" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Same as rock outcrop"@en ;
+.
+subst:lithology-RB
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
+  skos:notation "RB" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Red-brown hardpan"@en ;
+.
+subst:lithology-RH
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Rhyolite (Igneous rock)"@en ;
+  skos:notation "RH" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Rhyolite"@en ;
+.
+subst:lithology-S
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """medium grained
+0.06-2 mm
+Non-volcanic
+Without significant carbonate"""@en ;
+  skos:notation "S" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Sand"@en ;
+.
+subst:lithology-SA
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Sandstone (Sedimentary rock, detrital)"@en ;
+  skos:notation "SA" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Sandstone"@en ;
+.
+subst:lithology-SD
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Detrital sedimentary rock (Unidentified)"@en ;
+  skos:notation "SD" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Detrital sedimentary rock"@en ;
+.
+subst:lithology-SH
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Shale (Igneous rock)"@en ;
+  skos:notation "SH" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Shale"@en ;
+.
+subst:lithology-SK
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Coarse grained
+2-60 mm
+Volcanic"""@en ;
+  skos:notation "SK" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Scoria"@en ;
+.
+subst:lithology-SL
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Slate (Sedimentary rock, detrital)"@en ;
+  skos:notation "SL" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Slate"@en ;
+.
+subst:lithology-SN
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SN" ;
+  skos:definition """Very coarse grained
+>60 mm
+Non-volcanic
+Without significant carbonate""" ;
+  skos:notation "SN" ;
+  skos:prefLabel "Stones"@en ;
+.
+subst:lithology-SR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Serpentinite (Igneous rock)"@en ;
+  skos:notation "SR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Serpentinite"@en ;
+.
+subst:lithology-ST
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Schist (Metamorphic rock)"@en ;
+  skos:notation "ST" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Schist"@en ;
+.
+subst:lithology-SY
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Syenite (Metamorphic rock)"@en ;
+  skos:notation "SY" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Syenite"@en ;
+.
+subst:lithology-TR
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Trachyte (Igneous rock)"@en ;
+  skos:notation "TR" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Trachyte"@en ;
+.
+subst:lithology-TU
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Tuff (Igneous rock)"@en ;
+  skos:notation "TU" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Tuff"@en ;
+.
+subst:lithology-UC
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Unconsolidated material (Unidentified)"@en ;
+  skos:notation "UC" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Unconsolidated material"@en ;
+.
+subst:lithology-VB
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
+  skos:notation "VB" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Volcanic breccia"@en ;
+.
+subst:lithology-VG
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Volcanic glass (Igneous rock)"@en ;
+  skos:notation "VG" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Volcanic glass"@en ;
+.
+subst:lithology-Z
+  a subst:Lithology-rock ;
+  a subst:Lithology-unconsolidated ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition """Silt (Sedimentary rock, detrital)
+fine grained
+0.002-0.06 mm
+Non-volcanic
+Without significant carbonate"""@en ;
+  skos:notation "Z" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Silt"@en ;
+.
+subst:lithology-ZS
+  a subst:Lithology-rock ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Siltstone (Unconsolidated material)"@en ;
+  skos:notation "ZS" ;
+  skos:note "C_LITHOLOGY" ;
+  skos:prefLabel "Siltstone"@en ;
+.
+subst:mass
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:definition "These properties generally require observation of a near-vertical face 1 m2 or more in area." ;
+  skos:member subst:Rock-alteration ;
+  skos:member subst:Substrate-discontinuity-spacing ;
+  skos:prefLabel "Properties of substrate masses"@en ;
+.
+subst:material
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:definition "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
+  skos:member subst:Field-texture ;
+  skos:member subst:Material-strength ;
+  skos:member subst:Substrate-grain-size ;
+  skos:member subst:Substrate-mineral-composition ;
+  skos:member subst:Substrate-porosity ;
+  skos:member subst:Substrate-structure ;
+  skos:member subst:lithology ;
+  skos:prefLabel "Properties of substrate material"@en ;
+.
+subst:material-strength-M
+  a subst:Material-strength ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
+  skos:notation "M" ;
+  skos:prefLabel "Moderately strong rock"@en ;
+.
+subst:material-strength-S
+  a subst:Material-strength ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
+  skos:notation "S" ;
+  skos:prefLabel "Strong rock"@en ;
+.
+subst:material-strength-VS
+  a subst:Material-strength ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
+  skos:notation "VS" ;
+  skos:prefLabel "Very strong rock"@en ;
+.
+subst:material-strength-VW
+  a subst:Material-strength ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
+  skos:notation "VW" ;
+  skos:prefLabel "Very weak rock"@en ;
+.
+subst:material-strength-W
+  a subst:Material-strength ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
+  skos:notation "W" ;
+  skos:prefLabel "Weak rock"@en ;
+.
+subst:material-structure-B
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "with planar surfaces marking successively deposited layers." ;
+  skos:notation "B" ;
+  skos:prefLabel "Bedded"@en ;
+.
+subst:material-structure-C
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "spheroidal concretions cemented together." ;
+  skos:notation "C" ;
+  skos:prefLabel "Concretionary"@en ;
+.
+subst:material-structure-F
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "easily split along closely spaced parallel planes." ;
+  skos:notation "F" ;
+  skos:prefLabel "Fissile"@en ;
+.
+subst:material-structure-L
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "planar arrangement of textural or structural textures." ;
+  skos:notation "L" ;
+  skos:prefLabel "Foliated"@en ;
+.
+subst:material-structure-P
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "plate-like units cemented together." ;
+  skos:notation "P" ;
+  skos:prefLabel "Platy"@en ;
+.
+subst:material-structure-R
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "worm-like structure and/or cavities." ;
+  skos:notation "R" ;
+  skos:prefLabel "Vermicular"@en ;
+.
+subst:material-structure-S
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material." ;
+  skos:notation "S" ;
+  skos:prefLabel "Vesicular"@en ;
+.
+subst:material-structure-V
+  a subst:Substrate-structure ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "no recognisable structure" ;
+  skos:notation "V" ;
+  skos:prefLabel "Massive"@en ;
+.
+subst:mineral-composition-C
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-C" ;
+  skos:notation "C" ;
+  skos:prefLabel "Carbonaceous material"@en ;
+  skos:definition "Carbonaceous material"@en ;
+.
+subst:mineral-composition-D
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-D" ;
+  skos:notation "D" ;
+  skos:prefLabel "Dark minerals"@en ;
+  skos:definition "Dark minerals"@en ;
+.
+subst:mineral-composition-F
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-F" ;
+  skos:notation "F" ;
+  skos:prefLabel "Feldspar"@en ;
+  skos:definition "Feldspar"@en ;
+.
+subst:mineral-composition-G
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-G" ;
+  skos:notation "G" ;
+  skos:prefLabel "Glauconite"@en ;
+  skos:definition "Glauconite"@en ;
+.
+subst:mineral-composition-K
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-K" ;
+  skos:notation "K" ;
+  skos:prefLabel "Carbonates (react with 1-molar HCl)"@en ;
+  skos:definition "Carbonates (react with 1-molar HCl)"@en ;
+.
+subst:mineral-composition-L
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-L" ;
+  skos:notation "L" ;
+  skos:prefLabel "Clays (argillaceous)"@en ;
+  skos:definition "Clays (argillaceous)"@en ;
+.
+subst:mineral-composition-M
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "M" ;
+  skos:prefLabel "Mica"@en ;
+  skos:definition "Mica"@en ;
+.
+subst:mineral-composition-Q
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "Q" ;
+  skos:prefLabel "Quartz"@en ;
+  skos:definition "Quartz"@en ;
+.
+subst:mineral-composition-S
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-S" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sesquioxides"@en ;
+  skos:definition "Sesquioxides"@en ;
+.
+subst:mineral-composition-Y
+  a subst:Substrate-mineral-composition ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mineral-composition-Y" ;
+  skos:notation "Y" ;
+  skos:prefLabel "Gypsum"@en ;
+  skos:definition "Gypsum"@en ;
+.
+subst:observation-depth
+  a subst:sampling ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Measure or estimate, in metres, the depth of the point of observation of substrate material below the land surface." ;
+  skos:prefLabel "Observation depth"@en ;
+.
+subst:observation-type-A
+  a subst:type-of-substrate-observation ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Auger boring is used to describe the substrate."@en ;
+  skos:notation "A" ;
+  skos:prefLabel "Auger boring"@en ;
+.
+subst:observation-type-C
+  a subst:type-of-substrate-observation ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "The substrate is described from a soil core that it relatively undisturbed."@en ;
+  skos:notation "C" ;
+  skos:prefLabel "Relatively undisturbed soil core"@en ;
+.
+subst:observation-type-E
+  a subst:type-of-substrate-observation ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the substrate."@en ;
+  skos:notation "E" ;
+  skos:prefLabel "Existing vertical exposure"@en ;
+.
+subst:observation-type-O
+  a subst:type-of-substrate-observation ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Outcrop, where presumed continuous with substrate"@en ;
+  skos:notation "O" ;
+  skos:prefLabel "Substrate outcrop"@en ;
+.
+subst:observation-type-P
+  a subst:type-of-substrate-observation ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "The soil pit is one of several types of observation used to describe the substrate."@en ;
+  skos:notation "P" ;
+  skos:prefLabel "Soil pit"@en ;
+.
+subst:porosity-0
+  a subst:Substrate-porosity ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "0" ;
+  skos:prefLabel "Non porous, dense"@en ;
+  skos:definition "Non porous, dense"@en ;
+.
+subst:porosity-1
+  a subst:Substrate-porosity ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "1" ;
+  skos:prefLabel "Slightly porous"@en ;
+  skos:definition "Slightly porous"@en ;
+.
+subst:porosity-2
+  a subst:Substrate-porosity ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:notation "2" ;
+  skos:prefLabel "Porous"@en ;
+  skos:definition "Porous "@en ;
+.
+subst:sample-distance
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "Estimate the distance in metres of the point of observation of substrate material from the point of soil observation."@en ;
+  skos:prefLabel "Substrate-soil distance"@en ;
+.
+subst:sampling
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:member subst:Confidence ;
+  skos:member subst:observation-depth ;
+  skos:member subst:sample-distance ;
+  skos:member subst:type-of-substrate-observation ;
+  skos:prefLabel "Properties of substrate sampling"@en ;
+  skos:definition "Properties of substrate sampling"@en ;
+.
+subst:texture-A
+  a subst:Field-texture ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "without visible crystalline or fragmental texture, even through a hand lens." ;
+  skos:notation "A" ;
+  skos:prefLabel "Amorphous"@en ;
+.
+subst:texture-F
+  a subst:Field-texture ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "consisting of mineral or rock particles that are broken or abraded." ;
+  skos:notation "F" ;
+  skos:prefLabel "Fragmental"@en ;
+.
+subst:texture-P
+  a subst:Field-texture ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "crystalline, with individual larger crystals in a matrix of much smaller crystals or glass." ;
+  skos:notation "P" ;
+  skos:prefLabel "Porphyritic"@en ;
+.
+subst:texture-X
+  a subst:Field-texture ;
+  a skos:Concept ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  skos:topConceptOf asls:substrate ;
+  skos:definition "consisting of interlocking mineral crystals." ;
+  skos:notation "X" ;
+  skos:prefLabel "Crystalline (non-porphyritic)"@en ;
+.
+subst:type-of-substrate-observation
+  a owl:Class ;
+  a skos:Collection ;
+  rdfs:isDefinedBy asls:substrate ;
+  skos:inScheme asls:substrate ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The substrate may be described using several types of observation."@en ;
+  skos:member subst:observation-type-A ;
+  skos:member subst:observation-type-C ;
+  skos:member subst:observation-type-E ;
+  skos:member subst:observation-type-O ;
+  skos:member subst:observation-type-P ;
+  skos:prefLabel "Type of substrate observation - enumeration"@en ;
+.

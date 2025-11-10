@@ -1,0 +1,30 @@
+PREFIX schema: <https://schema.org/>
+
+<http://anzsoil.org/def/au/asls/landform/Channel-depth-width> schema:name "Channel depth width" .
+<http://anzsoil.org/def/au/asls/landform/Channel-development> schema:name "Channel development" .
+<http://anzsoil.org/def/au/asls/landform/Channel-directionality> schema:name "Channel directionality" .
+<http://anzsoil.org/def/au/asls/landform/Channel-integration> schema:name "Channel integration" .
+<http://anzsoil.org/def/au/asls/landform/Channel-migration> schema:name "Channel migration" .
+<http://anzsoil.org/def/au/asls/landform/Channel-pattern> schema:name "Channel pattern" .
+<http://anzsoil.org/def/au/asls/landform/Channel-spacing> schema:name "Channel spacing" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-bio> schema:name "Geomorphology agent bio" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-extra> schema:name "Geomorphology agent extra" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-gravity> schema:name "Geomorphology agent gravity" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-ice> schema:name "Geomorphology agent ice" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-internal> schema:name "Geomorphology agent internal" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-precipitation> schema:name "Geomorphology agent precipitation" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-stand> schema:name "Geomorphology agent stand" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-streamflow> schema:name "Geomorphology agent streamflow" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-agent-wind> schema:name "Geomorphology agent wind" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-mode> schema:name "Geomorphology mode" .
+<http://anzsoil.org/def/au/asls/landform/Geomorphology-status> schema:name "Geomorphology status" .
+<http://anzsoil.org/def/au/asls/landform/Landform-element-name> schema:name "Landform element name" .
+<http://anzsoil.org/def/au/asls/landform/Landform-element-type> schema:name "Landform element type" .
+<http://anzsoil.org/def/au/asls/landform/Landform-pattern-erosional> schema:name "Landform pattern erosional" .
+<http://anzsoil.org/def/au/asls/landform/Landform-pattern-name> schema:name "Landform pattern name" .
+<http://anzsoil.org/def/au/asls/landform/Relative-inclination> schema:name "Relative inclination" .
+<http://anzsoil.org/def/au/asls/landform/Relief> schema:name "Relief" .
+<http://anzsoil.org/def/au/asls/landform/Slope-class> schema:name "Slope class" .
+<http://anzsoil.org/def/au/asls/landform/Slope-modal> schema:name "Slope modal" .
+<http://anzsoil.org/def/au/asls/landform/Slope-procedure> schema:name "Slope procedure" .
+<http://anzsoil.org/def/au/asls/soil-profile/SoilColour> schema:name "Soil Colour" .

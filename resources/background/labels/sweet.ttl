@@ -1,0 +1,25 @@
+PREFIX schema: <https://schema.org/>
+
+<http://sweetontology.net/phenSolid/Deform> schema:name "Deform" .
+<http://sweetontology.net/phenSolid/Fracture> schema:name "Fracture" .
+<http://sweetontology.net/phenSolid/Rip> schema:name "Rip" .
+<http://sweetontology.net/phenSolid/Shear> schema:name "Shear" .
+<http://sweetontology.net/phenSystem/Inundation> schema:name "Inundation" .
+<http://sweetontology.net/procWave/Absorption> schema:name "Absorption" .
+<http://sweetontology.net/procWave/Reflection> schema:name "Reflection" .
+<http://sweetontology.net/procWave/Transmission> schema:name "Transmission" .
+<http://sweetontology.net/prop/ElectromagneticProperty> schema:name "Electromagnetic Property" .
+<http://sweetontology.net/propConductivity/Resistance> schema:name "Resistance" .
+<http://sweetontology.net/propPressure/ModulusOfElasticity> schema:name "Modulus Of Elasticity" .
+<http://sweetontology.net/propTime/TimeInterval> schema:name "Time Interval" .
+<http://sweetontology.net/realmSoil/Ground> schema:name "Ground" .
+<http://sweetontology.net/realmSoil/Topsoil> schema:name "Topsoil" .
+<http://sweetontology.net/reprTimeDay/Dawn> schema:name "Dawn" .
+
+
+<http://sweetontology.net/matrInstrument/Piezometer> schema:name "Piezometer" .
+<http://sweetontology.net/propMass/Density> schema:name "Density" .
+<http://sweetontology.net/propTimeFrequency/Frequency> schema:name "Frequency" .
+<http://sweetontology.net/realmBiolBiome/Savanna> schema:name "Savanna" .
+<http://sweetontology.net/realmHydroBody/Marsh> schema:name "Marsh" .
+<http://sweetontology.net/realmHydroBody/Stream> schema:name "Stream" .

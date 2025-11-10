@@ -1,0 +1,42 @@
+@prefix sdo: <https://schema.org/> .
+@prefix ns2: <http://rs.tdwg.org/dwc/terms/> .
+@prefix altr-ext: <http://www.w3.org/ns/dx/connegp/altr-ext#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prez: <https://prez.dev/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix shext: <http://example.com/shacl-extension#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+
+
+<https://prez.dev/profile/geo-feature-listing>
+    a prof:Profile , prez:ListingProfile ;
+    dcterms:description "Displays only RDF type for geo:Features" ;
+    dcterms:identifier "featlist"^^xsd:token ;
+    dcterms:title "Geo Features Listing" ;
+    altr-ext:hasNodeShape
+        [
+            a sh:NodeShape ;
+            sh:targetClass geo:Feature ;
+            altr-ext:hasDefaultProfile <https://prez.dev/profile/geo-feature-listing>
+        ] ;
+    altr-ext:constrainsClass geo:Feature ;
+    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
+    altr-ext:hasResourceFormat
+        "application/ld+json" ,
+        "application/anot+ld+json" ,
+        "application/n-triples" ,
+        "application/anot+n-triples" ,
+        "application/rdf+xml" ,
+        "text/anot+turtle" ,
+        "text/turtle" ;
+    sh:property [
+        sh:path [ sh:union ( rdf:type ) ] ;
+        ] ;
+.

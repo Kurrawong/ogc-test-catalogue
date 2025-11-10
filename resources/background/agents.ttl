@@ -1,0 +1,16 @@
+PREFIX id: <http://id.loc.gov/vocabulary/identifiers/>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/csiro>
+    a schema:Organization ;
+    schema:name "Commonwealth Scientific and Industrial Research Organisation" ;
+    schema:url "https://csiro.au/"^^xsd:anyURI ;
+    schema:identifier "https://ror.org/03qn8fb07"^^id:ror ;
+.

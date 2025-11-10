@@ -1,0 +1,164 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/b311c0d3-4a1a-4932-a39c-f5cdc1afa611> schema:name "plant occurrence" .
+<http://linked.data.gov.au/def/tern-cv/2361dea8-598c-4b6f-a641-2b98ff199e9> schema:name "animal occurrence" .
+<https://linked.data.gov.au/def/vocpub>schema:name "VocPub Profile" .
+
+<https://lod.nal.usda.gov/nalt/104904> schema:name "coarse woody debris" .
+
+<https://www.wikidata.org/entity/Q3346212> schema:name "overnight stay" .
+<https://www.wikidata.org/entity/Q37105> schema:name "line" .
+<https://www.wikidata.org/entity/Q683595> schema:name "land parcel" .
+
+<https://www.worldbotanical.com/fruit_types.htm> schema:name "Fruit Types" .
+
+<https://openlibrary.org/books/OL16122328M> schema:name "Life forms of plants and statistical plant geography" .
+
+<http://data.loterre.fr/ark:/67375/26L-ZTJ994X8-D> schema:name "vent solaire" .
+
+<http://purl.bioontology.org/ontology/npo#NPO_1407> schema:name "NPO:1407" .
+<http://purl.bioontology.org/ontology/npo#NPO_1802> schema:name "NPO:1802" .
+<http://purl.bioontology.org/ontology/npo#NPO_199> schema:name "NPO:199" .
+<http://purl.bioontology.org/ontology/npo#NPO_669> schema:name "NPO:669" .
+
+<http://terminologies.gfbio.org/terms/ETS/expectedUnit> schema:name "expected unit" .
+<http://terminologies.gfbio.org/terms/ETS/maxAllowedValue> schema:name "maxallowed value" .
+<http://terminologies.gfbio.org/terms/ETS/minAllowedValue> schema:name "min allowed value" .
+<http://terminologies.gfbio.org/terms/ETS/valueType> schema:name "value type" .
+
+<http://www.ebi.ac.uk/efo/EFO_0000727> schema:name "treatment" .
+<http://www.ebi.ac.uk/efo/EFO_0000997> schema:name "storage organ" .
+<http://www.ebi.ac.uk/efo/EFO_0001654> schema:name "basal" .
+<http://www.ebi.ac.uk/efo/EFO_0004950> schema:name "date of birth" .
+<http://www.ebi.ac.uk/efo/EFO_0005061> schema:name "substrate" .
+
+<http://omv.ontoware.org/2005/05/ontologyacronym> schema:name "ontology acronym" .
+<http://omv.ontoware.org/2005/05/ontologykeywords> schema:name "ontology keywords" .
+<http://omv.ontoware.org/2005/05/ontologyknownUsage> schema:name "ontology known usage" .
+<http://omv.ontoware.org/2005/05/ontologyresourceLocator> schema:name "ontology resource locator" .
+<http://omv.ontoware.org/2005/05/ontologyusedOntologyEngineeringTool> schema:name "ontology used ontology engineering tool" .
+
+<http://mimi.case.edu/ontologies/2009/1/SDO.owl#Flow> schema:name "Flow" .
+
+<http://vocab.nerc.ac.uk/collection/P01/current/IC000344/> schema:name "Concentration of endosulfan sulfate per unit wet weight of biota" .
+<http://vocab.nerc.ac.uk/collection/P07/current/6GN00U5J/> schema:name "altitude_at_top_of_atmosphere_boundary_layer_defined_by_ambient_aerosol_particles_backwards_scattering_by_ranging_instrument" .
+<http://vocab.nerc.ac.uk/collection/S06/current/S0600112/> schema:name "Direction (from)" .
+<http://vocab.nerc.ac.uk/collection/S12/current/S1214/> schema:name "flesh" .
+<http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/> schema:name "water body" .
+<http://vocab.nerc.ac.uk/collection/S27/current/CS003625/> schema:name "endosulfan sulfate" .
+
+<https://w3id.org/env/puv#uom> schema:name "unit of measure" .
+
+
+dcterms:description
+    schema:description "An account of the resource."@en ;
+    schema:name "Description"@en ;
+.
+
+dcterms:isFormatOf
+    schema:description "A pre-existing related resource that is substantially the same as the described resource, but in another format."@en ;
+    schema:name "Is Format Of"@en ;
+.
+
+dcterms:rights
+    schema:description "Information about rights held in and over the resource."@en ;
+    schema:name "Rights"@en ;
+.
+
+dcterms:title
+    schema:description "A name given to the resource."@en ;
+    schema:name "Title"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitMass>
+    schema:name "Amount of Substance per Unit Mass"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/AmountOfSubstancePerUnitVolume>
+    schema:name "Amount of Substance per Unit Volume"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/HeatFlowRatePerUnitArea>
+    schema:name "Heat Flow Rate per Unit Area"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/TimeSquared>
+    schema:name "Time Squared"@en ;
+.
+
+<http://qudt.org/vocab/quantitykind/VolumePerUnitTime>
+    schema:name "Volume per Unit Time"@en ;
+.
+
+rdfs:comment
+    schema:description "A description of the subject resource." ;
+    schema:name "comment" ;
+.
+
+rdfs:subClassOf
+    schema:description "The subject is a subclass of a class." ;
+    schema:name "subclass of" ;
+.
+
+owl:Class
+    schema:description "The class of OWL classes." ;
+    schema:name "Class" ;
+.
+
+owl:Ontology
+    schema:description "The class of ontologies." ;
+    schema:name "Ontology" ;
+.
+
+owl:equivalentClass
+    schema:description "The property that determines that two given classes are equivalent, and that is used to specify datatype definitions." ;
+    schema:name "equivalentClass" ;
+.
+
+owl:imports
+    schema:description "The property that is used for importing other ontologies into a given ontology." ;
+    schema:name "imports" ;
+.
+
+skos:Collection
+    schema:description "A meaningful collection of concepts"@en ;
+    schema:name "Collection"@en ;
+.
+
+skos:member
+    schema:description "Relates a collection to one of its members"@en ;
+    schema:name "has member"@en ;
+.
+
+sosa:Procedure
+    schema:description "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator). A Procedure is re-usable, and might be involved in many Observations, Samplings, or Actuations. It explains the steps to be carried out to arrive at reproducible results."@en ;
+    schema:name "Procedure"@en ;
+.
+
+
+<https://www.ogc.org/license>
+    schema:description "The Open Geospatial Consortium's license agreement for standards."@en ;
+    schema:name "OGC Document License Agreement"@en ;
+.
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr/index.html"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/ogc>
+    a schema:Organization ;
+    schema:name "Open Geospatial Consortium" ;
+    schema:url "https://www.ogc.org"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/nsl>
+    schema:name "National Species List Dataset" ;
+.

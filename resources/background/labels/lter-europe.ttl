@@ -1,0 +1,17 @@
+PREFIX schema: <https://schema.org/>
+
+<http://vocabs.lter-europe.net/elter_cl/10189> schema:name "MONERIS keyword" .
+<http://vocabs.lter-europe.net/elter_cl/10546> schema:name "Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10547> schema:name "Anatolian Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10548> schema:name "Boreal Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10549> schema:name "Steppic Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10550> schema:name "Atlantic Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10554> schema:name "Alpine Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10555> schema:name "Arctic Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10556> schema:name "Black Sea Bio-geographical Region" .
+<http://vocabs.lter-europe.net/elter_cl/10558> schema:name "Marine Atlantic Region" .
+<http://vocabs.lter-europe.net/elter_cl/10559> schema:name "Marine Baltic Region" .
+<http://vocabs.lter-europe.net/elter_cl/10560> schema:name "Marine Region Black Sea" .
+<http://vocabs.lter-europe.net/elter_cl/10561> schema:name "Marine Macaronesian Region" .
+<http://vocabs.lter-europe.net/elter_cl/10562> schema:name "Marine Mediterranean Region" .
+<http://vocabs.lter-europe.net/elter_cl/10597> schema:name "EUNIS" .

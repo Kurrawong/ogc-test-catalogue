@@ -1,0 +1,6 @@
+PREFIX schema: <https://schema.org/>
+
+<http://doe-generated-ontology.com/OntoAD#C0014406> schema:name "Environment" .
+<http://doe-generated-ontology.com/OntoAD#C0150105> schema:name "Random Sampling" .
+<http://doe-generated-ontology.com/OntoAD#C0596611> schema:name "Gene Mutation" .
+<http://doe-generated-ontology.com/OntoAD#C1516240> schema:name "Capacity" .

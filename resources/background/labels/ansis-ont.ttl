@@ -1,0 +1,13 @@
+PREFIX schema: <https://schema.org/>
+
+<https://anzsoil.org/def/au/domain/SoilSite> schema:name "Soil Site" .
+<https://anzsoil.org/def/au/domain/depth> schema:name "depth" .
+<https://anzsoil.org/def/au/domain/disturbance> schema:name "disturbance" .
+<https://anzsoil.org/def/au/domain/drainage> schema:name "drainage" .
+<https://anzsoil.org/def/au/domain/elevation> schema:name "elevation" .
+<https://anzsoil.org/def/au/domain/hasLandUse> schema:name "has land use" .
+<https://anzsoil.org/def/au/domain/hasOutcrop> schema:name "has outcrop" .
+<https://anzsoil.org/def/au/domain/hasSubstrate> schema:name "has substrate" .
+<https://anzsoil.org/def/au/domain/permeability> schema:name "permeability" .
+<https://anzsoil.org/def/au/domain/relatedProfile> schema:name "related profile" .
+<https://anzsoil.org/def/au/domain/runoff> schema:name "runoff" .

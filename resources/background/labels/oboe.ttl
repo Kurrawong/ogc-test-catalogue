@@ -1,0 +1,7 @@
+PREFIX schema: <https://schema.org/>
+
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Area> schema:name "Area" .
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Irradiance> schema:name "Irradiance" .
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Length> schema:name "Length" .
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-characteristics.owl#Pressure> schema:name "Pressure" .
+<http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredCharacteristic> schema:name "Measured Characteristic" .

@@ -1,0 +1,25 @@
+PREFIX schema: <https://schema.org/>
+
+<http://dbpedia.org/resource/Acid_rain> schema:name "Acid rain" .
+<http://dbpedia.org/resource/Bryophytes> schema:name "Bryophytes" .
+<http://dbpedia.org/resource/Carbon_Dioxide> schema:name "Carbon Dioxide" .
+<http://dbpedia.org/resource/Category:Bryophytes> schema:name "Category:Bryophytes" .
+<http://dbpedia.org/resource/Category:Mosses> schema:name "Category:Mosses" .
+<http://dbpedia.org/resource/Chloride> schema:name "Chloride" .
+<http://dbpedia.org/resource/Chlorine> schema:name "Chlorine" .
+<http://dbpedia.org/resource/Endangered_species> schema:name "Endangered species" .
+<http://dbpedia.org/resource/Invasive_species> schema:name "Invasive species" .
+<http://dbpedia.org/resource/Isotopes_of_Nitrogen> schema:name "Isotopes of Nitrogen" .
+<http://dbpedia.org/resource/Moss> schema:name "Moss" .
+<http://dbpedia.org/resource/Mosses> schema:name "Mosses" .
+<http://dbpedia.org/resource/Nitrogen-15> schema:name "Nitrogen-15" .
+<http://dbpedia.org/resource/Ozone> schema:name "Ozone" .
+<http://dbpedia.org/resource/Rabbits> schema:name "Rabbits" .
+<http://dbpedia.org/resource/Reflectance> schema:name "Reflectance" .
+<http://dbpedia.org/resource/Reflectivity> schema:name "Reflectivity" .
+<http://dbpedia.org/resource/Shrews> schema:name "Shrews" .
+<http://dbpedia.org/resource/Species> schema:name "Species" .
+<http://dbpedia.org/resource/Tree> schema:name "Tree" .
+<http://dbpedia.org/resource/Ungulate> schema:name "Ungulate" .
+<http://dbpedia.org/resource/Ungulates> schema:name "Ungulates" .
+<http://dbpedia.org/resource/Vascular_plant> schema:name "Vascular plant" .

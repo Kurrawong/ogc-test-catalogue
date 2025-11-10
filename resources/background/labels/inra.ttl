@@ -1,0 +1,17 @@
+PREFIX schema: <https://schema.org/>
+
+<http://opendata.inra.fr/ATOL/ATOL_0001880> schema:name "egg weight" .
+<http://opendata.inra.fr/EOL/EOL_0000031> schema:name "water color" .
+<http://opendata.inra.fr/EOL/EOL_0000034> schema:name "water temperature" .
+<http://opendata.inra.fr/EOL/EOL_0000060> schema:name "tidal current" .
+<http://opendata.inra.fr/EOL/EOL_0001808> schema:name "soil organic matter compound" .
+<http://opendata.inra.fr/EOL/EOL_0001824> schema:name "soil porosity" .
+<http://opendata.inra.fr/anaeeThes/c2_258> schema:name "stem" .
+<http://opendata.inra.fr/anaeeThes/c2_2909> schema:name "potassium fertiliser" .
+<http://opendata.inra.fr/anaeeThes/c2_2989> schema:name "ploughing" .
+<http://opendata.inra.fr/anaeeThes/c3_2388> schema:name "seed production" .
+<http://opendata.inra.fr/anaeeThes/c3_2556> schema:name "ecosystem management" .
+<http://opendata.inra.fr/anaeeThes/c3_2932> schema:name "canopy cover rate" .
+<http://opendata.inra.fr/anaeeThes/c_1405669284328> schema:name "sediment" .
+<http://opendata.inrae.fr/thesaurusINRAE/c_1152> schema:name "enclosure" .
+<http://opendata.inrae.fr/thesaurusINRAE/c_5217> schema:name "sedimentary rock" .

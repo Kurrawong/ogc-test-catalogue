@@ -1,0 +1,56 @@
+PREFIX schema: <https://schema.org/>
+
+<https://cropontology.org/rdf/CO_357:0000007> schema:name "Crop Ontology: BarkT" .
+<https://cropontology.org/rdf/CO_357:0000022> schema:name "Crop Ontology: DBH" .
+<https://cropontology.org/rdf/CO_357:0000048> schema:name "Crop Ontology: HT" .
+<https://cropontology.org/rdf/CO_357:0000085> schema:name "Crop Ontology: Delta13C" .
+<https://cropontology.org/rdf/CO_357:0000086> schema:name "Crop Ontology: CM" .
+<https://cropontology.org/rdf/CO_357:0000101> schema:name "Crop Ontology: crown_size" .
+<https://cropontology.org/rdf/CO_357:0000111> schema:name "Crop Ontology: HTm" .
+<https://cropontology.org/rdf/CO_357:0000113> schema:name "Crop Ontology: 13C" .
+<https://cropontology.org/rdf/CO_357:0000133> schema:name "Crop Ontology: WD" .
+<https://cropontology.org/rdf/CO_357:0000151> schema:name "Crop Ontology: WV-d" .
+<https://cropontology.org/rdf/CO_357:0000159> schema:name "Crop Ontology: LNCa" .
+<https://cropontology.org/rdf/CO_357:0000242> schema:name "Crop Ontology: gwmax" .
+<https://cropontology.org/rdf/CO_357:0000245> schema:name "Crop Ontology: STOM" .
+<https://cropontology.org/rdf/CO_357:0000249> schema:name "Crop Ontology: LCCa" .
+<https://cropontology.org/rdf/CO_357:0000250> schema:name "Crop Ontology: LCCm" .
+<https://cropontology.org/rdf/CO_357:0000251> schema:name "Crop Ontology: BS" .
+<https://cropontology.org/rdf/CO_357:0000255> schema:name "Crop Ontology: LMA" .
+<https://cropontology.org/rdf/CO_357:0000257> schema:name "Crop Ontology: LA" .
+<https://cropontology.org/rdf/CO_357:0000268> schema:name "Crop Ontology: PL" .
+<https://cropontology.org/rdf/CO_357:0000273> schema:name "Crop Ontology: RQm" .
+<https://cropontology.org/rdf/CO_357:0000281> schema:name "Crop Ontology: SPCa" .
+<https://cropontology.org/rdf/CO_357:0000287> schema:name "Crop Ontology: LN/LC" .
+<https://cropontology.org/rdf/CO_357:0000289> schema:name "Crop Ontology: MWi" .
+<https://cropontology.org/rdf/CO_357:0000304> schema:name "Crop Ontology: AVP" .
+<https://cropontology.org/rdf/CO_357:0000429> schema:name "Crop Ontology: KS" .
+<https://cropontology.org/rdf/CO_357:0000454> schema:name "Crop Ontology: P50" .
+<https://cropontology.org/rdf/CO_357:0000455> schema:name "Crop Ontology: gC" .
+<https://cropontology.org/rdf/CO_357:0000512> schema:name "Crop Ontology: C/N" .
+<https://cropontology.org/rdf/CO_357:0000513> schema:name "Crop Ontology: Delta15N" .
+<https://cropontology.org/rdf/CO_357:0000514> schema:name "Crop Ontology: Chl a" .
+<https://cropontology.org/rdf/CO_357:0000515> schema:name "Crop Ontology: Chl b" .
+<https://cropontology.org/rdf/CO_357:0000516> schema:name "Crop Ontology: Chl a/b" .
+<https://cropontology.org/rdf/CO_357:0000518> schema:name "Crop Ontology: LDM" .
+<https://cropontology.org/rdf/CO_357:0000519> schema:name "Crop Ontology: LRWC" .
+<https://cropontology.org/rdf/CO_357:0000524> schema:name "Crop Ontology: WUE" .
+<https://cropontology.org/rdf/CO_357:0000526> schema:name "Crop Ontology: Stem_D" .
+<https://cropontology.org/rdf/CO_357:0000527> schema:name "Crop Ontology: An" .
+<https://cropontology.org/rdf/CO_357:0000532> schema:name "Crop Ontology: Ci" .
+<https://cropontology.org/rdf/CO_357:0000534> schema:name "Crop Ontology: Inst_Carbon_eff" .
+<https://cropontology.org/rdf/CO_357:0000535> schema:name "Crop Ontology: ETR" .
+<https://cropontology.org/rdf/CO_357:0000536> schema:name "Crop Ontology: Gs" .
+<https://cropontology.org/rdf/CO_357:0000539> schema:name "Crop Ontology: PhiPS2" .
+
+<http://www.cropontology.org/rdf/CO_320:0001061> schema:name "Crop Ontology: Canopy height" .
+<http://www.cropontology.org/rdf/CO_320:0001073> schema:name "Crop Ontology: Dry matter yield" .
+<http://www.cropontology.org/rdf/CO_320:0001115> schema:name "Crop Ontology: Transpiration rate" .
+<http://www.cropontology.org/rdf/CO_321:0000407> schema:name "Crop Ontology: Crop growth rate" .
+<http://www.cropontology.org/rdf/CO_325:0000361> schema:name "Crop Ontology: Plant density" .
+<http://www.cropontology.org/rdf/CO_327:0000141> schema:name "Crop Ontology: Grain weight" .
+<http://www.cropontology.org/rdf/CO_336:0000096> schema:name "Crop Ontology: Seed quality" .
+<http://www.cropontology.org/rdf/CO_338:0000023> schema:name "Crop Ontology: Plant height" .
+<http://www.cropontology.org/rdf/CO_338:0000088> schema:name "Crop Ontology: Root length density" .
+<http://www.cropontology.org/rdf/CO_339:0000147> schema:name "Crop Ontology: Root length density" .
+

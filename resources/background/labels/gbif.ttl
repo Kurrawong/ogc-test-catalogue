@@ -1,0 +1,3 @@
+PREFIX schema: <https://schema.org/>
+
+<https://www.gbif.org/species/8376456> schema:name "Foraminifera" .
