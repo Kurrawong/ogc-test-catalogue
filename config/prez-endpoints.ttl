@@ -76,13 +76,13 @@ ex:objects-listing
     a ont:DynamicEndpoint, ont:ListingEndpoint ;
     rdfs:label "Objects Listing" ;
     ont:apiPath "/catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects" ;
-    ont:relevantShapes ex:shape-R0-HL4-1 .
+    ont:relevantShapes ex:shape-R0-HL4-1, ex:shape-R0-HL4-ontology-sub .
 
 ex:objects-object
     a ont:DynamicEndpoint, ont:ObjectEndpoint ;
     rdfs:label "Objects Object" ;
     ont:apiPath "/catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects/{objectId}" ;
-    ont:relevantShapes ex:shape-R0-HL4-1 .
+    ont:relevantShapes ex:shape-R0-HL4-1, ex:shape-R0-HL4-ontology-sub .
 
 # =============================================================================
 # SHACL NODE SHAPES - HIERARCHY DEFINITIONS
@@ -217,6 +217,32 @@ ex:shape-R0-HL3-ontology-terms
             sh:path ( rdfs:isDefinedBy [ sh:inversePath schema:hasPart ] ) ;
             sh:class schema:DataCatalog
         ] .
+
+# Level 4: subproperties
+# ----------------------
+ex:shape-R0-HL4-ontology-sub
+    a sh:NodeShape ;
+    sh:targetClass rdfs:Class, rdf:Property, owl:ObjectProperty, owl:DatatypeProperty ;
+    ont:hierarchyLevel 4 ;
+    sh:property
+        [
+            sh:path [ sh:inversePath rdfs:subPropertyOf ] ;
+            sh:or (
+                [ sh:class rdfs:Class ]
+                [ sh:class rdf:Property ]
+                [ sh:class owl:ObjectProperty ]
+                [ sh:class owl:DatatypeProperty ]
+            )
+        ] ,
+        [
+            sh:path rdfs:isDefinedBy ;
+            sh:class owl:Ontology
+        ] ,
+        [
+            sh:path ( rdfs:isDefinedBy [ sh:inversePath schema:hasPart ] ) ;
+            sh:class schema:DataCatalog
+        ] .
+
 
 
 # Level 4: Features

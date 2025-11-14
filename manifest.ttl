@@ -21,6 +21,11 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
             schema:name "Vocabularies" ;
         ] ,
         [
+            prof:hasArtifact "resources/vocabularies/geo.ttl" ;
+            prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
+            schema:name "Vocabularies" ;
+        ] ,
+        [
             prof:hasArtifact "resources/datasets/*.ttl" ;
             prof:hasRole <https://prez.dev/ManifestResourceRoles/ResourceData> ;
             schema:name "Datasets" ;
