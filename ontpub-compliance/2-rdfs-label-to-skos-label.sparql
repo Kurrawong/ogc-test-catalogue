@@ -14,6 +14,9 @@ INSERT {
     SELECT DISTINCT ?g ?term ?label WHERE {
       VALUES ?g {
         <http://www.w3.org/ns/adms>
+        <http://www.opengis.net/ont/geosparql>
+        <http://anzsoil.org/def/au/asls/substrate>
+        <http://linked.data.gov.au/def/asgs>
       }
       VALUES ?type { rdfs:Class rdf:Property owl:ObjectProperty }
       GRAPH ?g {

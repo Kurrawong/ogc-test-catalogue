@@ -5,7 +5,7 @@ do
   echo "Executing query:"
   echo $query
   echo "----------------"
-  curl -d update="$query" -d 'output=text' http://localhost:3030/ogc-test-catalogue/update
+  curl -d update="$query" -d 'output=text' http://localhost:3030/fuseki-ogc/update
   echo "----------------"
   sleep 2
 done

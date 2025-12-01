@@ -31,3 +31,16 @@ PREFIX vann: <http://purl.org/vocab/vann/>
 [ vann:preferredNamespacePrefix "def" ;
  vann:preferredNamespaceUri "http://linked.data.gov.au/def/"
 ] .
+
+[ vann:preferredNamespacePrefix "bblocks" ;
+ vann:preferredNamespaceUri "https://www.opengis.net/def/bblocks/"
+] .
+
+[ vann:preferredNamespacePrefix "ont" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ont/"
+] .
+
+
+[ vann:preferredNamespacePrefix "geosparql" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"
+] .

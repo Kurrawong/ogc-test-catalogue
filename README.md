@@ -35,33 +35,36 @@ You'll see a warning in the docker logs of the `fuseki` service:
 WARN  GeoAssembler    :: Dataset empty. Spatial Index not constructed. Server will require restarting after adding data and any updates to build Spatial Index.
 ```
 
-We need some data to display. For this, we can use prezmanifest (`uv tool install prezmanifest`):
+We need some data to display.
+Go to http://localhost:3030/#/dataset/fuseki-ogc/upload to upload some data.
+
+Alternatively, we can use prezmanifest (`uv tool install prezmanifest`):
 (the options specify to only update the DB, not the local files)
 
+The following will add a catalogue of example vocabularies:
 ```
-pm sync ../manifest.ttl http://localhost:3030/ogc-test-catalogue/ True False True False
+pm sync ../manifest.ttl http://localhost:3030/fuseki-ogc/ True False True False
 ```
-
-Upload the custom endpoint configuration for the prez instance:
+Alternatively, only background resources (labels etc.) can be synced:
 ```
-kurra db upload ../config/prez-endpoints.ttl http://localhost:3030/ogc-test-catalogue -g http://prez-system
-```
-
-As well as some custom prefixes for the catalogue to display properly:
-```
-kurra db upload ../config/prefixes.ttl http://localhost:3030/ogc-test-catalogue -g http://prez-system
+pm sync ../manifest-bg.ttl http://localhost:3030/fuseki-ogc/ True False True False
 ```
 
-We can also add custom Prez Profiles to improve listings:
-
-```
-kurra db upload ../config/profiles.ttl http://localhost:3030/ogc-test-catalogue -g http://prez-system
-```
-
-Finally, restart the fuseki and prez instances so the geospatial index gets built and the prez endpoints get loaded.
+Restart the fuseki and prez instances so the geospatial index gets built and the prez endpoints get loaded.
 
 ```
 task rs
+```
+
+Upload the custom configuration for the prez instance:
+```
+kurra db upload ../config/prez-config.ttl http://localhost:3030/fuseki-ogc -g http://prez-system
+```
+
+Finally, restart prez again:
+```
+docker compose restart prez
+
 ```
 
 Check the logs to see if the prez endpoint configuration was loaded correctly:
@@ -74,7 +77,7 @@ If you see the following, the endpoints were loaded correctly:
 
 ```
 prez-1  | 2025-11-10 10:17:09.648 [INFO] prez: Starting up
-prez-1  | 2025-11-10 10:17:09.660 [INFO] prez.services.app_service: Checking SPARQL endpoint http://fuseki:3030/ogc-test-catalogue is online
+prez-1  | 2025-11-10 10:17:09.660 [INFO] prez.services.app_service: Checking SPARQL endpoint http://fuseki:3030/fuseki-ogc is online
 prez-1  | 2025-11-10 10:17:11.022 [INFO] prez.services.app_service: Successfully connected to triplestore SPARQL endpoint
 prez-1  | 2025-11-10 10:17:11.083 [INFO] prez.services.app_service: 1 prefixes bound from data repo
 prez-1  | 2025-11-10 10:17:11.088 [INFO] prez.services.app_service: 8 prefixes bound from file standard.ttl
@@ -103,7 +106,7 @@ prez-1  | 2025-11-10 10:17:11.517 [INFO] prez.routers.custom_endpoints: Added dy
 If you don't see any dynamic routes added, upload the custom endpoint configuration again and restart:
 
 ```
-kurra db upload ../config/prez-endpoints.ttl http://localhost:3030/ogc-test-catalogue -g http://prez-system
+kurra db upload ../config/prez-config.ttl http://localhost:3030/fuseki-ogc -g http://prez-system
 task prez-rs
 ```
 

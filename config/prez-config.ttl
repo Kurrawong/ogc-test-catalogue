@@ -23,6 +23,66 @@
 @prefix altr-ext: <http://www.w3.org/ns/dx/connegp/altr-ext#> .
 @prefix void:     <http://rdfs.org/ns/void#> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ======================
+# Profiles
+# ======================
+
+<https://prez.dev/profile/geo-feature-listing>
+    a prof:Profile , prez:ListingProfile ;
+    dcterms:description "Displays only RDF type for geo:Features" ;
+    dcterms:identifier "featlist"^^xsd:token ;
+    dcterms:title "Geo Features Listing" ;
+    altr-ext:hasNodeShape
+        [
+            a sh:NodeShape ;
+            sh:targetClass geo:Feature ;
+            altr-ext:hasDefaultProfile <https://prez.dev/profile/geo-feature-listing>
+        ] ;
+    altr-ext:constrainsClass geo:Feature ;
+    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
+    altr-ext:hasResourceFormat
+        "application/ld+json" ,
+        "application/anot+ld+json" ,
+        "application/n-triples" ,
+        "application/anot+n-triples" ,
+        "application/rdf+xml" ,
+        "text/anot+turtle" ,
+        "text/turtle" ;
+    sh:property [
+        sh:path [ sh:union ( rdf:type ) ] ;
+        ] ;
+.
+
+<https://prez.dev/profile/ontology-object>
+    a prof:Profile, prez:ObjectProfile ;
+    dcterms:identifier "ontology-object"^^xsd:token ;
+    dcterms:description "An ontology." ;
+    dcterms:title "Ontology profile" ;
+    altr-ext:constrainsClass owl:Ontology ;
+    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
+    altr-ext:hasResourceFormat
+        "application/ld+json",
+        "application/rdf+xml",
+        "text/anot+turtle",
+        "text/turtle" ;
+    sh:property
+    [
+          sh:path
+              [
+                  sh:union (
+                               [ shext:bNodeDepth "2" ]
+                               shext:allPredicateValues
+                               [
+                                  sh:path [ sh:inversePath rdfs:isDefinedBy ] ;
+                                  sh:class owl:Class
+                              ]
+                           )
+              ]
+      ] ;
+.
+
 
 # =============================================================================
 # CUSTOM CONFIGURATION - API ENDPOINTS

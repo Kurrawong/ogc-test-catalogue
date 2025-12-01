@@ -18,6 +18,14 @@ services:
     ports:
       - "8000:8000"
     environment:
-      SPARQL_ENDPOINT: 'http://fuseki:3030/ogc-test-catalogue'
+      APP_ROOT_PATH: /prez-backend
+      PROXY_HEADERS: true
+      FORWARDED_ALLOW_IPS: '*'
+      SPARQL_ENDPOINT: 'http://fuseki:3030/fuseki-ogc/query'
+      PREZ_TITLE: OGC Rainbow
+      PREZ_DESC: OGC Rainbow
+      SYSTEM_URI: https://defs.opengis.net/prez-backend/
+      PREZ_UI_URL: https://defs.opengis.net/prez/
       ENABLE_SPARQL_ENDPOINT: true
       CUSTOM_ENDPOINTS: true
+      # ENDPOINT_STRUCTURE: '["catalogs", "col", "it1", "it2", "it3", "it4", "it5"]'
