@@ -120,7 +120,7 @@ To improve other added ontologies, new SPARQL queries may be added to the `ontpu
 
 ## Understanding the prez custom endpoint configuration
 
-In `./config/prez-endpoints.ttl`, you'll find custom definitions for the /items endpoints for ontologies.
+In `./config/prez-config.ttl`, you'll find custom definitions for the /items endpoints for ontologies.
 
 ```
 # Items Endpoints
@@ -156,3 +156,41 @@ When defining shapes like these in prez, it is important to always fully specify
 If you only specify the path one level up, prez will error because it cannot find the correct node shapes for the entire route.
 
 To avoid further errors, it is also useful to define any custom prefixes in `./config/prefixes.ttl`. If not specified, prez will attempt a best-effort guess at any unknown prefixes, which might lead to unexpected behaviour.
+
+## Understanding Prez profiles
+
+In `./config/prez-config.ttl`, you'll also find a profile definition for ontologies, which will enable prez-ui to handle these objects better.
+
+```
+<https://prez.dev/profile/ontology-object>
+    a prof:Profile, prez:ObjectProfile ;
+    dcterms:identifier "ontology-object"^^xsd:token ;
+    dcterms:description "An ontology." ;
+    dcterms:title "Ontology profile" ;
+    altr-ext:constrainsClass owl:Ontology ;
+    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
+    altr-ext:hasResourceFormat
+        "application/ld+json",
+        "application/rdf+xml",
+        "text/anot+turtle",
+        "text/turtle" ;
+    sh:property
+    [
+          sh:path
+              [
+                  sh:union (
+                               [ shext:bNodeDepth "2" ]
+                               shext:allPredicateValues
+                               [
+                                  sh:path [ sh:inversePath rdfs:isDefinedBy ] ;
+                               ]
+                               [
+                                  sh:path ([ sh:inversePath rdfs:isDefinedBy ] rdf:type) ;
+                               ]
+                           )
+              ]
+      ] ;
+.
+```
+
+The key here is in the `sh:property` path, which specifies the path to the `owl:Class` and `owl:ObjectProperty` resources that are linked to the ontology by the inverse relation `rdfs:isDefinedBy`. When properly set in the data (e.g., by executing the OntPub compliance script in this repository), this will allow Prez to list the classes and properties an ontology defines directly in the API response. Prez-lib (and/or prez-ui) can then properly process these relations to adjust the item display.
