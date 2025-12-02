@@ -1,8 +1,4 @@
 PREFIX schema: <https://schema.org/>
-
-<https://w3id.org/uom/%5Bppm%5D> schema:name "ppm" .
-<https://w3id.org/uom/%5Bppth%5D> schema:name "ppth" .
-
 <https://w3id.org/uom/MPa> schema:name "MPa" .
 <https://w3id.org/uom/N> schema:name "N" .
 <https://w3id.org/uom/N.m-1> schema:name "N.m-1" .

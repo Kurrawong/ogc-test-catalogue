@@ -24,8 +24,8 @@ services:
       SPARQL_ENDPOINT: 'http://fuseki:3030/fuseki-ogc/query'
       PREZ_TITLE: OGC Rainbow
       PREZ_DESC: OGC Rainbow
-      SYSTEM_URI: https://defs.opengis.net/prez-backend/
-      PREZ_UI_URL: https://defs.opengis.net/prez/
+      #SYSTEM_URI: https://defs.opengis.net/prez-backend/
+      #PREZ_UI_URL: https://defs.opengis.net/prez/
       ENABLE_SPARQL_ENDPOINT: true
       CUSTOM_ENDPOINTS: true
       # ENDPOINT_STRUCTURE: '["catalogs", "col", "it1", "it2", "it3", "it4", "it5"]'

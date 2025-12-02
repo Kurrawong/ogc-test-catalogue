@@ -23,7 +23,12 @@ Run fuseki by running (in the `server` directory):
 task up
 ```
 
-Once the server is up, datasets can be created, such as the test dataset in `./data/dataset-config.ttl`. (`uv tool install kurra`)
+Install the kurra tool to create the dataset and upload data.
+```
+python -m pip install kurra
+```
+
+Once the server is up, datasets can be created, such as the test dataset in `./data/dataset-config.ttl`.
 
 ```
 kurra db create http://localhost:3030 --config ../config/dataset-config.ttl
@@ -43,11 +48,8 @@ Alternatively, we can use prezmanifest (`uv tool install prezmanifest`):
 
 The following will add a catalogue of example vocabularies:
 ```
+python ../config/upload_background.py
 pm sync ../manifest.ttl http://localhost:3030/fuseki-ogc/ True False True False
-```
-Alternatively, only background resources (labels etc.) can be synced:
-```
-pm sync ../manifest-bg.ttl http://localhost:3030/fuseki-ogc/ True False True False
 ```
 
 Restart the fuseki and prez instances so the geospatial index gets built and the prez endpoints get loaded.
@@ -76,30 +78,33 @@ docker compose logs -f prez
 If you see the following, the endpoints were loaded correctly:
 
 ```
-prez-1  | 2025-11-10 10:17:09.648 [INFO] prez: Starting up
-prez-1  | 2025-11-10 10:17:09.660 [INFO] prez.services.app_service: Checking SPARQL endpoint http://fuseki:3030/fuseki-ogc is online
-prez-1  | 2025-11-10 10:17:11.022 [INFO] prez.services.app_service: Successfully connected to triplestore SPARQL endpoint
-prez-1  | 2025-11-10 10:17:11.083 [INFO] prez.services.app_service: 1 prefixes bound from data repo
-prez-1  | 2025-11-10 10:17:11.088 [INFO] prez.services.app_service: 8 prefixes bound from file standard.ttl
-prez-1  | 2025-11-10 10:17:11.178 [INFO] prez.services.app_service: Generating prefixes for 417 IRIs.
-prez-1  | 2025-11-10 10:17:11.197 [INFO] prez.services.app_service: Generated prefixes for 417 IRIs. Skipped 0 IRIs.
-prez-1  | 2025-11-10 10:17:11.207 [INFO] prez.services.app_service: No remote template queries found
-prez-1  | 2025-11-10 10:17:11.227 [INFO] prez.services.app_service: No remote Jena FTS shapes found
-prez-1  | 2025-11-10 10:17:11.248 [INFO] prez.services.generate_profiles: Prez default profiles loaded
-prez-1  | 2025-11-10 10:17:11.265 [INFO] prez.services.generate_profiles: No remote profiles found
-prez-1  | 2025-11-10 10:17:11.333 [INFO] prez.services.app_service: Remote endpoint definitions found and added for type https://prez.dev/ont/DynamicEndpoint
-prez-1  | 2025-11-10 10:17:11.351 [INFO] prez.services.app_service: No remote endpoint definitions found for type https://prez.dev/ont/OGCFeaturesEndpoint
-prez-1  | 2025-11-10 10:17:11.369 [INFO] prez.services.app_service: Populated API info
-prez-1  | 2025-11-10 10:17:11.376 [INFO] prez.services.app_service: No remote queryable definitions found
-prez-1  | 2025-11-10 10:17:11.376 [INFO] prez.services.app_service: No local queryable definitions found
-prez-1  | 2025-11-10 10:17:11.449 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}
-prez-1  | 2025-11-10 10:17:11.454 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}
-prez-1  | 2025-11-10 10:17:11.460 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}
-prez-1  | 2025-11-10 10:17:11.466 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects/{objectId}
-prez-1  | 2025-11-10 10:17:11.479 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs
-prez-1  | 2025-11-10 10:17:11.492 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items
-prez-1  | 2025-11-10 10:17:11.504 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections
-prez-1  | 2025-11-10 10:17:11.517 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects
+prez-1  | 2025-12-02 15:45:11.212 [INFO] prez: Starting up
+prez-1  | 2025-12-02 15:45:11.224 [INFO] prez.services.app_service: Checking SPARQL endpoint http://fuseki:3030/fuseki-ogc/query is online
+prez-1  | 2025-12-02 15:45:11.246 [INFO] prez.services.app_service: Successfully connected to triplestore SPARQL endpoint
+prez-1  | 2025-12-02 15:45:11.303 [INFO] prez.services.app_service: 14 prefixes bound from data repo
+prez-1  | 2025-12-02 15:45:11.308 [INFO] prez.services.app_service: 8 prefixes bound from file standard.ttl
+prez-1  | 2025-12-02 15:50:52.058 [INFO] prez.services.app_service: Generating prefixes for 12,854 IRIs.
+prez-1  | 2025-12-02 15:50:52.229 [INFO] prez.services.app_service: Generated prefixes for 12,854 IRIs. Skipped 2 IRIs.
+prez-1  | 2025-12-02 15:45:11.645 [INFO] prez.services.app_service: Skipped IRI http://rs.tdwg.org/dwc/terms/
+prez-1  | 2025-12-02 15:45:11.645 [INFO] prez.services.app_service: Skipped IRI http://www.w3.org/ns/prov-o#
+prez-1  | 2025-12-02 15:45:11.653 [INFO] prez.services.app_service: No remote template queries found
+prez-1  | 2025-12-02 15:45:11.663 [INFO] prez.services.app_service: No remote Jena FTS shapes found
+prez-1  | 2025-12-02 15:45:11.681 [INFO] prez.services.generate_profiles: Prez default profiles loaded
+prez-1  | 2025-12-02 15:45:11.697 [INFO] prez.services.generate_profiles: Remote profile(s) found and added
+prez-1  | 2025-12-02 15:45:11.745 [INFO] prez.services.app_service: Remote endpoint definitions found and added for type https://prez.dev/ont/DynamicEndpoint
+prez-1  | 2025-12-02 15:45:11.760 [INFO] prez.services.app_service: No remote endpoint definitions found for type https://prez.dev/ont/OGCFeaturesEndpoint
+prez-1  | 2025-12-02 15:45:11.772 [INFO] prez.services.app_service: Populated API info
+prez-1  | 2025-12-02 15:45:11.780 [INFO] prez.services.app_service: No remote queryable definitions found
+prez-1  | 2025-12-02 15:45:11.780 [INFO] prez.services.app_service: No local queryable definitions found
+prez-1  | 2025-12-02 15:45:11.851 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}
+prez-1  | 2025-12-02 15:45:11.864 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects
+prez-1  | 2025-12-02 15:45:11.869 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}
+prez-1  | 2025-12-02 15:45:11.874 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}
+prez-1  | 2025-12-02 15:45:11.886 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs
+prez-1  | 2025-12-02 15:45:11.891 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items/{itemId}/objects/{objectId}
+prez-1  | 2025-12-02 15:45:11.904 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections/{recordsCollectionId}/items
+prez-1  | 2025-12-02 15:45:11.915 [INFO] prez.routers.custom_endpoints: Added dynamic route: /catalogs/{catalogId}/collections
+
 
 ```
 

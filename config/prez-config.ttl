@@ -24,36 +24,11 @@
 @prefix void:     <http://rdfs.org/ns/void#> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
 # ======================
 # Profiles
 # ======================
-
-<https://prez.dev/profile/geo-feature-listing>
-    a prof:Profile , prez:ListingProfile ;
-    dcterms:description "Displays only RDF type for geo:Features" ;
-    dcterms:identifier "featlist"^^xsd:token ;
-    dcterms:title "Geo Features Listing" ;
-    altr-ext:hasNodeShape
-        [
-            a sh:NodeShape ;
-            sh:targetClass geo:Feature ;
-            altr-ext:hasDefaultProfile <https://prez.dev/profile/geo-feature-listing>
-        ] ;
-    altr-ext:constrainsClass geo:Feature ;
-    altr-ext:hasDefaultResourceFormat "text/anot+turtle" ;
-    altr-ext:hasResourceFormat
-        "application/ld+json" ,
-        "application/anot+ld+json" ,
-        "application/n-triples" ,
-        "application/anot+n-triples" ,
-        "application/rdf+xml" ,
-        "text/anot+turtle" ,
-        "text/turtle" ;
-    sh:property [
-        sh:path [ sh:union ( rdf:type ) ] ;
-        ] ;
-.
 
 <https://prez.dev/profile/ontology-object>
     a prof:Profile, prez:ObjectProfile ;
@@ -568,3 +543,56 @@ ex:Object
 #    a sh:NodeShape ;
 #    sh:targetClass geo:Feature ;
 #    ont:hierarchyLevel 2 .
+
+
+# =========================
+# PREFIXES
+# =========================
+
+[ vann:preferredNamespacePrefix "ex" ;
+ vann:preferredNamespaceUri "http://example.org/"
+] .
+
+[ vann:preferredNamespacePrefix "ogcfeat" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ogcapi-features-1/1.0/"
+] .
+
+[ vann:preferredNamespacePrefix "exns" ;
+ vann:preferredNamespaceUri "http://example.org/ns#"
+] .
+
+[ vann:preferredNamespacePrefix "prez-profile" ;
+ vann:preferredNamespaceUri "https://prez.dev/profile/"
+] .
+
+[ vann:preferredNamespacePrefix "owl" ;
+ vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"
+] .
+
+[ vann:preferredNamespacePrefix "rdfs" ;
+ vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"
+] .
+
+[ vann:preferredNamespacePrefix "asgs" ;
+ vann:preferredNamespaceUri "http://linked.data.gov.au/def/asgs#"
+] .
+
+[ vann:preferredNamespacePrefix "def" ;
+ vann:preferredNamespaceUri "http://linked.data.gov.au/def/"
+] .
+
+[ vann:preferredNamespacePrefix "bblocks" ;
+ vann:preferredNamespaceUri "https://www.opengis.net/def/bblocks/"
+] .
+
+[ vann:preferredNamespacePrefix "ont" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ont/"
+] .
+
+[ vann:preferredNamespacePrefix "geosparql" ;
+ vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"
+] .
+
+[ vann:preferredNamespacePrefix "xsd" ;
+ vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"
+] .
